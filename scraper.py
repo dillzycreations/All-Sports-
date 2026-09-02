@@ -27,6 +27,12 @@ class SportzfyScraper:
     def fetch_page(self, url):
         """Fetch a page"""
         try:
+            # Ensure URL is absolute
+            if url.startswith('/'):
+                url = self.base_url + url
+            elif not url.startswith('http'):
+                url = self.base_url + '/' + url.lstrip('/')
+            
             print(f"📡 Fetching: {url}")
             response = self.session.get(url, timeout=15)
             response.raise_for_status()
@@ -309,43 +315,15 @@ class SportzfyScraper:
         return None
 
     def update_data(self, existing_data, new_matches):
-        """Update existing data with new matches"""
-        if not existing_data:
-            return {
-                'timestamp': datetime.now().isoformat(),
-                'total_matches': len(new_matches),
-                'live_count': sum(1 for m in new_matches if m.get('status') == 'live'),
-                'upcoming_count': sum(1 for m in new_matches if m.get('status') == 'upcoming'),
-                'completed_count': sum(1 for m in new_matches if m.get('status') == 'completed'),
-                'matches': new_matches
-            }
-        
-        # Create lookup by match_id
-        existing_matches = {m.get('match_id'): m for m in existing_data.get('matches', []) if m.get('match_id')}
-        
-        # Update existing matches with new data
-        for new_match in new_matches:
-            match_id = new_match.get('match_id')
-            if match_id and match_id in existing_matches:
-                # Preserve server_urls if new one doesn't have them
-                if not new_match.get('server_urls') and existing_matches[match_id].get('server_urls'):
-                    new_match['server_urls'] = existing_matches[match_id]['server_urls']
-                # Update timestamp
-                new_match['last_updated'] = datetime.now().isoformat()
-                existing_matches[match_id] = new_match
-            elif match_id:
-                existing_matches[match_id] = new_match
-        
-        # Convert back to list
-        updated_matches = list(existing_matches.values())
-        
+        """Update existing data with new matches - REPLACE old data with new live matches only"""
+        # Don't merge with old data - replace entirely with new live matches
         return {
             'timestamp': datetime.now().isoformat(),
-            'total_matches': len(updated_matches),
-            'live_count': sum(1 for m in updated_matches if m.get('status') == 'live'),
-            'upcoming_count': sum(1 for m in updated_matches if m.get('status') == 'upcoming'),
-            'completed_count': sum(1 for m in updated_matches if m.get('status') == 'completed'),
-            'matches': updated_matches
+            'total_matches': len(new_matches),
+            'live_count': len(new_matches),
+            'upcoming_count': 0,
+            'completed_count': 0,
+            'matches': new_matches
         }
 
     def scrape(self):
@@ -370,14 +348,24 @@ class SportzfyScraper:
         if matches:
             print(f"\n✅ Found {len(matches)} truly live match(es)\n")
             
-            existing_data = self.load_existing_data()
-            updated_data = self.update_data(existing_data, matches)
+            # Replace existing data with new matches (no merging)
+            updated_data = {
+                'timestamp': datetime.now().isoformat(),
+                'total_matches': len(matches),
+                'live_count': len(matches),
+                'upcoming_count': 0,
+                'completed_count': 0,
+                'matches': matches
+            }
             
             for i, match in enumerate(updated_data['matches'], 1):
                 print(f"📌 MATCH #{i}")
                 print(f"   🏷️  Title: {match.get('title', 'N/A')}")
                 print(f"   📡  Status: {match.get('status', 'N/A').upper() if match.get('status') else 'N/A'}")
                 print(f"   🎥  Servers: {len(match.get('server_urls', []))} found")
+                if match.get('server_urls'):
+                    for idx, url in enumerate(match['server_urls'][:2]):
+                        print(f"      Server {idx+1}: {url[:60]}...")
                 print("-"*50)
             
             json_file = 'data/matches.json'
@@ -385,9 +373,22 @@ class SportzfyScraper:
                 json.dump(updated_data, f, indent=2, ensure_ascii=False)
             print(f"\n💾 Updated JSON saved to: {json_file}")
             print(f"📊 Total matches: {updated_data['total_matches']}")
-            print(f"📊 Live: {updated_data['live_count']}, Upcoming: {updated_data['upcoming_count']}, Completed: {updated_data['completed_count']}")
+            print(f"📊 Live: {updated_data['live_count']}")
         else:
             print("⚠️ No truly live matches found.")
+            # Save empty data
+            empty_data = {
+                'timestamp': datetime.now().isoformat(),
+                'total_matches': 0,
+                'live_count': 0,
+                'upcoming_count': 0,
+                'completed_count': 0,
+                'matches': []
+            }
+            json_file = 'data/matches.json'
+            with open(json_file, 'w', encoding='utf-8') as f:
+                json.dump(empty_data, f, indent=2, ensure_ascii=False)
+            print(f"💾 Empty JSON saved to: {json_file}")
         
         return matches
 
