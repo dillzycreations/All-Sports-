@@ -20,8 +20,6 @@ class SportzfyScraper:
             'User-Agent': 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.6099.230 Mobile Safari/537.36',
             'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
             'Accept-Language': 'en-US,en;q=0.5',
-            'Cache-Control': 'no-cache, no-store, must-revalidate',
-            'Pragma': 'no-cache',
         }
         self.session = requests.Session()
         self.session.headers.update(self.headers)
@@ -79,66 +77,49 @@ class SportzfyScraper:
         
         return server_urls
 
-    def determine_match_status(self, card, match_date, match_time):
-        """Determine the actual status of a match"""
-        # Get status from data attribute
-        status = card.get('data-status')
+    def check_if_truly_live(self, card):
+        """Check if a match is truly live by checking the runtime"""
+        # Check if there's a live runtime box
+        live_runtime = card.find('div', class_='header-live-boxes-container')
+        if not live_runtime:
+            return False
         
-        # If it's already live, check if it's actually live
-        if status == 'live':
-            # Check if there's a live runtime box with actual time
-            live_runtime = card.find('div', class_='header-live-boxes-container')
-            if live_runtime:
-                live_boxes = live_runtime.find_all('div', class_='header-cd-box')
-                if len(live_boxes) >= 3:
-                    hours = live_boxes[0].find('div', class_='header-cd-num')
-                    mins = live_boxes[1].find('div', class_='header-cd-num')
-                    secs = live_boxes[2].find('div', class_='header-cd-num')
-                    if hours and mins and secs:
-                        h = hours.get_text(strip=True)
-                        m = mins.get_text(strip=True)
-                        s = secs.get_text(strip=True)
-                        # If all zeros and match time is old, it's not actually live
-                        if h == '00' and m == '00' and s == '00':
-                            if match_date and match_time:
-                                try:
-                                    match_datetime_str = f"{match_date} {match_time}"
-                                    match_datetime_str = re.sub(r'(\d+)(st|nd|rd|th)', r'\1', match_datetime_str)
-                                    match_datetime = datetime.strptime(match_datetime_str, "%d %b, %Y %I:%M %p")
-                                    now = datetime.now()
-                                    # If match was more than 1 hour ago, it's completed
-                                    if now - match_datetime > timedelta(hours=1):
-                                        return 'completed'
-                                except:
-                                    pass
-                return 'live'
-            else:
-                # No live runtime box, might be stale
-                return self.check_status_by_date(match_date, match_time)
+        # Check if there's a live title
+        live_title = live_runtime.find('div', class_='header-live-title')
+        if not live_title:
+            return False
         
-        # For upcoming/completed, check the date and time
-        return self.check_status_by_date(match_date, match_time)
-
-    def check_status_by_date(self, match_date, match_time):
-        """Check status based on date and time"""
-        if match_date and match_time:
-            try:
-                match_datetime_str = f"{match_date} {match_time}"
-                match_datetime_str = re.sub(r'(\d+)(st|nd|rd|th)', r'\1', match_datetime_str)
-                match_datetime = datetime.strptime(match_datetime_str, "%d %b, %Y %I:%M %p")
-                now = datetime.now()
-                
-                # If match time is in the past (more than 1 hour ago), it's completed
-                if now - match_datetime > timedelta(hours=1):
-                    return 'completed'
-                elif now < match_datetime:
-                    return 'upcoming'
-                else:
-                    return 'live'
-            except:
-                pass
+        # Check if there are live boxes with numbers
+        live_boxes = live_runtime.find_all('div', class_='header-cd-box')
+        if len(live_boxes) < 3:
+            return False
         
-        return 'unknown'
+        # Get the time values
+        hours = live_boxes[0].find('div', class_='header-cd-num')
+        mins = live_boxes[1].find('div', class_='header-cd-num')
+        secs = live_boxes[2].find('div', class_='header-cd-num')
+        
+        if not hours or not mins or not secs:
+            return False
+        
+        h = hours.get_text(strip=True)
+        m = mins.get_text(strip=True)
+        s = secs.get_text(strip=True)
+        
+        # If all zeros, it's not truly live
+        if h == '00' and m == '00' and s == '00':
+            return False
+        
+        # Also check if there's a live-score-ticker
+        live_ticker = card.find('div', class_='live-score-ticker')
+        if not live_ticker:
+            return False
+        
+        # Check if it says "Stream is active"
+        if 'Stream is active' not in str(live_ticker):
+            return False
+        
+        return True
 
     def extract_match_data(self, html):
         """Extract match information from HTML - Only RECENT and LIVE matches"""
@@ -153,29 +134,24 @@ class SportzfyScraper:
         
         print(f"📊 Found {len(match_cards)} total match cards")
         
-        # Filter: Only include matches that are actually 'live' or 'upcoming'
+        # Filter: Only include matches that are truly live
         filtered_cards = []
         for card in match_cards:
             status = card.get('data-status')
-            # Check if match is truly live or upcoming
-            if status == 'live' or status == 'upcoming':
-                # Double-check with date/time
-                date_elem = card.find('span', class_='meta-item')
-                if date_elem:
-                    date_text = date_elem.get_text(strip=True)
-                    date_match = re.search(r'(\d{1,2}\s+[A-Za-z]{3,}\s*,\s*\d{4})', date_text)
-                    time_match = re.search(r'(\d{1,2}:\d{2}\s*(?:AM|PM))', date_text, re.IGNORECASE)
-                    if date_match and time_match:
-                        match_date = date_match.group(1).strip()
-                        match_time = time_match.group(1).strip()
-                        actual_status = self.check_status_by_date(match_date, match_time)
-                        if actual_status == 'live' or actual_status == 'upcoming':
-                            filtered_cards.append(card)
-                            continue
-                # If no date/time found, keep it if status is live/upcoming
-                filtered_cards.append(card)
+            
+            # Only consider matches that are marked as live
+            if status == 'live':
+                # Check if it's truly live
+                if self.check_if_truly_live(card):
+                    filtered_cards.append(card)
+                    print(f"✅ Found truly live match: {card.find('div', class_='match-main-title').get_text(strip=True) if card.find('div', class_='match-main-title') else 'Unknown'}")
+                else:
+                    # It's marked as live but not actually live - mark as completed
+                    print(f"⚠️ Stale live match detected, marking as completed")
+                    # Update the status in the card
+                    card.attrs['data-status'] = 'completed'
         
-        print(f"📊 Found {len(filtered_cards)} actual live/upcoming matches")
+        print(f"📊 Found {len(filtered_cards)} truly live matches")
         
         for card in filtered_cards:
             match_data = self.parse_match_card(card)
@@ -208,6 +184,7 @@ class SportzfyScraper:
         # Get data attributes
         match_data['match_id'] = card.get('data-match-id')
         match_data['sport'] = card.get('data-sport')
+        match_data['status'] = card.get('data-status')
         
         # Extract league title
         league_div = card.find('div', class_='league-title')
@@ -221,7 +198,6 @@ class SportzfyScraper:
             if link:
                 match_data['title'] = link.get_text(strip=True)
                 match_data['teams'] = match_data['title']
-                # Get match URL
                 href = link.get('href')
                 if href and href != 'javascript:void(0)':
                     if href.startswith('/'):
@@ -271,13 +247,6 @@ class SportzfyScraper:
                 if time_match:
                     match_data['time'] = time_match.group(1).strip()
         
-        # Determine actual status
-        match_data['status'] = self.determine_match_status(card, match_data.get('date'), match_data.get('time'))
-        
-        # If not live or upcoming, skip further processing
-        if match_data['status'] not in ['live', 'upcoming']:
-            return match_data
-        
         # Extract runtime for live matches
         if match_data['status'] == 'live':
             live_boxes = card.find_all('div', class_='header-cd-box')
@@ -289,8 +258,7 @@ class SportzfyScraper:
                     h = hours.get_text(strip=True)
                     m = mins.get_text(strip=True)
                     s = secs.get_text(strip=True)
-                    if not (h == '00' and m == '00' and s == '00'):
-                        match_data['runtime'] = f"{h}h {m}m {s}s"
+                    match_data['runtime'] = f"{h}h {m}m {s}s"
         
         # For upcoming matches, get countdown
         if match_data['status'] == 'upcoming':
@@ -395,7 +363,7 @@ class SportzfyScraper:
     def scrape(self):
         """Main scraping method"""
         print("\n" + "="*60)
-        print("🏏 SPORTZFY SCRAPER - WITH STATUS FIX")
+        print("🏏 SPORTZFY SCRAPER - ONLY TRULY LIVE MATCHES")
         print("="*60 + "\n")
         
         html = self.fetch_page(self.base_url)
@@ -412,7 +380,7 @@ class SportzfyScraper:
         matches = self.extract_match_data(html)
         
         if matches:
-            print(f"\n✅ Found {len(matches)} match(es)\n")
+            print(f"\n✅ Found {len(matches)} truly live match(es)\n")
             
             existing_data = self.load_existing_data()
             updated_data = self.update_data(existing_data, matches)
@@ -431,7 +399,7 @@ class SportzfyScraper:
             print(f"📊 Total matches: {updated_data['total_matches']}")
             print(f"📊 Live: {updated_data['live_count']}, Upcoming: {updated_data['upcoming_count']}, Completed: {updated_data['completed_count']}")
         else:
-            print("⚠️ No matches found.")
+            print("⚠️ No truly live matches found.")
         
         return matches
 
@@ -440,10 +408,10 @@ def main():
     matches = scraper.scrape()
     
     if matches:
-        print(f"\n✅ Scraping complete! Found {len(matches)} matches.")
+        print(f"\n✅ Scraping complete! Found {len(matches)} truly live matches.")
         print("📁 Data updated in 'data/matches.json'")
     else:
-        print("\n❌ No data scraped.")
+        print("\n❌ No truly live matches found.")
 
 if __name__ == "__main__":
     try:
