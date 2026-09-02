@@ -41,17 +41,22 @@ class SportzfyScraper:
             # First: Base64 decode
             base64_decoded = base64.b64decode(encoded_string).decode('utf-8')
             
-            # Second: ROT13 decode
-            rot13_decoded = base64_decoded.translate(
-                str.maketrans(
-                    'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz',
-                    'NOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz'
-                )
-            )
+            # Second: ROT13 decode using codecs
+            import codecs
+            rot13_decoded = codecs.decode(base64_decoded, 'rot_13')
+            
             return rot13_decoded
         except Exception as e:
-            print(f"⚠️ Error decoding URL: {e}")
-            return None
+            # Try alternative ROT13 using translate
+            try:
+                import string
+                rot13 = str.maketrans(
+                    "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz",
+                    "NOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZ"
+                )
+                return base64_decoded.translate(rot13)
+            except:
+                return None
 
     def extract_server_urls(self, html):
         """Extract server URLs from match page"""
@@ -67,10 +72,14 @@ class SportzfyScraper:
                 if match:
                     # Extract all encoded strings
                     encoded_strings = re.findall(r'"([^"]+)"', match.group(1))
+                    print(f"🔍 Found {len(encoded_strings)} encoded server URLs")
                     for enc in encoded_strings:
                         decoded = self.decode_server_url(enc)
                         if decoded:
                             server_urls.append(decoded)
+                            print(f"   ✅ Decoded: {decoded[:50]}...")
+                        else:
+                            print(f"   ⚠️ Failed to decode: {enc[:30]}...")
                     break
         
         # Also try to find serverList after decoding
@@ -79,6 +88,24 @@ class SportzfyScraper:
             match = re.search(r'const\s+serverList\s*=\s*\[([^\]]+)\]', str(soup), re.DOTALL)
             if match:
                 server_urls = re.findall(r'"([^"]+)"', match.group(1))
+                print(f"🔍 Found {len(server_urls)} server URLs in serverList")
+        
+        # Also try to find server URLs in the page
+        if not server_urls:
+            # Look for any URL in the page that might be a stream
+            stream_patterns = [
+                r'(https?://[^\s"\']+\.m3u8[^\s"\']*)',
+                r'(https?://[^\s"\']+\.mpd[^\s"\']*)',
+                r'(https?://[^\s"\']+stream[^\s"\']+)',
+                r'(https?://[^\s"\']+\.mp4[^\s"\']*)',
+            ]
+            for pattern in stream_patterns:
+                matches = re.findall(pattern, html)
+                if matches:
+                    for url in matches:
+                        if url not in server_urls:
+                            server_urls.append(url)
+                            print(f"🔍 Found stream URL: {url[:50]}...")
         
         return server_urls
 
@@ -221,15 +248,15 @@ class SportzfyScraper:
         
         # If match is live, fetch server URLs
         if match_data['status'] == 'live' and match_data.get('match_url'):
-            print(f"\n🔍 Fetching server URLs for: {match_data['title']}")
+            print(f"\n🔍 Fetching server URLs for: {match_data['title'][:40]}...")
             match_html = self.fetch_page(match_data['match_url'])
             if match_html:
                 server_urls = self.extract_server_urls(match_html)
                 if server_urls:
                     match_data['server_urls'] = server_urls
-                    print(f"✅ Found {len(server_urls)} server URLs for {match_data['title'][:30]}...")
+                    print(f"✅ Found {len(server_urls)} server URLs")
                 else:
-                    print(f"⚠️ No server URLs found for {match_data['title'][:30]}...")
+                    print(f"⚠️ No server URLs found")
         
         # Check if we have at least some data
         if match_data['title'] or match_data['league'] or match_data['match_id']:
@@ -317,7 +344,7 @@ class SportzfyScraper:
         # Create data directory
         os.makedirs('data', exist_ok=True)
         
-        # Save raw HTML (optional)
+        # Save raw HTML
         with open('data/sportzfy_raw.html', 'w', encoding='utf-8') as f:
             f.write(html)
         
@@ -339,16 +366,13 @@ class SportzfyScraper:
                 print(f"📌 MATCH #{i}")
                 print(f"   🏷️  Title: {match.get('title', 'N/A')}")
                 print(f"   📡  Status: {match.get('status', 'N/A').upper() if match.get('status') else 'N/A'}")
-                print(f"   🔗  URL: {match.get('match_url', 'N/A')}")
                 print(f"   🎥  Servers: {len(match.get('server_urls', []))} found")
                 if match.get('server_urls'):
-                    for idx, url in enumerate(match['server_urls'][:2]):  # Show first 2
+                    for idx, url in enumerate(match['server_urls'][:2]):
                         print(f"      Server {idx+1}: {url[:60]}...")
-                print(f"   👁️  Viewers: {match.get('viewers', 'N/A')} {match.get('viewers_type', '')}")
-                print(f"   🆔  Match ID: {match.get('match_id', 'N/A')}")
                 print("-"*50)
             
-            # Save to same file (overwrite)
+            # Save to same file
             json_file = 'data/matches.json'
             with open(json_file, 'w', encoding='utf-8') as f:
                 json.dump(updated_data, f, indent=2, ensure_ascii=False)
