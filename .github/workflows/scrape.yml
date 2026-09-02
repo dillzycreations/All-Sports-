@@ -2,8 +2,8 @@ name: Scrape Sportzfy Data
 
 on:
   schedule:
-    # Runs every 30 minutes
-    - cron: '*/30 * * * *'
+    # Runs every 5 minutes
+    - cron: '*/5 * * * *'
   workflow_dispatch:  # Allows manual trigger
 
 jobs:
@@ -32,6 +32,5 @@ jobs:
       run: |
         git config --global user.name 'github-actions[bot]'
         git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-        git add data/*.json
-        git add data/*.html
+        git add data/matches.json
         git diff --staged --quiet || (git commit -m "Auto-update: Sportzfy data $(date +'%Y-%m-%d %H:%M:%S')" && git push)
