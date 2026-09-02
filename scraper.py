@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-Sportzfy Web Scraper - Complete Version
-Scrapes live cricket match data from sportzfy.my.id
+Sportzfy Cricket Scraper - Fixed Version
+Scrapes live match data from sportzfy.my.id
 """
 
 import requests
@@ -10,7 +10,6 @@ import json
 import re
 from datetime import datetime
 import os
-import time
 
 class SportzfyScraper:
     def __init__(self):
@@ -43,12 +42,31 @@ class SportzfyScraper:
         soup = BeautifulSoup(html, 'html.parser')
         matches = []
         
-        # Find all match cards
-        match_cards = soup.find_all('div', class_='match-card')
+        # Find all match cards - using class_ with multiple classes
+        match_cards = soup.find_all('div', class_=lambda x: x and 'match-card' in x.split())
         
         if not match_cards:
-            print("⚠️ No match cards found with class 'match-card'")
-            return []
+            # Alternative: find div with match-card in class
+            match_cards = soup.select('div.match-card')
+        
+        if not match_cards:
+            print("⚠️ No match cards found. Trying alternative selectors...")
+            # Try to find by data attributes
+            match_cards = soup.find_all('div', attrs={'data-match-id': True})
+        
+        if not match_cards:
+            print("⚠️ Still no matches found. Checking page structure...")
+            # Check if we got the page
+            title = soup.title.string if soup.title else "No title"
+            print(f"📝 Page title: {title}")
+            
+            # Look for any cricket-related content
+            cricket_text = soup.find_all(string=re.compile(r'cricket|t20|league|match', re.I))
+            if cricket_text:
+                print(f"🔍 Found {len(cricket_text)} cricket-related text elements")
+                # Try to extract from text
+                matches = self.extract_from_text(soup.get_text())
+            return matches
         
         print(f"📊 Found {len(match_cards)} match cards")
         
@@ -56,6 +74,48 @@ class SportzfyScraper:
             match_data = self.parse_match_card(card)
             if match_data:
                 matches.append(match_data)
+        
+        return matches
+
+    def extract_from_text(self, text):
+        """Extract match data from raw text"""
+        matches = []
+        
+        # Find match patterns
+        # Pattern: Team1 vs Team2 with details
+        patterns = [
+            r'([A-Za-z\s]+)\s+vs\s+([A-Za-z\s]+).*?(\d+)\s*Watching',
+            r'([A-Za-z\s]+)\s+vs\s+([A-Za-z\s]+).*?(\d+)\s*Serv',
+            r'([A-Za-z\s]+)\s+vs\s+([A-Za-z\s]+)',
+        ]
+        
+        for pattern in patterns:
+            matches_found = re.findall(pattern, text, re.IGNORECASE | re.DOTALL)
+            for match in matches_found:
+                if len(match) >= 2:
+                    match_data = {
+                        'title': f"{match[0].strip()} vs {match[1].strip()}",
+                        'teams': f"{match[0].strip()} vs {match[1].strip()}",
+                        'status': 'Unknown',
+                        'timestamp': datetime.now().isoformat()
+                    }
+                    
+                    # Check for live indicators
+                    if 'LIVE' in text or 'Stream is active' in text:
+                        match_data['status'] = 'live'
+                    
+                    # Try to extract viewers
+                    viewers_match = re.search(r'(\d+)\s*Watching', text)
+                    if viewers_match:
+                        match_data['viewers'] = viewers_match.group(1)
+                    
+                    # Try to extract servers
+                    servers_match = re.search(r'(\d+)\s*Serv', text)
+                    if servers_match:
+                        match_data['servers'] = servers_match.group(1)
+                    
+                    if match_data not in matches:
+                        matches.append(match_data)
         
         return matches
 
@@ -74,6 +134,7 @@ class SportzfyScraper:
             'time': None,
             'match_url': None,
             'thumbnail': None,
+            'match_id': None,
             'timestamp': datetime.now().isoformat()
         }
         
@@ -81,16 +142,22 @@ class SportzfyScraper:
         match_id = card.get('data-match-id')
         status = card.get('data-status')
         sport = card.get('data-sport')
+        match_data['match_id'] = match_id
         match_data['status'] = status
         match_data['sport'] = sport
         
         # Extract league title
-        league_title = card.find('div', class_='league-title')
+        league_title = card.find('div', class_=lambda x: x and 'league-title' in x.split() if x else False)
+        if not league_title:
+            league_title = card.find('div', class_='league-title')
         if league_title:
             match_data['league'] = league_title.get_text(strip=True)
         
         # Extract teams from main title
-        title_div = card.find('div', class_='match-main-title')
+        title_div = card.find('div', class_=lambda x: x and 'match-main-title' in x.split() if x else False)
+        if not title_div:
+            title_div = card.find('div', class_='match-main-title')
+        
         if title_div:
             title_link = title_div.find('a')
             if title_link:
@@ -98,24 +165,29 @@ class SportzfyScraper:
                 match_data['teams'] = match_data['title']
                 # Get match URL
                 match_url = title_link.get('href')
-                if match_url:
+                if match_url and match_url != 'javascript:void(0)':
                     if match_url.startswith('/'):
                         match_data['match_url'] = self.base_url + match_url
                     else:
                         match_data['match_url'] = match_url
         
         # Extract thumbnail
-        thumb_box = card.find('a', class_='thumb-box')
+        thumb_box = card.find('a', class_=lambda x: x and 'thumb-box' in x.split() if x else False)
+        if not thumb_box:
+            thumb_box = card.find('a', class_='thumb-box')
         if thumb_box:
             img = thumb_box.find('img')
             if img:
                 match_data['thumbnail'] = img.get('src')
         
         # Extract meta info (servers, viewers, date, time)
-        meta_row = card.find('div', class_='match-meta-row')
+        meta_row = card.find('div', class_=lambda x: x and 'match-meta-row' in x.split() if x else False)
+        if not meta_row:
+            meta_row = card.find('div', class_='match-meta-row')
+        
         if meta_row:
             # Extract servers
-            server_span = meta_row.find('span', class_='meta-item')
+            server_span = meta_row.find('span', class_=lambda x: x and 'meta-item' in x.split() if x else False)
             if server_span:
                 server_text = server_span.get_text(strip=True)
                 server_match = re.search(r'(\d+)\s*Serv', server_text)
@@ -123,28 +195,30 @@ class SportzfyScraper:
                     match_data['servers'] = server_match.group(1)
             
             # Extract viewers
-            view_pill = meta_row.find('span', class_='view-pill')
+            view_pill = meta_row.find('span', class_=lambda x: x and 'view-pill' in x.split() if x else False)
+            if not view_pill:
+                view_pill = meta_row.find('span', class_='view-pill')
             if view_pill:
                 view_text = view_pill.get_text(strip=True)
-                # Match either "X Watching" or "X Waiting" or "X Total"
                 view_match = re.search(r'(\d+)\s+(Watching|Waiting|Total)', view_text)
                 if view_match:
                     match_data['viewers'] = view_match.group(1)
                 else:
-                    # Try to get just the number
                     view_match = re.search(r'(\d+)', view_text)
                     if view_match:
                         match_data['viewers'] = view_match.group(1)
             
             # Extract date and time
-            time_spans = meta_row.find_all('span', class_='meta-item')
+            time_spans = meta_row.find_all('span', class_=lambda x: x and 'meta-item' in x.split() if x else False)
+            if not time_spans:
+                time_spans = meta_row.find_all('span', class_='meta-item')
             for span in time_spans:
                 span_text = span.get_text(strip=True)
-                # Look for date/time pattern
+                # Look for date pattern
                 date_match = re.search(r'(\d{1,2}\s+[A-Za-z]{3,}\s*,\s*\d{4})', span_text)
                 if date_match:
                     match_data['date'] = date_match.group(1).strip()
-                
+                # Look for time pattern
                 time_match = re.search(r'(\d{1,2}:\d{2}\s*(?:AM|PM))', span_text, re.IGNORECASE)
                 if time_match:
                     match_data['time'] = time_match.group(1).strip()
@@ -152,11 +226,13 @@ class SportzfyScraper:
         # Extract runtime for live matches
         if status == 'live':
             # Try to get runtime from header live boxes
-            live_boxes = card.find_all('div', class_='header-cd-box')
+            live_boxes = card.find_all('div', class_=lambda x: x and 'header-cd-box' in x.split() if x else False)
+            if not live_boxes:
+                live_boxes = card.find_all('div', class_='header-cd-box')
             if len(live_boxes) >= 3:
-                hours = live_boxes[0].find('div', class_='header-cd-num')
-                mins = live_boxes[1].find('div', class_='header-cd-num')
-                secs = live_boxes[2].find('div', class_='header-cd-num')
+                hours = live_boxes[0].find('div', class_=lambda x: x and 'header-cd-num' in x.split() if x else False)
+                mins = live_boxes[1].find('div', class_=lambda x: x and 'header-cd-num' in x.split() if x else False)
+                secs = live_boxes[2].find('div', class_=lambda x: x and 'header-cd-num' in x.split() if x else False)
                 if hours and mins and secs:
                     h = hours.get_text(strip=True)
                     m = mins.get_text(strip=True)
@@ -165,22 +241,22 @@ class SportzfyScraper:
         
         # For upcoming matches, get countdown from overlay
         if status == 'upcoming':
-            overlay = card.find('div', class_='thumb-countdown-overlay')
+            overlay = card.find('div', class_=lambda x: x and 'thumb-countdown-overlay' in x.split() if x else False)
+            if not overlay:
+                overlay = card.find('div', class_='thumb-countdown-overlay')
             if overlay:
-                cd_boxes = overlay.find_all('div', class_='cd-box')
+                cd_boxes = overlay.find_all('div', class_=lambda x: x and 'cd-box' in x.split() if x else False)
+                if not cd_boxes:
+                    cd_boxes = overlay.find_all('div', class_='cd-box')
                 if len(cd_boxes) >= 3:
-                    hours = cd_boxes[0].find('div', class_='cd-num')
-                    mins = cd_boxes[1].find('div', class_='cd-num')
-                    secs = cd_boxes[2].find('div', class_='cd-num')
+                    hours = cd_boxes[0].find('div', class_=lambda x: x and 'cd-num' in x.split() if x else False)
+                    mins = cd_boxes[1].find('div', class_=lambda x: x and 'cd-num' in x.split() if x else False)
+                    secs = cd_boxes[2].find('div', class_=lambda x: x and 'cd-num' in x.split() if x else False)
                     if hours and mins and secs:
                         h = hours.get_text(strip=True)
                         m = mins.get_text(strip=True)
                         s = secs.get_text(strip=True)
                         match_data['runtime'] = f"{h}h {m}m {s}s"
-        
-        # Get match ID if not already set
-        if not match_data.get('match_id') and match_id:
-            match_data['match_id'] = match_id
         
         # Check if we have at least some data
         if match_data['title'] or match_data['league']:
@@ -213,6 +289,12 @@ class SportzfyScraper:
             self.save_data(matches)
         else:
             print("⚠️ No matches found.")
+            # Try to save raw text for debugging
+            soup = BeautifulSoup(html, 'html.parser')
+            text = soup.get_text()
+            with open('data/page_text.txt', 'w', encoding='utf-8') as f:
+                f.write(text[:5000])  # Save first 5000 chars
+            print("💾 Page text saved to: data/page_text.txt")
             self.save_empty_data()
         
         return matches
@@ -224,15 +306,18 @@ class SportzfyScraper:
             print(f"   🏷️  Title: {match.get('title', 'N/A')}")
             print(f"   ⚔️  Teams: {match.get('teams', 'N/A')}")
             print(f"   🏆  League: {match.get('league', 'N/A')}")
-            print(f"   📡  Status: {match.get('status', 'N/A').upper()}")
+            print(f"   📡  Status: {match.get('status', 'N/A').upper() if match.get('status') else 'N/A'}")
             print(f"   ⏱️  Runtime: {match.get('runtime', 'N/A')}")
             print(f"   👁️  Viewers: {match.get('viewers', 'N/A')}")
             print(f"   🌐  Servers: {match.get('servers', 'N/A')}")
             print(f"   📅  Date: {match.get('date', 'N/A')}")
             print(f"   🕐  Time: {match.get('time', 'N/A')}")
             print(f"   🏏  Sport: {match.get('sport', 'N/A')}")
+            print(f"   🆔  Match ID: {match.get('match_id', 'N/A')}")
             if match.get('match_url'):
                 print(f"   🔗  URL: {match['match_url']}")
+            if match.get('thumbnail'):
+                print(f"   🖼️  Thumbnail: {match['thumbnail'][:50]}...")
             print("-"*50)
 
     def save_data(self, matches):
@@ -314,6 +399,7 @@ class SportzfyScraper:
         .status-live {{ color: #34d399; font-weight: bold; }}
         .status-upcoming {{ color: #38bdf8; font-weight: bold; }}
         .status-completed {{ color: #64748b; font-weight: bold; }}
+        .status-unknown {{ color: #fbbf24; font-weight: bold; }}
     </style>
 </head>
 <body>
@@ -344,18 +430,20 @@ class SportzfyScraper:
         
         for match in matches:
             status_class = match.get('status', 'unknown')
+            status_display = status_class.upper() if status_class else 'UNKNOWN'
             html_content += f"""
         <div class="match {status_class}">
             <div class="title">{match.get('title', 'Unknown Match')}</div>
             <div><span class="label">Teams:</span> <span class="value">{match.get('teams', 'N/A')}</span></div>
             <div><span class="label">League:</span> <span class="value">{match.get('league', 'N/A')}</span></div>
-            <div><span class="label">Status:</span> <span class="status-{status_class}">{match.get('status', 'Unknown').upper()}</span></div>
+            <div><span class="label">Status:</span> <span class="status-{status_class}">{status_display}</span></div>
             <div><span class="label">Runtime:</span> <span class="value">{match.get('runtime', 'N/A')}</span></div>
             <div><span class="label">Viewers:</span> <span class="value">{match.get('viewers', 'N/A')}</span></div>
             <div><span class="label">Servers:</span> <span class="value">{match.get('servers', 'N/A')}</span></div>
             <div><span class="label">Date:</span> <span class="value">{match.get('date', 'N/A')}</span></div>
             <div><span class="label">Time:</span> <span class="value">{match.get('time', 'N/A')}</span></div>
             <div><span class="label">Sport:</span> <span class="value">{match.get('sport', 'N/A')}</span></div>
+            <div><span class="label">Match ID:</span> <span class="value">{match.get('match_id', 'N/A')}</span></div>
             {f'<div><span class="label">URL:</span> <span class="value"><a href="{match["match_url"]}" style="color:#60a5fa;">{match["match_url"]}</a></span></div>' if match.get('match_url') else ''}
         </div>
 """
@@ -386,7 +474,6 @@ class SportzfyScraper:
 - Completed: {sum(1 for m in matches if m.get('status') == 'completed')}
 
 ---
-
 """
         
         for i, match in enumerate(matches, 1):
@@ -396,13 +483,14 @@ class SportzfyScraper:
 - **Title:** {match.get('title', 'N/A')}
 - **Teams:** {match.get('teams', 'N/A')}
 - **League:** {match.get('league', 'N/A')}
-- **Status:** {match.get('status', 'N/A').upper()}
+- **Status:** {match.get('status', 'N/A').upper() if match.get('status') else 'N/A'}
 - **Runtime:** {match.get('runtime', 'N/A')}
 - **Viewers:** {match.get('viewers', 'N/A')}
 - **Servers:** {match.get('servers', 'N/A')}
 - **Date:** {match.get('date', 'N/A')}
 - **Time:** {match.get('time', 'N/A')}
 - **Sport:** {match.get('sport', 'N/A')}
+- **Match ID:** {match.get('match_id', 'N/A')}
 {f"- **URL:** {match['match_url']}" if match.get('match_url') else ""}
 
 ---
@@ -420,7 +508,9 @@ def main():
         print(f"\n✅ Scraping complete! Found {len(matches)} matches.")
         print("📁 All data saved in 'data/' directory")
     else:
-        print("\n❌ No data scraped. Check the raw HTML in data/sportzfy_raw.html")
+        print("\n❌ No data scraped.")
+        print("💡 Check data/sportzfy_raw.html for the raw HTML")
+        print("💡 Check data/page_text.txt for extracted text")
 
 if __name__ == "__main__":
     try:
