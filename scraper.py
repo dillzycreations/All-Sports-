@@ -1,7 +1,6 @@
 #!/usr/bin/env python3
 """
-Sportzfy Cricket Scraper - With Server URL Extraction
-Scrapes match data and extracts live server URLs from match pages
+Sportzfy Full Scraper - Fetches all live matches with server URLs
 """
 
 import requests
@@ -11,117 +10,131 @@ import re
 import base64
 from datetime import datetime
 import os
+import time
+from urllib.parse import urljoin
 
-class SportzfyScraper:
+class SportzfyFullScraper:
     def __init__(self):
         self.base_url = "https://sportzfy.my.id"
         self.headers = {
-            'User-Agent': 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.6099.230 Mobile Safari/537.36',
+            'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
             'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
-            'Accept-Language': 'en-US,en;q=0.5',
+            'Accept-Language': 'en-US,en;q=0.9',
+            'Accept-Encoding': 'gzip, deflate, br',
+            'Connection': 'keep-alive',
+            'Upgrade-Insecure-Requests': '1',
+            'Sec-Fetch-Dest': 'document',
+            'Sec-Fetch-Mode': 'navigate',
+            'Sec-Fetch-Site': 'none',
+            'Sec-Fetch-User': '?1',
+            'Cache-Control': 'no-cache',
+            'Pragma': 'no-cache'
         }
         self.session = requests.Session()
         self.session.headers.update(self.headers)
         
-    def fetch_page(self, url):
-        """Fetch a page"""
-        try:
-            print(f"📡 Fetching: {url}")
-            response = self.session.get(url, timeout=15)
-            response.raise_for_status()
-            print(f"✅ Status: {response.status_code}")
-            return response.text
-        except requests.exceptions.RequestException as e:
-            print(f"❌ Error fetching {url}: {e}")
-            return None
+    def fetch_page(self, url, retries=3):
+        """Fetch a page with retries"""
+        for attempt in range(retries):
+            try:
+                print(f"📡 Fetching: {url} (Attempt {attempt+1}/{retries})")
+                response = self.session.get(url, timeout=30)
+                response.raise_for_status()
+                print(f"✅ Status: {response.status_code}")
+                return response.text
+            except requests.exceptions.RequestException as e:
+                print(f"❌ Error fetching {url}: {e}")
+                if attempt < retries - 1:
+                    time.sleep(2)
+        return None
 
     def decode_server_url(self, encoded_string):
-        """Decode server URL using Base64 decode → ROT13"""
+        """Decode server URL using multiple methods"""
         try:
-            # First: Base64 decode
+            # Method 1: Base64 decode
             base64_decoded = base64.b64decode(encoded_string).decode('utf-8')
             
-            # Second: ROT13 decode using codecs
+            # Method 2: ROT13 decode
             import codecs
             rot13_decoded = codecs.decode(base64_decoded, 'rot_13')
             
-            return rot13_decoded
+            # Clean up the URL
+            if rot13_decoded.startswith('http'):
+                return rot13_decoded
+            else:
+                # Try to find URL in the decoded string
+                url_match = re.search(r'(https?://[^\s"\']+)', rot13_decoded)
+                if url_match:
+                    return url_match.group(1)
+                    
         except Exception as e:
-            # Try alternative ROT13 using translate
+            # Try alternative method
             try:
-                import string
-                rot13 = str.maketrans(
-                    "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz",
-                    "NOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZ"
-                )
-                return base64_decoded.translate(rot13)
+                # Just base64 decode
+                decoded = base64.b64decode(encoded_string).decode('utf-8')
+                url_match = re.search(r'(https?://[^\s"\']+)', decoded)
+                if url_match:
+                    return url_match.group(1)
             except:
-                return None
+                pass
+        
+        return None
 
     def extract_server_urls(self, html):
         """Extract server URLs from match page"""
         soup = BeautifulSoup(html, 'html.parser')
         server_urls = []
         
-        # Find the encoded server list in JavaScript
+        # Method 1: Look for encServerList in JavaScript
         scripts = soup.find_all('script')
         for script in scripts:
             if script.string:
                 # Look for encServerList array
                 match = re.search(r'const\s+encServerList\s*=\s*\[([^\]]+)\]', script.string, re.DOTALL)
                 if match:
-                    # Extract all encoded strings
                     encoded_strings = re.findall(r'"([^"]+)"', match.group(1))
                     print(f"🔍 Found {len(encoded_strings)} encoded server URLs")
                     for enc in encoded_strings:
                         decoded = self.decode_server_url(enc)
-                        if decoded:
+                        if decoded and decoded not in server_urls:
                             server_urls.append(decoded)
                             print(f"   ✅ Decoded: {decoded[:50]}...")
-                        else:
-                            print(f"   ⚠️ Failed to decode: {enc[:30]}...")
                     break
+                
+                # Method 2: Look for serverList array
+                match = re.search(r'const\s+serverList\s*=\s*\[([^\]]+)\]', script.string, re.DOTALL)
+                if match:
+                    urls = re.findall(r'"([^"]+)"', match.group(1))
+                    for url in urls:
+                        if url.startswith('http') and url not in server_urls:
+                            server_urls.append(url)
+                            print(f"🔍 Found server URL: {url[:50]}...")
         
-        # Also try to find serverList after decoding
+        # Method 3: Look for stream URLs in the page
         if not server_urls:
-            # Look for serverList array
-            match = re.search(r'const\s+serverList\s*=\s*\[([^\]]+)\]', str(soup), re.DOTALL)
-            if match:
-                server_urls = re.findall(r'"([^"]+)"', match.group(1))
-                print(f"🔍 Found {len(server_urls)} server URLs in serverList")
-        
-        # Also try to find server URLs in the page
-        if not server_urls:
-            # Look for any URL in the page that might be a stream
             stream_patterns = [
                 r'(https?://[^\s"\']+\.m3u8[^\s"\']*)',
                 r'(https?://[^\s"\']+\.mpd[^\s"\']*)',
                 r'(https?://[^\s"\']+stream[^\s"\']+)',
                 r'(https?://[^\s"\']+\.mp4[^\s"\']*)',
+                r'(https?://[^\s"\']+\.ts[^\s"\']*)',
             ]
             for pattern in stream_patterns:
                 matches = re.findall(pattern, html)
-                if matches:
-                    for url in matches:
-                        if url not in server_urls:
-                            server_urls.append(url)
-                            print(f"🔍 Found stream URL: {url[:50]}...")
+                for url in matches:
+                    if url not in server_urls:
+                        server_urls.append(url)
+                        print(f"🔍 Found stream URL: {url[:50]}...")
         
         return server_urls
 
     def extract_match_data(self, html):
-        """Extract match information from HTML"""
+        """Extract all match data from HTML"""
         soup = BeautifulSoup(html, 'html.parser')
         matches = []
+        match_cards = soup.find_all('div', class_='match-card')
         
-        # Find all match cards
-        match_cards = soup.select('div.match-card')
-        
-        if not match_cards:
-            print("⚠️ No match cards found")
-            return matches
-        
-        print(f"📊 Found {len(match_cards)} match cards")
+        print(f"📊 Found {len(match_cards)} total match cards")
         
         for card in match_cards:
             match_data = self.parse_match_card(card)
@@ -131,7 +144,7 @@ class SportzfyScraper:
         return matches
 
     def parse_match_card(self, card):
-        """Parse individual match card"""
+        """Parse individual match card - FIXED for 'recent' status"""
         match_data = {
             'title': None,
             'teams': None,
@@ -151,9 +164,14 @@ class SportzfyScraper:
             'last_updated': datetime.now().isoformat()
         }
         
-        # Get data attributes
+        # Get data attributes - FIX: Convert 'recent' to 'live'
+        status = card.get('data-status')
+        if status == 'recent':
+            match_data['status'] = 'live'  # Important fix!
+        else:
+            match_data['status'] = status
+            
         match_data['match_id'] = card.get('data-match-id')
-        match_data['status'] = card.get('data-status')
         match_data['sport'] = card.get('data-sport')
         
         # Extract league title
@@ -191,7 +209,7 @@ class SportzfyScraper:
             view_pill = meta_row.find('span', class_='view-pill')
             if view_pill:
                 view_text = view_pill.get_text(strip=True)
-                view_match = re.search(r'(\d+)\s+(Watching|Waiting|Total)', view_text)
+                view_match = re.search(r'(\d+)\s+(Watching|Waiting|Total)', view_text, re.IGNORECASE)
                 if view_match:
                     match_data['viewers'] = view_match.group(1)
                     match_data['viewers_type'] = view_match.group(2)
@@ -213,6 +231,7 @@ class SportzfyScraper:
         
         # Extract runtime for live matches
         if match_data['status'] == 'live':
+            # Look for header runtime boxes
             live_boxes = card.find_all('div', class_='header-cd-box')
             if len(live_boxes) >= 3:
                 hours = live_boxes[0].find('div', class_='header-cd-num')
@@ -257,22 +276,21 @@ class SportzfyScraper:
                     print(f"✅ Found {len(server_urls)} server URLs")
                 else:
                     print(f"⚠️ No server URLs found")
+            time.sleep(1)  # Rate limiting
         
-        # Check if we have at least some data
-        if match_data['title'] or match_data['league'] or match_data['match_id']:
-            return match_data
-        
-        return None
+        return match_data if match_data['title'] or match_data['league'] else None
 
     def construct_match_url(self, title, match_id):
         """Construct match URL from title and ID"""
         if not title or not match_id:
             return None
         
+        # Clean title for URL
         url_title = title.lower()
         url_title = re.sub(r'[^a-z0-9\s-]', '', url_title)
         url_title = re.sub(r'\s+', '-', url_title)
         url_title = re.sub(r'-+', '-', url_title)
+        url_title = url_title.strip('-')
         
         return f"{self.base_url}/live/{url_title}-{match_id}"
 
@@ -298,6 +316,7 @@ class SportzfyScraper:
                 'live_count': sum(1 for m in new_matches if m.get('status') == 'live'),
                 'upcoming_count': sum(1 for m in new_matches if m.get('status') == 'upcoming'),
                 'completed_count': sum(1 for m in new_matches if m.get('status') == 'completed'),
+                'recent_count': sum(1 for m in new_matches if m.get('status') == 'recent'),
                 'matches': new_matches
             }
         
@@ -326,13 +345,14 @@ class SportzfyScraper:
             'live_count': sum(1 for m in updated_matches if m.get('status') == 'live'),
             'upcoming_count': sum(1 for m in updated_matches if m.get('status') == 'upcoming'),
             'completed_count': sum(1 for m in updated_matches if m.get('status') == 'completed'),
+            'recent_count': sum(1 for m in updated_matches if m.get('status') == 'recent'),
             'matches': updated_matches
         }
 
-    def scrape(self):
+    def scrape(self, fetch_servers=True):
         """Main scraping method"""
         print("\n" + "="*60)
-        print("🏏 SPORTZFY SCRAPER - WITH SERVER URLS")
+        print("🏏 SPORTZFY FULL SCRAPER")
         print("="*60 + "\n")
         
         # Fetch main page
@@ -344,7 +364,7 @@ class SportzfyScraper:
         # Create data directory
         os.makedirs('data', exist_ok=True)
         
-        # Save raw HTML
+        # Save raw HTML for debugging
         with open('data/sportzfy_raw.html', 'w', encoding='utf-8') as f:
             f.write(html)
         
@@ -362,35 +382,55 @@ class SportzfyScraper:
             updated_data = self.update_data(existing_data, matches)
             
             # Display matches
-            for i, match in enumerate(updated_data['matches'], 1):
-                print(f"📌 MATCH #{i}")
-                print(f"   🏷️  Title: {match.get('title', 'N/A')}")
-                print(f"   📡  Status: {match.get('status', 'N/A').upper() if match.get('status') else 'N/A'}")
-                print(f"   🎥  Servers: {len(match.get('server_urls', []))} found")
-                if match.get('server_urls'):
-                    for idx, url in enumerate(match['server_urls'][:2]):
-                        print(f"      Server {idx+1}: {url[:60]}...")
-                print("-"*50)
+            print("\n📋 MATCH SUMMARY:")
+            print("-"*60)
             
-            # Save to same file
+            for i, match in enumerate(updated_data['matches'], 1):
+                status = match.get('status', 'N/A').upper()
+                if status == 'RECENT':
+                    status = 'LIVE'  # Display as LIVE
+                    
+                print(f"\n{i}. {match.get('title', 'N/A')}")
+                print(f"   📊 League: {match.get('league', 'N/A')}")
+                print(f"   📡 Status: {status}")
+                print(f"   👁️ Viewers: {match.get('viewers', 'N/A')} {match.get('viewers_type', '')}")
+                print(f"   🖥️ Servers: {len(match.get('server_urls', []))}")
+                if match.get('server_urls'):
+                    for idx, url in enumerate(match['server_urls'][:3], 1):
+                        print(f"      Server {idx}: {url[:80]}...")
+                print(f"   🔗 URL: {match.get('match_url', 'N/A')}")
+            
+            # Save to JSON
             json_file = 'data/matches.json'
             with open(json_file, 'w', encoding='utf-8') as f:
                 json.dump(updated_data, f, indent=2, ensure_ascii=False)
-            print(f"\n💾 Updated JSON saved to: {json_file}")
+            
+            print("\n" + "="*60)
+            print(f"💾 Updated JSON saved to: {json_file}")
             print(f"📊 Total matches: {updated_data['total_matches']}")
-            print(f"📊 Live: {updated_data['live_count']}, Upcoming: {updated_data['upcoming_count']}, Completed: {updated_data['completed_count']}")
+            print(f"📊 Live: {updated_data['live_count']}")
+            print(f"📊 Upcoming: {updated_data['upcoming_count']}")
+            print(f"📊 Completed: {updated_data['completed_count']}")
+            print("="*60)
         else:
             print("⚠️ No matches found.")
         
         return matches
 
 def main():
-    scraper = SportzfyScraper()
-    matches = scraper.scrape()
+    scraper = SportzfyFullScraper()
+    matches = scraper.scrape(fetch_servers=True)
     
     if matches:
         print(f"\n✅ Scraping complete! Found {len(matches)} matches.")
         print("📁 Data updated in 'data/matches.json'")
+        
+        # Show live matches specifically
+        live_matches = [m for m in matches if m.get('status') == 'live']
+        if live_matches:
+            print(f"\n🎯 LIVE MATCHES ({len(live_matches)}):")
+            for match in live_matches:
+                print(f"  • {match.get('title')} - {match.get('viewers')} viewers")
     else:
         print("\n❌ No data scraped.")
 
@@ -401,3 +441,5 @@ if __name__ == "__main__":
         print("\n⚠️ Scraping interrupted by user")
     except Exception as e:
         print(f"\n❌ Error: {e}")
+        import traceback
+        traceback.print_exc()
