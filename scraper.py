@@ -1,10 +1,11 @@
 #!/usr/bin/env python3
 """
-Sportzfy Cricket Scraper - Text-based Extraction
-Extracts match data from the rendered text content
+Sportzfy Cricket Scraper - Working Version
+Extracts match data from the HTML structure
 """
 
 import requests
+from bs4 import BeautifulSoup
 import json
 import re
 from datetime import datetime
@@ -17,8 +18,6 @@ class SportzfyScraper:
             'User-Agent': 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.6099.230 Mobile Safari/537.36',
             'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
             'Accept-Language': 'en-US,en;q=0.5',
-            'Accept-Encoding': 'gzip, deflate, br',
-            'Connection': 'keep-alive',
         }
         self.session = requests.Session()
         self.session.headers.update(self.headers)
@@ -35,26 +34,37 @@ class SportzfyScraper:
             print(f"❌ Error: {e}")
             return None
 
-    def extract_matches_from_text(self, text):
-        """Extract match data from rendered text"""
+    def extract_match_data(self, html):
+        """Extract match information from HTML"""
+        soup = BeautifulSoup(html, 'html.parser')
         matches = []
         
-        # Split into match blocks
-        # Each match has: "CRICKET MATCH" or "FOOTBALL MATCH" or "OTHER SPORTS"
-        match_blocks = re.split(r'(?=(?:CRICKET|FOOTBALL|OTHER SPORTS)\s+MATCH)', text, flags=re.IGNORECASE)
+        # Find all match cards - direct class selector
+        match_cards = soup.select('div.match-card')
         
-        for block in match_blocks:
-            if not block.strip():
-                continue
-                
-            match_data = self.parse_match_block(block)
+        if not match_cards:
+            print("⚠️ No match cards found. Trying alternative selectors...")
+            # Try by data attributes
+            match_cards = soup.find_all('div', attrs={'data-match-id': True})
+        
+        if not match_cards:
+            print("⚠️ Still no matches. Checking if HTML is loaded...")
+            # Check if we have any content
+            if soup.find('div', class_='match-grid'):
+                print("✅ Found match-grid container but no cards")
+            return []
+        
+        print(f"📊 Found {len(match_cards)} match cards")
+        
+        for card in match_cards:
+            match_data = self.parse_match_card(card)
             if match_data:
                 matches.append(match_data)
         
         return matches
 
-    def parse_match_block(self, block):
-        """Parse a single match block"""
+    def parse_match_card(self, card):
+        """Parse individual match card"""
         match_data = {
             'title': None,
             'teams': None,
@@ -63,104 +73,115 @@ class SportzfyScraper:
             'status': None,
             'runtime': None,
             'viewers': None,
+            'viewers_type': None,
             'servers': None,
             'date': None,
             'time': None,
+            'match_url': None,
+            'thumbnail': None,
+            'match_id': None,
             'timestamp': datetime.now().isoformat()
         }
         
-        # Determine sport
-        if 'CRICKET MATCH' in block:
-            match_data['sport'] = 'cricket'
-        elif 'FOOTBALL MATCH' in block:
-            match_data['sport'] = 'football'
-        elif 'OTHER SPORTS' in block:
-            match_data['sport'] = 'others'
+        # Get data attributes
+        match_data['match_id'] = card.get('data-match-id')
+        match_data['status'] = card.get('data-status')
+        match_data['sport'] = card.get('data-sport')
         
-        # Determine status
-        if 'LIVE' in block and 'RUNTIME' in block:
-            match_data['status'] = 'live'
-        elif 'UPCOMING' in block:
-            match_data['status'] = 'upcoming'
-        elif 'COMPLETED' in block:
-            match_data['status'] = 'completed'
+        # Extract league title
+        league_div = card.find('div', class_='league-title')
+        if league_div:
+            match_data['league'] = league_div.get_text(strip=True)
         
-        # Extract league (text before first match block)
-        # Look for league name - often appears before match data
-        league_match = re.search(r'([A-Za-z\s&]+)(?=\s*(?:CRICKET|FOOTBALL|OTHER SPORTS)\s+MATCH)', block, re.IGNORECASE)
-        if league_match:
-            league = league_match.group(1).strip()
-            if league and not re.search(r'(LIVE|UPCOMING|COMPLETED|PINNED)', league, re.IGNORECASE):
-                match_data['league'] = league
+        # Extract match title/teams
+        title_div = card.find('div', class_='match-main-title')
+        if title_div:
+            link = title_div.find('a')
+            if link:
+                match_data['title'] = link.get_text(strip=True)
+                match_data['teams'] = match_data['title']
+                href = link.get('href')
+                if href and href != 'javascript:void(0)':
+                    if href.startswith('/'):
+                        match_data['match_url'] = self.base_url + href
+                    elif href.startswith('http'):
+                        match_data['match_url'] = href
         
-        # If no league found, try to extract from the text
-        if not match_data['league']:
-            # Look for league names in the block
-            league_patterns = [
-                r'European T20 Premier League',
-                r'Sher-E-Punjab T20 League',
-                r'Women\'s Asia Cup',
-                r'ICC World Test Championship',
-                r'Bundesliga',
-                r'CPL-T20',
-                r'EFL Cup',
-                r'LaLiga',
-                r'Saudi Pro League',
-                r'Serie A',
-                r'Premier League',
-                r'Ligue 1',
-                r'EFL Championship',
-                r'Top End T20 Series',
-                r'FIH Hockey World Cup',
-                r'Argentine Primera División'
-            ]
-            for pattern in league_patterns:
-                if re.search(pattern, block, re.IGNORECASE):
-                    match_data['league'] = re.search(pattern, block, re.IGNORECASE).group()
-                    break
+        # Extract thumbnail
+        thumb_box = card.find('a', class_='thumb-box')
+        if thumb_box:
+            img = thumb_box.find('img')
+            if img:
+                match_data['thumbnail'] = img.get('src')
         
-        # Extract teams (between league and match type or before status)
-        # Look for "Team vs Team" pattern
-        teams_match = re.search(r'([A-Za-z\s]+)\s+vs\s+([A-Za-z\s]+)', block, re.IGNORECASE)
-        if teams_match:
-            team1 = teams_match.group(1).strip()
-            team2 = teams_match.group(2).strip()
-            # Clean up team names (remove extra text)
-            team1 = re.sub(r'\s+(?:LIVE|UPCOMING|COMPLETED|PINNED|•).*$', '', team1, flags=re.IGNORECASE)
-            team2 = re.sub(r'\s+(?:LIVE|UPCOMING|COMPLETED|PINNED|•).*$', '', team2, flags=re.IGNORECASE)
-            match_data['teams'] = f"{team1} vs {team2}"
-            match_data['title'] = match_data['teams']
-        
-        # Extract servers
-        servers_match = re.search(r'(\d+)\s+Serv\s+\(', block)
-        if not servers_match:
-            servers_match = re.search(r'(\d+)\s+Serv', block)
-        if servers_match:
-            match_data['servers'] = servers_match.group(1)
-        
-        # Extract viewers/watchers
-        viewers_match = re.search(r'(\d+)\s+(?:Watching|Waiting|Total)', block)
-        if viewers_match:
-            match_data['viewers'] = viewers_match.group(1)
-        
-        # Extract date and time
-        date_match = re.search(r'(\d{1,2}\s+[A-Za-z]{3,}\s*,\s*\d{4})', block)
-        if date_match:
-            match_data['date'] = date_match.group(1).strip()
-        
-        time_match = re.search(r'(\d{1,2}:\d{2}\s*(?:AM|PM))', block, re.IGNORECASE)
-        if time_match:
-            match_data['time'] = time_match.group(1).strip()
+        # Extract meta info
+        meta_row = card.find('div', class_='match-meta-row')
+        if meta_row:
+            # Extract servers
+            server_item = meta_row.find('span', class_='meta-item')
+            if server_item:
+                server_text = server_item.get_text(strip=True)
+                server_match = re.search(r'(\d+)\s*Serv', server_text)
+                if server_match:
+                    match_data['servers'] = server_match.group(1)
+            
+            # Extract viewers
+            view_pill = meta_row.find('span', class_='view-pill')
+            if view_pill:
+                view_text = view_pill.get_text(strip=True)
+                view_match = re.search(r'(\d+)\s+(Watching|Waiting|Total)', view_text)
+                if view_match:
+                    match_data['viewers'] = view_match.group(1)
+                    match_data['viewers_type'] = view_match.group(2)
+                else:
+                    # Just get the number
+                    num_match = re.search(r'(\d+)', view_text)
+                    if num_match:
+                        match_data['viewers'] = num_match.group(1)
+            
+            # Extract date and time
+            time_items = meta_row.find_all('span', class_='meta-item')
+            for item in time_items:
+                item_text = item.get_text(strip=True)
+                # Date
+                date_match = re.search(r'(\d{1,2}\s+[A-Za-z]{3,}\s*,\s*\d{4})', item_text)
+                if date_match:
+                    match_data['date'] = date_match.group(1).strip()
+                # Time
+                time_match = re.search(r'(\d{1,2}:\d{2}\s*(?:AM|PM))', item_text, re.IGNORECASE)
+                if time_match:
+                    match_data['time'] = time_match.group(1).strip()
         
         # Extract runtime for live matches
         if match_data['status'] == 'live':
-            runtime_match = re.search(r'(\d+)\s*HOURS?\s*(\d+)\s*MINS?\s*(\d+)\s*SECS?', block, re.IGNORECASE)
-            if runtime_match:
-                h, m, s = runtime_match.groups()
-                match_data['runtime'] = f"{h}h {m}m {s}s"
+            live_boxes = card.find_all('div', class_='header-cd-box')
+            if len(live_boxes) >= 3:
+                hours = live_boxes[0].find('div', class_='header-cd-num')
+                mins = live_boxes[1].find('div', class_='header-cd-num')
+                secs = live_boxes[2].find('div', class_='header-cd-num')
+                if hours and mins and secs:
+                    h = hours.get_text(strip=True)
+                    m = mins.get_text(strip=True)
+                    s = secs.get_text(strip=True)
+                    match_data['runtime'] = f"{h}h {m}m {s}s"
+        
+        # For upcoming matches, get countdown
+        if match_data['status'] == 'upcoming':
+            overlay = card.find('div', class_='thumb-countdown-overlay')
+            if overlay:
+                cd_boxes = overlay.find_all('div', class_='cd-box')
+                if len(cd_boxes) >= 3:
+                    hours = cd_boxes[0].find('div', class_='cd-num')
+                    mins = cd_boxes[1].find('div', class_='cd-num')
+                    secs = cd_boxes[2].find('div', class_='cd-num')
+                    if hours and mins and secs:
+                        h = hours.get_text(strip=True)
+                        m = mins.get_text(strip=True)
+                        s = secs.get_text(strip=True)
+                        match_data['runtime'] = f"{h}h {m}m {s}s"
         
         # Check if we have at least some data
-        if match_data['title'] or match_data['teams'] or match_data['league']:
+        if match_data['title'] or match_data['league'] or match_data['match_id']:
             return match_data
         
         return None
@@ -168,7 +189,7 @@ class SportzfyScraper:
     def scrape(self):
         """Main scraping method"""
         print("\n" + "="*60)
-        print("🏏 SPORTZFY SCRAPER - TEXT EXTRACTION")
+        print("🏏 SPORTZFY SCRAPER")
         print("="*60 + "\n")
         
         html = self.fetch_page()
@@ -176,35 +197,25 @@ class SportzfyScraper:
             print("❌ Failed to fetch page")
             return []
         
-        # Save raw HTML for debugging
+        # Save raw HTML
         os.makedirs('data', exist_ok=True)
         with open('data/sportzfy_raw.html', 'w', encoding='utf-8') as f:
             f.write(html)
         print("💾 Raw HTML saved to: data/sportzfy_raw.html")
         
-        # Extract text content
-        from bs4 import BeautifulSoup
-        soup = BeautifulSoup(html, 'html.parser')
-        text = soup.get_text()
-        
-        # Save extracted text for debugging
-        with open('data/page_text.txt', 'w', encoding='utf-8') as f:
-            f.write(text)
-        print("💾 Page text saved to: data/page_text.txt")
-        
-        # Extract matches from text
-        matches = self.extract_matches_from_text(text)
+        # Extract matches
+        matches = self.extract_match_data(html)
         
         if matches:
             print(f"\n✅ Found {len(matches)} match(es)\n")
             self.display_matches(matches)
             self.save_data(matches)
         else:
-            print("⚠️ No matches found in text.")
-            # Try to find matches using the URL content you provided
-            matches = self.extract_from_url_content()
+            print("⚠️ No matches found.")
+            # Try to parse from the HTML directly using regex as fallback
+            matches = self.fallback_extract(html)
             if matches:
-                print(f"\n✅ Found {len(matches)} match(es) from URL content\n")
+                print(f"\n✅ Found {len(matches)} match(es) using fallback\n")
                 self.display_matches(matches)
                 self.save_data(matches)
             else:
@@ -212,43 +223,88 @@ class SportzfyScraper:
         
         return matches
 
-    def extract_from_url_content(self):
-        """Extract matches from the URL content shown in the UI"""
-        # Using the data from the URL content you provided
-        content = """
-CRICKET MATCH LIVE • PINNED
-Live Score/Action: Stream is active & broadcasting in HD
-7 Serv (🟢) 20 Watching 02 Sep, 2026 • 07:10 PM
-
-CRICKET MATCH LIVE • PINNED
-Live Score/Action: Stream is active & broadcasting in HD
-3 Serv (🟢) 17 Watching 02 Sep, 2026 • 07:25 PM
-
-CRICKET MATCH LIVE
-5 Serv (🟢) 4 Watching 02 Sep, 2026 • 08:25 PM
-
-CRICKET MATCH UPCOMING • PINNED
-1 Serv (🟢) 2 Waiting 03 Sep, 2026 • 12:45 AM
-
-CRICKET MATCH UPCOMING • PINNED
-3 Serv (🟢) 4 Waiting 03 Sep, 2026 • 04:50 AM
-
-CRICKET MATCH UPCOMING • PINNED
-5 Serv (🟢) 3 Waiting 03 Sep, 2026 • 08:20 PM
-
-CRICKET MATCH UPCOMING • PINNED
-5 Serv (🟢) 3 Waiting 04 Sep, 2026 • 08:25 AM
-
-CRICKET MATCH UPCOMING • PINNED
-5 Serv (🟢) 4 Waiting 05 Sep, 2026 • 08:25 PM
-
-CRICKET MATCH UPCOMING • PINNED
-6 Serv (🟢) 385 Waiting 27 Aug, 2026 • 03:30 PM
-
-CRICKET MATCH COMPLETED • PINNED
-3 Serv (🟢) 17 Total 27 Aug, 2026 • 08:00 PM
-"""
-        return self.extract_matches_from_text(content)
+    def fallback_extract(self, html):
+        """Fallback extraction using regex"""
+        matches = []
+        
+        # Find all match cards in the HTML string
+        card_pattern = r'<div class="match-card"[^>]*data-status="([^"]*)"[^>]*data-sport="([^"]*)"[^>]*data-match-id="([^"]*)"[^>]*>'
+        cards = re.findall(card_pattern, html)
+        
+        for status, sport, match_id in cards:
+            match_data = {
+                'match_id': match_id,
+                'status': status,
+                'sport': sport,
+                'title': None,
+                'teams': None,
+                'league': None,
+                'runtime': None,
+                'viewers': None,
+                'servers': None,
+                'date': None,
+                'time': None,
+                'timestamp': datetime.now().isoformat()
+            }
+            
+            # Find the league title
+            league_pattern = r'<div class="league-title">([^<]+)</div>'
+            league_matches = re.findall(league_pattern, html)
+            if league_matches:
+                match_data['league'] = league_matches[0].strip()
+            
+            # Find team names
+            title_pattern = r'<div class="match-main-title">\s*<a[^>]*>([^<]+)</a>'
+            title_matches = re.findall(title_pattern, html)
+            if title_matches:
+                match_data['title'] = title_matches[0].strip()
+                match_data['teams'] = match_data['title']
+            
+            # Find servers
+            server_pattern = r'(\d+)\s*Serv'
+            server_match = re.search(server_pattern, html)
+            if server_match:
+                match_data['servers'] = server_match.group(1)
+            
+            # Find viewers
+            viewer_pattern = r'(\d+)\s+(Watching|Waiting|Total)'
+            viewer_match = re.search(viewer_pattern, html)
+            if viewer_match:
+                match_data['viewers'] = viewer_match.group(1)
+                match_data['viewers_type'] = viewer_match.group(2)
+            
+            # Find date
+            date_pattern = r'(\d{1,2}\s+[A-Za-z]{3,}\s*,\s*\d{4})'
+            date_match = re.search(date_pattern, html)
+            if date_match:
+                match_data['date'] = date_match.group(1).strip()
+            
+            # Find time
+            time_pattern = r'(\d{1,2}:\d{2}\s*(?:AM|PM))'
+            time_match = re.search(time_pattern, html, re.IGNORECASE)
+            if time_match:
+                match_data['time'] = time_match.group(1).strip()
+            
+            # Find runtime for live matches
+            if status == 'live':
+                runtime_pattern = r'(\d+)\s*HOURS?\s*(\d+)\s*MINS?\s*(\d+)\s*SECS?'
+                runtime_match = re.search(runtime_pattern, html, re.IGNORECASE)
+                if runtime_match:
+                    h, m, s = runtime_match.groups()
+                    match_data['runtime'] = f"{h}h {m}m {s}s"
+            
+            if match_data['title'] or match_data['match_id']:
+                matches.append(match_data)
+        
+        # Remove duplicates
+        unique_matches = []
+        seen_ids = set()
+        for match in matches:
+            if match['match_id'] not in seen_ids:
+                seen_ids.add(match['match_id'])
+                unique_matches.append(match)
+        
+        return unique_matches
 
     def display_matches(self, matches):
         """Display matches in formatted output"""
@@ -259,11 +315,14 @@ CRICKET MATCH COMPLETED • PINNED
             print(f"   🏆  League: {match.get('league', 'N/A')}")
             print(f"   📡  Status: {match.get('status', 'N/A').upper() if match.get('status') else 'N/A'}")
             print(f"   ⏱️  Runtime: {match.get('runtime', 'N/A')}")
-            print(f"   👁️  Viewers: {match.get('viewers', 'N/A')}")
+            print(f"   👁️  Viewers: {match.get('viewers', 'N/A')} {match.get('viewers_type', '')}")
             print(f"   🌐  Servers: {match.get('servers', 'N/A')}")
             print(f"   📅  Date: {match.get('date', 'N/A')}")
             print(f"   🕐  Time: {match.get('time', 'N/A')}")
             print(f"   🏏  Sport: {match.get('sport', 'N/A')}")
+            print(f"   🆔  Match ID: {match.get('match_id', 'N/A')}")
+            if match.get('match_url'):
+                print(f"   🔗  URL: {match['match_url']}")
             print("-"*50)
 
     def save_data(self, matches):
@@ -272,7 +331,6 @@ CRICKET MATCH COMPLETED • PINNED
         
         timestamp = datetime.now().strftime("%Y%m%d_%H%M%S")
         
-        # Summary data
         summary = {
             'timestamp': datetime.now().isoformat(),
             'total_matches': len(matches),
@@ -319,7 +377,6 @@ def main():
     else:
         print("\n❌ No data scraped.")
         print("💡 Check data/sportzfy_raw.html for the raw HTML")
-        print("💡 Check data/page_text.txt for extracted text")
 
 if __name__ == "__main__":
     try:
