@@ -78,48 +78,34 @@ class SportzfyScraper:
         return server_urls
 
     def check_if_truly_live(self, card):
-        """Check if a match is truly live by checking the runtime"""
-        # Check if there's a live runtime box
-        live_runtime = card.find('div', class_='header-live-boxes-container')
-        if not live_runtime:
-            return False
-        
-        # Check if there's a live title
-        live_title = live_runtime.find('div', class_='header-live-title')
-        if not live_title:
-            return False
-        
-        # Check if there are live boxes with numbers
-        live_boxes = live_runtime.find_all('div', class_='header-cd-box')
-        if len(live_boxes) < 3:
-            return False
-        
-        # Get the time values
-        hours = live_boxes[0].find('div', class_='header-cd-num')
-        mins = live_boxes[1].find('div', class_='header-cd-num')
-        secs = live_boxes[2].find('div', class_='header-cd-num')
-        
-        if not hours or not mins or not secs:
-            return False
-        
-        h = hours.get_text(strip=True)
-        m = mins.get_text(strip=True)
-        s = secs.get_text(strip=True)
-        
-        # If all zeros, it's not truly live
-        if h == '00' and m == '00' and s == '00':
-            return False
-        
-        # Also check if there's a live-score-ticker
+        """Check if a match is truly live by checking the runtime or status indicators"""
+        # Method 1: Check if there's a live-score-ticker with "Stream is active"
         live_ticker = card.find('div', class_='live-score-ticker')
-        if not live_ticker:
-            return False
+        if live_ticker and 'Stream is active' in str(live_ticker):
+            return True
         
-        # Check if it says "Stream is active"
-        if 'Stream is active' not in str(live_ticker):
-            return False
+        # Method 2: Check if there's a live runtime box with actual time
+        live_runtime = card.find('div', class_='header-live-boxes-container')
+        if live_runtime:
+            live_boxes = live_runtime.find_all('div', class_='header-cd-box')
+            if len(live_boxes) >= 3:
+                hours = live_boxes[0].find('div', class_='header-cd-num')
+                mins = live_boxes[1].find('div', class_='header-cd-num')
+                secs = live_boxes[2].find('div', class_='header-cd-num')
+                if hours and mins and secs:
+                    h = hours.get_text(strip=True)
+                    m = mins.get_text(strip=True)
+                    s = secs.get_text(strip=True)
+                    # If any time value is not "00", it's likely live
+                    if h != '00' or m != '00' or s != '00':
+                        return True
         
-        return True
+        # Method 3: Check for live tag
+        status_tag = card.find('span', class_='tag-status')
+        if status_tag and 'live-tag' in str(status_tag):
+            return True
+        
+        return False
 
     def extract_match_data(self, html):
         """Extract match information from HTML - Only RECENT and LIVE matches"""
@@ -135,7 +121,9 @@ class SportzfyScraper:
         print(f"📊 Found {len(match_cards)} total match cards")
         
         # Filter: Only include matches that are truly live
-        filtered_cards = []
+        live_matches = []
+        stale_count = 0
+        
         for card in match_cards:
             status = card.get('data-status')
             
@@ -143,17 +131,19 @@ class SportzfyScraper:
             if status == 'live':
                 # Check if it's truly live
                 if self.check_if_truly_live(card):
-                    filtered_cards.append(card)
-                    print(f"✅ Found truly live match: {card.find('div', class_='match-main-title').get_text(strip=True) if card.find('div', class_='match-main-title') else 'Unknown'}")
+                    live_matches.append(card)
+                    title_div = card.find('div', class_='match-main-title')
+                    title = title_div.get_text(strip=True) if title_div else 'Unknown'
+                    print(f"✅ Found truly live match: {title}")
                 else:
-                    # It's marked as live but not actually live - mark as completed
-                    print(f"⚠️ Stale live match detected, marking as completed")
-                    # Update the status in the card
-                    card.attrs['data-status'] = 'completed'
+                    stale_count += 1
+                    title_div = card.find('div', class_='match-main-title')
+                    title = title_div.get_text(strip=True) if title_div else 'Unknown'
+                    print(f"⚠️ Stale live match detected (will skip): {title}")
         
-        print(f"📊 Found {len(filtered_cards)} truly live matches")
+        print(f"📊 Found {len(live_matches)} truly live matches ({stale_count} stale skipped)")
         
-        for card in filtered_cards:
+        for card in live_matches:
             match_data = self.parse_match_card(card)
             if match_data:
                 matches.append(match_data)
@@ -285,9 +275,7 @@ class SportzfyScraper:
                     match_data['server_urls'] = server_urls
                     print(f"✅ Found {len(server_urls)} server URLs")
                 else:
-                    # If no server URLs found, it might be completed
-                    print(f"⚠️ No server URLs found, marking as completed")
-                    match_data['status'] = 'completed'
+                    print(f"⚠️ No server URLs found")
         
         # Check if we have at least some data
         if match_data['title'] or match_data['league'] or match_data['match_id']:
