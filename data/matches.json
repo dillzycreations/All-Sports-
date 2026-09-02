@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-02T22:24:57.582838",
+  "timestamp": "2026-09-02T22:28:50.625583",
   "total_matches": 16,
   "live_count": 11,
   "upcoming_count": 4,
@@ -31,7 +31,7 @@
       "league": "Bundesliga",
       "sport": "cricket",
       "status": "live",
-      "runtime": null,
+      "runtime": "00h 00m 00s",
       "viewers": "64",
       "viewers_type": "Watching",
       "servers": "2",
@@ -44,7 +44,7 @@
         "https://fawa.duckdns.org/api/proxy?url=http%3A%2F%2F193.47.62.41%2Fhls%2FQTTTAAAQQQQQQQ.m3u8&headers=%7B%22Referer%22%3A%22http%3A%2F%2Fwww.fawanews.sc%2F%22%7D",
         "https://fawa.duckdns.org/api/proxy?url=https%3A%2F%2Fwww.rtmpcdn.com%2Flive%2Ff38e999b-fb18-4b5d-bde6-4edf50bc0664.m3u8&headers=%7B%22Referer%22%3A%22http%3A%2F%2Fwww.fawanews.sc%2F%22%7D"
       ],
-      "last_updated": "2026-09-02T22:24:57.582833"
+      "last_updated": "2026-09-02T22:28:50.625578"
     },
     {
       "title": "Sqaush London Classic",
