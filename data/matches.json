@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-02T14:39:36.623831",
+  "timestamp": "2026-09-02T14:45:11.451285",
   "total_matches": 50,
   "live_count": 3,
   "upcoming_count": 6,
@@ -12,7 +12,7 @@
       "sport": "cricket",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "23",
+      "viewers": "24",
       "viewers_type": "Watching",
       "servers": "7",
       "date": "02 Sep, 2026",
@@ -20,8 +20,8 @@
       "match_url": "https://sportzfy.my.id/live/belfast-wolves-vs-edinburgh-castle-rockers-1581",
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1788250226540x302.jpg",
       "match_id": "1581",
-      "stream_url": "https://sportzfy.my.id/live/belfast-wolves-vs-edinburgh-castle-rockers-1581",
-      "last_updated": "2026-09-02T14:39:36.623787"
+      "server_urls": [],
+      "last_updated": "2026-09-02T14:45:11.451199"
     },
     {
       "title": "Fazilka Falcons vs Amritsar Soormas",
@@ -38,8 +38,8 @@
       "match_url": "https://sportzfy.my.id/live/fazilka-falcons-vs-amritsar-soormas-1587",
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249118_53065_FAF_AMS_fc-web_1788339743151.jpg",
       "match_id": "1587",
-      "stream_url": "https://sportzfy.my.id/live/fazilka-falcons-vs-amritsar-soormas-1587",
-      "last_updated": "2026-09-02T14:39:36.623790"
+      "server_urls": [],
+      "last_updated": "2026-09-02T14:45:11.451204"
     },
     {
       "title": "Sri Lanka Women vs Indonesia Women",
@@ -56,8 +56,8 @@
       "match_url": "https://sportzfy.my.id/live/sri-lanka-women-vs-indonesia-women-1582",
       "thumbnail": "https://i.postimg.cc/3xFLcsrN/watermarked-img-12913696984212545479.jpg",
       "match_id": "1582",
-      "stream_url": "https://sportzfy.my.id/live/sri-lanka-women-vs-indonesia-women-1582",
-      "last_updated": "2026-09-02T14:39:36.623791"
+      "server_urls": [],
+      "last_updated": "2026-09-02T14:45:11.451224"
     },
     {
       "title": "Osnabruck vs Bayern",
@@ -74,8 +74,8 @@
       "match_url": "https://sportzfy.my.id/live/osnabruck-vs-bayern-1588",
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4248532_53043_VFL_BAY_FC-WEB.png",
       "match_id": "1588",
-      "stream_url": "https://sportzfy.my.id/live/osnabruck-vs-bayern-1588",
-      "last_updated": "2026-09-02T14:39:36.623792"
+      "server_urls": [],
+      "last_updated": "2026-09-02T14:45:11.451226"
     },
     {
       "title": "Trinbago Knight Riders vs Antigua and Barbuda Falcons",
@@ -92,8 +92,8 @@
       "match_url": "https://sportzfy.my.id/live/trinbago-knight-riders-vs-antigua-and-barbuda-falcons-1586",
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1788257431540x302.jpg",
       "match_id": "1586",
-      "stream_url": "https://sportzfy.my.id/live/trinbago-knight-riders-vs-antigua-and-barbuda-falcons-1586",
-      "last_updated": "2026-09-02T14:39:36.623793"
+      "server_urls": [],
+      "last_updated": "2026-09-02T14:45:11.451228"
     },
     {
       "title": "India Women vs Hong Kong, China Women",
@@ -110,8 +110,8 @@
       "match_url": "https://sportzfy.my.id/live/india-women-vs-hong-kong-china-women-1583",
       "thumbnail": "https://i.postimg.cc/3N3Nn0tj/b6b7ef01-b10f-45eb-a301-289781bf038b.jpg",
       "match_id": "1583",
-      "stream_url": "https://sportzfy.my.id/live/india-women-vs-hong-kong-china-women-1583",
-      "last_updated": "2026-09-02T14:39:36.623793"
+      "server_urls": [],
+      "last_updated": "2026-09-02T14:45:11.451229"
     },
     {
       "title": "United Arab Emirates Women vs Indonesia Women,",
@@ -128,8 +128,8 @@
       "match_url": "https://sportzfy.my.id/live/united-arab-emirates-women-vs-indonesia-women-1584",
       "thumbnail": "https://i.postimg.cc/wBcdFfn8/e7448786-fa2f-42cf-8e8d-0c705a757336.jpg",
       "match_id": "1584",
-      "stream_url": "https://sportzfy.my.id/live/united-arab-emirates-women-vs-indonesia-women-1584",
-      "last_updated": "2026-09-02T14:39:36.623794"
+      "server_urls": [],
+      "last_updated": "2026-09-02T14:45:11.451231"
     },
     {
       "title": "India Women vs Pakistan Women",
@@ -146,8 +146,8 @@
       "match_url": "https://sportzfy.my.id/live/india-women-vs-pakistan-women-1585",
       "thumbnail": "https://i.postimg.cc/R0sxj6CR/5eb2cdd1-1ef1-40b6-8d5d-3f7371c563d9.jpg",
       "match_id": "1585",
-      "stream_url": "https://sportzfy.my.id/live/india-women-vs-pakistan-women-1585",
-      "last_updated": "2026-09-02T14:39:36.623795"
+      "server_urls": [],
+      "last_updated": "2026-09-02T14:45:11.451232"
     },
     {
       "title": "England vs Pakistan-3rd Test (Day-1)",
@@ -164,8 +164,8 @@
       "match_url": "https://sportzfy.my.id/live/england-vs-pakistan-3rd-test-day-1-1221",
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787576024540x302.jpg",
       "match_id": "1221",
-      "stream_url": "https://sportzfy.my.id/live/england-vs-pakistan-3rd-test-day-1-1221",
-      "last_updated": "2026-09-02T14:39:36.623796"
+      "server_urls": [],
+      "last_updated": "2026-09-02T14:45:11.451233"
     },
     {
       "title": "Edinburgh Castle Rockers vs Glasgow Cosmic",
@@ -182,8 +182,8 @@
       "match_url": "https://sportzfy.my.id/live/edinburgh-castle-rockers-vs-glasgow-cosmic-1382",
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787814555540x302.jpg",
       "match_id": "1382",
-      "stream_url": "https://sportzfy.my.id/live/edinburgh-castle-rockers-vs-glasgow-cosmic-1382",
-      "last_updated": "2026-09-02T14:39:36.623797"
+      "server_urls": [],
+      "last_updated": "2026-09-02T14:45:11.451234"
     },
     {
       "title": "Chelsea Vs Luton Town",
@@ -200,8 +200,8 @@
       "match_url": "https://sportzfy.my.id/live/chelsea-vs-luton-town-1484",
       "thumbnail": "https://sportshub.cbsistatic.com/i/2026/08/25/0220b66c-69e5-412e-b2fb-13b3adefd8ca/image-1787659790457.jpg",
       "match_id": "1484",
-      "stream_url": "https://sportzfy.my.id/live/chelsea-vs-luton-town-1484",
-      "last_updated": "2026-09-02T14:39:36.623798"
+      "server_urls": [],
+      "last_updated": "2026-09-02T14:45:11.451236"
     },
     {
       "title": "FC Barcelona v Athletic Club",
@@ -218,8 +218,8 @@
       "match_url": "https://sportzfy.my.id/live/fc-barcelona-v-athletic-club-1480",
       "thumbnail": "https://i.postimg.cc/QCG2W4yY/e7ceb737-c51a-4fa9-9672-67daca85617c.jpg",
       "match_id": "1480",
-      "stream_url": "https://sportzfy.my.id/live/fc-barcelona-v-athletic-club-1480",
-      "last_updated": "2026-09-02T14:39:36.623798"
+      "server_urls": [],
+      "last_updated": "2026-09-02T14:45:11.451237"
     },
     {
       "title": "St Kitts and Nevis Patriots vs Jamaica Kingsmen",
@@ -236,8 +236,8 @@
       "match_url": "https://sportzfy.my.id/live/st-kitts-and-nevis-patriots-vs-jamaica-kingsmen-1481",
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787816184540x302.jpg",
       "match_id": "1481",
-      "stream_url": "https://sportzfy.my.id/live/st-kitts-and-nevis-patriots-vs-jamaica-kingsmen-1481",
-      "last_updated": "2026-09-02T14:39:36.623799"
+      "server_urls": [],
+      "last_updated": "2026-09-02T14:45:11.451238"
     },
     {
       "title": "Al-Nassr vs Al-Taawoun",
@@ -254,8 +254,8 @@
       "match_url": "https://sportzfy.my.id/live/al-nassr-vs-al-taawoun-1505",
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/139829_5655_ANF_ALTW_FC-Web.jpg",
       "match_id": "1505",
-      "stream_url": "https://sportzfy.my.id/live/al-nassr-vs-al-taawoun-1505",
-      "last_updated": "2026-09-02T14:39:36.623800"
+      "server_urls": [],
+      "last_updated": "2026-09-02T14:45:11.451239"
     },
     {
       "title": "Racing Santander vs Elche",
@@ -272,8 +272,8 @@
       "match_url": "https://sportzfy.my.id/live/racing-santander-vs-elche-1503",
       "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRYyT5q1xCElW78SVsfNDGErmhlyXoAcHibdH8_hcaUh7fZQa2dREl3eUE&s=10",
       "match_id": "1503",
-      "stream_url": "https://sportzfy.my.id/live/racing-santander-vs-elche-1503",
-      "last_updated": "2026-09-02T14:39:36.623801"
+      "server_urls": [],
+      "last_updated": "2026-09-02T14:45:11.451241"
     },
     {
       "title": "Al-Nassr vs Al-Taawoun",
@@ -290,8 +290,8 @@
       "match_url": "https://sportzfy.my.id/live/al-nassr-vs-al-taawoun-1506",
       "thumbnail": "https://www.fancode.com/skillup-uploads/cms-media/4248649_53025_ANF_ALTW_FC-Web.png",
       "match_id": "1506",
-      "stream_url": "https://sportzfy.my.id/live/al-nassr-vs-al-taawoun-1506",
-      "last_updated": "2026-09-02T14:39:36.623802"
+      "server_urls": [],
+      "last_updated": "2026-09-02T14:45:11.451242"
     },
     {
       "title": "Bayern Munich Vs Stuttgart",
@@ -308,8 +308,8 @@
       "match_url": "https://sportzfy.my.id/live/bayern-munich-vs-stuttgart-1511",
       "thumbnail": "https://ichef.bbci.co.uk/images/ic/640x360/p0p5ql86.jpg",
       "match_id": "1511",
-      "stream_url": "https://sportzfy.my.id/live/bayern-munich-vs-stuttgart-1511",
-      "last_updated": "2026-09-02T14:39:36.623802"
+      "server_urls": [],
+      "last_updated": "2026-09-02T14:45:11.451243"
     },
     {
       "title": "AC Milan vs Venezia",
@@ -326,8 +326,8 @@
       "match_url": "https://sportzfy.my.id/live/ac-milan-vs-venezia-1508",
       "thumbnail": "https://i.postimg.cc/j2YGF75w/image.png",
       "match_id": "1508",
-      "stream_url": "https://sportzfy.my.id/live/ac-milan-vs-venezia-1508",
-      "last_updated": "2026-09-02T14:39:36.623803"
+      "server_urls": [],
+      "last_updated": "2026-09-02T14:45:11.451244"
     },
     {
       "title": "Lille vs PSG",
@@ -344,8 +344,8 @@
       "match_url": "https://sportzfy.my.id/live/lille-vs-psg-1513",
       "thumbnail": "https://i.postimg.cc/nhLShk9v/image-url-https-dgpybourtosyfaevnlds-supabase-co-storage-v1-object-public-news-ima.jpg",
       "match_id": "1513",
-      "stream_url": "https://sportzfy.my.id/live/lille-vs-psg-1513",
-      "last_updated": "2026-09-02T14:39:36.623804"
+      "server_urls": [],
+      "last_updated": "2026-09-02T14:45:11.451245"
     },
     {
       "title": "Crystal Palace vs Manchester City",
@@ -362,8 +362,8 @@
       "match_url": "https://sportzfy.my.id/live/crystal-palace-vs-manchester-city-1507",
       "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSV7lrouY2cz5eYNrpWZ15ATm5dGyZH6P17IiaBZle7ysy_os3ZiC-OpyI&s=10",
       "match_id": "1507",
-      "stream_url": "https://sportzfy.my.id/live/crystal-palace-vs-manchester-city-1507",
-      "last_updated": "2026-09-02T14:39:36.623805"
+      "server_urls": [],
+      "last_updated": "2026-09-02T14:45:11.451247"
     },
     {
       "title": "Wrexham vs Birmingham City",
@@ -380,8 +380,8 @@
       "match_url": "https://sportzfy.my.id/live/wrexham-vs-birmingham-city-1512",
       "thumbnail": "https://e0.365dm.com/26/08/1600x900/skysports-wrexham-birmingham-city_7329893.jpg?20260824105740",
       "match_id": "1512",
-      "stream_url": "https://sportzfy.my.id/live/wrexham-vs-birmingham-city-1512",
-      "last_updated": "2026-09-02T14:39:36.623806"
+      "server_urls": [],
+      "last_updated": "2026-09-02T14:45:11.451248"
     },
     {
       "title": "Alaves vs Villarreal",
@@ -398,8 +398,8 @@
       "match_url": "https://sportzfy.my.id/live/alaves-vs-villarreal-1510",
       "thumbnail": "https://i.postimg.cc/ydxmCQJV/https-media-zenfs-com-en-playmakerstats-articles-264-cbd92a2f1733189b20e51dee91c6def4.jpg",
       "match_id": "1510",
-      "stream_url": "https://sportzfy.my.id/live/alaves-vs-villarreal-1510",
-      "last_updated": "2026-09-02T14:39:36.623807"
+      "server_urls": [],
+      "last_updated": "2026-09-02T14:45:11.451249"
     },
     {
       "title": "Nepal A vs Victoria",
@@ -416,8 +416,8 @@
       "match_url": "https://sportzfy.my.id/live/nepal-a-vs-victoria-1533",
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4248454_53036_NEP_VA_fc-web_1787393619334.jpg",
       "match_id": "1533",
-      "stream_url": "https://sportzfy.my.id/live/nepal-a-vs-victoria-1533",
-      "last_updated": "2026-09-02T14:39:36.623807"
+      "server_urls": [],
+      "last_updated": "2026-09-02T14:45:11.451250"
     },
     {
       "title": "Rotterdam Dockers vs Belfast Wolves",
@@ -434,8 +434,8 @@
       "match_url": "https://sportzfy.my.id/live/rotterdam-dockers-vs-belfast-wolves-1528",
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787908210540x302.jpg",
       "match_id": "1528",
-      "stream_url": "https://sportzfy.my.id/live/rotterdam-dockers-vs-belfast-wolves-1528",
-      "last_updated": "2026-09-02T14:39:36.623808"
+      "server_urls": [],
+      "last_updated": "2026-09-02T14:45:11.451251"
     },
     {
       "title": "Liverpool 🆚 Nottingham Forest",
@@ -452,8 +452,8 @@
       "match_url": "https://sportzfy.my.id/live/liverpool-nottingham-forest-1535",
       "thumbnail": "https://i.postimg.cc/7Z2n7vKj/image.png",
       "match_id": "1535",
-      "stream_url": "https://sportzfy.my.id/live/liverpool-nottingham-forest-1535",
-      "last_updated": "2026-09-02T14:39:36.623809"
+      "server_urls": [],
+      "last_updated": "2026-09-02T14:45:11.451253"
     },
     {
       "title": "Sri Lanka vs United Arab Emirates-Women",
@@ -470,8 +470,8 @@
       "match_url": "https://sportzfy.my.id/live/sri-lanka-vs-united-arab-emirates-women-1499",
       "thumbnail": "https://i.postimg.cc/ryY8pd7W/e10a4c8e-771f-4a20-a49a-1fb3d63e17cb.jpg",
       "match_id": "1499",
-      "stream_url": "https://sportzfy.my.id/live/sri-lanka-vs-united-arab-emirates-women-1499",
-      "last_updated": "2026-09-02T14:39:36.623810"
+      "server_urls": [],
+      "last_updated": "2026-09-02T14:45:11.451254"
     },
     {
       "title": "Rotterdam Dockers vs Belfast Wolves",
@@ -488,8 +488,8 @@
       "match_url": "https://sportzfy.my.id/live/rotterdam-dockers-vs-belfast-wolves-1529",
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787908358540x302.jpg",
       "match_id": "1529",
-      "stream_url": "https://sportzfy.my.id/live/rotterdam-dockers-vs-belfast-wolves-1529",
-      "last_updated": "2026-09-02T14:39:36.623811"
+      "server_urls": [],
+      "last_updated": "2026-09-02T14:45:11.451255"
     },
     {
       "title": "Levante vs Betis",
@@ -506,8 +506,8 @@
       "match_url": "https://sportzfy.my.id/live/levante-vs-betis-1536",
       "thumbnail": "https://artwork.espncdn.com/events/401882902/16x9/1280x720_20260810221329.jpg",
       "match_id": "1536",
-      "stream_url": "https://sportzfy.my.id/live/levante-vs-betis-1536",
-      "last_updated": "2026-09-02T14:39:36.623811"
+      "server_urls": [],
+      "last_updated": "2026-09-02T14:45:11.451256"
     },
     {
       "title": "Al Kholood vs Al-Ahli",
@@ -524,8 +524,8 @@
       "match_url": "https://sportzfy.my.id/live/al-kholood-vs-al-ahli-1537",
       "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxZxeFs0YlrIoYCd-3rohj7Lyh0MLlkWEbk_Dkw-JXszTk3c-TT51EBRw&s=10",
       "match_id": "1537",
-      "stream_url": "https://sportzfy.my.id/live/al-kholood-vs-al-ahli-1537",
-      "last_updated": "2026-09-02T14:39:36.623812"
+      "server_urls": [],
+      "last_updated": "2026-09-02T14:45:11.451257"
     },
     {
       "title": "Real Sociedad vs Espanyol",
@@ -542,8 +542,8 @@
       "match_url": "https://sportzfy.my.id/live/real-sociedad-vs-espanyol-1538",
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787924941540x302.jpg",
       "match_id": "1538",
-      "stream_url": "https://sportzfy.my.id/live/real-sociedad-vs-espanyol-1538",
-      "last_updated": "2026-09-02T14:39:36.623813"
+      "server_urls": [],
+      "last_updated": "2026-09-02T14:45:11.451259"
     },
     {
       "title": "Al Fateh vs Al-Ittihad",
@@ -560,8 +560,8 @@
       "match_url": "https://sportzfy.my.id/live/al-fateh-vs-al-ittihad-1539",
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787921091540x302.jpg",
       "match_id": "1539",
-      "stream_url": "https://sportzfy.my.id/live/al-fateh-vs-al-ittihad-1539",
-      "last_updated": "2026-09-02T14:39:36.623814"
+      "server_urls": [],
+      "last_updated": "2026-09-02T14:45:11.451260"
     },
     {
       "title": "Sevilla vs Athletico Madrid",
@@ -578,8 +578,8 @@
       "match_url": "https://sportzfy.my.id/live/sevilla-vs-athletico-madrid-1540",
       "thumbnail": "https://i.ibb.co/DPpZBG6T/image.png",
       "match_id": "1540",
-      "stream_url": "https://sportzfy.my.id/live/sevilla-vs-athletico-madrid-1540",
-      "last_updated": "2026-09-02T14:39:36.623815"
+      "server_urls": [],
+      "last_updated": "2026-09-02T14:45:11.451261"
     },
     {
       "title": "Victoria CA vs Adelaide Strikers Academy -Final",
@@ -596,8 +596,8 @@
       "match_url": "https://sportzfy.my.id/live/victoria-ca-vs-adelaide-strikers-academy-final-1544",
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/Victoria-CA-XI-vs-Adelaide-Strikers-Academy_FC-WEB.jpg",
       "match_id": "1544",
-      "stream_url": "https://sportzfy.my.id/live/victoria-ca-vs-adelaide-strikers-academy-final-1544",
-      "last_updated": "2026-09-02T14:39:36.623815"
+      "server_urls": [],
+      "last_updated": "2026-09-02T14:45:11.451262"
     },
     {
       "title": "Amsterdam Flames vs Belfast Wolves",
@@ -614,8 +614,8 @@
       "match_url": "https://sportzfy.my.id/live/amsterdam-flames-vs-belfast-wolves-1547",
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787908593540x302.jpg",
       "match_id": "1547",
-      "stream_url": "https://sportzfy.my.id/live/amsterdam-flames-vs-belfast-wolves-1547",
-      "last_updated": "2026-09-02T14:39:36.623816"
+      "server_urls": [],
+      "last_updated": "2026-09-02T14:45:11.451263"
     },
     {
       "title": "Chelsea vs Brighton",
@@ -624,7 +624,7 @@
       "sport": "football",
       "status": "completed",
       "runtime": null,
-      "viewers": "43",
+      "viewers": "44",
       "viewers_type": "Total",
       "servers": "1",
       "date": "30 Aug, 2026",
@@ -632,8 +632,8 @@
       "match_url": "https://sportzfy.my.id/live/chelsea-vs-brighton-1555",
       "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR69J5KHLq9VgnmYYgU5-Z8Nla_6Q__Wm2NDHkAKpk9o7jMgz0mTrxhpqPQ&s=10",
       "match_id": "1555",
-      "stream_url": "https://sportzfy.my.id/live/chelsea-vs-brighton-1555",
-      "last_updated": "2026-09-02T14:39:36.623817"
+      "server_urls": [],
+      "last_updated": "2026-09-02T14:45:11.451265"
     },
     {
       "title": "Edinburgh Castle Rockers vs Dublin Guardians",
@@ -650,8 +650,8 @@
       "match_url": "https://sportzfy.my.id/live/edinburgh-castle-rockers-vs-dublin-guardians-1548",
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787908960540x302.jpg",
       "match_id": "1548",
-      "stream_url": "https://sportzfy.my.id/live/edinburgh-castle-rockers-vs-dublin-guardians-1548",
-      "last_updated": "2026-09-02T14:39:36.623818"
+      "server_urls": [],
+      "last_updated": "2026-09-02T14:45:11.451266"
     },
     {
       "title": "Spain vs Germany-Final",
@@ -668,8 +668,8 @@
       "match_url": "https://sportzfy.my.id/live/spain-vs-germany-final-1551",
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1788022689540x302MEN.jpg",
       "match_id": "1551",
-      "stream_url": "https://sportzfy.my.id/live/spain-vs-germany-final-1551",
-      "last_updated": "2026-09-02T14:39:36.623819"
+      "server_urls": [],
+      "last_updated": "2026-09-02T14:45:11.451267"
     },
     {
       "title": "India vs Thailand-Women",
@@ -686,8 +686,8 @@
       "match_url": "https://sportzfy.my.id/live/india-vs-thailand-women-1500",
       "thumbnail": "https://i.postimg.cc/0yKG4w1j/c7fdcc71-d7bf-4ea4-b359-b59f9e163e0c.jpg",
       "match_id": "1500",
-      "stream_url": "https://sportzfy.my.id/live/india-vs-thailand-women-1500",
-      "last_updated": "2026-09-02T14:39:36.623819"
+      "server_urls": [],
+      "last_updated": "2026-09-02T14:45:11.451268"
     },
     {
       "title": "Real Madrid vs Malaga",
@@ -704,8 +704,8 @@
       "match_url": "https://sportzfy.my.id/live/real-madrid-vs-malaga-1545",
       "thumbnail": "https://i.postimg.cc/K8ChBrLF/0723f8c3-53e3-4718-8e29-b3ab537f2fd3.jpg",
       "match_id": "1545",
-      "stream_url": "https://sportzfy.my.id/live/real-madrid-vs-malaga-1545",
-      "last_updated": "2026-09-02T14:39:36.623820"
+      "server_urls": [],
+      "last_updated": "2026-09-02T14:45:11.451269"
     },
     {
       "title": "Manchester United vs Ipswich Town",
@@ -722,8 +722,8 @@
       "match_url": "https://sportzfy.my.id/live/manchester-united-vs-ipswich-town-1559",
       "thumbnail": "https://imgsrv2.voi.id/hnlCoZ4oOnn3ao6nvUqmcERl3Mb8kOFvhS0VP--I3zs/auto/1200/675/sm/1/bG9jYWw6Ly8vcHVibGlzaGVycy81OTE4NjgvMjAyNjA4MzAxMTExLW1haW4uY3JvcHBlZF8xNzg4MDYzMDgwLmpwZw.jpg",
       "match_id": "1559",
-      "stream_url": "https://sportzfy.my.id/live/manchester-united-vs-ipswich-town-1559",
-      "last_updated": "2026-09-02T14:39:36.623821"
+      "server_urls": [],
+      "last_updated": "2026-09-02T14:45:11.451270"
     },
     {
       "title": "Deportivo vs Valencia",
@@ -740,8 +740,8 @@
       "match_url": "https://sportzfy.my.id/live/deportivo-vs-valencia-1546",
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedWebthumb/17879271561020x576.jpg",
       "match_id": "1546",
-      "stream_url": "https://sportzfy.my.id/live/deportivo-vs-valencia-1546",
-      "last_updated": "2026-09-02T14:39:36.623822"
+      "server_urls": [],
+      "last_updated": "2026-09-02T14:45:11.451272"
     },
     {
       "title": "Banfield vs River Plate",
@@ -758,8 +758,8 @@
       "match_url": "https://sportzfy.my.id/live/banfield-vs-river-plate-1562",
       "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5f94447KjueSj7-o1lnXhv6bbgyDO3C1kJemWkdGSY7tcBle4bW82tVO8&s=10",
       "match_id": "1562",
-      "stream_url": "https://sportzfy.my.id/live/banfield-vs-river-plate-1562",
-      "last_updated": "2026-09-02T14:39:36.623823"
+      "server_urls": [],
+      "last_updated": "2026-09-02T14:45:11.451273"
     },
     {
       "title": "Al Qadsiah vs Al-Faisaly",
@@ -776,8 +776,8 @@
       "match_url": "https://sportzfy.my.id/live/al-qadsiah-vs-al-faisaly-1554",
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787921225540x302.jpg",
       "match_id": "1554",
-      "stream_url": "https://sportzfy.my.id/live/al-qadsiah-vs-al-faisaly-1554",
-      "last_updated": "2026-09-02T14:39:36.623824"
+      "server_urls": [],
+      "last_updated": "2026-09-02T14:45:11.451274"
     },
     {
       "title": "Lazio vs Genoa",
@@ -794,8 +794,8 @@
       "match_url": "https://sportzfy.my.id/live/lazio-vs-genoa-1563",
       "thumbnail": "https://media-cdn-v2.laodong.vn/storage/newsportal/2026/8/30/1758985/Serie-A-9.jpg",
       "match_id": "1563",
-      "stream_url": "https://sportzfy.my.id/live/lazio-vs-genoa-1563",
-      "last_updated": "2026-09-02T14:39:36.623824"
+      "server_urls": [],
+      "last_updated": "2026-09-02T14:45:11.451275"
     },
     {
       "title": "Cagliari vs Inter",
@@ -812,8 +812,8 @@
       "match_url": "https://sportzfy.my.id/live/cagliari-vs-inter-1560",
       "thumbnail": "https://media-cdn-v2.laodong.vn/storage/newsportal/2026/8/30/1758809/Seriea-40.jpg",
       "match_id": "1560",
-      "stream_url": "https://sportzfy.my.id/live/cagliari-vs-inter-1560",
-      "last_updated": "2026-09-02T14:39:36.623825"
+      "server_urls": [],
+      "last_updated": "2026-09-02T14:45:11.451276"
     },
     {
       "title": "Celta vs Athletic",
@@ -830,8 +830,8 @@
       "match_url": "https://sportzfy.my.id/live/celta-vs-athletic-1552",
       "thumbnail": "https://i.ytimg.com/vi/4P7ixK0r8NU/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLBo3DMXHwIGmcjYO66lUw1G_eYV2Q",
       "match_id": "1552",
-      "stream_url": "https://sportzfy.my.id/live/celta-vs-athletic-1552",
-      "last_updated": "2026-09-02T14:39:36.623826"
+      "server_urls": [],
+      "last_updated": "2026-09-02T14:45:11.451278"
     },
     {
       "title": "St Kitts and Nevis Patriots vs Antigua and Barbuda Falcons",
@@ -848,8 +848,8 @@
       "match_url": "https://sportzfy.my.id/live/st-kitts-and-nevis-patriots-vs-antigua-and-barbuda-falcons-1564",
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787912838540x302.jpg",
       "match_id": "1564",
-      "stream_url": "https://sportzfy.my.id/live/st-kitts-and-nevis-patriots-vs-antigua-and-barbuda-falcons-1564",
-      "last_updated": "2026-09-02T14:39:36.623827"
+      "server_urls": [],
+      "last_updated": "2026-09-02T14:45:11.451279"
     },
     {
       "title": "Mohali Kings vs Bathinda Royals",
@@ -866,8 +866,8 @@
       "match_url": "https://sportzfy.my.id/live/mohali-kings-vs-bathinda-royals-1570",
       "thumbnail": "https://c.ndtvimg.com/2026-08/1ho6d11c_match_625x300_31_August_26.png?im=FitAndFill,algorithm=dnn,width=400,height=225&q=70",
       "match_id": "1570",
-      "stream_url": "https://sportzfy.my.id/live/mohali-kings-vs-bathinda-royals-1570",
-      "last_updated": "2026-09-02T14:39:36.623827"
+      "server_urls": [],
+      "last_updated": "2026-09-02T14:45:11.451280"
     },
     {
       "title": "Bangladesh  vs Indonesia-Women",
@@ -884,8 +884,8 @@
       "match_url": "https://sportzfy.my.id/live/bangladesh-vs-indonesia-women-1501",
       "thumbnail": "https://i.postimg.cc/pTSX3pHf/05327ea1-04b1-4d8e-abd5-edb83c08f698.jpg",
       "match_id": "1501",
-      "stream_url": "https://sportzfy.my.id/live/bangladesh-vs-indonesia-women-1501",
-      "last_updated": "2026-09-02T14:39:36.623828"
+      "server_urls": [],
+      "last_updated": "2026-09-02T14:45:11.451281"
     },
     {
       "title": "Aston Villa vs Arsenal",
@@ -902,8 +902,8 @@
       "match_url": "https://sportzfy.my.id/live/aston-villa-vs-arsenal-1567",
       "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR1oPooRnz03crbJmJuqQMW_Cx0vGBa0p-5kO9L8yZf04iDPj3pqnDTZsU&s=10",
       "match_id": "1567",
-      "stream_url": "https://sportzfy.my.id/live/aston-villa-vs-arsenal-1567",
-      "last_updated": "2026-09-02T14:39:36.623829"
+      "server_urls": [],
+      "last_updated": "2026-09-02T14:45:11.451282"
     }
   ]
 }
