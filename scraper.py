@@ -20,6 +20,8 @@ class SportzfyScraper:
             'User-Agent': 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.6099.230 Mobile Safari/537.36',
             'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
             'Accept-Language': 'en-US,en;q=0.5',
+            'Cache-Control': 'no-cache, no-store, must-revalidate',
+            'Pragma': 'no-cache',
         }
         self.session = requests.Session()
         self.session.headers.update(self.headers)
@@ -82,55 +84,61 @@ class SportzfyScraper:
         # Get status from data attribute
         status = card.get('data-status')
         
-        # If it's already live, keep it as live
+        # If it's already live, check if it's actually live
         if status == 'live':
-            return 'live'
+            # Check if there's a live runtime box with actual time
+            live_runtime = card.find('div', class_='header-live-boxes-container')
+            if live_runtime:
+                live_boxes = live_runtime.find_all('div', class_='header-cd-box')
+                if len(live_boxes) >= 3:
+                    hours = live_boxes[0].find('div', class_='header-cd-num')
+                    mins = live_boxes[1].find('div', class_='header-cd-num')
+                    secs = live_boxes[2].find('div', class_='header-cd-num')
+                    if hours and mins and secs:
+                        h = hours.get_text(strip=True)
+                        m = mins.get_text(strip=True)
+                        s = secs.get_text(strip=True)
+                        # If all zeros and match time is old, it's not actually live
+                        if h == '00' and m == '00' and s == '00':
+                            if match_date and match_time:
+                                try:
+                                    match_datetime_str = f"{match_date} {match_time}"
+                                    match_datetime_str = re.sub(r'(\d+)(st|nd|rd|th)', r'\1', match_datetime_str)
+                                    match_datetime = datetime.strptime(match_datetime_str, "%d %b, %Y %I:%M %p")
+                                    now = datetime.now()
+                                    # If match was more than 1 hour ago, it's completed
+                                    if now - match_datetime > timedelta(hours=1):
+                                        return 'completed'
+                                except:
+                                    pass
+                return 'live'
+            else:
+                # No live runtime box, might be stale
+                return self.check_status_by_date(match_date, match_time)
         
         # For upcoming/completed, check the date and time
+        return self.check_status_by_date(match_date, match_time)
+
+    def check_status_by_date(self, match_date, match_time):
+        """Check status based on date and time"""
         if match_date and match_time:
             try:
-                # Parse the match date/time
                 match_datetime_str = f"{match_date} {match_time}"
-                # Remove ordinal suffixes like 'nd', 'rd', 'th'
                 match_datetime_str = re.sub(r'(\d+)(st|nd|rd|th)', r'\1', match_datetime_str)
-                # Parse the datetime
                 match_datetime = datetime.strptime(match_datetime_str, "%d %b, %Y %I:%M %p")
                 now = datetime.now()
                 
-                # If match time is in the past (more than 4 hours ago), it's completed
-                if now - match_datetime > timedelta(hours=4):
+                # If match time is in the past (more than 1 hour ago), it's completed
+                if now - match_datetime > timedelta(hours=1):
                     return 'completed'
-                # If match time is in the future, it's upcoming
                 elif now < match_datetime:
                     return 'upcoming'
-                # If match is within the last 4 hours, it might still be live
                 else:
-                    # Check if there are server URLs (if we fetched them)
                     return 'live'
             except:
                 pass
         
-        # If status is 'upcoming' but we have server URLs, it might actually be live
-        if status == 'upcoming':
-            # Check if there's a live runtime box (indicates match has started)
-            live_runtime = card.find('div', class_='header-live-boxes-container')
-            if live_runtime and live_runtime.find('div', class_='header-boxes-row'):
-                return 'live'
-        
-        # Check for completed indicators in the card
-        if 'COMPLETED' in str(card) or 'ended-tag' in str(card) or 'Completed' in str(card):
-            return 'completed'
-        
-        # Check for live indicators
-        if 'LIVE' in str(card) or 'live-tag' in str(card) or 'Stream is active' in str(card):
-            return 'live'
-        
-        # If status is 'upcoming' and no live indicators, keep as upcoming
-        if status == 'upcoming':
-            return 'upcoming'
-        
-        # Default to the status from data attribute
-        return status
+        return 'unknown'
 
     def extract_match_data(self, html):
         """Extract match information from HTML - Only RECENT and LIVE matches"""
@@ -145,16 +153,29 @@ class SportzfyScraper:
         
         print(f"📊 Found {len(match_cards)} total match cards")
         
-        # Filter: Only include matches that are 'live' (RECENT tab shows live matches)
-        # Also include 'upcoming' matches for the UPCOMING tab
+        # Filter: Only include matches that are actually 'live' or 'upcoming'
         filtered_cards = []
         for card in match_cards:
             status = card.get('data-status')
-            # RECENT tab shows live matches, UPCOMING tab shows upcoming matches
+            # Check if match is truly live or upcoming
             if status == 'live' or status == 'upcoming':
+                # Double-check with date/time
+                date_elem = card.find('span', class_='meta-item')
+                if date_elem:
+                    date_text = date_elem.get_text(strip=True)
+                    date_match = re.search(r'(\d{1,2}\s+[A-Za-z]{3,}\s*,\s*\d{4})', date_text)
+                    time_match = re.search(r'(\d{1,2}:\d{2}\s*(?:AM|PM))', date_text, re.IGNORECASE)
+                    if date_match and time_match:
+                        match_date = date_match.group(1).strip()
+                        match_time = time_match.group(1).strip()
+                        actual_status = self.check_status_by_date(match_date, match_time)
+                        if actual_status == 'live' or actual_status == 'upcoming':
+                            filtered_cards.append(card)
+                            continue
+                # If no date/time found, keep it if status is live/upcoming
                 filtered_cards.append(card)
         
-        print(f"📊 Found {len(filtered_cards)} recent/live/upcoming matches")
+        print(f"📊 Found {len(filtered_cards)} actual live/upcoming matches")
         
         for card in filtered_cards:
             match_data = self.parse_match_card(card)
@@ -200,6 +221,13 @@ class SportzfyScraper:
             if link:
                 match_data['title'] = link.get_text(strip=True)
                 match_data['teams'] = match_data['title']
+                # Get match URL
+                href = link.get('href')
+                if href and href != 'javascript:void(0)':
+                    if href.startswith('/'):
+                        match_data['match_url'] = self.base_url + href
+                    else:
+                        match_data['match_url'] = href
         
         # Extract thumbnail
         thumb_box = card.find('a', class_='thumb-box')
@@ -243,8 +271,15 @@ class SportzfyScraper:
                 if time_match:
                     match_data['time'] = time_match.group(1).strip()
         
+        # Determine actual status
+        match_data['status'] = self.determine_match_status(card, match_data.get('date'), match_data.get('time'))
+        
+        # If not live or upcoming, skip further processing
+        if match_data['status'] not in ['live', 'upcoming']:
+            return match_data
+        
         # Extract runtime for live matches
-        if card.get('data-status') == 'live':
+        if match_data['status'] == 'live':
             live_boxes = card.find_all('div', class_='header-cd-box')
             if len(live_boxes) >= 3:
                 hours = live_boxes[0].find('div', class_='header-cd-num')
@@ -254,10 +289,11 @@ class SportzfyScraper:
                     h = hours.get_text(strip=True)
                     m = mins.get_text(strip=True)
                     s = secs.get_text(strip=True)
-                    match_data['runtime'] = f"{h}h {m}m {s}s"
+                    if not (h == '00' and m == '00' and s == '00'):
+                        match_data['runtime'] = f"{h}h {m}m {s}s"
         
         # For upcoming matches, get countdown
-        if card.get('data-status') == 'upcoming':
+        if match_data['status'] == 'upcoming':
             overlay = card.find('div', class_='thumb-countdown-overlay')
             if overlay:
                 cd_boxes = overlay.find_all('div', class_='cd-box')
@@ -270,16 +306,6 @@ class SportzfyScraper:
                         m = mins.get_text(strip=True)
                         s = secs.get_text(strip=True)
                         match_data['runtime'] = f"{h}h {m}m {s}s"
-        
-        # Determine actual status (this fixes the "completed showing as live" issue)
-        match_data['status'] = self.determine_match_status(card, match_data.get('date'), match_data.get('time'))
-        
-        # Construct match URL
-        if match_data['title'] and match_data['match_id']:
-            match_data['match_url'] = self.construct_match_url(
-                match_data['title'], 
-                match_data['match_id']
-            )
         
         # If match is live, fetch server URLs
         if match_data['status'] == 'live' and match_data.get('match_url'):
