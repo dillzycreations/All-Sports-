@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-Sportzfy Cricket Scraper - With Server URL Extraction
-Scrapes match data and extracts live server URLs from match pages
+Sportzfy Cricket Scraper - Only RECENT/LIVE and UPCOMING matches
+Auto-removes matches that are no longer live or upcoming
 """
 
 import requests
@@ -27,7 +27,6 @@ class SportzfyScraper:
     def fetch_page(self, url):
         """Fetch a page"""
         try:
-            # Ensure URL is absolute
             if url.startswith('/'):
                 url = self.base_url + url
             elif not url.startswith('http'):
@@ -84,13 +83,13 @@ class SportzfyScraper:
         return server_urls
 
     def check_if_truly_live(self, card):
-        """Check if a match is truly live by checking the runtime or status indicators"""
-        # Method 1: Check if there's a live-score-ticker with "Stream is active"
+        """Check if a match is truly live"""
+        # Check if there's a live-score-ticker with "Stream is active"
         live_ticker = card.find('div', class_='live-score-ticker')
         if live_ticker and 'Stream is active' in str(live_ticker):
             return True
         
-        # Method 2: Check if there's a live runtime box with actual time
+        # Check if there's a live runtime box with actual time
         live_runtime = card.find('div', class_='header-live-boxes-container')
         if live_runtime:
             live_boxes = live_runtime.find_all('div', class_='header-cd-box')
@@ -102,19 +101,13 @@ class SportzfyScraper:
                     h = hours.get_text(strip=True)
                     m = mins.get_text(strip=True)
                     s = secs.get_text(strip=True)
-                    # If any time value is not "00", it's likely live
                     if h != '00' or m != '00' or s != '00':
                         return True
-        
-        # Method 3: Check for live tag
-        status_tag = card.find('span', class_='tag-status')
-        if status_tag and 'live-tag' in str(status_tag):
-            return True
         
         return False
 
     def extract_match_data(self, html):
-        """Extract match information from HTML - Includes LIVE and UPCOMING matches"""
+        """Extract match information - Only RECENT/LIVE and UPCOMING matches"""
         soup = BeautifulSoup(html, 'html.parser')
         matches = []
         
@@ -128,23 +121,16 @@ class SportzfyScraper:
         
         live_matches = []
         upcoming_matches = []
-        stale_count = 0
         
         for card in match_cards:
             status = card.get('data-status')
             
             if status == 'live':
-                # Check if it's truly live
                 if self.check_if_truly_live(card):
                     live_matches.append(card)
                     title_div = card.find('div', class_='match-main-title')
                     title = title_div.get_text(strip=True) if title_div else 'Unknown'
-                    print(f"✅ Found truly live match: {title}")
-                else:
-                    stale_count += 1
-                    title_div = card.find('div', class_='match-main-title')
-                    title = title_div.get_text(strip=True) if title_div else 'Unknown'
-                    print(f"⚠️ Stale live match detected (will skip): {title}")
+                    print(f"✅ Found live match: {title}")
             
             elif status == 'upcoming':
                 upcoming_matches.append(card)
@@ -152,16 +138,15 @@ class SportzfyScraper:
                 title = title_div.get_text(strip=True) if title_div else 'Unknown'
                 print(f"📅 Found upcoming match: {title}")
         
-        print(f"📊 Found {len(live_matches)} truly live matches ({stale_count} stale skipped)")
-        print(f"📊 Found {len(upcoming_matches)} upcoming matches")
+        print(f"📊 Found {len(live_matches)} live matches, {len(upcoming_matches)} upcoming matches")
         
-        # Process live matches first
+        # Process live matches
         for card in live_matches:
             match_data = self.parse_match_card(card)
             if match_data:
                 matches.append(match_data)
         
-        # Then process upcoming matches
+        # Process upcoming matches
         for card in upcoming_matches:
             match_data = self.parse_match_card(card)
             if match_data:
@@ -296,81 +281,12 @@ class SportzfyScraper:
                 else:
                     print(f"⚠️ No server URLs found")
         
-        # Check if we have at least some data
-        if match_data['title'] or match_data['league'] or match_data['match_id']:
-            return match_data
-        
-        return None
-
-    def construct_match_url(self, title, match_id):
-        """Construct match URL from title and ID"""
-        if not title or not match_id:
-            return None
-        
-        url_title = title.lower()
-        url_title = re.sub(r'[^a-z0-9\s-]', '', url_title)
-        url_title = re.sub(r'\s+', '-', url_title)
-        url_title = re.sub(r'-+', '-', url_title)
-        
-        return f"{self.base_url}/live/{url_title}-{match_id}"
-
-    def load_existing_data(self):
-        """Load existing matches.json if it exists"""
-        json_file = 'data/matches.json'
-        if os.path.exists(json_file):
-            try:
-                with open(json_file, 'r', encoding='utf-8') as f:
-                    data = json.load(f)
-                    print(f"📂 Loaded existing data with {data.get('total_matches', 0)} matches")
-                    return data
-            except Exception as e:
-                print(f"⚠️ Could not load existing data: {e}")
-        return None
-
-    def update_data(self, existing_data, new_matches):
-        """Update existing data with new matches"""
-        if not existing_data:
-            return {
-                'timestamp': datetime.now().isoformat(),
-                'total_matches': len(new_matches),
-                'live_count': sum(1 for m in new_matches if m.get('status') == 'live'),
-                'upcoming_count': sum(1 for m in new_matches if m.get('status') == 'upcoming'),
-                'completed_count': sum(1 for m in new_matches if m.get('status') == 'completed'),
-                'matches': new_matches
-            }
-        
-        # Create lookup by match_id
-        existing_matches = {m.get('match_id'): m for m in existing_data.get('matches', []) if m.get('match_id')}
-        
-        # Update existing matches with new data
-        for new_match in new_matches:
-            match_id = new_match.get('match_id')
-            if match_id and match_id in existing_matches:
-                # Preserve server_urls if new one doesn't have them
-                if not new_match.get('server_urls') and existing_matches[match_id].get('server_urls'):
-                    new_match['server_urls'] = existing_matches[match_id]['server_urls']
-                # Update timestamp
-                new_match['last_updated'] = datetime.now().isoformat()
-                existing_matches[match_id] = new_match
-            elif match_id:
-                existing_matches[match_id] = new_match
-        
-        # Convert back to list
-        updated_matches = list(existing_matches.values())
-        
-        return {
-            'timestamp': datetime.now().isoformat(),
-            'total_matches': len(updated_matches),
-            'live_count': sum(1 for m in updated_matches if m.get('status') == 'live'),
-            'upcoming_count': sum(1 for m in updated_matches if m.get('status') == 'upcoming'),
-            'completed_count': sum(1 for m in updated_matches if m.get('status') == 'completed'),
-            'matches': updated_matches
-        }
+        return match_data
 
     def scrape(self):
-        """Main scraping method"""
+        """Main scraping method - REPLACES old data with new matches"""
         print("\n" + "="*60)
-        print("🏏 SPORTZFY SCRAPER - LIVE & UPCOMING MATCHES")
+        print("🏏 SPORTZFY SCRAPER - LIVE & UPCOMING MATCHES ONLY")
         print("="*60 + "\n")
         
         html = self.fetch_page(self.base_url)
@@ -380,20 +296,25 @@ class SportzfyScraper:
         
         os.makedirs('data', exist_ok=True)
         
-        with open('data/sportzfy_raw.html', 'w', encoding='utf-8') as f:
-            f.write(html)
-        
         print("\n🔍 Extracting match data...")
         matches = self.extract_match_data(html)
         
+        # ALWAYS replace old data with new matches (auto-removes old ones)
         if matches:
             live_count = sum(1 for m in matches if m.get('status') == 'live')
             upcoming_count = sum(1 for m in matches if m.get('status') == 'upcoming')
             
             print(f"\n✅ Found {len(matches)} match(es) ({live_count} live, {upcoming_count} upcoming)\n")
             
-            existing_data = self.load_existing_data()
-            updated_data = self.update_data(existing_data, matches)
+            # Create new data (REPLACES old completely)
+            updated_data = {
+                'timestamp': datetime.now().isoformat(),
+                'total_matches': len(matches),
+                'live_count': live_count,
+                'upcoming_count': upcoming_count,
+                'completed_count': 0,
+                'matches': matches
+            }
             
             for i, match in enumerate(updated_data['matches'], 1):
                 print(f"📌 MATCH #{i}")
@@ -412,7 +333,20 @@ class SportzfyScraper:
             print(f"📊 Total matches: {updated_data['total_matches']}")
             print(f"📊 Live: {updated_data['live_count']}, Upcoming: {updated_data['upcoming_count']}")
         else:
-            print("⚠️ No matches found.")
+            print("⚠️ No live or upcoming matches found.")
+            # Save empty data (removes all old matches)
+            empty_data = {
+                'timestamp': datetime.now().isoformat(),
+                'total_matches': 0,
+                'live_count': 0,
+                'upcoming_count': 0,
+                'completed_count': 0,
+                'matches': []
+            }
+            json_file = 'data/matches.json'
+            with open(json_file, 'w', encoding='utf-8') as f:
+                json.dump(empty_data, f, indent=2, ensure_ascii=False)
+            print(f"💾 Empty JSON saved to: {json_file}")
         
         return matches
 
@@ -424,7 +358,7 @@ def main():
         print(f"\n✅ Scraping complete! Found {len(matches)} matches.")
         print("📁 Data updated in 'data/matches.json'")
     else:
-        print("\n❌ No matches found.")
+        print("\n❌ No live or upcoming matches found.")
 
 if __name__ == "__main__":
     try:
