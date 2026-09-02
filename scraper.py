@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 """
-Sportzfy Cricket Scraper - With Stream URL Extraction
-Scrapes match data and extracts live stream URLs
+Sportzfy Cricket Scraper
+Scrapes match data and constructs stream URLs directly
 """
 
 import requests
@@ -10,7 +10,6 @@ import json
 import re
 from datetime import datetime
 import os
-import time
 
 class SportzfyScraper:
     def __init__(self):
@@ -19,18 +18,15 @@ class SportzfyScraper:
             'User-Agent': 'Mozilla/5.0 (Linux; Android 10; K) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.6099.230 Mobile Safari/537.36',
             'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
             'Accept-Language': 'en-US,en;q=0.5',
-            'Referer': 'https://sportzfy.my.id/'
         }
         self.session = requests.Session()
         self.session.headers.update(self.headers)
         
-    def fetch_page(self, url=None):
-        """Fetch a page"""
-        if url is None:
-            url = self.base_url
+    def fetch_page(self):
+        """Fetch the main page"""
         try:
-            print(f"📡 Fetching: {url}")
-            response = self.session.get(url, timeout=15)
+            print(f"📡 Fetching: {self.base_url}")
+            response = self.session.get(self.base_url, timeout=15)
             response.raise_for_status()
             print(f"✅ Status: {response.status_code}")
             return response.text
@@ -38,101 +34,19 @@ class SportzfyScraper:
             print(f"❌ Error: {e}")
             return None
 
-    def extract_stream_url(self, html):
-        """Extract stream URL from match page"""
-        soup = BeautifulSoup(html, 'html.parser')
-        stream_url = None
-        
-        # Method 1: Look for iframe src
-        iframe = soup.find('iframe')
-        if iframe and iframe.get('src'):
-            stream_url = iframe.get('src')
-            if stream_url.startswith('//'):
-                stream_url = 'https:' + stream_url
-            print(f"🎥 Found stream URL in iframe: {stream_url[:50]}...")
-            return stream_url
-        
-        # Method 2: Look for video source
-        video = soup.find('video')
-        if video:
-            source = video.find('source')
-            if source and source.get('src'):
-                stream_url = source.get('src')
-                print(f"🎥 Found stream URL in video source: {stream_url[:50]}...")
-                return stream_url
-        
-        # Method 3: Look for data-stream attribute
-        stream_elem = soup.find(attrs={'data-stream': True})
-        if stream_elem:
-            stream_url = stream_elem.get('data-stream')
-            print(f"🎥 Found stream URL in data-stream: {stream_url[:50]}...")
-            return stream_url
-        
-        # Method 4: Search for stream URL in scripts
-        scripts = soup.find_all('script')
-        for script in scripts:
-            if script.string:
-                # Look for stream URL patterns
-                patterns = [
-                    r'["\'](https?://[^"\']+\.m3u8[^"\']*)["\']',
-                    r'["\'](https?://[^"\']+\.mp4[^"\']*)["\']',
-                    r'["\'](https?://[^"\']+stream[^"\']+)["\']',
-                    r'streamUrl\s*[:=]\s*["\']([^"\']+)["\']',
-                    r'videoSrc\s*[:=]\s*["\']([^"\']+)["\']',
-                    r'src\s*[:=]\s*["\']([^"\']+\.m3u8[^"\']+)["\']',
-                ]
-                for pattern in patterns:
-                    match = re.search(pattern, script.string)
-                    if match:
-                        stream_url = match.group(1)
-                        if stream_url.startswith('//'):
-                            stream_url = 'https:' + stream_url
-                        print(f"🎥 Found stream URL in script: {stream_url[:50]}...")
-                        return stream_url
-        
-        # Method 5: Look for embedded player URL
-        player_div = soup.find('div', class_=re.compile(r'player|video|stream'))
-        if player_div:
-            # Look for any URL in onclick or data attributes
-            for attr in ['onclick', 'data-url', 'data-src', 'data-href']:
-                if player_div.get(attr):
-                    url_match = re.search(r'(https?://[^\s"\']+)', player_div.get(attr))
-                    if url_match:
-                        stream_url = url_match.group(1)
-                        print(f"🎥 Found stream URL in player div: {stream_url[:50]}...")
-                        return stream_url
-        
-        # Method 6: Check for player configuration
-        player_config = re.search(r'player\s*[:=]\s*\{[^}]*src\s*[:=]\s*["\']([^"\']+)["\']', str(soup), re.IGNORECASE)
-        if player_config:
-            stream_url = player_config.group(1)
-            print(f"🎥 Found stream URL in player config: {stream_url[:50]}...")
-            return stream_url
-        
-        print("⚠️ No stream URL found in page")
-        return None
-
-    def get_match_stream(self, match_url):
-        """Get stream URL for a specific match"""
-        if not match_url:
+    def construct_match_url(self, title, match_id):
+        """Construct match URL from title and ID"""
+        if not title or not match_id:
             return None
         
-        print(f"\n🔍 Fetching stream for: {match_url}")
-        html = self.fetch_page(match_url)
-        if not html:
-            return None
+        # Convert title to URL-friendly format
+        # Example: "Belfast Wolves vs Edinburgh Castle Rockers" -> "belfast-wolves-vs-edinburgh-castle-rockers"
+        url_title = title.lower()
+        url_title = re.sub(r'[^a-z0-9\s-]', '', url_title)  # Remove special chars
+        url_title = re.sub(r'\s+', '-', url_title)  # Replace spaces with hyphens
+        url_title = re.sub(r'-+', '-', url_title)  # Remove multiple hyphens
         
-        # Save match page HTML for debugging
-        os.makedirs('data', exist_ok=True)
-        match_id = re.search(r'-(\d+)$', match_url)
-        if match_id:
-            filename = f"data/match_{match_id.group(1)}.html"
-            with open(filename, 'w', encoding='utf-8') as f:
-                f.write(html)
-            print(f"💾 Match page saved to: {filename}")
-        
-        stream_url = self.extract_stream_url(html)
-        return stream_url
+        return f"{self.base_url}/live/{url_title}-{match_id}"
 
     def extract_match_data(self, html):
         """Extract match information from HTML"""
@@ -151,15 +65,6 @@ class SportzfyScraper:
         for card in match_cards:
             match_data = self.parse_match_card(card)
             if match_data:
-                # Get stream URL for this match
-                if match_data.get('match_url'):
-                    stream_url = self.get_match_stream(match_data['match_url'])
-                    if stream_url:
-                        match_data['stream_url'] = stream_url
-                        print(f"✅ Stream URL found for {match_data['title'][:30]}...")
-                    else:
-                        match_data['stream_url'] = None
-                        print(f"⚠️ No stream URL for {match_data['title'][:30]}...")
                 matches.append(match_data)
         
         return matches
@@ -202,12 +107,6 @@ class SportzfyScraper:
             if link:
                 match_data['title'] = link.get_text(strip=True)
                 match_data['teams'] = match_data['title']
-                href = link.get('href')
-                if href and href != 'javascript:void(0)':
-                    if href.startswith('/'):
-                        match_data['match_url'] = self.base_url + href
-                    elif href.startswith('http'):
-                        match_data['match_url'] = href
         
         # Extract thumbnail
         thumb_box = card.find('a', class_='thumb-box')
@@ -279,6 +178,15 @@ class SportzfyScraper:
                         s = secs.get_text(strip=True)
                         match_data['runtime'] = f"{h}h {m}m {s}s"
         
+        # Construct match URL from title and ID
+        if match_data['title'] and match_data['match_id']:
+            match_data['match_url'] = self.construct_match_url(
+                match_data['title'], 
+                match_data['match_id']
+            )
+            # Stream URL is the same as match URL (or could be different, but we'll use match URL)
+            match_data['stream_url'] = match_data['match_url']
+        
         # Check if we have at least some data
         if match_data['title'] or match_data['league'] or match_data['match_id']:
             return match_data
@@ -294,8 +202,8 @@ class SportzfyScraper:
                     data = json.load(f)
                     print(f"📂 Loaded existing data with {data.get('total_matches', 0)} matches")
                     return data
-            except:
-                print("⚠️ Could not load existing data, creating new")
+            except Exception as e:
+                print(f"⚠️ Could not load existing data: {e}")
         return None
 
     def update_data(self, existing_data, new_matches):
@@ -341,7 +249,7 @@ class SportzfyScraper:
     def scrape(self):
         """Main scraping method"""
         print("\n" + "="*60)
-        print("🏏 SPORTZFY SCRAPER - WITH STREAM URLS")
+        print("🏏 SPORTZFY SCRAPER")
         print("="*60 + "\n")
         
         # Fetch main page
@@ -353,10 +261,9 @@ class SportzfyScraper:
         # Create data directory
         os.makedirs('data', exist_ok=True)
         
-        # Save raw HTML
+        # Save raw HTML (optional)
         with open('data/sportzfy_raw.html', 'w', encoding='utf-8') as f:
             f.write(html)
-        print("💾 Raw HTML saved to: data/sportzfy_raw.html")
         
         # Extract matches
         print("\n🔍 Extracting match data...")
@@ -376,16 +283,16 @@ class SportzfyScraper:
                 print(f"📌 MATCH #{i}")
                 print(f"   🏷️  Title: {match.get('title', 'N/A')}")
                 print(f"   📡  Status: {match.get('status', 'N/A').upper() if match.get('status') else 'N/A'}")
-                print(f"   🎥  Stream: {match.get('stream_url', 'Not available')[:60] + '...' if match.get('stream_url') else 'Not available'}")
+                print(f"   🔗  URL: {match.get('match_url', 'N/A')}")
                 print(f"   👁️  Viewers: {match.get('viewers', 'N/A')} {match.get('viewers_type', '')}")
                 print(f"   🆔  Match ID: {match.get('match_id', 'N/A')}")
                 print("-"*50)
             
-            # Save to same file
+            # Save to same file (overwrite)
             json_file = 'data/matches.json'
             with open(json_file, 'w', encoding='utf-8') as f:
                 json.dump(updated_data, f, indent=2, ensure_ascii=False)
-            print(f"💾 Updated JSON saved to: {json_file}")
+            print(f"\n💾 Updated JSON saved to: {json_file}")
             print(f"📊 Total matches: {updated_data['total_matches']}")
             print(f"📊 Live: {updated_data['live_count']}, Upcoming: {updated_data['upcoming_count']}, Completed: {updated_data['completed_count']}")
         else:
