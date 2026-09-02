@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-02T19:36:38.094855",
+  "timestamp": "2026-09-02T19:41:47.139100",
   "total_matches": 16,
   "live_count": 11,
   "upcoming_count": 4,
@@ -12,7 +12,7 @@
       "sport": "football",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "11",
+      "viewers": "12",
       "viewers_type": "Watching",
       "servers": "1",
       "date": "03 Sep, 2026",
@@ -23,7 +23,7 @@
       "server_urls": [
         "https://fawa.duckdns.org/api/proxy?url=http%3A%2F%2F193.47.62.44%2Fhls%2Frooo.m3u8&headers=%7B%22Referer%22%3A%22http%3A%2F%2Fwww.fawanews.sc%2F%22%7D"
       ],
-      "last_updated": "2026-09-02T19:36:38.094814"
+      "last_updated": "2026-09-02T19:41:47.139068"
     },
     {
       "title": "Osnabruck vs Bayern",
@@ -32,7 +32,7 @@
       "sport": "cricket",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "21",
+      "viewers": "22",
       "viewers_type": "Watching",
       "servers": "2",
       "date": "03 Sep, 2026",
@@ -44,7 +44,7 @@
         "https://fawa.duckdns.org/api/proxy?url=http%3A%2F%2F193.47.62.41%2Fhls%2FQTTTAAAQQQQQQQ.m3u8&headers=%7B%22Referer%22%3A%22http%3A%2F%2Fwww.fawanews.sc%2F%22%7D",
         "https://fawa.duckdns.org/api/proxy?url=https%3A%2F%2Fwww.rtmpcdn.com%2Flive%2Ff38e999b-fb18-4b5d-bde6-4edf50bc0664.m3u8&headers=%7B%22Referer%22%3A%22http%3A%2F%2Fwww.fawanews.sc%2F%22%7D"
       ],
-      "last_updated": "2026-09-02T19:36:38.094825"
+      "last_updated": "2026-09-02T19:41:47.139079"
     },
     {
       "title": "Sqaush London Classic",
@@ -53,7 +53,7 @@
       "sport": "others",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "9",
+      "viewers": "10",
       "viewers_type": "Watching",
       "servers": "1",
       "date": "03 Sep, 2026",
@@ -64,7 +64,7 @@
       "server_urls": [
         "https://ml-pull-hwc.myco.io/PSA/hls/index.m3u8"
       ],
-      "last_updated": "2026-09-02T19:36:38.094827"
+      "last_updated": "2026-09-02T19:41:47.139081"
     },
     {
       "title": "Men's & Women's Singles vs Men's & Women's Singles",
@@ -73,7 +73,7 @@
       "sport": "others",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "10",
+      "viewers": "11",
       "viewers_type": "Watching",
       "servers": "2",
       "date": "03 Sep, 2026",
@@ -85,7 +85,7 @@
         "https://live.talkoraai.com/match/hls?t=EHBsUdf3dcu6y1itiUTEhEm13XVI8md1Oy5yxy-99aEvj1Jhz26Fo-mLOVy7DXIqi28p5Kf-8XxOCOwf5oNQutSn7o2FC0SS1y0TmK1fJdukf28dCSDi_zhm-U9nnRMcJgDCWdkx-tKATJSlKAsaNjOSxjLgFBGOgVhHpFG61Qx6ho4LTFyo0d6PU_HEwcf9r9TwZmoT8cYfkyV8MZxqFrfPl0BIyb_jphlPFLYsPQtap0H0pCRvtMfrmC6ZL5qwNn3RXd6GoBzzYBXYlslb65AOF-XeSYrjOxY",
         "https://live.talkoraai.com/match/seg?t=LM5699OfTjWwsytWUuJkXfe6Hcom6B7UioUXamnqh7LMC4fu6WXycnbll1kEP7e0N3pW42pgY7uG2r-sHc7WSyqm9Nw5S0CkdE-MNMheZ1wrpJNcGHkAqoiQvMKTMutvxpHFt1BJxi2JaRWvDDzsIRiaiypz49OCDEVra8AD-zLoJZPXnKtuMJKcnXWHhqyjvvijhei8crinrU3k_K_dt6i6GXERyfoP2xuA9dR-VvoGDdUSQQtAou0rdffnDol1I8sSqjz9MwWFLaOXciP2aVlARKX1ZzTols9Xz6LHxgfm-Q"
       ],
-      "last_updated": "2026-09-02T19:36:38.094838"
+      "last_updated": "2026-09-02T19:41:47.139091"
     },
     {
       "title": "West Bromwich vs Charlton",
@@ -94,7 +94,7 @@
       "sport": "football",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "10",
+      "viewers": "11",
       "viewers_type": "Watching",
       "servers": "1",
       "date": "03 Sep, 2026",
@@ -105,7 +105,7 @@
       "server_urls": [
         "https://fawa.duckdns.org/api/proxy?url=http%3A%2F%2F193.47.62.59%2Fhls%2FIIIIAA.m3u8&headers=%7B%22Referer%22%3A%22http%3A%2F%2Fwww.fawanews.sc%2F%22%7D"
       ],
-      "last_updated": "2026-09-02T19:36:38.094840"
+      "last_updated": "2026-09-02T19:41:47.139092"
     },
     {
       "title": "Millwall vs Wrexham",
@@ -114,7 +114,7 @@
       "sport": "football",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "11",
+      "viewers": "12",
       "viewers_type": "Watching",
       "servers": "1",
       "date": "03 Sep, 2026",
@@ -125,7 +125,7 @@
       "server_urls": [
         "https://fawa.duckdns.org/api/proxy?url=http%3A%2F%2F193.47.62.44%2Fhls%2FIIII.m3u8&headers=%7B%22Referer%22%3A%22http%3A%2F%2Fwww.fawanews.sc%2F%22%7D"
       ],
-      "last_updated": "2026-09-02T19:36:38.094842"
+      "last_updated": "2026-09-02T19:41:47.139093"
     },
     {
       "title": "Wigan vs MK Dons",
@@ -134,7 +134,7 @@
       "sport": "football",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "15",
+      "viewers": "16",
       "viewers_type": "Watching",
       "servers": "1",
       "date": "03 Sep, 2026",
@@ -145,7 +145,7 @@
       "server_urls": [
         "https://fawa.duckdns.org/api/proxy?url=http%3A%2F%2F193.47.62.44%2Fhls%2FroooFFF.m3u8&headers=%7B%22Referer%22%3A%22http%3A%2F%2Fwww.fawanews.sc%2F%22%7D"
       ],
-      "last_updated": "2026-09-02T19:36:38.094844"
+      "last_updated": "2026-09-02T19:41:47.139095"
     },
     {
       "title": "Luton vs Stockport County",
@@ -154,7 +154,7 @@
       "sport": "football",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "13",
+      "viewers": "14",
       "viewers_type": "Watching",
       "servers": "1",
       "date": "03 Sep, 2026",
@@ -165,7 +165,7 @@
       "server_urls": [
         "https://fawa.duckdns.org/api/proxy?url=http%3A%2F%2F193.47.62.44%2Fhls%2FroooFF.m3u8&headers=%7B%22Referer%22%3A%22http%3A%2F%2Fwww.fawanews.sc%2F%22%7D"
       ],
-      "last_updated": "2026-09-02T19:36:38.094846"
+      "last_updated": "2026-09-02T19:41:47.139096"
     },
     {
       "title": "Burton vs AFC Wimbledon",
@@ -174,7 +174,7 @@
       "sport": "football",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "11",
+      "viewers": "12",
       "viewers_type": "Watching",
       "servers": "1",
       "date": "03 Sep, 2026",
@@ -185,7 +185,7 @@
       "server_urls": [
         "https://fawa.duckdns.org/api/proxy?url=http%3A%2F%2F193.47.62.44%2Fhls%2FroooF.m3u8&headers=%7B%22Referer%22%3A%22http%3A%2F%2Fwww.fawanews.sc%2F%22%7D"
       ],
-      "last_updated": "2026-09-02T19:36:38.094848"
+      "last_updated": "2026-09-02T19:41:47.139097"
     },
     {
       "title": "QPR vs Cardiff City",
@@ -194,7 +194,7 @@
       "sport": "football",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "8",
+      "viewers": "9",
       "viewers_type": "Watching",
       "servers": "1",
       "date": "03 Sep, 2026",
@@ -205,7 +205,7 @@
       "server_urls": [
         "https://fawa.duckdns.org/api/proxy?url=http%3A%2F%2F193.47.62.59%2Fhls%2FIIIIA.m3u8&headers=%7B%22Referer%22%3A%22http%3A%2F%2Fwww.fawanews.sc%2F%22%7D"
       ],
-      "last_updated": "2026-09-02T19:36:38.094850"
+      "last_updated": "2026-09-02T19:41:47.139098"
     },
     {
       "title": "Reading vs Mansfield",
@@ -214,7 +214,7 @@
       "sport": "football",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "14",
+      "viewers": "15",
       "viewers_type": "Watching",
       "servers": "1",
       "date": "03 Sep, 2026",
@@ -225,7 +225,7 @@
       "server_urls": [
         "https://fawa.duckdns.org/api/proxy?url=http%3A%2F%2F193.47.62.44%2Fhls%2FroooFFFF.m3u8&headers=%7B%22Referer%22%3A%22http%3A%2F%2Fwww.fawanews.sc%2F%22%7D"
       ],
-      "last_updated": "2026-09-02T19:36:38.094852"
+      "last_updated": "2026-09-02T19:41:47.139099"
     },
     {
       "title": "Trinbago Knight Riders vs Antigua and Barbuda Falcons",
@@ -243,7 +243,7 @@
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1788257431540x302.jpg",
       "match_id": "1586",
       "server_urls": [],
-      "last_updated": "2026-09-02T19:36:38.094830"
+      "last_updated": "2026-09-02T19:41:47.139082"
     },
     {
       "title": "India Women vs Hong Kong, China Women",
@@ -261,7 +261,7 @@
       "thumbnail": "https://i.postimg.cc/3N3Nn0tj/b6b7ef01-b10f-45eb-a301-289781bf038b.jpg",
       "match_id": "1583",
       "server_urls": [],
-      "last_updated": "2026-09-02T19:36:38.094831"
+      "last_updated": "2026-09-02T19:41:47.139084"
     },
     {
       "title": "United Arab Emirates Women vs Indonesia Women,",
@@ -279,7 +279,7 @@
       "thumbnail": "https://i.postimg.cc/wBcdFfn8/e7448786-fa2f-42cf-8e8d-0c705a757336.jpg",
       "match_id": "1584",
       "server_urls": [],
-      "last_updated": "2026-09-02T19:36:38.094833"
+      "last_updated": "2026-09-02T19:41:47.139086"
     },
     {
       "title": "India Women vs Pakistan Women",
@@ -297,7 +297,7 @@
       "thumbnail": "https://i.postimg.cc/R0sxj6CR/5eb2cdd1-1ef1-40b6-8d5d-3f7371c563d9.jpg",
       "match_id": "1585",
       "server_urls": [],
-      "last_updated": "2026-09-02T19:36:38.094835"
+      "last_updated": "2026-09-02T19:41:47.139087"
     },
     {
       "title": "England vs Pakistan-3rd Test (Day-1)",
@@ -315,7 +315,7 @@
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787576024540x302.jpg",
       "match_id": "1221",
       "server_urls": [],
-      "last_updated": "2026-09-02T19:36:38.094836"
+      "last_updated": "2026-09-02T19:41:47.139089"
     }
   ]
 }
