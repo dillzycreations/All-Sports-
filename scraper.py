@@ -1,13 +1,14 @@
 #!/usr/bin/env python3
 """
-Sportzfy Cricket Scraper
-Scrapes match data and constructs stream URLs directly
+Sportzfy Cricket Scraper - With Server URL Extraction
+Scrapes match data and extracts live server URLs from match pages
 """
 
 import requests
 from bs4 import BeautifulSoup
 import json
 import re
+import base64
 from datetime import datetime
 import os
 
@@ -22,31 +23,64 @@ class SportzfyScraper:
         self.session = requests.Session()
         self.session.headers.update(self.headers)
         
-    def fetch_page(self):
-        """Fetch the main page"""
+    def fetch_page(self, url):
+        """Fetch a page"""
         try:
-            print(f"📡 Fetching: {self.base_url}")
-            response = self.session.get(self.base_url, timeout=15)
+            print(f"📡 Fetching: {url}")
+            response = self.session.get(url, timeout=15)
             response.raise_for_status()
             print(f"✅ Status: {response.status_code}")
             return response.text
         except requests.exceptions.RequestException as e:
-            print(f"❌ Error: {e}")
+            print(f"❌ Error fetching {url}: {e}")
             return None
 
-    def construct_match_url(self, title, match_id):
-        """Construct match URL from title and ID"""
-        if not title or not match_id:
+    def decode_server_url(self, encoded_string):
+        """Decode server URL using Base64 decode → ROT13"""
+        try:
+            # First: Base64 decode
+            base64_decoded = base64.b64decode(encoded_string).decode('utf-8')
+            
+            # Second: ROT13 decode
+            rot13_decoded = base64_decoded.translate(
+                str.maketrans(
+                    'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz',
+                    'NOPQRSTUVWXYZABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz'
+                )
+            )
+            return rot13_decoded
+        except Exception as e:
+            print(f"⚠️ Error decoding URL: {e}")
             return None
+
+    def extract_server_urls(self, html):
+        """Extract server URLs from match page"""
+        soup = BeautifulSoup(html, 'html.parser')
+        server_urls = []
         
-        # Convert title to URL-friendly format
-        # Example: "Belfast Wolves vs Edinburgh Castle Rockers" -> "belfast-wolves-vs-edinburgh-castle-rockers"
-        url_title = title.lower()
-        url_title = re.sub(r'[^a-z0-9\s-]', '', url_title)  # Remove special chars
-        url_title = re.sub(r'\s+', '-', url_title)  # Replace spaces with hyphens
-        url_title = re.sub(r'-+', '-', url_title)  # Remove multiple hyphens
+        # Find the encoded server list in JavaScript
+        scripts = soup.find_all('script')
+        for script in scripts:
+            if script.string:
+                # Look for encServerList array
+                match = re.search(r'const\s+encServerList\s*=\s*\[([^\]]+)\]', script.string, re.DOTALL)
+                if match:
+                    # Extract all encoded strings
+                    encoded_strings = re.findall(r'"([^"]+)"', match.group(1))
+                    for enc in encoded_strings:
+                        decoded = self.decode_server_url(enc)
+                        if decoded:
+                            server_urls.append(decoded)
+                    break
         
-        return f"{self.base_url}/live/{url_title}-{match_id}"
+        # Also try to find serverList after decoding
+        if not server_urls:
+            # Look for serverList array
+            match = re.search(r'const\s+serverList\s*=\s*\[([^\]]+)\]', str(soup), re.DOTALL)
+            if match:
+                server_urls = re.findall(r'"([^"]+)"', match.group(1))
+        
+        return server_urls
 
     def extract_match_data(self, html):
         """Extract match information from HTML"""
@@ -86,7 +120,7 @@ class SportzfyScraper:
             'match_url': None,
             'thumbnail': None,
             'match_id': None,
-            'stream_url': None,
+            'server_urls': [],
             'last_updated': datetime.now().isoformat()
         }
         
@@ -178,20 +212,42 @@ class SportzfyScraper:
                         s = secs.get_text(strip=True)
                         match_data['runtime'] = f"{h}h {m}m {s}s"
         
-        # Construct match URL from title and ID
+        # Construct match URL
         if match_data['title'] and match_data['match_id']:
             match_data['match_url'] = self.construct_match_url(
                 match_data['title'], 
                 match_data['match_id']
             )
-            # Stream URL is the same as match URL (or could be different, but we'll use match URL)
-            match_data['stream_url'] = match_data['match_url']
+        
+        # If match is live, fetch server URLs
+        if match_data['status'] == 'live' and match_data.get('match_url'):
+            print(f"\n🔍 Fetching server URLs for: {match_data['title']}")
+            match_html = self.fetch_page(match_data['match_url'])
+            if match_html:
+                server_urls = self.extract_server_urls(match_html)
+                if server_urls:
+                    match_data['server_urls'] = server_urls
+                    print(f"✅ Found {len(server_urls)} server URLs for {match_data['title'][:30]}...")
+                else:
+                    print(f"⚠️ No server URLs found for {match_data['title'][:30]}...")
         
         # Check if we have at least some data
         if match_data['title'] or match_data['league'] or match_data['match_id']:
             return match_data
         
         return None
+
+    def construct_match_url(self, title, match_id):
+        """Construct match URL from title and ID"""
+        if not title or not match_id:
+            return None
+        
+        url_title = title.lower()
+        url_title = re.sub(r'[^a-z0-9\s-]', '', url_title)
+        url_title = re.sub(r'\s+', '-', url_title)
+        url_title = re.sub(r'-+', '-', url_title)
+        
+        return f"{self.base_url}/live/{url_title}-{match_id}"
 
     def load_existing_data(self):
         """Load existing matches.json if it exists"""
@@ -225,9 +281,9 @@ class SportzfyScraper:
         for new_match in new_matches:
             match_id = new_match.get('match_id')
             if match_id and match_id in existing_matches:
-                # Preserve stream_url if it exists and new one doesn't have it
-                if not new_match.get('stream_url') and existing_matches[match_id].get('stream_url'):
-                    new_match['stream_url'] = existing_matches[match_id]['stream_url']
+                # Preserve server_urls if new one doesn't have them
+                if not new_match.get('server_urls') and existing_matches[match_id].get('server_urls'):
+                    new_match['server_urls'] = existing_matches[match_id]['server_urls']
                 # Update timestamp
                 new_match['last_updated'] = datetime.now().isoformat()
                 existing_matches[match_id] = new_match
@@ -249,11 +305,11 @@ class SportzfyScraper:
     def scrape(self):
         """Main scraping method"""
         print("\n" + "="*60)
-        print("🏏 SPORTZFY SCRAPER")
+        print("🏏 SPORTZFY SCRAPER - WITH SERVER URLS")
         print("="*60 + "\n")
         
         # Fetch main page
-        html = self.fetch_page()
+        html = self.fetch_page(self.base_url)
         if not html:
             print("❌ Failed to fetch page")
             return []
@@ -284,6 +340,10 @@ class SportzfyScraper:
                 print(f"   🏷️  Title: {match.get('title', 'N/A')}")
                 print(f"   📡  Status: {match.get('status', 'N/A').upper() if match.get('status') else 'N/A'}")
                 print(f"   🔗  URL: {match.get('match_url', 'N/A')}")
+                print(f"   🎥  Servers: {len(match.get('server_urls', []))} found")
+                if match.get('server_urls'):
+                    for idx, url in enumerate(match['server_urls'][:2]):  # Show first 2
+                        print(f"      Server {idx+1}: {url[:60]}...")
                 print(f"   👁️  Viewers: {match.get('viewers', 'N/A')} {match.get('viewers_type', '')}")
                 print(f"   🆔  Match ID: {match.get('match_id', 'N/A')}")
                 print("-"*50)
