@@ -1,31 +1,10 @@
 {
-  "timestamp": "2026-09-02T22:44:09.696829",
-  "total_matches": 6,
-  "live_count": 1,
+  "timestamp": "2026-09-02T22:47:23.485620",
+  "total_matches": 5,
+  "live_count": 0,
   "upcoming_count": 5,
   "completed_count": 0,
   "matches": [
-    {
-      "title": "Osnabruck vs Bayern",
-      "teams": "Osnabruck vs Bayern",
-      "league": "Bundesliga",
-      "sport": "cricket",
-      "status": "live",
-      "runtime": "00h 00m 00s",
-      "viewers": "65",
-      "viewers_type": "Watching",
-      "servers": "2",
-      "date": "03 Sep, 2026",
-      "time": "12:45 AM",
-      "match_url": "live/osnabruck-vs-bayern-1588",
-      "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4248532_53043_VFL_BAY_FC-WEB.png",
-      "match_id": "1588",
-      "server_urls": [
-        "https://fawa.duckdns.org/api/proxy?url=http%3A%2F%2F193.47.62.41%2Fhls%2FQTTTAAAQQQQQQQ.m3u8&headers=%7B%22Referer%22%3A%22http%3A%2F%2Fwww.fawanews.sc%2F%22%7D",
-        "https://fawa.duckdns.org/api/proxy?url=https%3A%2F%2Fwww.rtmpcdn.com%2Flive%2Ff38e999b-fb18-4b5d-bde6-4edf50bc0664.m3u8&headers=%7B%22Referer%22%3A%22http%3A%2F%2Fwww.fawanews.sc%2F%22%7D"
-      ],
-      "last_updated": "2026-09-02T22:32:50.002312"
-    },
     {
       "title": "Trinbago Knight Riders vs Antigua and Barbuda Falcons",
       "teams": "Trinbago Knight Riders vs Antigua and Barbuda Falcons",
@@ -42,7 +21,7 @@
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1788257431540x302.jpg",
       "match_id": "1586",
       "server_urls": [],
-      "last_updated": "2026-09-02T22:44:09.696820"
+      "last_updated": "2026-09-02T22:47:23.483393"
     },
     {
       "title": "India Women vs Hong Kong, China Women",
@@ -60,7 +39,7 @@
       "thumbnail": "https://i.postimg.cc/3N3Nn0tj/b6b7ef01-b10f-45eb-a301-289781bf038b.jpg",
       "match_id": "1583",
       "server_urls": [],
-      "last_updated": "2026-09-02T22:44:09.696823"
+      "last_updated": "2026-09-02T22:47:23.484099"
     },
     {
       "title": "United Arab Emirates Women vs Indonesia Women,",
@@ -78,7 +57,7 @@
       "thumbnail": "https://i.postimg.cc/wBcdFfn8/e7448786-fa2f-42cf-8e8d-0c705a757336.jpg",
       "match_id": "1584",
       "server_urls": [],
-      "last_updated": "2026-09-02T22:44:09.696824"
+      "last_updated": "2026-09-02T22:47:23.484473"
     },
     {
       "title": "India Women vs Pakistan Women",
@@ -96,7 +75,7 @@
       "thumbnail": "https://i.postimg.cc/R0sxj6CR/5eb2cdd1-1ef1-40b6-8d5d-3f7371c563d9.jpg",
       "match_id": "1585",
       "server_urls": [],
-      "last_updated": "2026-09-02T22:44:09.696826"
+      "last_updated": "2026-09-02T22:47:23.484835"
     },
     {
       "title": "England vs Pakistan-3rd Test (Day-1)",
@@ -114,7 +93,7 @@
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787576024540x302.jpg",
       "match_id": "1221",
       "server_urls": [],
-      "last_updated": "2026-09-02T22:44:09.696827"
+      "last_updated": "2026-09-02T22:47:23.485217"
     }
   ]
 }
