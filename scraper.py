@@ -1,67 +1,80 @@
 #!/usr/bin/env python3
 """
-Sportzfy Scraper - Using requests-html for JavaScript rendering
+Sportzfy Scraper - Pure Requests + BeautifulSoup
+No selenium, no requests-html needed
 """
 
-import os
+import requests
+from bs4 import BeautifulSoup
 import json
 import re
 from datetime import datetime
-from requests_html import HTMLSession
-from bs4 import BeautifulSoup
+import os
 import time
 
 class SportzfyScraper:
     def __init__(self):
         self.base_url = "https://sportzfy.my.id"
-        self.session = HTMLSession()
-        self.session.headers.update({
+        self.headers = {
             'User-Agent': 'Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/120.0.0.0 Safari/537.36',
-            'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
+            'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
             'Accept-Language': 'en-US,en;q=0.9',
-        })
+            'Accept-Encoding': 'gzip, deflate, br',
+            'Connection': 'keep-alive',
+            'Upgrade-Insecure-Requests': '1',
+            'Sec-Fetch-Dest': 'document',
+            'Sec-Fetch-Mode': 'navigate',
+            'Sec-Fetch-Site': 'none',
+            'Sec-Fetch-User': '?1',
+            'Cache-Control': 'no-cache',
+            'Pragma': 'no-cache'
+        }
+        self.session = requests.Session()
+        self.session.headers.update(self.headers)
         
-    def fetch_page_with_render(self):
-        """Fetch page with JavaScript rendering"""
+    def fetch_page(self):
+        """Fetch the main page"""
         try:
             print(f"📡 Fetching: {self.base_url}")
             response = self.session.get(self.base_url, timeout=30)
+            response.raise_for_status()
+            print(f"✅ Status: {response.status_code}")
             
-            # Render JavaScript (this handles dynamic content)
-            print("⏳ Rendering JavaScript...")
-            response.html.render(timeout=20, sleep=3)
+            # Check if we got content
+            if 'match-card' not in response.text:
+                print("⚠️ Match cards not found in response (likely JavaScript rendered)")
+                # Try to find matches in the HTML anyway
+                print("📝 Attempting to extract from raw HTML...")
             
-            print("✅ Page rendered successfully")
-            return response.html.html
-        except Exception as e:
-            print(f"❌ Error rendering page: {e}")
-            # Fallback: try without rendering
-            try:
-                print("🔄 Attempting fallback without rendering...")
-                response = self.session.get(self.base_url, timeout=30)
-                return response.text
-            except:
-                return None
-    
-    def extract_match_data(self, html):
-        """Extract match data from HTML"""
+            return response.text
+        except requests.exceptions.RequestException as e:
+            print(f"❌ Error: {e}")
+            return None
+
+    def extract_matches_direct(self, html):
+        """Extract matches directly from HTML using regex and BeautifulSoup"""
         soup = BeautifulSoup(html, 'html.parser')
         matches = []
         
-        # Find all match cards
+        # Method 1: Find all match cards
         match_cards = soup.find_all('div', class_='match-card')
-        print(f"📊 Found {len(match_cards)} match cards")
+        print(f"📊 Found {len(match_cards)} match cards using BeautifulSoup")
         
-        for card in match_cards:
-            match_data = self.parse_match_card(card)
-            if match_data:
-                matches.append(match_data)
+        if match_cards:
+            for card in match_cards:
+                match = self.parse_card(card)
+                if match:
+                    matches.append(match)
+        else:
+            # Method 2: Fallback - Use regex to find matches
+            print("⚠️ No match cards found with BeautifulSoup, trying regex fallback...")
+            matches = self.extract_with_regex(html)
         
         return matches
     
-    def parse_match_card(self, card):
-        """Parse individual match card"""
-        match_data = {
+    def parse_card(self, card):
+        """Parse a single match card"""
+        match = {
             'title': None,
             'league': None,
             'status': None,
@@ -71,156 +84,195 @@ class SportzfyScraper:
             'servers': None,
             'match_url': None,
             'match_id': None,
+            'thumbnail': None,
             'timestamp': datetime.now().isoformat()
         }
         
         # Get data attributes
         status = card.get('data-status')
-        match_data['status'] = 'live' if status == 'recent' else status
-        match_data['sport'] = card.get('data-sport')
-        match_data['match_id'] = card.get('data-match-id')
+        match['status'] = 'live' if status == 'recent' else status
+        match['sport'] = card.get('data-sport')
+        match['match_id'] = card.get('data-match-id')
         
         # Extract league
         league_div = card.find('div', class_='league-title')
         if league_div:
-            match_data['league'] = league_div.get_text(strip=True)
+            match['league'] = league_div.get_text(strip=True)
         
         # Extract title
         title_div = card.find('div', class_='match-main-title')
         if title_div:
             link = title_div.find('a')
             if link:
-                match_data['title'] = link.get_text(strip=True)
-                match_data['match_url'] = link.get('href')
-                if match_data['match_url'] and not match_data['match_url'].startswith('http'):
-                    match_data['match_url'] = self.base_url + match_data['match_url']
+                match['title'] = link.get_text(strip=True)
+                href = link.get('href')
+                if href:
+                    match['match_url'] = href if href.startswith('http') else self.base_url + href
         
-        # Extract viewers from meta row
+        # Extract thumbnail
+        thumb_box = card.find('a', class_='thumb-box')
+        if thumb_box:
+            img = thumb_box.find('img')
+            if img:
+                match['thumbnail'] = img.get('src')
+        
+        # Extract meta info
         meta_row = card.find('div', class_='match-meta-row')
         if meta_row:
-            # Viewers
-            view_pill = meta_row.find('span', class_='view-pill')
-            if view_pill:
-                view_text = view_pill.get_text(strip=True)
-                view_match = re.search(r'(\d+)\s+(Watching|Waiting|Total)', view_text, re.IGNORECASE)
-                if view_match:
-                    match_data['viewers'] = view_match.group(1)
-                    match_data['viewers_type'] = view_match.group(2)
-            
             # Servers
             server_item = meta_row.find('span', class_='meta-item')
             if server_item:
                 server_text = server_item.get_text(strip=True)
                 server_match = re.search(r'(\d+)\s*Serv', server_text)
                 if server_match:
-                    match_data['servers'] = server_match.group(1)
+                    match['servers'] = server_match.group(1)
+            
+            # Viewers
+            view_pill = meta_row.find('span', class_='view-pill')
+            if view_pill:
+                view_text = view_pill.get_text(strip=True)
+                view_match = re.search(r'(\d+)\s+(Watching|Waiting|Total)', view_text, re.IGNORECASE)
+                if view_match:
+                    match['viewers'] = view_match.group(1)
+                    match['viewers_type'] = view_match.group(2)
+                else:
+                    # Try to just get numbers
+                    num_match = re.search(r'(\d+)', view_text)
+                    if num_match:
+                        match['viewers'] = num_match.group(1)
         
-        return match_data if match_data['title'] else None
+        return match if match['title'] else None
     
-    def scrape(self):
-        """Main scraping method"""
-        print("\n" + "="*60)
-        print("🏏 SPORTZFY SCRAPER (requests-html)")
-        print("="*60 + "\n")
-        
-        # Fetch page with JavaScript rendering
-        html = self.fetch_page_with_render()
-        if not html:
-            print("❌ Failed to fetch page")
-            return []
-        
-        # Save raw HTML for debugging
-        os.makedirs('data', exist_ok=True)
-        with open('data/sportzfy_rendered.html', 'w', encoding='utf-8') as f:
-            f.write(html)
-        
-        # Extract matches
-        matches = self.extract_match_data(html)
-        
-        if matches:
-            # Save to JSON
-            with open('data/matches.json', 'w', encoding='utf-8') as f:
-                json.dump(matches, f, indent=2, ensure_ascii=False)
-            
-            # Display summary
-            print(f"\n✅ Found {len(matches)} match(es)\n")
-            
-            live_matches = [m for m in matches if m['status'] == 'live']
-            upcoming_matches = [m for m in matches if m['status'] == 'upcoming']
-            completed_matches = [m for m in matches if m['status'] == 'completed']
-            
-            print(f"📊 Live: {len(live_matches)}")
-            print(f"📊 Upcoming: {len(upcoming_matches)}")
-            print(f"📊 Completed: {len(completed_matches)}")
-            
-            print("\n📋 LIVE MATCHES:")
-            print("-"*50)
-            for i, match in enumerate(live_matches, 1):
-                print(f"{i}. {match['title']}")
-                print(f"   League: {match['league']}")
-                print(f"   Viewers: {match['viewers']} {match['viewers_type']}")
-                print(f"   Sport: {match['sport']}")
-                print()
-            
-            print(f"💾 Data saved to: data/matches.json")
-        else:
-            print("⚠️ No matches found. Trying alternative method...")
-            # Try parsing from the raw HTML directly
-            matches = self.parse_raw_html(html)
-            if matches:
-                print(f"✅ Found {len(matches)} matches using fallback method")
-        
-        return matches
-    
-    def parse_raw_html(self, html):
-        """Fallback: Parse matches directly from raw HTML"""
+    def extract_with_regex(self, html):
+        """Fallback: Extract matches using regex"""
         matches = []
         
-        # Look for match patterns in the HTML
-        patterns = [
-            r'<div[^>]*data-status="([^"]*)"[^>]*>',
-            r'<div class="match-main-title">.*?<a[^>]*>([^<]+)</a>',
-            r'<div class="league-title">([^<]+)</div>',
-            r'(\d+)\s+(Watching|Waiting|Total)',
-        ]
+        # Pattern to find match cards
+        card_pattern = r'<div[^>]*class="[^"]*match-card[^"]*"[^>]*data-status="([^"]*)"[^>]*data-sport="([^"]*)"[^>]*data-match-id="([^"]*)"[^>]*>(.*?)</div>\s*</div>\s*</div>\s*</div>\s*</div>'
         
-        # Simple parsing without BeautifulSoup
-        soup = BeautifulSoup(html, 'html.parser')
-        match_cards = soup.find_all('div', class_='match-card')
+        # Find all match cards
+        import re
+        cards = re.findall(card_pattern, html, re.DOTALL)
         
-        for card in match_cards:
+        print(f"🔍 Found {len(cards)} matches with regex")
+        
+        for status, sport, match_id, card_html in cards:
             match = {
                 'title': None,
                 'league': None,
-                'status': None,
-                'viewers': None
+                'status': 'live' if status == 'recent' else status,
+                'sport': sport,
+                'match_id': match_id,
+                'viewers': None,
+                'timestamp': datetime.now().isoformat()
             }
             
-            # Get status
-            status = card.get('data-status')
-            match['status'] = 'live' if status == 'recent' else status
+            # Extract title
+            title_match = re.search(r'<div class="match-main-title">.*?<a[^>]*>([^<]+)</a>', card_html, re.DOTALL)
+            if title_match:
+                match['title'] = title_match.group(1).strip()
             
-            # Get title
-            title_elem = card.find('div', class_='match-main-title')
-            if title_elem:
-                link = title_elem.find('a')
-                if link:
-                    match['title'] = link.get_text(strip=True)
+            # Extract league
+            league_match = re.search(r'<div class="league-title">([^<]+)</div>', card_html)
+            if league_match:
+                match['league'] = league_match.group(1).strip()
             
-            # Get league
-            league_elem = card.find('div', class_='league-title')
-            if league_elem:
-                match['league'] = league_elem.get_text(strip=True)
-            
-            # Get viewers
-            view_text = card.find('span', class_='view-text')
-            if view_text:
-                match['viewers'] = view_text.get_text(strip=True)
+            # Extract viewers
+            viewers_match = re.search(r'<span class="view-text">([^<]+)</span>', card_html)
+            if viewers_match:
+                match['viewers'] = viewers_match.group(1).strip()
             
             if match['title']:
                 matches.append(match)
         
         return matches
+    
+    def scrape(self):
+        """Main scraping method"""
+        print("\n" + "="*60)
+        print("🏏 SPORTZFY SCRAPER (Pure Requests)")
+        print("="*60 + "\n")
+        
+        # Fetch page
+        html = self.fetch_page()
+        if not html:
+            print("❌ Failed to fetch page")
+            return []
+        
+        # Create data directory
+        os.makedirs('data', exist_ok=True)
+        
+        # Save raw HTML for debugging
+        with open('data/sportzfy_raw.html', 'w', encoding='utf-8') as f:
+            f.write(html)
+        print("💾 Raw HTML saved to: data/sportzfy_raw.html")
+        
+        # Extract matches
+        matches = self.extract_matches_direct(html)
+        
+        if matches:
+            # Save to JSON
+            output_file = 'data/matches.json'
+            with open(output_file, 'w', encoding='utf-8') as f:
+                json.dump({
+                    'timestamp': datetime.now().isoformat(),
+                    'total_matches': len(matches),
+                    'matches': matches
+                }, f, indent=2, ensure_ascii=False)
+            
+            # Display summary
+            print(f"\n✅ Found {len(matches)} match(es)\n")
+            
+            live_matches = [m for m in matches if m.get('status') == 'live']
+            upcoming_matches = [m for m in matches if m.get('status') == 'upcoming']
+            completed_matches = [m for m in matches if m.get('status') == 'completed']
+            
+            print(f"📊 Live: {len(live_matches)}")
+            print(f"📊 Upcoming: {len(upcoming_matches)}")
+            print(f"📊 Completed: {len(completed_matches)}")
+            
+            if live_matches:
+                print("\n📋 LIVE MATCHES:")
+                print("-"*50)
+                for i, match in enumerate(live_matches[:10], 1):
+                    print(f"{i}. {match.get('title', 'N/A')}")
+                    if match.get('league'):
+                        print(f"   League: {match['league']}")
+                    if match.get('viewers'):
+                        print(f"   Viewers: {match['viewers']}")
+                    print()
+            
+            print(f"💾 Data saved to: {output_file}")
+        else:
+            print("⚠️ No matches found")
+            # Try to find match data in the HTML using simpler patterns
+            print("\n🔍 Searching for match data in raw HTML...")
+            self.debug_html(html)
+        
+        return matches
+    
+    def debug_html(self, html):
+        """Debug function to analyze HTML content"""
+        patterns = [
+            ('match-card', r'<div[^>]*match-card'),
+            ('league-title', r'league-title'),
+            ('match-main-title', r'match-main-title'),
+            ('viewers', r'\d+\s+(Watching|Waiting)'),
+            ('live status', r'data-status="live"'),
+            ('recent status', r'data-status="recent"'),
+        ]
+        
+        print("🔍 Debug Info:")
+        for name, pattern in patterns:
+            count = len(re.findall(pattern, html))
+            print(f"   {name}: {count} occurrences")
+        
+        # Try to find match titles directly
+        titles = re.findall(r'<div class="match-main-title">.*?<a[^>]*>([^<]+)</a>', html, re.DOTALL)
+        if titles:
+            print(f"\n📝 Found {len(titles)} match titles in HTML:")
+            for title in titles[:10]:
+                print(f"   • {title.strip()}")
 
 def main():
     scraper = SportzfyScraper()
@@ -229,9 +281,8 @@ def main():
     if matches:
         live_matches = [m for m in matches if m.get('status') == 'live']
         print(f"\n🎯 Total Live Matches: {len(live_matches)}")
-        print(f"📁 Output saved to: data/matches.json")
     else:
-        print("\n❌ No matches found")
+        print("\n❌ No matches found. Check data/sportzfy_raw.html for debugging.")
 
 if __name__ == "__main__":
     try:
