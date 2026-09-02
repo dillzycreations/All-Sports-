@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-09-02T18:40:53.064513",
-  "total_matches": 61,
-  "live_count": 9,
-  "upcoming_count": 8,
+  "timestamp": "2026-09-02T18:45:59.457918",
+  "total_matches": 62,
+  "live_count": 12,
+  "upcoming_count": 6,
   "completed_count": 44,
   "matches": [
     {
@@ -82,18 +82,21 @@
       "teams": "Osnabruck vs Bayern",
       "league": "Bundesliga",
       "sport": "cricket",
-      "status": "upcoming",
+      "status": "live",
       "runtime": "00h 00m 00s",
       "viewers": "11",
-      "viewers_type": "Waiting",
+      "viewers_type": "Watching",
       "servers": "2",
       "date": "03 Sep, 2026",
       "time": "12:45 AM",
       "match_url": "https://sportzfy.my.id/live/osnabruck-vs-bayern-1588",
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4248532_53043_VFL_BAY_FC-WEB.png",
       "match_id": "1588",
-      "server_urls": [],
-      "last_updated": "2026-09-02T18:40:53.064455"
+      "server_urls": [
+        "https://fawa.duckdns.org/api/proxy?url=http%3A%2F%2F193.47.62.41%2Fhls%2FQTTTAAAQQQQQQQ.m3u8&headers=%7B%22Referer%22%3A%22http%3A%2F%2Fwww.fawanews.sc%2F%22%7D",
+        "https://fawa.duckdns.org/api/proxy?url=https%3A%2F%2Fwww.rtmpcdn.com%2Flive%2Ff38e999b-fb18-4b5d-bde6-4edf50bc0664.m3u8&headers=%7B%22Referer%22%3A%22http%3A%2F%2Fwww.fawanews.sc%2F%22%7D"
+      ],
+      "last_updated": "2026-09-02T18:45:59.457852"
     },
     {
       "title": "Trinbago Knight Riders vs Antigua and Barbuda Falcons",
@@ -111,7 +114,7 @@
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1788257431540x302.jpg",
       "match_id": "1586",
       "server_urls": [],
-      "last_updated": "2026-09-02T18:40:53.064456"
+      "last_updated": "2026-09-02T18:45:59.457854"
     },
     {
       "title": "India Women vs Hong Kong, China Women",
@@ -129,7 +132,7 @@
       "thumbnail": "https://i.postimg.cc/3N3Nn0tj/b6b7ef01-b10f-45eb-a301-289781bf038b.jpg",
       "match_id": "1583",
       "server_urls": [],
-      "last_updated": "2026-09-02T18:40:53.064458"
+      "last_updated": "2026-09-02T18:45:59.457856"
     },
     {
       "title": "United Arab Emirates Women vs Indonesia Women,",
@@ -147,7 +150,7 @@
       "thumbnail": "https://i.postimg.cc/wBcdFfn8/e7448786-fa2f-42cf-8e8d-0c705a757336.jpg",
       "match_id": "1584",
       "server_urls": [],
-      "last_updated": "2026-09-02T18:40:53.064460"
+      "last_updated": "2026-09-02T18:45:59.457858"
     },
     {
       "title": "India Women vs Pakistan Women",
@@ -165,7 +168,7 @@
       "thumbnail": "https://i.postimg.cc/R0sxj6CR/5eb2cdd1-1ef1-40b6-8d5d-3f7371c563d9.jpg",
       "match_id": "1585",
       "server_urls": [],
-      "last_updated": "2026-09-02T18:40:53.064461"
+      "last_updated": "2026-09-02T18:45:59.457859"
     },
     {
       "title": "England vs Pakistan-3rd Test (Day-1)",
@@ -183,7 +186,7 @@
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787576024540x302.jpg",
       "match_id": "1221",
       "server_urls": [],
-      "last_updated": "2026-09-02T18:40:53.064463"
+      "last_updated": "2026-09-02T18:45:59.457861"
     },
     {
       "title": "Edinburgh Castle Rockers vs Glasgow Cosmic",
@@ -201,7 +204,7 @@
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787814555540x302.jpg",
       "match_id": "1382",
       "server_urls": [],
-      "last_updated": "2026-09-02T18:40:53.064471"
+      "last_updated": "2026-09-02T18:45:59.457874"
     },
     {
       "title": "Chelsea Vs Luton Town",
@@ -219,7 +222,7 @@
       "thumbnail": "https://sportshub.cbsistatic.com/i/2026/08/25/0220b66c-69e5-412e-b2fb-13b3adefd8ca/image-1787659790457.jpg",
       "match_id": "1484",
       "server_urls": [],
-      "last_updated": "2026-09-02T18:40:53.064472"
+      "last_updated": "2026-09-02T18:45:59.457876"
     },
     {
       "title": "FC Barcelona v Athletic Club",
@@ -237,7 +240,7 @@
       "thumbnail": "https://i.postimg.cc/QCG2W4yY/e7ceb737-c51a-4fa9-9672-67daca85617c.jpg",
       "match_id": "1480",
       "server_urls": [],
-      "last_updated": "2026-09-02T18:40:53.064473"
+      "last_updated": "2026-09-02T18:45:59.457877"
     },
     {
       "title": "St Kitts and Nevis Patriots vs Jamaica Kingsmen",
@@ -255,7 +258,7 @@
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787816184540x302.jpg",
       "match_id": "1481",
       "server_urls": [],
-      "last_updated": "2026-09-02T18:40:53.064474"
+      "last_updated": "2026-09-02T18:45:59.457878"
     },
     {
       "title": "Al-Nassr vs Al-Taawoun",
@@ -273,7 +276,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/139829_5655_ANF_ALTW_FC-Web.jpg",
       "match_id": "1505",
       "server_urls": [],
-      "last_updated": "2026-09-02T18:40:53.064475"
+      "last_updated": "2026-09-02T18:45:59.457879"
     },
     {
       "title": "Racing Santander vs Elche",
@@ -291,7 +294,7 @@
       "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSRYyT5q1xCElW78SVsfNDGErmhlyXoAcHibdH8_hcaUh7fZQa2dREl3eUE&s=10",
       "match_id": "1503",
       "server_urls": [],
-      "last_updated": "2026-09-02T18:40:53.064476"
+      "last_updated": "2026-09-02T18:45:59.457880"
     },
     {
       "title": "Al-Nassr vs Al-Taawoun",
@@ -309,7 +312,7 @@
       "thumbnail": "https://www.fancode.com/skillup-uploads/cms-media/4248649_53025_ANF_ALTW_FC-Web.png",
       "match_id": "1506",
       "server_urls": [],
-      "last_updated": "2026-09-02T18:40:53.064477"
+      "last_updated": "2026-09-02T18:45:59.457882"
     },
     {
       "title": "Bayern Munich Vs Stuttgart",
@@ -327,7 +330,7 @@
       "thumbnail": "https://ichef.bbci.co.uk/images/ic/640x360/p0p5ql86.jpg",
       "match_id": "1511",
       "server_urls": [],
-      "last_updated": "2026-09-02T18:40:53.064479"
+      "last_updated": "2026-09-02T18:45:59.457883"
     },
     {
       "title": "AC Milan vs Venezia",
@@ -345,7 +348,7 @@
       "thumbnail": "https://i.postimg.cc/j2YGF75w/image.png",
       "match_id": "1508",
       "server_urls": [],
-      "last_updated": "2026-09-02T18:40:53.064480"
+      "last_updated": "2026-09-02T18:45:59.457884"
     },
     {
       "title": "Lille vs PSG",
@@ -363,7 +366,7 @@
       "thumbnail": "https://i.postimg.cc/nhLShk9v/image-url-https-dgpybourtosyfaevnlds-supabase-co-storage-v1-object-public-news-ima.jpg",
       "match_id": "1513",
       "server_urls": [],
-      "last_updated": "2026-09-02T18:40:53.064481"
+      "last_updated": "2026-09-02T18:45:59.457885"
     },
     {
       "title": "Crystal Palace vs Manchester City",
@@ -381,7 +384,7 @@
       "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSV7lrouY2cz5eYNrpWZ15ATm5dGyZH6P17IiaBZle7ysy_os3ZiC-OpyI&s=10",
       "match_id": "1507",
       "server_urls": [],
-      "last_updated": "2026-09-02T18:40:53.064482"
+      "last_updated": "2026-09-02T18:45:59.457886"
     },
     {
       "title": "Wrexham vs Birmingham City",
@@ -399,7 +402,7 @@
       "thumbnail": "https://e0.365dm.com/26/08/1600x900/skysports-wrexham-birmingham-city_7329893.jpg?20260824105740",
       "match_id": "1512",
       "server_urls": [],
-      "last_updated": "2026-09-02T18:40:53.064483"
+      "last_updated": "2026-09-02T18:45:59.457888"
     },
     {
       "title": "Alaves vs Villarreal",
@@ -417,7 +420,7 @@
       "thumbnail": "https://i.postimg.cc/ydxmCQJV/https-media-zenfs-com-en-playmakerstats-articles-264-cbd92a2f1733189b20e51dee91c6def4.jpg",
       "match_id": "1510",
       "server_urls": [],
-      "last_updated": "2026-09-02T18:40:53.064484"
+      "last_updated": "2026-09-02T18:45:59.457889"
     },
     {
       "title": "Nepal A vs Victoria",
@@ -435,7 +438,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4248454_53036_NEP_VA_fc-web_1787393619334.jpg",
       "match_id": "1533",
       "server_urls": [],
-      "last_updated": "2026-09-02T18:40:53.064485"
+      "last_updated": "2026-09-02T18:45:59.457890"
     },
     {
       "title": "Rotterdam Dockers vs Belfast Wolves",
@@ -453,7 +456,7 @@
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787908210540x302.jpg",
       "match_id": "1528",
       "server_urls": [],
-      "last_updated": "2026-09-02T18:40:53.064487"
+      "last_updated": "2026-09-02T18:45:59.457891"
     },
     {
       "title": "Liverpool 🆚 Nottingham Forest",
@@ -471,7 +474,7 @@
       "thumbnail": "https://i.postimg.cc/7Z2n7vKj/image.png",
       "match_id": "1535",
       "server_urls": [],
-      "last_updated": "2026-09-02T18:40:53.064488"
+      "last_updated": "2026-09-02T18:45:59.457892"
     },
     {
       "title": "Sri Lanka vs United Arab Emirates-Women",
@@ -489,7 +492,7 @@
       "thumbnail": "https://i.postimg.cc/ryY8pd7W/e10a4c8e-771f-4a20-a49a-1fb3d63e17cb.jpg",
       "match_id": "1499",
       "server_urls": [],
-      "last_updated": "2026-09-02T18:40:53.064489"
+      "last_updated": "2026-09-02T18:45:59.457893"
     },
     {
       "title": "Rotterdam Dockers vs Belfast Wolves",
@@ -507,7 +510,7 @@
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787908358540x302.jpg",
       "match_id": "1529",
       "server_urls": [],
-      "last_updated": "2026-09-02T18:40:53.064490"
+      "last_updated": "2026-09-02T18:45:59.457895"
     },
     {
       "title": "Levante vs Betis",
@@ -525,7 +528,7 @@
       "thumbnail": "https://artwork.espncdn.com/events/401882902/16x9/1280x720_20260810221329.jpg",
       "match_id": "1536",
       "server_urls": [],
-      "last_updated": "2026-09-02T18:40:53.064491"
+      "last_updated": "2026-09-02T18:45:59.457896"
     },
     {
       "title": "Al Kholood vs Al-Ahli",
@@ -543,7 +546,7 @@
       "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxZxeFs0YlrIoYCd-3rohj7Lyh0MLlkWEbk_Dkw-JXszTk3c-TT51EBRw&s=10",
       "match_id": "1537",
       "server_urls": [],
-      "last_updated": "2026-09-02T18:40:53.064492"
+      "last_updated": "2026-09-02T18:45:59.457897"
     },
     {
       "title": "Real Sociedad vs Espanyol",
@@ -561,7 +564,7 @@
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787924941540x302.jpg",
       "match_id": "1538",
       "server_urls": [],
-      "last_updated": "2026-09-02T18:40:53.064494"
+      "last_updated": "2026-09-02T18:45:59.457898"
     },
     {
       "title": "Al Fateh vs Al-Ittihad",
@@ -579,7 +582,7 @@
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787921091540x302.jpg",
       "match_id": "1539",
       "server_urls": [],
-      "last_updated": "2026-09-02T18:40:53.064495"
+      "last_updated": "2026-09-02T18:45:59.457899"
     },
     {
       "title": "Sevilla vs Athletico Madrid",
@@ -597,7 +600,7 @@
       "thumbnail": "https://i.ibb.co/DPpZBG6T/image.png",
       "match_id": "1540",
       "server_urls": [],
-      "last_updated": "2026-09-02T18:40:53.064496"
+      "last_updated": "2026-09-02T18:45:59.457901"
     },
     {
       "title": "Victoria CA vs Adelaide Strikers Academy -Final",
@@ -615,7 +618,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/Victoria-CA-XI-vs-Adelaide-Strikers-Academy_FC-WEB.jpg",
       "match_id": "1544",
       "server_urls": [],
-      "last_updated": "2026-09-02T18:40:53.064497"
+      "last_updated": "2026-09-02T18:45:59.457902"
     },
     {
       "title": "Amsterdam Flames vs Belfast Wolves",
@@ -633,7 +636,7 @@
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787908593540x302.jpg",
       "match_id": "1547",
       "server_urls": [],
-      "last_updated": "2026-09-02T18:40:53.064498"
+      "last_updated": "2026-09-02T18:45:59.457903"
     },
     {
       "title": "Chelsea vs Brighton",
@@ -651,7 +654,7 @@
       "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR69J5KHLq9VgnmYYgU5-Z8Nla_6Q__Wm2NDHkAKpk9o7jMgz0mTrxhpqPQ&s=10",
       "match_id": "1555",
       "server_urls": [],
-      "last_updated": "2026-09-02T18:40:53.064499"
+      "last_updated": "2026-09-02T18:45:59.457904"
     },
     {
       "title": "Edinburgh Castle Rockers vs Dublin Guardians",
@@ -669,7 +672,7 @@
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787908960540x302.jpg",
       "match_id": "1548",
       "server_urls": [],
-      "last_updated": "2026-09-02T18:40:53.064500"
+      "last_updated": "2026-09-02T18:45:59.457905"
     },
     {
       "title": "Spain vs Germany-Final",
@@ -687,7 +690,7 @@
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1788022689540x302MEN.jpg",
       "match_id": "1551",
       "server_urls": [],
-      "last_updated": "2026-09-02T18:40:53.064502"
+      "last_updated": "2026-09-02T18:45:59.457907"
     },
     {
       "title": "India vs Thailand-Women",
@@ -705,7 +708,7 @@
       "thumbnail": "https://i.postimg.cc/0yKG4w1j/c7fdcc71-d7bf-4ea4-b359-b59f9e163e0c.jpg",
       "match_id": "1500",
       "server_urls": [],
-      "last_updated": "2026-09-02T18:40:53.064503"
+      "last_updated": "2026-09-02T18:45:59.457908"
     },
     {
       "title": "Real Madrid vs Malaga",
@@ -723,7 +726,7 @@
       "thumbnail": "https://i.postimg.cc/K8ChBrLF/0723f8c3-53e3-4718-8e29-b3ab537f2fd3.jpg",
       "match_id": "1545",
       "server_urls": [],
-      "last_updated": "2026-09-02T18:40:53.064504"
+      "last_updated": "2026-09-02T18:45:59.457909"
     },
     {
       "title": "Manchester United vs Ipswich Town",
@@ -741,7 +744,7 @@
       "thumbnail": "https://imgsrv2.voi.id/hnlCoZ4oOnn3ao6nvUqmcERl3Mb8kOFvhS0VP--I3zs/auto/1200/675/sm/1/bG9jYWw6Ly8vcHVibGlzaGVycy81OTE4NjgvMjAyNjA4MzAxMTExLW1haW4uY3JvcHBlZF8xNzg4MDYzMDgwLmpwZw.jpg",
       "match_id": "1559",
       "server_urls": [],
-      "last_updated": "2026-09-02T18:40:53.064505"
+      "last_updated": "2026-09-02T18:45:59.457910"
     },
     {
       "title": "Deportivo vs Valencia",
@@ -759,7 +762,7 @@
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedWebthumb/17879271561020x576.jpg",
       "match_id": "1546",
       "server_urls": [],
-      "last_updated": "2026-09-02T18:40:53.064506"
+      "last_updated": "2026-09-02T18:45:59.457912"
     },
     {
       "title": "Banfield vs River Plate",
@@ -777,7 +780,7 @@
       "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT5f94447KjueSj7-o1lnXhv6bbgyDO3C1kJemWkdGSY7tcBle4bW82tVO8&s=10",
       "match_id": "1562",
       "server_urls": [],
-      "last_updated": "2026-09-02T18:40:53.064508"
+      "last_updated": "2026-09-02T18:45:59.457913"
     },
     {
       "title": "Al Qadsiah vs Al-Faisaly",
@@ -795,7 +798,7 @@
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787921225540x302.jpg",
       "match_id": "1554",
       "server_urls": [],
-      "last_updated": "2026-09-02T18:40:53.064509"
+      "last_updated": "2026-09-02T18:45:59.457914"
     },
     {
       "title": "Lazio vs Genoa",
@@ -813,7 +816,7 @@
       "thumbnail": "https://media-cdn-v2.laodong.vn/storage/newsportal/2026/8/30/1758985/Serie-A-9.jpg",
       "match_id": "1563",
       "server_urls": [],
-      "last_updated": "2026-09-02T18:40:53.064510"
+      "last_updated": "2026-09-02T18:45:59.457915"
     },
     {
       "title": "Cagliari vs Inter",
@@ -984,7 +987,7 @@
       "sport": "football",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "180",
+      "viewers": "2",
       "viewers_type": "Watching",
       "servers": "1",
       "date": "03 Sep, 2026",
@@ -995,7 +998,7 @@
       "server_urls": [
         "https://fawa.duckdns.org/api/proxy?url=http%3A%2F%2F193.47.62.44%2Fhls%2FroooF.m3u8&headers=%7B%22Referer%22%3A%22http%3A%2F%2Fwww.fawanews.sc%2F%22%7D"
       ],
-      "last_updated": "2026-09-02T18:40:53.064448"
+      "last_updated": "2026-09-02T18:45:59.457870"
     },
     {
       "title": "Barnsley vs Blackpool",
@@ -1004,7 +1007,7 @@
       "sport": "football",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "493",
+      "viewers": "2",
       "viewers_type": "Watching",
       "servers": "1",
       "date": "03 Sep, 2026",
@@ -1015,7 +1018,7 @@
       "server_urls": [
         "https://fawa.duckdns.org/api/proxy?url=http%3A%2F%2F193.47.62.44%2Fhls%2Frooo.m3u8&headers=%7B%22Referer%22%3A%22http%3A%2F%2Fwww.fawanews.sc%2F%22%7D"
       ],
-      "last_updated": "2026-09-02T18:40:53.064453"
+      "last_updated": "2026-09-02T18:45:59.457847"
     },
     {
       "title": "Luton vs Stockport County",
@@ -1024,7 +1027,7 @@
       "sport": "football",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "3",
+      "viewers": "4",
       "viewers_type": "Watching",
       "servers": "1",
       "date": "03 Sep, 2026",
@@ -1035,7 +1038,7 @@
       "server_urls": [
         "https://fawa.duckdns.org/api/proxy?url=http%3A%2F%2F193.47.62.44%2Fhls%2FroooFF.m3u8&headers=%7B%22Referer%22%3A%22http%3A%2F%2Fwww.fawanews.sc%2F%22%7D"
       ],
-      "last_updated": "2026-09-02T18:40:53.064467"
+      "last_updated": "2026-09-02T18:45:59.457868"
     },
     {
       "title": "Wigan vs MK Dons",
@@ -1044,7 +1047,7 @@
       "sport": "football",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "5",
+      "viewers": "6",
       "viewers_type": "Watching",
       "servers": "1",
       "date": "03 Sep, 2026",
@@ -1055,7 +1058,7 @@
       "server_urls": [
         "https://fawa.duckdns.org/api/proxy?url=http%3A%2F%2F193.47.62.44%2Fhls%2FroooFFF.m3u8&headers=%7B%22Referer%22%3A%22http%3A%2F%2Fwww.fawanews.sc%2F%22%7D"
       ],
-      "last_updated": "2026-09-02T18:40:53.064466"
+      "last_updated": "2026-09-02T18:45:59.457867"
     },
     {
       "title": "Reading vs Mansfield",
@@ -1075,7 +1078,7 @@
       "server_urls": [
         "https://fawa.duckdns.org/api/proxy?url=http%3A%2F%2F193.47.62.44%2Fhls%2FroooFFFF.m3u8&headers=%7B%22Referer%22%3A%22http%3A%2F%2Fwww.fawanews.sc%2F%22%7D"
       ],
-      "last_updated": "2026-09-02T18:40:53.064470"
+      "last_updated": "2026-09-02T18:45:59.457873"
     },
     {
       "title": "Millwall vs Wrexham",
@@ -1084,7 +1087,7 @@
       "sport": "football",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "328",
+      "viewers": "1",
       "viewers_type": "Watching",
       "servers": "1",
       "date": "03 Sep, 2026",
@@ -1095,25 +1098,27 @@
       "server_urls": [
         "https://fawa.duckdns.org/api/proxy?url=http%3A%2F%2F193.47.62.44%2Fhls%2FIIII.m3u8&headers=%7B%22Referer%22%3A%22http%3A%2F%2Fwww.fawanews.sc%2F%22%7D"
       ],
-      "last_updated": "2026-09-02T18:40:53.064465"
+      "last_updated": "2026-09-02T18:45:59.457865"
     },
     {
       "title": "QPR vs Cardiff City",
       "teams": "QPR vs Cardiff City",
       "league": "EFL Championship",
       "sport": "football",
-      "status": "upcoming",
+      "status": "live",
       "runtime": "00h 00m 00s",
       "viewers": "365",
-      "viewers_type": "Waiting",
+      "viewers_type": "Watching",
       "servers": "1",
       "date": "03 Sep, 2026",
       "time": "12:45 AM",
       "match_url": "https://sportzfy.my.id/live/qpr-vs-cardiff-city-1595",
       "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTwgW5KgQebbPx3AICCcD_EPZoKfyLJsu7-8rfdvCNxXI9HPUPOpSoLO0M&s=10",
       "match_id": "1595",
-      "server_urls": [],
-      "last_updated": "2026-09-02T18:40:53.064468"
+      "server_urls": [
+        "https://fawa.duckdns.org/api/proxy?url=http%3A%2F%2F193.47.62.59%2Fhls%2FIIIIA.m3u8&headers=%7B%22Referer%22%3A%22http%3A%2F%2Fwww.fawanews.sc%2F%22%7D"
+      ],
+      "last_updated": "2026-09-02T18:45:59.457871"
     },
     {
       "title": "West Bromwich vs Charlton",
@@ -1122,7 +1127,7 @@
       "sport": "football",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "402",
+      "viewers": "1",
       "viewers_type": "Watching",
       "servers": "1",
       "date": "03 Sep, 2026",
@@ -1133,7 +1138,28 @@
       "server_urls": [
         "https://fawa.duckdns.org/api/proxy?url=http%3A%2F%2F193.47.62.59%2Fhls%2FIIIIAA.m3u8&headers=%7B%22Referer%22%3A%22http%3A%2F%2Fwww.fawanews.sc%2F%22%7D"
       ],
-      "last_updated": "2026-09-02T18:40:51.970362"
+      "last_updated": "2026-09-02T18:45:59.457863"
+    },
+    {
+      "title": "Men's & Women's Singles vs Men's & Women's Singles",
+      "teams": "Men's & Women's Singles vs Men's & Women's Singles",
+      "league": "Men's & Women's Singles 2nd Round",
+      "sport": "others",
+      "status": "live",
+      "runtime": "00h 00m 00s",
+      "viewers": "1",
+      "viewers_type": "Watching",
+      "servers": "2",
+      "date": "03 Sep, 2026",
+      "time": "12:00 PM",
+      "match_url": "https://sportzfy.my.id/live/mens-womens-singles-vs-mens-womens-singles-1597",
+      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1788246543540x302.jpg",
+      "match_id": "1597",
+      "server_urls": [
+        "https://live.talkoraai.com/match/hls?t=EHBsUdf3dcu6y1itiUTEhEm13XVI8md1Oy5yxy-99aEvj1Jhz26Fo-mLOVy7DXIqi28p5Kf-8XxOCOwf5oNQutSn7o2FC0SS1y0TmK1fJdukf28dCSDi_zhm-U9nnRMcJgDCWdkx-tKATJSlKAsaNjOSxjLgFBGOgVhHpFG61Qx6ho4LTFyo0d6PU_HEwcf9r9TwZmoT8cYfkyV8MZxqFrfPl0BIyb_jphlPFLYsPQtap0H0pCRvtMfrmC6ZL5qwNn3RXd6GoBzzYBXYlslb65AOF-XeSYrjOxY",
+        "https://live.talkoraai.com/match/seg?t=LM5699OfTjWwsytWUuJkXfe6Hcom6B7UioUXamnqh7LMC4fu6WXycnbll1kEP7e0N3pW42pgY7uG2r-sHc7WSyqm9Nw5S0CkdE-MNMheZ1wrpJNcGHkAqoiQvMKTMutvxpHFt1BJxi2JaRWvDDzsIRiaiypz49OCDEVra8AD-zLoJZPXnKtuMJKcnXWHhqyjvvijhei8crinrU3k_K_dt6i6GXERyfoP2xuA9dR-VvoGDdUSQQtAou0rdffnDol1I8sSqjz9MwWFLaOXciP2aVlARKX1ZzTols9Xz6LHxgfm-Q"
+      ],
+      "last_updated": "2026-09-02T18:45:57.026278"
     }
   ]
 }
