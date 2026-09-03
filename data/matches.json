@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-03T02:15:53.502444",
+  "timestamp": "2026-09-03T02:20:58.200393",
   "total_matches": 5,
   "live_count": 1,
   "upcoming_count": 4,
@@ -12,7 +12,7 @@
       "sport": "cricket",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "42",
+      "viewers": "43",
       "viewers_type": "Watching",
       "servers": "3",
       "date": "03 Sep, 2026",
@@ -25,7 +25,7 @@
         "https://tvsen7.aynascope.net/ssport2hd/tracks-v1a1/mono.ts.m3u8",
         "https://tvsen5.aynaott.com/willowhd/tracks-v1a1/mono.ts.m3u8"
       ],
-      "last_updated": "2026-09-03T02:15:53.022215"
+      "last_updated": "2026-09-03T02:20:56.946295"
     },
     {
       "title": "India Women vs Hong Kong, China Women",
@@ -43,7 +43,7 @@
       "thumbnail": "https://i.postimg.cc/3N3Nn0tj/b6b7ef01-b10f-45eb-a301-289781bf038b.jpg",
       "match_id": "1583",
       "server_urls": [],
-      "last_updated": "2026-09-03T02:15:53.499352"
+      "last_updated": "2026-09-03T02:20:58.198796"
     },
     {
       "title": "United Arab Emirates Women vs Indonesia Women,",
@@ -61,7 +61,7 @@
       "thumbnail": "https://i.postimg.cc/wBcdFfn8/e7448786-fa2f-42cf-8e8d-0c705a757336.jpg",
       "match_id": "1584",
       "server_urls": [],
-      "last_updated": "2026-09-03T02:15:53.500358"
+      "last_updated": "2026-09-03T02:20:58.199296"
     },
     {
       "title": "India Women vs Pakistan Women",
@@ -79,7 +79,7 @@
       "thumbnail": "https://i.postimg.cc/R0sxj6CR/5eb2cdd1-1ef1-40b6-8d5d-3f7371c563d9.jpg",
       "match_id": "1585",
       "server_urls": [],
-      "last_updated": "2026-09-03T02:15:53.501108"
+      "last_updated": "2026-09-03T02:20:58.199655"
     },
     {
       "title": "England vs Pakistan-3rd Test (Day-1)",
@@ -97,7 +97,7 @@
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1787576024540x302.jpg",
       "match_id": "1221",
       "server_urls": [],
-      "last_updated": "2026-09-03T02:15:53.501785"
+      "last_updated": "2026-09-03T02:20:58.200034"
     }
   ]
 }
