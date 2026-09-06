@@ -1,95 +1,51 @@
 {
-  "timestamp": "2026-09-06T15:53:33.906558",
-  "total_matches": 7,
-  "live_count": 7,
+  "timestamp": "2026-09-06T19:34:20.802442",
+  "total_matches": 3,
+  "live_count": 3,
   "upcoming_count": 0,
   "completed_count": 0,
   "matches": [
     {
-      "title": "England vs Ireland-Women- 3rd ODI",
-      "teams": "England vs Ireland-Women- 3rd ODI",
-      "league": "Ireland Women tour of England 2026",
-      "sport": "cricket",
+      "title": "Juventus vs AC Milan",
+      "teams": "Juventus vs AC Milan",
+      "league": "Serie A",
+      "sport": "football",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "17",
+      "viewers": "4",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
       "time": null,
-      "match_url": "live/england-vs-ireland-women-3rd-odi-742",
-      "thumbnail": "https://m.media-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.cc777a18-0531-4119-8dcd-6b0cf361a766/2/BOXART-16X9/en-US._UR1920,1080_.jpeg",
-      "match_id": "742",
+      "match_url": "live/juventus-vs-ac-milan-755",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQt4qtiBU04mCkVsrzbN9Xh76aSKB3y_Rdu5er68RwJLSb6RKg1dRLMAus&s=10",
+      "match_id": "755",
       "server_urls": [
-        "https://digitalotthub.com/tv/dd/live.php/598.m3u8",
-        "https://digitalotthub.com/tv/toffee-by-maruf/live.php?id=sony_sports_2_hd&e=.m3u8",
-        "https://sportz-obiram.emonsa4.workers.dev/proxy?url=DAcVFABRQ0tIRgRYRkNHVVYZSlYMLClFDRkSGg8HMnBTEFlZBUZVRlZSEVIKAhgcGhtVBwpRBlMNFEckdQJeU0kBBAI6J0oeWx9cTBdOFA0rLj9WT3peHUtjQmZdVXJbTXcEVE4PW1paUWtpXEdcXVBVFxAJAR4OUQxeXlpZ"
+        "https://fawa.duckdns.org/api/proxy?url=http%3A%2F%2F193.47.62.50%2Fhls%2FkhhhAA.m3u8&headers=%7B%22Referer%22%3A%22http%3A%2F%2Fwww.fawanews.sc%2F%22%7D",
+        "https://sportz-obiram.emonsa4.workers.dev/proxy?url=DAcVFABRQ0tGQ1xPUFNcGkdUFU9KNiVAHBgDCQdILSoJABgFFgdVQ08IGh0JS1lGSwUCGgRWBFNdEBJ2JgFbCQIMCFM-OVEQUFxTQkkbBUsQAxkKQVkERwBCCghaRGdVSjB9VQkGFQ1MEjA0AR1VW1NLXEtRUUpfXklhXB5JY2NzdmMCYXdKbSVXCwhVUFsEa29WElEOVxFcQAJXRVIIBxocGUtRAQUDBAcOEEYjdQJFWlNZXlU8PgBLCw9UQFNFAAcRUloHSRofHQFRVwcKBwFfcSUmVhoPFFUCEisvF1ZbK0FBIlZTIhoNHgVHTwRYRlpBR1xFTBsNLClFDQ"
       ],
-      "last_updated": "2026-09-06T15:53:31.054897"
+      "last_updated": "2026-09-06T19:34:18.971340"
     },
     {
-      "title": "Amsterdam Flames vs Rotterdam Dockers",
-      "teams": "Amsterdam Flames vs Rotterdam Dockers",
-      "league": "European T20 Premier League 2026",
-      "sport": "cricket",
+      "title": "Espanyol vs Sevilla",
+      "teams": "Espanyol vs Sevilla",
+      "league": "LaLiga",
+      "sport": "football",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "7",
+      "viewers": "2",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
       "time": null,
-      "match_url": "live/amsterdam-flames-vs-rotterdam-dockers-745",
-      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1788567983540x302.jpg",
-      "match_id": "745",
+      "match_url": "live/espanyol-vs-sevilla-754",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQoMXfeD4hgbDsvGj-4kLUIb0IanYxmyVHy5MBF-n1RMn6_hJVL-XzuF9E&s=10",
+      "match_id": "754",
       "server_urls": [
-        "https://live.talkoraai.com/match/hls?t=MceFyRIQ_aEofq3LAS0QY8C4PQ1VNhqnU6ugqvlG4HxMJRH7uIrNa4XuNAiBxefUu55MnCgWaxRK5lc3weAyPaFf_rZvROA9Bhr3Zmj7MGVcN5fQYdn8GeyJVmfKECJlNUzcHcVKuSO1QrT4qGRK-Ngqpm9WtOi2GEqWamuao4zPENhDDxXCExnM2g8ZJ8DP7uIYgG2VHNp3chIULKM4IvF7DOIeAuP5p8geyjcssV6eCELq5sUzVEtyfkqBshdNjaRE8SbNejtsvtxBSZ6ejKsOpm-taA",
-        "https://live.talkoraai.com/match/seg?t=qz5LYVlzSzbqLcuBaLSZSuYuiVTQfQZgLXEvTLfD7ll-4r0n3cnDnCgpSv51tSQrGibOegXsDO6LkYBQC2i-2peuxTnccNuozXobG5XT-OzCbEdXa5knnVglR_hm7mqwHOqhz5K7UAWzVE4JG_og0i7HTd-E2b1v9QkNOj8VH9BfThLiFa1XRaQsxxWRv4HHR6CDlY4_H2dheFhF5wn6-bKUbOBME0y0LPOcJVszHpVfZUig2SZC9kNqW_73MCcxg1oDfsE18dd7oig0wymUfr91M7hQfm720Gn4ddap",
-        "https://tvsen5.aynaott.com/willowhd/tracks-v1a1/mono.ts.m3u8",
-        "https://tvsen7.aynaott.com/ssport2hd/index.m3u8"
+        "https://live.talkoraai.com/match/hls?t=jSoU6tYfN-lsNsc_JQcZFg1FG-pQ3EA6oKvHZ9PMfmkd2Rov1voqyQhG7FZ1sTsy3yfTNP9KOe6cVPpSTpVaIGpzp-luviycUwCbPbnBtWTM4z9d4LZEAVrvelc63FR2w2lS7dEEAaBHqeFsOkKbmygDF_7UskTMIRqTbKevhLjdxZ6u7ZXHERkR2A_8B0hRUa609Vpe0tvqCYEkHhq932tJfMFHFbzULQJvZyxqim9NnyeoMgZ6xUSQMife-QNZjH4G8MAAaq4XfUpod-SlTm0VdfeaOQ",
+        "https://live.talkoraai.com/match/seg?t=R_RpfSLapfAHVLh-vVFsvvBx43E-B6YaKjiQcy779Wv6W5FZkW6uNDQc_ogO56YPFnvt3_b4efh6vWL3jIHn0TUlWSD0YwwV5zL8t81M1zV3iPUjYb-ySKOhPMDamfiVn4FJnVQ5QVjJtj7MyVVW2axNv9RaJwZupbOA0psFSrCJUWcpcYgi6FnSvpZYNYyXhcjrAWHDWhUen8aB1N66W83Ya4eQnPcNC6Pbvc_-EsbrZidlRazzrHV6LLQ1VQGxXkCH8WvU9y38vDrAi_m2ie7lgUnKn3-Gc5ooaw7h"
       ],
-      "last_updated": "2026-09-06T15:53:32.299967"
-    },
-    {
-      "title": "Ludhiana Lions vs Fazilka Falcons",
-      "teams": "Ludhiana Lions vs Fazilka Falcons",
-      "league": "Sher-E-Punjab T20 League",
-      "sport": "cricket",
-      "status": "live",
-      "runtime": "00h 00m 00s",
-      "viewers": "17",
-      "viewers_type": "Watching",
-      "servers": null,
-      "date": null,
-      "time": null,
-      "match_url": "live/ludhiana-lions-vs-fazilka-falcons-750",
-      "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249109_53065_LLN_FAF_fc-web_1788345783974.jpg",
-      "match_id": "750",
-      "server_urls": [
-        "https://stream.ottplus.live/live/ten_5_hd_abr/live/ten_5_hd_720/chunks.m3u8",
-        "https://digitalotthub.com/tv/toffee-by-maruf/live.php?id=sony_sports_5_hd&e=.m3u8"
-      ],
-      "last_updated": "2026-09-06T15:53:32.567786"
-    },
-    {
-      "title": "Guyana Amazon Warriors Women vs Jamaica Empress Women",
-      "teams": "Guyana Amazon Warriors Women vs Jamaica Empress Women",
-      "league": "CPL-T20",
-      "sport": "cricket",
-      "status": "live",
-      "runtime": "00h 00m 00s",
-      "viewers": "6",
-      "viewers_type": "Watching",
-      "servers": null,
-      "date": null,
-      "time": null,
-      "match_url": "live/guyana-amazon-warriors-women-vs-jamaica-empress-women-747",
-      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1788571269540x302.jpg",
-      "match_id": "747",
-      "server_urls": [
-        "https://live.talkoraai.com/match/hls?t=ddj_2K65f5rb_210gEh_Js1mCkEUXip34pjJXZahMcEZqzO5cqQgtyTrN0FBxfxYiBUbTWpNiCDQN_7h5f15TPWb9H32bRpFzfaVEbyItk76rmtrIx7zJ1Gp_-U9ZjL6oMPwC0F115vz7bUBHQIxdDSuKNk8gjrJ2Q0fpO8v8YuUckAUTSFXSvWhYMijBrzmeDm_dq7HQVBNLCva_cx2sLkRnzcfMO-xbmiTzSt4bO5Yz9zXvGLYpJNIQOyRy66EEnFwySpsPO63T8Kz5VTs6d8Wfdb-0B4yB2Q#video.m3u8"
-      ],
-      "last_updated": "2026-09-06T15:53:32.835043"
+      "last_updated": "2026-09-06T19:34:20.256572"
     },
     {
       "title": "Guyana Amazon Warriors vs St Kitts and Nevis Patriots",
@@ -98,58 +54,22 @@
       "sport": "cricket",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "6",
+      "viewers": "2",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
       "time": null,
-      "match_url": "live/guyana-amazon-warriors-vs-st-kitts-and-nevis-patriots-746",
+      "match_url": "live/guyana-amazon-warriors-vs-st-kitts-and-nevis-patriots-753",
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1788569719540x302.jpg",
-      "match_id": "746",
+      "match_id": "753",
       "server_urls": [
+        "https://live.talkoraai.com/match/hls?t=LRd4jmE87-r3LFbUh2FYPc1GqFEY_eaeHBjjB7ElyrBJ18OVohGo0ko01_H7Ud1D5pOwfku7n0yH9OozE17Ey_CXME2M4Z816bKIWfRQeGuzeJzePznsovB5yys4hKqZQDcswJ2r5sQeQS6k5IPg8WM-iVlfkb9aUrqC8GWuJXBpc1vBzv7q8TeUs_X0OW5gu2aPiO6vDEAmlG9A_JEDsc-yt3PAob7h0VFWopP3qZv-jH-_TUUI3nGb3bUz33RNYxuWEGqg3VZURGQWHETxdXFGsA",
+        "https://live.talkoraai.com/match/seg?t=NZcJuCpcNXygdhBIKF-Z45_I7FR8dypSUxzV6p8yhOr1kMF_MmXO26Le4EDKzaqmi7w48C6mWHudkdNGHQgqyhw83ILtsJFzNebWK1EVF8sBoBHjEbDZ9crTc9KzcA9kJieOIxJK9y4ltVWnbEEodGwAwhglmd-J7kuQZLJxI4-sWKjYr3339yxW6m27_OdsaZNAgNwxWNfXKdxnMkpqxQwZjc7p9cAyFb2EYdfa5DwZrovVr18q4CKYd-VbcrhCobTDw5rUxUEvXCP3ixFn-7tXbLf9wCtx4uuE",
+        "https://tvsen5.aynaott.com/willowhd/tracks-v1a1/mono.ts.m3u8",
+        "https://digitalotthub.com/tv/dd/live.php/598.m3u8",
         "https://tvsen7.aynaott.com/ssport2hd/index.m3u8"
       ],
-      "last_updated": "2026-09-06T15:53:33.102900"
-    },
-    {
-      "title": "Valencia vs Barcelona",
-      "teams": "Valencia vs Barcelona",
-      "league": "LaLiga 2026",
-      "sport": "football",
-      "status": "live",
-      "runtime": "00h 00m 00s",
-      "viewers": "62",
-      "viewers_type": "Watching",
-      "servers": null,
-      "date": null,
-      "time": null,
-      "match_url": "live/valencia-vs-barcelona-748",
-      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT7uZcyEgCY4sAuO8Y5ziCa0cX-H4DmfUPlv4SnRdVk6pxe0KFKRnZctkI&s=10",
-      "match_id": "748",
-      "server_urls": [
-        "https://live.talkoraai.com/match/seg?t=4N3yTa3GIVVofarCiPWpLRpnLd_js9--6ug2v4ioKc7NRqb57wty-V7Xa39dZnf0eDL12kN8V04u3xdPLmYldlfuHs6k8iufpT7ffRY1bt3aU6X9cQwcV_iurDFcRPhZoCLKUDEuAQuEbpLp_1caLFWb1yuYIwolRYdmJqywgXrr6UIzpXTblIbEyluww8Wutu3K9uNyOdmbZzDGhk76c_W40RU9tNQN3DA9SIIPvHJFbRcU1-SqA9i0EUw0cpYYAfegOYjJ4w0YGWs1w29h8vnXcStAc8UMK0J5HTG-#video.m3u8"
-      ],
-      "last_updated": "2026-09-06T15:53:33.371277"
-    },
-    {
-      "title": "Arsenal vs Chelsea",
-      "teams": "Arsenal vs Chelsea",
-      "league": "Premier League",
-      "sport": "cricket",
-      "status": "live",
-      "runtime": "00h 00m 00s",
-      "viewers": "10",
-      "viewers_type": "Watching",
-      "servers": null,
-      "date": null,
-      "time": null,
-      "match_url": "live/arsenal-vs-chelsea-749",
-      "thumbnail": "https://e0.365dm.com/26/09/768x432/skysports-alonso-arteta_7340729.jpg?20260904114848",
-      "match_id": "749",
-      "server_urls": [
-        "https://live.talkoraai.com/match/seg?t=uvrGTwYbPeYDmu_J5NHGwNdb6WuotDEg3pDWcDJfrHSV3FzJ498ouCDP6Vpc6hdx7EO3B3vmirYM3D987Ix-_wzZCo_5BOxipw8iN67S0s--E4r-P4uhnA35Xy7m8iU6NfCMl4qokcfHQ6YdHYP_C7jT5yExMED1W2KrL2QXxKrZrc5W_owgsuLxwnypWvXXyElDFcusnLk-DHQWDnxljH_XszxFTBJn5p4j4TzTMSyH7lCluXYmaV0ryGQaZKsmTsMhMRYgoAOd0z3geUdBoJB-kXDkayazJAEq4JZtojnGZoQXQPVFC-1Y0ZRLltd5Edi1Pnli-c42zwgJHV2IpL-LyLvQZ8tzzj6Ex3XSim6ycwcNtXyWXeRHQlnbRV-eExa_fjoF0TX95kn39Bvinkz_#video.m3u8"
-      ],
-      "last_updated": "2026-09-06T15:53:33.641032"
+      "last_updated": "2026-09-06T19:34:20.527370"
     }
   ]
 }
