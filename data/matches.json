@@ -1,31 +1,10 @@
 {
-  "timestamp": "2026-09-06T19:34:20.802442",
-  "total_matches": 3,
-  "live_count": 3,
+  "timestamp": "2026-09-06T21:38:59.009217",
+  "total_matches": 2,
+  "live_count": 2,
   "upcoming_count": 0,
   "completed_count": 0,
   "matches": [
-    {
-      "title": "Juventus vs AC Milan",
-      "teams": "Juventus vs AC Milan",
-      "league": "Serie A",
-      "sport": "football",
-      "status": "live",
-      "runtime": "00h 00m 00s",
-      "viewers": "4",
-      "viewers_type": "Watching",
-      "servers": null,
-      "date": null,
-      "time": null,
-      "match_url": "live/juventus-vs-ac-milan-755",
-      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQt4qtiBU04mCkVsrzbN9Xh76aSKB3y_Rdu5er68RwJLSb6RKg1dRLMAus&s=10",
-      "match_id": "755",
-      "server_urls": [
-        "https://fawa.duckdns.org/api/proxy?url=http%3A%2F%2F193.47.62.50%2Fhls%2FkhhhAA.m3u8&headers=%7B%22Referer%22%3A%22http%3A%2F%2Fwww.fawanews.sc%2F%22%7D",
-        "https://sportz-obiram.emonsa4.workers.dev/proxy?url=DAcVFABRQ0tGQ1xPUFNcGkdUFU9KNiVAHBgDCQdILSoJABgFFgdVQ08IGh0JS1lGSwUCGgRWBFNdEBJ2JgFbCQIMCFM-OVEQUFxTQkkbBUsQAxkKQVkERwBCCghaRGdVSjB9VQkGFQ1MEjA0AR1VW1NLXEtRUUpfXklhXB5JY2NzdmMCYXdKbSVXCwhVUFsEa29WElEOVxFcQAJXRVIIBxocGUtRAQUDBAcOEEYjdQJFWlNZXlU8PgBLCw9UQFNFAAcRUloHSRofHQFRVwcKBwFfcSUmVhoPFFUCEisvF1ZbK0FBIlZTIhoNHgVHTwRYRlpBR1xFTBsNLClFDQ"
-      ],
-      "last_updated": "2026-09-06T19:34:18.971340"
-    },
     {
       "title": "Espanyol vs Sevilla",
       "teams": "Espanyol vs Sevilla",
@@ -33,7 +12,7 @@
       "sport": "football",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "2",
+      "viewers": "8",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -45,7 +24,7 @@
         "https://live.talkoraai.com/match/hls?t=jSoU6tYfN-lsNsc_JQcZFg1FG-pQ3EA6oKvHZ9PMfmkd2Rov1voqyQhG7FZ1sTsy3yfTNP9KOe6cVPpSTpVaIGpzp-luviycUwCbPbnBtWTM4z9d4LZEAVrvelc63FR2w2lS7dEEAaBHqeFsOkKbmygDF_7UskTMIRqTbKevhLjdxZ6u7ZXHERkR2A_8B0hRUa609Vpe0tvqCYEkHhq932tJfMFHFbzULQJvZyxqim9NnyeoMgZ6xUSQMife-QNZjH4G8MAAaq4XfUpod-SlTm0VdfeaOQ",
         "https://live.talkoraai.com/match/seg?t=R_RpfSLapfAHVLh-vVFsvvBx43E-B6YaKjiQcy779Wv6W5FZkW6uNDQc_ogO56YPFnvt3_b4efh6vWL3jIHn0TUlWSD0YwwV5zL8t81M1zV3iPUjYb-ySKOhPMDamfiVn4FJnVQ5QVjJtj7MyVVW2axNv9RaJwZupbOA0psFSrCJUWcpcYgi6FnSvpZYNYyXhcjrAWHDWhUen8aB1N66W83Ya4eQnPcNC6Pbvc_-EsbrZidlRazzrHV6LLQ1VQGxXkCH8WvU9y38vDrAi_m2ie7lgUnKn3-Gc5ooaw7h"
       ],
-      "last_updated": "2026-09-06T19:34:20.256572"
+      "last_updated": "2026-09-06T21:38:57.516991"
     },
     {
       "title": "Guyana Amazon Warriors vs St Kitts and Nevis Patriots",
@@ -54,7 +33,7 @@
       "sport": "cricket",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "2",
+      "viewers": "10",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -69,7 +48,7 @@
         "https://digitalotthub.com/tv/dd/live.php/598.m3u8",
         "https://tvsen7.aynaott.com/ssport2hd/index.m3u8"
       ],
-      "last_updated": "2026-09-06T19:34:20.527370"
+      "last_updated": "2026-09-06T21:38:58.749983"
     }
   ]
 }
