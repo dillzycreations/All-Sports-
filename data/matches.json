@@ -1,55 +1,92 @@
 {
-  "timestamp": "2026-09-07T16:01:09.467524",
-  "total_matches": 2,
-  "live_count": 2,
-  "upcoming_count": 0,
+  "timestamp": "2026-09-07T18:14:20.989275",
+  "total_matches": 4,
+  "live_count": 3,
+  "upcoming_count": 1,
   "completed_count": 0,
   "matches": [
     {
-      "title": "Fazilka Falcons vs Amritsar Soormas",
-      "teams": "Fazilka Falcons vs Amritsar Soormas",
-      "league": "Sher-E-Punjab T20 League",
-      "sport": "cricket",
+      "title": "Getafe vs CELTA",
+      "teams": "Getafe vs CELTA",
+      "league": "LaLiga",
+      "sport": "football",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "26",
+      "viewers": "2",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
       "time": null,
-      "match_url": "live/fazilka-falcons-vs-amritsar-soormas-757",
-      "thumbnail": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000023603/178876680905358_PT20_Fazilka-Falcons-vs-Amritsar-Soormas_landscape_thumb.jpg",
-      "match_id": "757",
+      "match_url": "live/getafe-vs-celta-759",
+      "thumbnail": "https://media-cdn-v2.laodong.vn/storage/newsportal/2026/9/7/1762780/Laliga-16.jpg",
+      "match_id": "759",
       "server_urls": [
-        "https://stream.ottplus.live/live/ten_5_hd_abr/live/ten_5_hd_720/chunks.m3u8",
-        "https://digitalotthub.com/tv/toffee-by-maruf/live.php?id=sony_sports_5_hd&e=.m3u8"
+        "https://live.talkoraai.com/match/hls?t=7sjOxJjg5dETRmKzef0cHDUr-e1RH2XMsipmoeipb1cH81QpU0zGlKdODLMxVSNsjCTL-9DXhRfvQZyDzkJ1zDs6NCwXeP43u-hV8UFH16q8aime4oDkr1_0oKsxmlUMCxF6Jp1F24pb5YqBVQvQI3j8hnptgHbxGutX-8nxtY8RnsE3GQZiUbBiy0i4VMI0qZFdSUxsji-Nq70jt4lzakv3gTwXEa4LzdY4jOTczMaUSCExCneRAVpjekkIarZrW4HCUV908F-gIRmTi1xcTlG5fENkTQ",
+        "https://live.talkoraai.com/match/seg?t=9VsABrymZQGiwi0WzDayXVMUh9KhgkaPRYhf3XOLsYcMRmEWPHZSKNCL7R-YggB1sGNsz6abTabtfq10HTrIh0uVLcyRTmy-6WK28gLKpT_jRdg64UhfzvMSG7qKo0bVLbd28Ht-llYYLfDksvS_d_AA7Rb5UUV98WS_hyxcoHVQu7VNiFzDTFg6MJnZDzyOhivAgqHjhUy_PHtgQqOs6RtVUyJK79o6r-DYBuCiQx9j9okqS5TJ7h3q8VxHKcFzMLP9cjSrJ3wPjubbY8Xld3Yvi6Tn2fnHLj1ocVkI",
+        "https://fawa.duckdns.org/api/proxy?url=http%3A%2F%2F193.47.62.59%2Fhls%2FGQQQAAAAAAAA.m3u8&headers=%7B%22Referer%22%3A%22http%3A%2F%2Fwww.fawanews.sc%2F%22%7D",
+        "https://fawa.duckdns.org/api/proxy?url=https%3A%2F%2Fwww.rtmpcdn.com%2Flive%2Ffa6d09e4-f7d7-4847-8f07-076f303e8651.m3u8&headers=%7B%22Referer%22%3A%22http%3A%2F%2Fwww.fawanews.sc%2F%22%7D"
       ],
-      "last_updated": "2026-09-07T16:01:08.342315"
+      "last_updated": "2026-09-07T18:14:19.703474"
     },
     {
-      "title": "Pakistan Women vs Hong Kong, China Women",
-      "teams": "Pakistan Women vs Hong Kong, China Women",
-      "league": "Women's Asia Cup 2026-T20",
-      "sport": "cricket",
+      "title": "Hilal vs Neom",
+      "teams": "Hilal vs Neom",
+      "league": "Saudi Pro League 2026/27",
+      "sport": "football",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "18",
+      "viewers": "3",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
       "time": null,
-      "match_url": "live/pakistan-women-vs-hong-kong-china-women-758",
-      "thumbnail": "https://i.postimg.cc/Qxt8dt4v/963ab208-8ea6-4c91-9c10-f49b69d33161.jpg",
-      "match_id": "758",
+      "match_url": "live/hilal-vs-neom-760",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRk-G41oLHu3K7u6gIFsQRsahHtZbiwBfh5s-fAR5eM6Du6f2fh_urLjjg&s=10",
+      "match_id": "760",
       "server_urls": [
-        "https://tvsen5.aynaott.com/willowhd/tracks-v1a1/mono.ts.m3u8",
-        "https://tvsen7.aynascope.net/Sports1/index.m3u8",
-        "https://warm-caverns-48629-92fab798385f.herokuapp.com/https://d36r8jifhgsk5j.cloudfront.net/Willow_TV1080p.m3u8",
-        "https://sportz-obiram.emonsa4.workers.dev/proxy?url=DAcVFElEQxBcWU9EBhlTTl1WS0BMMCUdBg8SRx0PMzMLBAAOSxoKFwQcXQZfERI",
-        "https://digitalotthub.com/tv/toffee-by-maruf/live.php?id=sony_sports_1_hd&e=.m3u8",
-        "https://warm-caverns-48629-92fab798385f.herokuapp.com/https://d36r8jifhgsk5j.cloudfront.net/Willow_TV540p.m3u8"
+        "https://live.talkoraai.com/match/hls?t=pjgLWQQrRN26aAU6DBhBdYDFao4RQxI5ii3niNpxzZJswoGYMbMoVEovTpKaX-fhKBs9zUdMBpmh8ZEAQ_4fDv-4TWmkEspwV3MM1X_-mG7AKMA6duTLbn-IEGy1P8puF5xy_yWUCU8yf9XvuL65vWwYfjFiDJwPrSqg1nIGUnoLz4Vobh2w6cudeS0EjbADE8L6qH-JrrLJxktwxMl7MfDzzmwBnKL7bt4J2M9q3CFz5tsWaGBt3a_jZggKCRuu6SreMv7wHPzqrAOOIjnILn0U7otbgw",
+        "https://live.talkoraai.com/match/seg?t=mL_lzGrP4sSY2MXCkTpNfITNTWQbsOrQIJEqgtLzdNmguqJQRzQtwk18mrqMi4J1X98YWokWXJ9o55o4mVjWXMylhurG2wJX3xJNMSisCgBhxpPnAKdKTzXaE4fapx3Y0MBdq2IhrJqeR9xX_8Y-g4qLcQAk0-vcUqagUaZEtBsYaDF5WXVVRX3KIK1ivURTKjvZS_DWC2ZxfwDRyd9GOKDyTEwmGwXufYw3fNMDoj1JZcpmACcSw0G1HmDJUL3KP-TOyhXs24NCGTtvxJE_aBzFMrKAMAtk-3_qYDHu",
+        "https://sportz-obiram.emonsa4.workers.dev/proxy?url=DAcVFABRQ0teR0tSUkdCGUBeTEYMMDQFXVIVHhlJLC8LARweEkBKHlIRSw"
       ],
-      "last_updated": "2026-09-07T16:01:09.173393"
+      "last_updated": "2026-09-07T18:14:20.472953"
+    },
+    {
+      "title": "Al Okhdood vs Al Najma",
+      "teams": "Al Okhdood vs Al Najma",
+      "league": "Saudi Pro League 2026/27",
+      "sport": "football",
+      "status": "live",
+      "runtime": "00h 00m 00s",
+      "viewers": "3",
+      "viewers_type": "Watching",
+      "servers": null,
+      "date": null,
+      "time": null,
+      "match_url": "live/al-okhdood-vs-al-najma-761",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRtJB-UAYPI3WpEn3dYWYank7C2nPdvKEpE24zxb9gj0vGb92aUK-ccmjc&s=10",
+      "match_id": "761",
+      "server_urls": [
+        "https://fawa.duckdns.org/api/proxy?url=http%3A%2F%2F193.47.62.50%2Fhls%2FCCCCAA.m3u8&headers=%7B%22Referer%22%3A%22http%3A%2F%2Fwww.fawanews.sc%2F%22%7D"
+      ],
+      "last_updated": "2026-09-07T18:14:20.730244"
+    },
+    {
+      "title": "Elche vs Real Sociedad",
+      "teams": "Elche vs Real Sociedad",
+      "league": "LaLiga",
+      "sport": "football",
+      "status": "upcoming",
+      "runtime": "00h 00m 00s",
+      "viewers": "1",
+      "viewers_type": "Waiting",
+      "servers": null,
+      "date": null,
+      "time": null,
+      "match_url": "live/elche-vs-real-sociedad-762",
+      "thumbnail": "https://media-cdn-v2.laodong.vn/storage/newsportal/2026/9/7/1762582/Rsz_52F800fc-353D-42.jpg",
+      "match_id": "762",
+      "server_urls": [],
+      "last_updated": "2026-09-07T18:14:20.988511"
     }
   ]
 }
