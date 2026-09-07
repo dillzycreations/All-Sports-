@@ -1,33 +1,10 @@
 {
-  "timestamp": "2026-09-07T19:43:53.480810",
-  "total_matches": 4,
-  "live_count": 4,
+  "timestamp": "2026-09-07T19:52:18.109334",
+  "total_matches": 3,
+  "live_count": 3,
   "upcoming_count": 0,
   "completed_count": 0,
   "matches": [
-    {
-      "title": "Getafe vs CELTA",
-      "teams": "Getafe vs CELTA",
-      "league": "LaLiga",
-      "sport": "football",
-      "status": "live",
-      "runtime": "00h 00m 00s",
-      "viewers": "30",
-      "viewers_type": "Watching",
-      "servers": null,
-      "date": null,
-      "time": null,
-      "match_url": "live/getafe-vs-celta-759",
-      "thumbnail": "https://media-cdn-v2.laodong.vn/storage/newsportal/2026/9/7/1762780/Laliga-16.jpg",
-      "match_id": "759",
-      "server_urls": [
-        "https://live.talkoraai.com/match/hls?t=7sjOxJjg5dETRmKzef0cHDUr-e1RH2XMsipmoeipb1cH81QpU0zGlKdODLMxVSNsjCTL-9DXhRfvQZyDzkJ1zDs6NCwXeP43u-hV8UFH16q8aime4oDkr1_0oKsxmlUMCxF6Jp1F24pb5YqBVQvQI3j8hnptgHbxGutX-8nxtY8RnsE3GQZiUbBiy0i4VMI0qZFdSUxsji-Nq70jt4lzakv3gTwXEa4LzdY4jOTczMaUSCExCneRAVpjekkIarZrW4HCUV908F-gIRmTi1xcTlG5fENkTQ",
-        "https://live.talkoraai.com/match/seg?t=9VsABrymZQGiwi0WzDayXVMUh9KhgkaPRYhf3XOLsYcMRmEWPHZSKNCL7R-YggB1sGNsz6abTabtfq10HTrIh0uVLcyRTmy-6WK28gLKpT_jRdg64UhfzvMSG7qKo0bVLbd28Ht-llYYLfDksvS_d_AA7Rb5UUV98WS_hyxcoHVQu7VNiFzDTFg6MJnZDzyOhivAgqHjhUy_PHtgQqOs6RtVUyJK79o6r-DYBuCiQx9j9okqS5TJ7h3q8VxHKcFzMLP9cjSrJ3wPjubbY8Xld3Yvi6Tn2fnHLj1ocVkI",
-        "https://fawa.duckdns.org/api/proxy?url=http%3A%2F%2F193.47.62.59%2Fhls%2FGQQQAAAAAAAA.m3u8&headers=%7B%22Referer%22%3A%22http%3A%2F%2Fwww.fawanews.sc%2F%22%7D",
-        "https://fawa.duckdns.org/api/proxy?url=https%3A%2F%2Fwww.rtmpcdn.com%2Flive%2Ffa6d09e4-f7d7-4847-8f07-076f303e8651.m3u8&headers=%7B%22Referer%22%3A%22http%3A%2F%2Fwww.fawanews.sc%2F%22%7D"
-      ],
-      "last_updated": "2026-09-07T19:43:51.651053"
-    },
     {
       "title": "Hilal vs Neom",
       "teams": "Hilal vs Neom",
@@ -35,7 +12,7 @@
       "sport": "football",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "23",
+      "viewers": "25",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -48,7 +25,7 @@
         "https://live.talkoraai.com/match/seg?t=mL_lzGrP4sSY2MXCkTpNfITNTWQbsOrQIJEqgtLzdNmguqJQRzQtwk18mrqMi4J1X98YWokWXJ9o55o4mVjWXMylhurG2wJX3xJNMSisCgBhxpPnAKdKTzXaE4fapx3Y0MBdq2IhrJqeR9xX_8Y-g4qLcQAk0-vcUqagUaZEtBsYaDF5WXVVRX3KIK1ivURTKjvZS_DWC2ZxfwDRyd9GOKDyTEwmGwXufYw3fNMDoj1JZcpmACcSw0G1HmDJUL3KP-TOyhXs24NCGTtvxJE_aBzFMrKAMAtk-3_qYDHu",
         "https://sportz-obiram.emonsa4.workers.dev/proxy?url=DAcVFABRQ0teR0tSUkdCGUBeTEYMMDQFXVIVHhlJLC8LARweEkBKHlIRSw"
       ],
-      "last_updated": "2026-09-07T19:43:52.676246"
+      "last_updated": "2026-09-07T19:52:17.226965"
     },
     {
       "title": "Elche vs Real Sociedad",
@@ -57,7 +34,7 @@
       "sport": "football",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "3",
+      "viewers": "4",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -69,7 +46,7 @@
         "https://live.talkoraai.com/match/hls?t=fiHE1sAmkc6pthvK3f1_cbQzKwzeVeRNPwD3ZS2WnrhJzVHfF1I7zdKzKWQMRGacP6hMQKBG_knBmyAY6pCpKDKBVjcgvkRqiROPI00IpwMa7odkyl3h0yQFnqolmdHaAcg8AprPug_RpiWvifQaiQtyyEWOFkfn7CDp_GfwIOef5yYfIM1kphig7uQSjW0voymEXBu_llCJcPTECwaNeKXVN75FCHFzUwWdAhirwfC10HOmHKXy9Vi7Ee41jmVWOgUhmKcdxMZYlxbYYydV-wwJIZqwsw",
         "https://live.talkoraai.com/match/seg?t=hvnSgmy9SWhggU6qkfSuvvbb93mOsUZShVhbRvCy1ILXBDZyxEWnLWCuq6OgVTL6NN9Ov1k7ILSBgwL181TGdauaUYbbOpIir716ThcEcsy5G9Pt88WtFoTSgGk2khWXGGQ2su7y6PBMFoqfClPGFvXpjxA-n7I6Gzrpo6lqb6pWkvgj5EAbyg3PL0U5Uz_LWLgcdbcRW8AUgZfVvcPegeisy7GnMmOAU-_XsL4FeRxVDPgXdTkyoLPIXnYRKQji_jQDyPhvVXB39sb0yiQ-Ts80HXscMoz8oDTUECE4"
       ],
-      "last_updated": "2026-09-07T19:43:52.943375"
+      "last_updated": "2026-09-07T19:52:17.592799"
     },
     {
       "title": "Al Okhdood vs Al Najma",
@@ -78,7 +55,7 @@
       "sport": "football",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "24",
+      "viewers": "25",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -89,7 +66,7 @@
       "server_urls": [
         "https://fawa.duckdns.org/api/proxy?url=http%3A%2F%2F193.47.62.50%2Fhls%2FCCCCAA.m3u8&headers=%7B%22Referer%22%3A%22http%3A%2F%2Fwww.fawanews.sc%2F%22%7D"
       ],
-      "last_updated": "2026-09-07T19:43:53.200831"
+      "last_updated": "2026-09-07T19:52:17.849763"
     }
   ]
 }
