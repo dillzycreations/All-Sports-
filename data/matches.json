@@ -1,30 +1,55 @@
 {
-  "timestamp": "2026-09-07T10:34:37.021143",
-  "total_matches": 1,
-  "live_count": 1,
+  "timestamp": "2026-09-07T16:01:09.467524",
+  "total_matches": 2,
+  "live_count": 2,
   "upcoming_count": 0,
   "completed_count": 0,
   "matches": [
     {
-      "title": "Mohali Kings vs Ludhiana Lions",
-      "teams": "Mohali Kings vs Ludhiana Lions",
+      "title": "Fazilka Falcons vs Amritsar Soormas",
+      "teams": "Fazilka Falcons vs Amritsar Soormas",
       "league": "Sher-E-Punjab T20 League",
       "sport": "cricket",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "48",
+      "viewers": "26",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
       "time": null,
-      "match_url": "live/mohali-kings-vs-ludhiana-lions-756",
-      "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249113_53065_MOK_LLN_fc-web_1788345783977.jpg",
-      "match_id": "756",
+      "match_url": "live/fazilka-falcons-vs-amritsar-soormas-757",
+      "thumbnail": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000023603/178876680905358_PT20_Fazilka-Falcons-vs-Amritsar-Soormas_landscape_thumb.jpg",
+      "match_id": "757",
       "server_urls": [
         "https://stream.ottplus.live/live/ten_5_hd_abr/live/ten_5_hd_720/chunks.m3u8",
         "https://digitalotthub.com/tv/toffee-by-maruf/live.php?id=sony_sports_5_hd&e=.m3u8"
       ],
-      "last_updated": "2026-09-07T10:34:36.751003"
+      "last_updated": "2026-09-07T16:01:08.342315"
+    },
+    {
+      "title": "Pakistan Women vs Hong Kong, China Women",
+      "teams": "Pakistan Women vs Hong Kong, China Women",
+      "league": "Women's Asia Cup 2026-T20",
+      "sport": "cricket",
+      "status": "live",
+      "runtime": "00h 00m 00s",
+      "viewers": "18",
+      "viewers_type": "Watching",
+      "servers": null,
+      "date": null,
+      "time": null,
+      "match_url": "live/pakistan-women-vs-hong-kong-china-women-758",
+      "thumbnail": "https://i.postimg.cc/Qxt8dt4v/963ab208-8ea6-4c91-9c10-f49b69d33161.jpg",
+      "match_id": "758",
+      "server_urls": [
+        "https://tvsen5.aynaott.com/willowhd/tracks-v1a1/mono.ts.m3u8",
+        "https://tvsen7.aynascope.net/Sports1/index.m3u8",
+        "https://warm-caverns-48629-92fab798385f.herokuapp.com/https://d36r8jifhgsk5j.cloudfront.net/Willow_TV1080p.m3u8",
+        "https://sportz-obiram.emonsa4.workers.dev/proxy?url=DAcVFElEQxBcWU9EBhlTTl1WS0BMMCUdBg8SRx0PMzMLBAAOSxoKFwQcXQZfERI",
+        "https://digitalotthub.com/tv/toffee-by-maruf/live.php?id=sony_sports_1_hd&e=.m3u8",
+        "https://warm-caverns-48629-92fab798385f.herokuapp.com/https://d36r8jifhgsk5j.cloudfront.net/Willow_TV540p.m3u8"
+      ],
+      "last_updated": "2026-09-07T16:01:09.173393"
     }
   ]
 }
