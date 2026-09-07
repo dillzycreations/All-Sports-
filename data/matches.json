@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-07T19:12:30.769782",
+  "timestamp": "2026-09-07T19:18:26.047316",
   "total_matches": 4,
   "live_count": 3,
   "upcoming_count": 1,
@@ -12,7 +12,7 @@
       "sport": "football",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "23",
+      "viewers": "24",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -26,7 +26,7 @@
         "https://fawa.duckdns.org/api/proxy?url=http%3A%2F%2F193.47.62.59%2Fhls%2FGQQQAAAAAAAA.m3u8&headers=%7B%22Referer%22%3A%22http%3A%2F%2Fwww.fawanews.sc%2F%22%7D",
         "https://fawa.duckdns.org/api/proxy?url=https%3A%2F%2Fwww.rtmpcdn.com%2Flive%2Ffa6d09e4-f7d7-4847-8f07-076f303e8651.m3u8&headers=%7B%22Referer%22%3A%22http%3A%2F%2Fwww.fawanews.sc%2F%22%7D"
       ],
-      "last_updated": "2026-09-07T19:12:29.352894"
+      "last_updated": "2026-09-07T19:18:24.734097"
     },
     {
       "title": "Hilal vs Neom",
@@ -35,7 +35,7 @@
       "sport": "football",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "18",
+      "viewers": "20",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -48,7 +48,7 @@
         "https://live.talkoraai.com/match/seg?t=mL_lzGrP4sSY2MXCkTpNfITNTWQbsOrQIJEqgtLzdNmguqJQRzQtwk18mrqMi4J1X98YWokWXJ9o55o4mVjWXMylhurG2wJX3xJNMSisCgBhxpPnAKdKTzXaE4fapx3Y0MBdq2IhrJqeR9xX_8Y-g4qLcQAk0-vcUqagUaZEtBsYaDF5WXVVRX3KIK1ivURTKjvZS_DWC2ZxfwDRyd9GOKDyTEwmGwXufYw3fNMDoj1JZcpmACcSw0G1HmDJUL3KP-TOyhXs24NCGTtvxJE_aBzFMrKAMAtk-3_qYDHu",
         "https://sportz-obiram.emonsa4.workers.dev/proxy?url=DAcVFABRQ0teR0tSUkdCGUBeTEYMMDQFXVIVHhlJLC8LARweEkBKHlIRSw"
       ],
-      "last_updated": "2026-09-07T19:12:30.223262"
+      "last_updated": "2026-09-07T19:18:25.511917"
     },
     {
       "title": "Al Okhdood vs Al Najma",
@@ -57,7 +57,7 @@
       "sport": "football",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "19",
+      "viewers": "20",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -68,7 +68,7 @@
       "server_urls": [
         "https://fawa.duckdns.org/api/proxy?url=http%3A%2F%2F193.47.62.50%2Fhls%2FCCCCAA.m3u8&headers=%7B%22Referer%22%3A%22http%3A%2F%2Fwww.fawanews.sc%2F%22%7D"
       ],
-      "last_updated": "2026-09-07T19:12:30.497483"
+      "last_updated": "2026-09-07T19:18:25.779280"
     },
     {
       "title": "Elche vs Real Sociedad",
@@ -86,7 +86,7 @@
       "thumbnail": "https://media-cdn-v2.laodong.vn/storage/newsportal/2026/9/7/1762582/Rsz_52F800fc-353D-42.jpg",
       "match_id": "762",
       "server_urls": [],
-      "last_updated": "2026-09-07T19:12:30.769038"
+      "last_updated": "2026-09-07T19:18:26.046891"
     }
   ]
 }
