@@ -1,8 +1,30 @@
 {
-  "timestamp": "2026-09-07T05:27:19.750037",
-  "total_matches": 0,
-  "live_count": 0,
+  "timestamp": "2026-09-07T10:34:37.021143",
+  "total_matches": 1,
+  "live_count": 1,
   "upcoming_count": 0,
   "completed_count": 0,
-  "matches": []
+  "matches": [
+    {
+      "title": "Mohali Kings vs Ludhiana Lions",
+      "teams": "Mohali Kings vs Ludhiana Lions",
+      "league": "Sher-E-Punjab T20 League",
+      "sport": "cricket",
+      "status": "live",
+      "runtime": "00h 00m 00s",
+      "viewers": "48",
+      "viewers_type": "Watching",
+      "servers": null,
+      "date": null,
+      "time": null,
+      "match_url": "live/mohali-kings-vs-ludhiana-lions-756",
+      "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249113_53065_MOK_LLN_fc-web_1788345783977.jpg",
+      "match_id": "756",
+      "server_urls": [
+        "https://stream.ottplus.live/live/ten_5_hd_abr/live/ten_5_hd_720/chunks.m3u8",
+        "https://digitalotthub.com/tv/toffee-by-maruf/live.php?id=sony_sports_5_hd&e=.m3u8"
+      ],
+      "last_updated": "2026-09-07T10:34:36.751003"
+    }
+  ]
 }
