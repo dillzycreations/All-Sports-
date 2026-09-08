@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-09-08T07:41:53.057587",
-  "total_matches": 4,
+  "timestamp": "2026-09-08T07:46:56.374659",
+  "total_matches": 5,
   "live_count": 1,
-  "upcoming_count": 3,
+  "upcoming_count": 4,
   "completed_count": 0,
   "matches": [
     {
@@ -12,7 +12,7 @@
       "sport": "cricket",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "6",
+      "viewers": "7",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -24,7 +24,7 @@
         "https://stream.ottplus.live/live/ten_5_hd_abr/live/ten_5_hd_720/chunks.m3u8",
         "https://digitalotthub.com/tv/toffee-by-maruf/live.php?id=sony_sports_5_hd&e=.m3u8"
       ],
-      "last_updated": "2026-09-08T07:41:52.704773"
+      "last_updated": "2026-09-08T07:46:55.054505"
     },
     {
       "title": "Ludhiana Lions vs Jalandhar Warriors",
@@ -42,7 +42,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249125_53065_LLN_JLD_fc-web_1788345783978.jpg",
       "match_id": "764",
       "server_urls": [],
-      "last_updated": "2026-09-08T07:41:53.056161"
+      "last_updated": "2026-09-08T07:46:56.372086"
     },
     {
       "title": "Ettifaq vs Al-Faisaly",
@@ -60,7 +60,25 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4248660_53025_ETT_ALF_FC-Web.png",
       "match_id": "765",
       "server_urls": [],
-      "last_updated": "2026-09-08T07:41:53.056699"
+      "last_updated": "2026-09-08T07:46:56.372850"
+    },
+    {
+      "title": "AEK vs LASK",
+      "teams": "AEK vs LASK",
+      "league": "UEFA Champions League 2026",
+      "sport": "football",
+      "status": "upcoming",
+      "runtime": "00h 00m 00s",
+      "viewers": "179",
+      "viewers_type": "Waiting",
+      "servers": null,
+      "date": null,
+      "time": null,
+      "match_url": "live/aek-vs-lask-767",
+      "thumbnail": "https://m.media-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.cf427636-6ea7-48d2-9b2d-feb86342cdb3/1/BOXART-16X9/en-US._UR1920,1080_SX624_FMjpg_.jpeg",
+      "match_id": "767",
+      "server_urls": [],
+      "last_updated": "2026-09-08T07:46:56.373470"
     },
     {
       "title": "Club Brugge vs Aston Villa",
@@ -78,7 +96,7 @@
       "thumbnail": "https://m.media-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.f68080a3-6f3d-4252-a456-b51fa970b4dd/1/BOXART-16X9/en-US._UR1920,1080_SX624_FMjpg_.jpeg",
       "match_id": "766",
       "server_urls": [],
-      "last_updated": "2026-09-08T07:41:53.057154"
+      "last_updated": "2026-09-08T07:46:56.374050"
     }
   ]
 }
