@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-09-08T22:51:12.680336",
+  "timestamp": "2026-09-08T23:00:35.471424",
   "total_matches": 2,
-  "live_count": 1,
-  "upcoming_count": 1,
+  "live_count": 2,
+  "upcoming_count": 0,
   "completed_count": 0,
   "matches": [
     {
@@ -12,7 +12,7 @@
       "sport": "football",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "10",
+      "viewers": "11",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -23,25 +23,29 @@
       "server_urls": [
         "https://fawa.duckdns.org/api/proxy?url=http%3A%2F%2F193.47.62.41%2Fhls%2FYMMMA.m3u8&headers=%7B%22Referer%22%3A%22http%3A%2F%2Fwww.fawanews.sc%2F%22%7D"
       ],
-      "last_updated": "2026-09-08T22:51:12.258347"
+      "last_updated": "2026-09-08T23:00:34.040787"
     },
     {
       "title": "Guyana Amazon Warriors vs Antigua and Barbuda Falcons",
       "teams": "Guyana Amazon Warriors vs Antigua and Barbuda Falcons",
       "league": "CPL-T20",
       "sport": "cricket",
-      "status": "upcoming",
+      "status": "live",
       "runtime": "00h 00m 00s",
       "viewers": "2",
-      "viewers_type": "Waiting",
+      "viewers_type": "Watching",
       "servers": null,
       "date": null,
       "time": null,
       "match_url": "live/guyana-amazon-warriors-vs-antigua-and-barbuda-falcons-777",
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1788788201540x302.jpg",
       "match_id": "777",
-      "server_urls": [],
-      "last_updated": "2026-09-08T22:51:12.679773"
+      "server_urls": [
+        "https://tvsen5.aynaott.com/willowhd/tracks-v1a1/mono.ts.m3u8",
+        "https://tvsen7.aynaott.com/ssport2hd/index.m3u8",
+        "https://tvsen5.aynascope.net/cXPB2LKkErN9/tracks-v1a1/mono.ts.m3u8"
+      ],
+      "last_updated": "2026-09-08T23:00:35.194406"
     }
   ]
 }
