@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-08T16:57:59.729268",
+  "timestamp": "2026-09-08T17:03:01.038087",
   "total_matches": 11,
   "live_count": 5,
   "upcoming_count": 6,
@@ -12,7 +12,7 @@
       "sport": "cricket",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "51",
+      "viewers": "52",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -28,7 +28,7 @@
         "https://sportz-obiram.emonsa4.workers.dev/proxy?url=DAcVFElEQxBcWU9EBhlTTl1WS0BMMCUdBg8SRx0PMzMLBAAOSxoKFwQcXQZfERI",
         "https://digitalotthub.com/tv/toffee-by-maruf/live.php?id=sony_sports_1_hd&e=.m3u8"
       ],
-      "last_updated": "2026-09-08T16:57:58.105555"
+      "last_updated": "2026-09-08T17:02:58.880357"
     },
     {
       "title": "Ludhiana Lions vs Jalandhar Warriors",
@@ -37,7 +37,7 @@
       "sport": "cricket",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "52",
+      "viewers": "53",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -49,7 +49,7 @@
         "https://stream.ottplus.live/live/ten_5_hd_abr/live/ten_5_hd_720/chunks.m3u8",
         "https://digitalotthub.com/tv/toffee-by-maruf/live.php?id=sony_sports_5_hd&e=.m3u8"
       ],
-      "last_updated": "2026-09-08T16:57:58.452955"
+      "last_updated": "2026-09-08T17:02:59.775006"
     },
     {
       "title": "Ettifaq vs Al-Faisaly",
@@ -58,7 +58,7 @@
       "sport": "football",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "20",
+      "viewers": "21",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -69,7 +69,7 @@
       "server_urls": [
         "https://curly-surf-da2d.hasannirob234.workers.dev/https://saseries.akamaized.net/hls/live/2110097/ZIMvsIND-3827e1/master.m3u8"
       ],
-      "last_updated": "2026-09-08T16:57:58.768157"
+      "last_updated": "2026-09-08T17:03:00.092956"
     },
     {
       "title": "AEK vs LASK",
@@ -78,7 +78,7 @@
       "sport": "football",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "5",
+      "viewers": "6",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -89,7 +89,7 @@
       "server_urls": [
         "https://curly-surf-da2d.hasannirob234.workers.dev/https://saseries.akamaized.net/hls/live/2110097/ZIMvsIND-3827e1/master.m3u8"
       ],
-      "last_updated": "2026-09-08T16:57:59.056698"
+      "last_updated": "2026-09-08T17:03:00.406772"
     },
     {
       "title": "Club Brugge vs Aston Villa",
@@ -98,7 +98,7 @@
       "sport": "football",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "5",
+      "viewers": "6",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -109,7 +109,7 @@
       "server_urls": [
         "https://curly-surf-da2d.hasannirob234.workers.dev/https://saseries.akamaized.net/hls/live/2110097/ZIMvsIND-3827e1/master.m3u8"
       ],
-      "last_updated": "2026-09-08T16:57:59.412895"
+      "last_updated": "2026-09-08T17:03:00.720129"
     },
     {
       "title": "Dortmund vs Villarreal",
@@ -127,7 +127,7 @@
       "thumbnail": "https://i.postimg.cc/hGVCgZ40/image.png",
       "match_id": "775",
       "server_urls": [],
-      "last_updated": "2026-09-08T16:57:59.726956"
+      "last_updated": "2026-09-08T17:03:01.034138"
     },
     {
       "title": "LOSC vs Betis",
@@ -145,7 +145,7 @@
       "thumbnail": "https://i.postimg.cc/v8nmyWfp/5ab5b80c-5f80-4a18-bd64-c6e855da0ce0.jpg",
       "match_id": "774",
       "server_urls": [],
-      "last_updated": "2026-09-08T16:57:59.727377"
+      "last_updated": "2026-09-08T17:03:01.034858"
     },
     {
       "title": "Porto vs Man City",
@@ -163,7 +163,7 @@
       "thumbnail": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000023619/1788784627467392_UCL2627_MD1_Porto_vs_Man_city_dated_landscape_thumb.jpg",
       "match_id": "773",
       "server_urls": [],
-      "last_updated": "2026-09-08T16:57:59.727763"
+      "last_updated": "2026-09-08T17:03:01.035507"
     },
     {
       "title": "Real Madrid vs Inter Milan",
@@ -181,7 +181,7 @@
       "thumbnail": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000023519/178859150945674_UCL_26_Real-Madrid-vs-Inter_promo_DDT_landscape_thumb.jpg",
       "match_id": "772",
       "server_urls": [],
-      "last_updated": "2026-09-08T16:57:59.728145"
+      "last_updated": "2026-09-08T17:03:01.036171"
     },
     {
       "title": "Ittihad vs Al-Fayha",
@@ -199,7 +199,7 @@
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1788787652540x302.jpg",
       "match_id": "771",
       "server_urls": [],
-      "last_updated": "2026-09-08T16:57:59.728511"
+      "last_updated": "2026-09-08T17:03:01.036799"
     },
     {
       "title": "Al Qadsiah vs Al-Ahli",
@@ -217,7 +217,7 @@
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1788787506540x302.jpg",
       "match_id": "770",
       "server_urls": [],
-      "last_updated": "2026-09-08T16:57:59.728887"
+      "last_updated": "2026-09-08T17:03:01.037437"
     }
   ]
 }
