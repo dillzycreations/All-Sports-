@@ -1,8 +1,30 @@
 {
-  "timestamp": "2026-09-08T07:26:48.423043",
-  "total_matches": 0,
-  "live_count": 0,
+  "timestamp": "2026-09-08T07:31:47.660001",
+  "total_matches": 1,
+  "live_count": 1,
   "upcoming_count": 0,
   "completed_count": 0,
-  "matches": []
+  "matches": [
+    {
+      "title": "Amritsar Soormas vs Mohali Kings",
+      "teams": "Amritsar Soormas vs Mohali Kings",
+      "league": "Sher-E-Punjab T20 League",
+      "sport": "cricket",
+      "status": "live",
+      "runtime": "00h 00m 00s",
+      "viewers": "3",
+      "viewers_type": "Watching",
+      "servers": null,
+      "date": null,
+      "time": null,
+      "match_url": "live/amritsar-soormas-vs-mohali-kings-763",
+      "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249120_53065_AMS_MOK_fc-web_1788345784705.jpg",
+      "match_id": "763",
+      "server_urls": [
+        "https://stream.ottplus.live/live/ten_5_hd_abr/live/ten_5_hd_720/chunks.m3u8",
+        "https://digitalotthub.com/tv/toffee-by-maruf/live.php?id=sony_sports_5_hd&e=.m3u8"
+      ],
+      "last_updated": "2026-09-08T07:31:46.934188"
+    }
+  ]
 }
