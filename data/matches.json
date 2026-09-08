@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-09-08T19:34:10.598715",
-  "total_matches": 7,
-  "live_count": 7,
+  "timestamp": "2026-09-08T19:39:11.068637",
+  "total_matches": 6,
+  "live_count": 6,
   "upcoming_count": 0,
   "completed_count": 0,
   "matches": [
@@ -12,7 +12,7 @@
       "sport": "football",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "11",
+      "viewers": "12",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -23,7 +23,7 @@
       "server_urls": [
         "https://curly-surf-da2d.hasannirob234.workers.dev/https://saseries.akamaized.net/hls/live/2110097/ZIMvsIND-3827e1/master.m3u8"
       ],
-      "last_updated": "2026-09-08T19:34:07.923007"
+      "last_updated": "2026-09-08T19:39:08.047304"
     },
     {
       "title": "LOSC vs Betis",
@@ -32,7 +32,7 @@
       "sport": "cricket",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "14",
+      "viewers": "15",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -43,7 +43,7 @@
       "server_urls": [
         "https://curly-surf-da2d.hasannirob234.workers.dev/https://saseries.akamaized.net/hls/live/2110097/ZIMvsIND-3827e1/master.m3u8"
       ],
-      "last_updated": "2026-09-08T19:34:08.947785"
+      "last_updated": "2026-09-08T19:39:09.397477"
     },
     {
       "title": "Porto vs Man City",
@@ -52,7 +52,7 @@
       "sport": "football",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "15",
+      "viewers": "16",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -63,7 +63,7 @@
       "server_urls": [
         "https://curly-surf-da2d.hasannirob234.workers.dev/https://saseries.akamaized.net/hls/live/2110097/ZIMvsIND-3827e1/master.m3u8"
       ],
-      "last_updated": "2026-09-08T19:34:09.220193"
+      "last_updated": "2026-09-08T19:39:09.732137"
     },
     {
       "title": "Real Madrid vs Inter Milan",
@@ -72,7 +72,7 @@
       "sport": "football",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "39",
+      "viewers": "40",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -83,27 +83,7 @@
       "server_urls": [
         "https://sonynondrmvod.akamaized.net/trailer/DASH/ae1ea2fd8cc5465eb3abfe737686648f/1788442218/baseline-std-v4/UCL_RealMadrid_v_Inter_Promo_MATCHDAY_1_40SEC_HOR_INTL_DATED_APP_eng_baseline-800300010.mpd?hdnea=exp=1788897077~acl=/*~id=80d76a419b4a4ed190cb1b89107462af-1784456331603~hmac=00d716be2a63263ba83b8d0d9396ea27e0a22591d147fad2eced108dec415048"
       ],
-      "last_updated": "2026-09-08T19:34:09.498442"
-    },
-    {
-      "title": "Club Brugge vs Aston Villa",
-      "teams": "Club Brugge vs Aston Villa",
-      "league": "UEFA Champions League 2026",
-      "sport": "football",
-      "status": "live",
-      "runtime": "00h 00m 00s",
-      "viewers": "49",
-      "viewers_type": "Watching",
-      "servers": null,
-      "date": null,
-      "time": null,
-      "match_url": "live/club-brugge-vs-aston-villa-766",
-      "thumbnail": "https://m.media-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.f68080a3-6f3d-4252-a456-b51fa970b4dd/1/BOXART-16X9/en-US._UR1920,1080_SX624_FMjpg_.jpeg",
-      "match_id": "766",
-      "server_urls": [
-        "https://live.talkoraai.com/match/seg?t=aTYJWPcXQfjYoFOE3BJEyPMXUJ44cixjhDB7IYquQG8POphx9b4j6jCbO5QdGExrnIx4n5XWidwyAfDv10VvsFpeU0A57MEu1rmm6GDh32IpyhTYiVDKLwwy_DVPczZ38d-vZQTgvCYVcOM3OMtnkzRmxmcjBMEPUHTSooVT8L6F1o4b2SCC16rxLraKwj97BggRXgb5mS1uTYC52zdtPiehq_t86EsLVT3S6-oerDl-kITpo8Rgb_yPOKNTEJtx1rD3MJc9du3jf59E6HM__bRf9GQOcju7EB5ddiHr#video.m3u8"
-      ],
-      "last_updated": "2026-09-08T19:34:09.775768"
+      "last_updated": "2026-09-08T19:39:10.068978"
     },
     {
       "title": "Ittihad vs Al-Fayha",
@@ -112,7 +92,7 @@
       "sport": "football",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "22",
+      "viewers": "23",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -123,7 +103,7 @@
       "server_urls": [
         "https://live.talkoraai.com/match/seg?t=SIG89KDVNakZKn-f0hkTi2MmRjEszdjdf1vjTEtm7PL45-lB79exwRlcmUNVd1YvKEVjCU8sfnzS6lp9jtbUYzns-f-oFKVgIlDw4Tsec1BY7FE_p6_neCZ1PNjQq2M_zZ0w0SxWCIvrZrQpfiQ8q80Y3-SqczLEK8uZ23lkmT7Wometxm7kwY2Po-FOk7lSxL4tXwz1mmZd8-41GBWDCOXWhU_fC2BiBcsW2fK7UHFrX9ps8MtjyoawHI1PRaffRrFvLWgxkCVUivMPGDfobzz7iupLTrh9Ig#video.m3u8"
       ],
-      "last_updated": "2026-09-08T19:34:10.046212"
+      "last_updated": "2026-09-08T19:39:10.403259"
     },
     {
       "title": "Al Qadsiah vs Al-Ahli",
@@ -132,7 +112,7 @@
       "sport": "football",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "21",
+      "viewers": "22",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -143,7 +123,7 @@
       "server_urls": [
         "https://live.talkoraai.com/match/seg?t=-9DefJQyvrL6dj3FnwAvFQbxFuJ_r5LSq3CZ5liHKBNkRnhD9Yx-8dJZv8Jnf9bNH9uwNFKOfQDtBaYfopDYYLB4-N5K2iYauWwLUO9DKGmZayoXtplSZv7-CiqA_8ZfoXddQJvuu1SnJsP6wuAR9BRlsFqt0Gac9IWEiwdVOfi2IJJ2MQzLcvtmckHzL0VWZaxjdz9yhKI9kjSlwj6bT4lAo31b6FdoSAc_A48QpvUYiqe3qFX-rbX8sdPp-uZhyIh4sf6V28QGpCfjbLmqu6XQq8tY54Bf-9pj#video.m3u8"
       ],
-      "last_updated": "2026-09-08T19:34:10.327115"
+      "last_updated": "2026-09-08T19:39:10.737235"
     }
   ]
 }
