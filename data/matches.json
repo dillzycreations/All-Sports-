@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-09-08T07:46:56.374659",
-  "total_matches": 5,
+  "timestamp": "2026-09-08T07:51:57.154910",
+  "total_matches": 7,
   "live_count": 1,
-  "upcoming_count": 4,
+  "upcoming_count": 6,
   "completed_count": 0,
   "matches": [
     {
@@ -12,7 +12,7 @@
       "sport": "cricket",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "7",
+      "viewers": "8",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -24,7 +24,7 @@
         "https://stream.ottplus.live/live/ten_5_hd_abr/live/ten_5_hd_720/chunks.m3u8",
         "https://digitalotthub.com/tv/toffee-by-maruf/live.php?id=sony_sports_5_hd&e=.m3u8"
       ],
-      "last_updated": "2026-09-08T07:46:55.054505"
+      "last_updated": "2026-09-08T07:51:55.913839"
     },
     {
       "title": "Ludhiana Lions vs Jalandhar Warriors",
@@ -42,7 +42,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249125_53065_LLN_JLD_fc-web_1788345783978.jpg",
       "match_id": "764",
       "server_urls": [],
-      "last_updated": "2026-09-08T07:46:56.372086"
+      "last_updated": "2026-09-08T07:51:57.150875"
     },
     {
       "title": "Ettifaq vs Al-Faisaly",
@@ -60,7 +60,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4248660_53025_ETT_ALF_FC-Web.png",
       "match_id": "765",
       "server_urls": [],
-      "last_updated": "2026-09-08T07:46:56.372850"
+      "last_updated": "2026-09-08T07:51:57.151677"
     },
     {
       "title": "AEK vs LASK",
@@ -78,7 +78,7 @@
       "thumbnail": "https://m.media-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.cf427636-6ea7-48d2-9b2d-feb86342cdb3/1/BOXART-16X9/en-US._UR1920,1080_SX624_FMjpg_.jpeg",
       "match_id": "767",
       "server_urls": [],
-      "last_updated": "2026-09-08T07:46:56.373470"
+      "last_updated": "2026-09-08T07:51:57.152320"
     },
     {
       "title": "Club Brugge vs Aston Villa",
@@ -96,7 +96,43 @@
       "thumbnail": "https://m.media-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.f68080a3-6f3d-4252-a456-b51fa970b4dd/1/BOXART-16X9/en-US._UR1920,1080_SX624_FMjpg_.jpeg",
       "match_id": "766",
       "server_urls": [],
-      "last_updated": "2026-09-08T07:46:56.374050"
+      "last_updated": "2026-09-08T07:51:57.152985"
+    },
+    {
+      "title": "Ittihad vs Al-Fayha",
+      "teams": "Ittihad vs Al-Fayha",
+      "league": "Saudi Pro League 2026/27",
+      "sport": "cricket",
+      "status": "upcoming",
+      "runtime": "00h 00m 00s",
+      "viewers": "327",
+      "viewers_type": "Waiting",
+      "servers": null,
+      "date": null,
+      "time": null,
+      "match_url": "live/ittihad-vs-al-fayha-771",
+      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1788787652540x302.jpg",
+      "match_id": "771",
+      "server_urls": [],
+      "last_updated": "2026-09-08T07:51:57.153639"
+    },
+    {
+      "title": "Al Qadsiah vs Al-Ahli",
+      "teams": "Al Qadsiah vs Al-Ahli",
+      "league": "Saudi Pro League 2026/27",
+      "sport": "football",
+      "status": "upcoming",
+      "runtime": "00h 00m 00s",
+      "viewers": "290",
+      "viewers_type": "Waiting",
+      "servers": null,
+      "date": null,
+      "time": null,
+      "match_url": "live/al-qadsiah-vs-al-ahli-770",
+      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1788787506540x302.jpg",
+      "match_id": "770",
+      "server_urls": [],
+      "last_updated": "2026-09-08T07:51:57.154261"
     }
   ]
 }
