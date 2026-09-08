@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-08T08:27:12.258353",
+  "timestamp": "2026-09-08T08:32:10.739465",
   "total_matches": 11,
   "live_count": 1,
   "upcoming_count": 10,
@@ -12,7 +12,7 @@
       "sport": "cricket",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "16",
+      "viewers": "17",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -24,7 +24,7 @@
         "https://stream.ottplus.live/live/ten_5_hd_abr/live/ten_5_hd_720/chunks.m3u8",
         "https://digitalotthub.com/tv/toffee-by-maruf/live.php?id=sony_sports_5_hd&e=.m3u8"
       ],
-      "last_updated": "2026-09-08T08:27:11.472214"
+      "last_updated": "2026-09-08T08:32:09.505904"
     },
     {
       "title": "Dortmund vs Villarreal",
@@ -42,7 +42,7 @@
       "thumbnail": "https://i.postimg.cc/hGVCgZ40/image.png",
       "match_id": "775",
       "server_urls": [],
-      "last_updated": "2026-09-08T08:27:12.252024"
+      "last_updated": "2026-09-08T08:32:10.733030"
     },
     {
       "title": "LOSC vs Betis",
@@ -60,7 +60,7 @@
       "thumbnail": "https://i.postimg.cc/v8nmyWfp/5ab5b80c-5f80-4a18-bd64-c6e855da0ce0.jpg",
       "match_id": "774",
       "server_urls": [],
-      "last_updated": "2026-09-08T08:27:12.252779"
+      "last_updated": "2026-09-08T08:32:10.733811"
     },
     {
       "title": "Porto vs Man City",
@@ -78,7 +78,7 @@
       "thumbnail": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000023619/1788784627467392_UCL2627_MD1_Porto_vs_Man_city_dated_landscape_thumb.jpg",
       "match_id": "773",
       "server_urls": [],
-      "last_updated": "2026-09-08T08:27:12.253420"
+      "last_updated": "2026-09-08T08:32:10.734460"
     },
     {
       "title": "Real Madrid vs Inter Milan",
@@ -96,7 +96,7 @@
       "thumbnail": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000023519/178859150945674_UCL_26_Real-Madrid-vs-Inter_promo_DDT_landscape_thumb.jpg",
       "match_id": "772",
       "server_urls": [],
-      "last_updated": "2026-09-08T08:27:12.254047"
+      "last_updated": "2026-09-08T08:32:10.735106"
     },
     {
       "title": "Ludhiana Lions vs Jalandhar Warriors",
@@ -114,7 +114,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249125_53065_LLN_JLD_fc-web_1788345783978.jpg",
       "match_id": "764",
       "server_urls": [],
-      "last_updated": "2026-09-08T08:27:12.254642"
+      "last_updated": "2026-09-08T08:32:10.735723"
     },
     {
       "title": "Ettifaq vs Al-Faisaly",
@@ -132,7 +132,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4248660_53025_ETT_ALF_FC-Web.png",
       "match_id": "765",
       "server_urls": [],
-      "last_updated": "2026-09-08T08:27:12.255260"
+      "last_updated": "2026-09-08T08:32:10.736359"
     },
     {
       "title": "AEK vs LASK",
@@ -150,7 +150,7 @@
       "thumbnail": "https://m.media-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.cf427636-6ea7-48d2-9b2d-feb86342cdb3/1/BOXART-16X9/en-US._UR1920,1080_SX624_FMjpg_.jpeg",
       "match_id": "767",
       "server_urls": [],
-      "last_updated": "2026-09-08T08:27:12.255871"
+      "last_updated": "2026-09-08T08:32:10.736975"
     },
     {
       "title": "Club Brugge vs Aston Villa",
@@ -168,7 +168,7 @@
       "thumbnail": "https://m.media-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.f68080a3-6f3d-4252-a456-b51fa970b4dd/1/BOXART-16X9/en-US._UR1920,1080_SX624_FMjpg_.jpeg",
       "match_id": "766",
       "server_urls": [],
-      "last_updated": "2026-09-08T08:27:12.256520"
+      "last_updated": "2026-09-08T08:32:10.737581"
     },
     {
       "title": "Ittihad vs Al-Fayha",
@@ -186,7 +186,7 @@
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1788787652540x302.jpg",
       "match_id": "771",
       "server_urls": [],
-      "last_updated": "2026-09-08T08:27:12.257148"
+      "last_updated": "2026-09-08T08:32:10.738219"
     },
     {
       "title": "Al Qadsiah vs Al-Ahli",
@@ -204,7 +204,7 @@
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1788787506540x302.jpg",
       "match_id": "770",
       "server_urls": [],
-      "last_updated": "2026-09-08T08:27:12.257753"
+      "last_updated": "2026-09-08T08:32:10.738850"
     }
   ]
 }
