@@ -1,31 +1,10 @@
 {
-  "timestamp": "2026-09-08T11:13:32.366438",
-  "total_matches": 12,
-  "live_count": 1,
+  "timestamp": "2026-09-08T11:18:44.698004",
+  "total_matches": 11,
+  "live_count": 0,
   "upcoming_count": 11,
   "completed_count": 0,
   "matches": [
-    {
-      "title": "Amritsar Soormas vs Mohali Kings",
-      "teams": "Amritsar Soormas vs Mohali Kings",
-      "league": "Sher-E-Punjab T20 League",
-      "sport": "cricket",
-      "status": "live",
-      "runtime": "00h 00m 00s",
-      "viewers": "59",
-      "viewers_type": "Watching",
-      "servers": null,
-      "date": null,
-      "time": null,
-      "match_url": "live/amritsar-soormas-vs-mohali-kings-763",
-      "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249120_53065_AMS_MOK_fc-web_1788345784705.jpg",
-      "match_id": "763",
-      "server_urls": [
-        "https://stream.ottplus.live/live/ten_5_hd_abr/live/ten_5_hd_720/chunks.m3u8",
-        "https://digitalotthub.com/tv/toffee-by-maruf/live.php?id=sony_sports_5_hd&e=.m3u8"
-      ],
-      "last_updated": "2026-09-08T11:13:32.086351"
-    },
     {
       "title": "Bangladesh Women vs United Arab Emirates Women",
       "teams": "Bangladesh Women vs United Arab Emirates Women",
@@ -42,7 +21,7 @@
       "thumbnail": "https://i.postimg.cc/mkDb9HhJ/09e11e39-55d4-43dc-8b6f-7e377d780f1a.jpg",
       "match_id": "776",
       "server_urls": [],
-      "last_updated": "2026-09-08T11:13:32.362476"
+      "last_updated": "2026-09-08T11:18:44.690681"
     },
     {
       "title": "Dortmund vs Villarreal",
@@ -60,7 +39,7 @@
       "thumbnail": "https://i.postimg.cc/hGVCgZ40/image.png",
       "match_id": "775",
       "server_urls": [],
-      "last_updated": "2026-09-08T11:13:32.362907"
+      "last_updated": "2026-09-08T11:18:44.691549"
     },
     {
       "title": "LOSC vs Betis",
@@ -78,7 +57,7 @@
       "thumbnail": "https://i.postimg.cc/v8nmyWfp/5ab5b80c-5f80-4a18-bd64-c6e855da0ce0.jpg",
       "match_id": "774",
       "server_urls": [],
-      "last_updated": "2026-09-08T11:13:32.363274"
+      "last_updated": "2026-09-08T11:18:44.692226"
     },
     {
       "title": "Porto vs Man City",
@@ -96,7 +75,7 @@
       "thumbnail": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000023619/1788784627467392_UCL2627_MD1_Porto_vs_Man_city_dated_landscape_thumb.jpg",
       "match_id": "773",
       "server_urls": [],
-      "last_updated": "2026-09-08T11:13:32.363654"
+      "last_updated": "2026-09-08T11:18:44.692896"
     },
     {
       "title": "Real Madrid vs Inter Milan",
@@ -114,7 +93,7 @@
       "thumbnail": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000023519/178859150945674_UCL_26_Real-Madrid-vs-Inter_promo_DDT_landscape_thumb.jpg",
       "match_id": "772",
       "server_urls": [],
-      "last_updated": "2026-09-08T11:13:32.364005"
+      "last_updated": "2026-09-08T11:18:44.693524"
     },
     {
       "title": "Ludhiana Lions vs Jalandhar Warriors",
@@ -132,7 +111,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249125_53065_LLN_JLD_fc-web_1788345783978.jpg",
       "match_id": "764",
       "server_urls": [],
-      "last_updated": "2026-09-08T11:13:32.364362"
+      "last_updated": "2026-09-08T11:18:44.694170"
     },
     {
       "title": "Ettifaq vs Al-Faisaly",
@@ -150,7 +129,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4248660_53025_ETT_ALF_FC-Web.png",
       "match_id": "765",
       "server_urls": [],
-      "last_updated": "2026-09-08T11:13:32.364714"
+      "last_updated": "2026-09-08T11:18:44.694823"
     },
     {
       "title": "AEK vs LASK",
@@ -168,7 +147,7 @@
       "thumbnail": "https://m.media-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.cf427636-6ea7-48d2-9b2d-feb86342cdb3/1/BOXART-16X9/en-US._UR1920,1080_SX624_FMjpg_.jpeg",
       "match_id": "767",
       "server_urls": [],
-      "last_updated": "2026-09-08T11:13:32.365056"
+      "last_updated": "2026-09-08T11:18:44.695440"
     },
     {
       "title": "Club Brugge vs Aston Villa",
@@ -186,7 +165,7 @@
       "thumbnail": "https://m.media-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.f68080a3-6f3d-4252-a456-b51fa970b4dd/1/BOXART-16X9/en-US._UR1920,1080_SX624_FMjpg_.jpeg",
       "match_id": "766",
       "server_urls": [],
-      "last_updated": "2026-09-08T11:13:32.365393"
+      "last_updated": "2026-09-08T11:18:44.696083"
     },
     {
       "title": "Ittihad vs Al-Fayha",
@@ -204,7 +183,7 @@
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1788787652540x302.jpg",
       "match_id": "771",
       "server_urls": [],
-      "last_updated": "2026-09-08T11:13:32.365750"
+      "last_updated": "2026-09-08T11:18:44.696703"
     },
     {
       "title": "Al Qadsiah vs Al-Ahli",
@@ -222,7 +201,7 @@
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1788787506540x302.jpg",
       "match_id": "770",
       "server_urls": [],
-      "last_updated": "2026-09-08T11:13:32.366093"
+      "last_updated": "2026-09-08T11:18:44.697349"
     }
   ]
 }
