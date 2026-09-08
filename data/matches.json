@@ -1,10 +1,35 @@
 {
-  "timestamp": "2026-09-08T14:16:21.268879",
+  "timestamp": "2026-09-08T14:21:22.780781",
   "total_matches": 11,
-  "live_count": 1,
-  "upcoming_count": 10,
+  "live_count": 2,
+  "upcoming_count": 9,
   "completed_count": 0,
   "matches": [
+    {
+      "title": "Bangladesh Women vs United Arab Emirates Women",
+      "teams": "Bangladesh Women vs United Arab Emirates Women",
+      "league": "Women's Asia Cup 2026-T20",
+      "sport": "cricket",
+      "status": "live",
+      "runtime": "00h 00m 00s",
+      "viewers": "6",
+      "viewers_type": "Watching",
+      "servers": null,
+      "date": null,
+      "time": null,
+      "match_url": "live/bangladesh-women-vs-united-arab-emirates-women-776",
+      "thumbnail": "https://i.postimg.cc/mkDb9HhJ/09e11e39-55d4-43dc-8b6f-7e377d780f1a.jpg",
+      "match_id": "776",
+      "server_urls": [
+        "https://tvsen5.aynaott.com/willowhd/tracks-v1a1/mono.ts.m3u8",
+        "https://tvsen7.aynascope.net/Sports1/index.m3u8",
+        "https://warm-caverns-48629-92fab798385f.herokuapp.com/https://d36r8jifhgsk5j.cloudfront.net/Willow_TV1080p.m3u8",
+        "https://warm-caverns-48629-92fab798385f.herokuapp.com/https://d36r8jifhgsk5j.cloudfront.net/Willow_TV540p.m3u8",
+        "https://sportz-obiram.emonsa4.workers.dev/proxy?url=DAcVFElEQxBcWU9EBhlTTl1WS0BMMCUdBg8SRx0PMzMLBAAOSxoKFwQcXQZfERI",
+        "https://digitalotthub.com/tv/toffee-by-maruf/live.php?id=sony_sports_1_hd&e=.m3u8"
+      ],
+      "last_updated": "2026-09-08T14:21:21.682537"
+    },
     {
       "title": "Ludhiana Lions vs Jalandhar Warriors",
       "teams": "Ludhiana Lions vs Jalandhar Warriors",
@@ -12,7 +37,7 @@
       "sport": "cricket",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "16",
+      "viewers": "18",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -24,25 +49,7 @@
         "https://stream.ottplus.live/live/ten_5_hd_abr/live/ten_5_hd_720/chunks.m3u8",
         "https://digitalotthub.com/tv/toffee-by-maruf/live.php?id=sony_sports_5_hd&e=.m3u8"
       ],
-      "last_updated": "2026-09-08T14:16:20.328308"
-    },
-    {
-      "title": "Bangladesh Women vs United Arab Emirates Women",
-      "teams": "Bangladesh Women vs United Arab Emirates Women",
-      "league": "Women's Asia Cup 2026-T20",
-      "sport": "cricket",
-      "status": "upcoming",
-      "runtime": "00h 00m 00s",
-      "viewers": "6",
-      "viewers_type": "Waiting",
-      "servers": null,
-      "date": null,
-      "time": null,
-      "match_url": "live/bangladesh-women-vs-united-arab-emirates-women-776",
-      "thumbnail": "https://i.postimg.cc/mkDb9HhJ/09e11e39-55d4-43dc-8b6f-7e377d780f1a.jpg",
-      "match_id": "776",
-      "server_urls": [],
-      "last_updated": "2026-09-08T14:16:21.261884"
+      "last_updated": "2026-09-08T14:21:22.496616"
     },
     {
       "title": "Dortmund vs Villarreal",
@@ -60,7 +67,7 @@
       "thumbnail": "https://i.postimg.cc/hGVCgZ40/image.png",
       "match_id": "775",
       "server_urls": [],
-      "last_updated": "2026-09-08T14:16:21.262716"
+      "last_updated": "2026-09-08T14:21:22.774877"
     },
     {
       "title": "LOSC vs Betis",
@@ -78,7 +85,7 @@
       "thumbnail": "https://i.postimg.cc/v8nmyWfp/5ab5b80c-5f80-4a18-bd64-c6e855da0ce0.jpg",
       "match_id": "774",
       "server_urls": [],
-      "last_updated": "2026-09-08T14:16:21.263400"
+      "last_updated": "2026-09-08T14:21:22.775679"
     },
     {
       "title": "Porto vs Man City",
@@ -96,7 +103,7 @@
       "thumbnail": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000023619/1788784627467392_UCL2627_MD1_Porto_vs_Man_city_dated_landscape_thumb.jpg",
       "match_id": "773",
       "server_urls": [],
-      "last_updated": "2026-09-08T14:16:21.264093"
+      "last_updated": "2026-09-08T14:21:22.776349"
     },
     {
       "title": "Real Madrid vs Inter Milan",
@@ -114,7 +121,7 @@
       "thumbnail": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000023519/178859150945674_UCL_26_Real-Madrid-vs-Inter_promo_DDT_landscape_thumb.jpg",
       "match_id": "772",
       "server_urls": [],
-      "last_updated": "2026-09-08T14:16:21.264799"
+      "last_updated": "2026-09-08T14:21:22.777007"
     },
     {
       "title": "Ettifaq vs Al-Faisaly",
@@ -132,7 +139,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4248660_53025_ETT_ALF_FC-Web.png",
       "match_id": "765",
       "server_urls": [],
-      "last_updated": "2026-09-08T14:16:21.265448"
+      "last_updated": "2026-09-08T14:21:22.777635"
     },
     {
       "title": "AEK vs LASK",
@@ -150,7 +157,7 @@
       "thumbnail": "https://m.media-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.cf427636-6ea7-48d2-9b2d-feb86342cdb3/1/BOXART-16X9/en-US._UR1920,1080_SX624_FMjpg_.jpeg",
       "match_id": "767",
       "server_urls": [],
-      "last_updated": "2026-09-08T14:16:21.266134"
+      "last_updated": "2026-09-08T14:21:22.778270"
     },
     {
       "title": "Club Brugge vs Aston Villa",
@@ -168,7 +175,7 @@
       "thumbnail": "https://m.media-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.f68080a3-6f3d-4252-a456-b51fa970b4dd/1/BOXART-16X9/en-US._UR1920,1080_SX624_FMjpg_.jpeg",
       "match_id": "766",
       "server_urls": [],
-      "last_updated": "2026-09-08T14:16:21.266820"
+      "last_updated": "2026-09-08T14:21:22.778877"
     },
     {
       "title": "Ittihad vs Al-Fayha",
@@ -186,7 +193,7 @@
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1788787652540x302.jpg",
       "match_id": "771",
       "server_urls": [],
-      "last_updated": "2026-09-08T14:16:21.267515"
+      "last_updated": "2026-09-08T14:21:22.779507"
     },
     {
       "title": "Al Qadsiah vs Al-Ahli",
@@ -204,7 +211,7 @@
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1788787506540x302.jpg",
       "match_id": "770",
       "server_urls": [],
-      "last_updated": "2026-09-08T14:16:21.268183"
+      "last_updated": "2026-09-08T14:21:22.780157"
     }
   ]
 }
