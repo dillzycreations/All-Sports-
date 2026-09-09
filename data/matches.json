@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-09-09T18:30:26.548077",
-  "total_matches": 9,
-  "live_count": 5,
+  "timestamp": "2026-09-09T18:47:48.401388",
+  "total_matches": 8,
+  "live_count": 4,
   "upcoming_count": 4,
   "completed_count": 0,
   "matches": [
@@ -12,7 +12,7 @@
       "sport": "cricket",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "157",
+      "viewers": "159",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -27,7 +27,7 @@
         "https://stream.ottplus.live/live/ten_2_hd_abr/live/ten_2_hd_720/chunks.m3u8",
         "https://sportz-obiram.emonsa4.workers.dev/proxy?url=DAcVFABRQ0tIRgRYRkNHVVYZSlYMLClFDRkSGg8HMnBTEFlZBUZVRlZSEVIKAhgcGhtVBwpRBlMNFEckdQJeU0kBBAI6J0oeWx9cTBdOFA0rLj9WT3peHUtjQmZdVXJbTXcEVE4PW1paUWtpXEdcXVBVFxAJAR4OUQxeXlpZ"
       ],
-      "last_updated": "2026-09-09T18:30:24.666010"
+      "last_updated": "2026-09-09T18:47:45.610253"
     },
     {
       "title": "VFB Stuttgart vs Viking",
@@ -36,7 +36,7 @@
       "sport": "football",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "29",
+      "viewers": "30",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -50,7 +50,7 @@
         "https://fawa.duckdns.org/api/proxy?url=https%3A%2F%2Fwww.rtmpcdn.com%2Flive%2F4dbbf846-d4e1-497b-990c-707fb8fffd4b.m3u8&headers=%7B%22Referer%22%3A%22http%3A%2F%2Fwww.fawanews.sc%2F%22%7D",
         "https://fawa.duckdns.org/api/proxy?url=http%3A%2F%2F193.47.62.44%2Fhls%2FDOOOA.m3u8&headers=%7B%22Referer%22%3A%22http%3A%2F%2Fwww.fawanews.sc%2F%22%7D"
       ],
-      "last_updated": "2026-09-09T18:30:25.115973"
+      "last_updated": "2026-09-09T18:47:47.295259"
     },
     {
       "title": "Barcelona vs Feyenoord",
@@ -59,7 +59,7 @@
       "sport": "football",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "94",
+      "viewers": "110",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -77,7 +77,7 @@
         "https://live2.domaincdn.cc/livecdn/channel-1.m3u8?auth_key=3000001788971862-0-0-589b468147000fe68ef2401ba41c80ec",
         "https://hrthrtjhrtijkhiurt.chkgjkg.online/hls/68.m3u8"
       ],
-      "last_updated": "2026-09-09T18:30:25.474752"
+      "last_updated": "2026-09-09T18:47:47.667019"
     },
     {
       "title": "Nassr vs Abha",
@@ -86,7 +86,7 @@
       "sport": "football",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "19",
+      "viewers": "22",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -98,28 +98,7 @@
         "https://live.talkoraai.com/match/hls?t=ssjtP0vTowmdLaJMQr5vvTqpdCjLKF8Xoa04y8pe52SuNg7ac_SXnMbiB9es74PMlnXFuTmsRgQlByX2Qw5dE33F4_SOf6VerYhOfIoJzPqo1JEM2lDWw2romMjFawmC-RgbG2ipLrFlXEiHYpkiUZVXE7WJZmyYU_9rkVofwQFhBKPDZ71rrbbLtK8l_ZxxJNgc2hQPi4fjUxo_Fn3cKKhRQU9-NmKh358DKtUbVxWw7dtPXmpRzBsod4rhfq9Cp3Egg-abpm2XR1qWXlVJCT3SwXTIF_Jd",
         "https://live.talkoraai.com/match/seg?t=qqRnuHkEzVMAA2kRUKTT28nZMG-YztCy9DpvL7uIXVoZibkJJGKt8aSpBGqySQPNzu-AfppU9riZZGmAELeihoRV2TT3_phr-a_vBdDnmCkBokaRWpo0RTYjinroKXfn39QGgGeWp1-MDz0Cqp_RaNjcS88RCsMHjstOpWlkwfzws3_ZzMRFmBl8i_EvHiXfJdhte20LH5AbIo9nzfjOgk4s9v4K22Cbv2gwGizzmUoRs0AxYiOOlgBOYYzIcVJhGaBFaazt1r0z7JA-f0x6awQmWJrBnKUiMVeL_DyzCT8"
       ],
-      "last_updated": "2026-09-09T18:30:25.833185"
-    },
-    {
-      "title": "Men's & Women's Singles vs Men's & Women's Singles",
-      "teams": "Men's & Women's Singles vs Men's & Women's Singles",
-      "league": "Quarterfinals",
-      "sport": "others",
-      "status": "live",
-      "runtime": "00h 00m 00s",
-      "viewers": "27",
-      "viewers_type": "Watching",
-      "servers": null,
-      "date": null,
-      "time": null,
-      "match_url": "live/men-s-women-s-singles-vs-men-s-women-s-singles-790",
-      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1788881829540x302.jpg",
-      "match_id": "790",
-      "server_urls": [
-        "https://live.talkoraai.com/match/hls?t=IYidfLxaLH0oTACLs6rFLmfmv8c6kvVs6aRUwwFZHgnbVa8je5R6i5zzoyexfCC6eaVZAb_3Nw-hKPobCoRtkFu0ZbH3UBkmVJSxGIsMfFprTsc9fVEW5rFFmocDfIOh8faJ5iVoxlZbaxqBIwSIXSMv3M4imvawWopX1CnE2gJJ3MWKq-rvEogkjEE9MHtklrQlQi10WoGKWTERd8lM2ykIG1wSGWNLCdQgh5JkrtlOZ2dgzIIQUXuah1zX763lMfJRMNGtrD37-8vT",
-        "https://live.talkoraai.com/match/seg?t=KnUOQSIbGo3zgnWJgUcAsSNT-uPSIHzMDu-vS973d6mw0bNr7236LqWWS-9KoLjVlIvaK1a0W7ke992o0a1vj2b_jBUDcSO5UbR8L8Ttyy48aYI9DiGNnXiIW_Icz60pYblWtyKawTxn6f2vciM3MFrz9twbCEusnCETveDTgCSG9zq_nAL4LJECGHfrYAlMOt1D7DVb5XwhI-sXOxlYIHPCc6Pz_GJUfvT8XDoqBqyYTb7QD9mF7zET1R-kf4NYtL168d_CxZPEIQJAtjnnyQciQgM"
-      ],
-      "last_updated": "2026-09-09T18:30:26.189659"
+      "last_updated": "2026-09-09T18:47:48.036710"
     },
     {
       "title": "SCP vs Galatasaray",
@@ -137,7 +116,7 @@
       "thumbnail": "https://i.ytimg.com/vi/lQ82ucEFiko/sddefault.jpg?v=6a9741c6",
       "match_id": "789",
       "server_urls": [],
-      "last_updated": "2026-09-09T18:30:26.545338"
+      "last_updated": "2026-09-09T18:47:48.398718"
     },
     {
       "title": "PSG vs Slovan Bratislava",
@@ -155,7 +134,7 @@
       "thumbnail": "https://i.postimg.cc/D0Dqd8bh/c26e0059-f71d-4b6d-af53-9d2dec5ceb57.jpg",
       "match_id": "788",
       "server_urls": [],
-      "last_updated": "2026-09-09T18:30:26.546065"
+      "last_updated": "2026-09-09T18:47:48.399460"
     },
     {
       "title": "Liverpool vs Atletico Madrid",
@@ -173,7 +152,7 @@
       "thumbnail": "https://i.postimg.cc/9FFSLSRL/ec123aee-cf0b-48c4-9e09-25c5207586b6.jpg",
       "match_id": "787",
       "server_urls": [],
-      "last_updated": "2026-09-09T18:30:26.546749"
+      "last_updated": "2026-09-09T18:47:48.400120"
     },
     {
       "title": "Napoli vs Arsenal",
@@ -191,7 +170,7 @@
       "thumbnail": "https://i.postimg.cc/nz9V9rZj/0e3b64b0-e1c2-4c32-a3ba-c5972a569929.jpg",
       "match_id": "786",
       "server_urls": [],
-      "last_updated": "2026-09-09T18:30:26.547417"
+      "last_updated": "2026-09-09T18:47:48.400737"
     }
   ]
 }
