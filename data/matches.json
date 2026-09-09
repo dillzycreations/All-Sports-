@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-09-09T10:18:17.556735",
-  "total_matches": 2,
-  "live_count": 2,
+  "timestamp": "2026-09-09T10:23:20.256855",
+  "total_matches": 1,
+  "live_count": 1,
   "upcoming_count": 0,
   "completed_count": 0,
   "matches": [
@@ -12,7 +12,7 @@
       "sport": "cricket",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "24",
+      "viewers": "26",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -26,28 +26,7 @@
         "https://tvsen5.aynascope.net/willowhd/mono.m3u8",
         "https://stream.ottplus.live/live/ten_2_hd_abr/live/ten_2_hd_720/chunks.m3u8"
       ],
-      "last_updated": "2026-09-09T10:18:16.017225"
-    },
-    {
-      "title": "Ludhiana Lions vs Fazilka Falcons",
-      "teams": "Ludhiana Lions vs Fazilka Falcons",
-      "league": "Sher-E-Punjab T20 League",
-      "sport": "football",
-      "status": "live",
-      "runtime": "00h 00m 00s",
-      "viewers": "31",
-      "viewers_type": "Watching",
-      "servers": null,
-      "date": null,
-      "time": null,
-      "match_url": "live/ludhiana-lions-vs-fazilka-falcons-779",
-      "thumbnail": "https://images.slivcdn.com/videoasset_images/manage_file/1000023605/1788765442093395_PT20_Ludhiana-Lions-vs-Fazilka-Falcons_landscape_thumb.jpg?w=500&q=low",
-      "match_id": "779",
-      "server_urls": [
-        "https://stream.ottplus.live/live/ten_5_hd_abr/live/ten_5_hd_720/chunks.m3u8",
-        "https://digitalotthub.com/tv/toffee-by-maruf/live.php?id=sony_sports_5_hd&e=.m3u8"
-      ],
-      "last_updated": "2026-09-09T10:18:17.294877"
+      "last_updated": "2026-09-09T10:23:19.986949"
     }
   ]
 }
