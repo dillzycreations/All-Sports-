@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-09T10:38:28.851123",
+  "timestamp": "2026-09-09T10:43:34.732314",
   "total_matches": 1,
   "live_count": 1,
   "upcoming_count": 0,
@@ -12,7 +12,7 @@
       "sport": "cricket",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "29",
+      "viewers": "31",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -26,7 +26,7 @@
         "https://tvsen5.aynascope.net/willowhd/mono.m3u8",
         "https://stream.ottplus.live/live/ten_2_hd_abr/live/ten_2_hd_720/chunks.m3u8"
       ],
-      "last_updated": "2026-09-09T10:38:27.833207"
+      "last_updated": "2026-09-09T10:43:34.455021"
     }
   ]
 }
