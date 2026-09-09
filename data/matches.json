@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-09T16:44:45.150213",
+  "timestamp": "2026-09-09T16:49:48.325078",
   "total_matches": 11,
   "live_count": 6,
   "upcoming_count": 5,
@@ -12,7 +12,7 @@
       "sport": "cricket",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "125",
+      "viewers": "126",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -26,7 +26,7 @@
         "https://tvsen5.aynascope.net/willowhd/mono.m3u8",
         "https://stream.ottplus.live/live/ten_2_hd_abr/live/ten_2_hd_720/chunks.m3u8"
       ],
-      "last_updated": "2026-09-09T16:44:41.919501"
+      "last_updated": "2026-09-09T16:49:45.338977"
     },
     {
       "title": "VFB Stuttgart vs Viking",
@@ -35,7 +35,7 @@
       "sport": "football",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "3",
+      "viewers": "4",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -49,7 +49,7 @@
         "https://fawa.duckdns.org/api/proxy?url=https%3A%2F%2Fwww.rtmpcdn.com%2Flive%2F4dbbf846-d4e1-497b-990c-707fb8fffd4b.m3u8&headers=%7B%22Referer%22%3A%22http%3A%2F%2Fwww.fawanews.sc%2F%22%7D",
         "https://fawa.duckdns.org/api/proxy?url=http%3A%2F%2F193.47.62.44%2Fhls%2FDOOOA.m3u8&headers=%7B%22Referer%22%3A%22http%3A%2F%2Fwww.fawanews.sc%2F%22%7D"
       ],
-      "last_updated": "2026-09-09T16:44:42.382010"
+      "last_updated": "2026-09-09T16:49:46.383214"
     },
     {
       "title": "Barcelona vs Feyenoord",
@@ -58,7 +58,7 @@
       "sport": "football",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "9",
+      "viewers": "15",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -73,9 +73,10 @@
         "https://stream.ottplus.live/live/ten_1_hd_abr/live/ten_1_hd_720/l_884917_136000_34.ts?nimblesessionid=167018124",
         "https://fawa.duckdns.org/api/proxy?url=http%3A%2F%2F193.47.62.44%2Fhls%2FDOOO.m3u8&headers=%7B%22Referer%22%3A%22http%3A%2F%2Fwww.fawanews.sc%2F%22%7D",
         "https://fawa.duckdns.org/api/proxy?url=https%3A%2F%2Fwww.rtmpcdn.com%2Flive%2Fb12af720-acb2-48c3-95d9-f76e03ec0056.m3u8&headers=%7B%22Referer%22%3A%22http%3A%2F%2Fwww.fawanews.sc%2F%22%7D",
-        "https://vcdn.mn10.entel.bo/Content/DASH/Live/Channel(8757cb0a-3584-40cd-901e-8937c7deba83)/master.mpd"
+        "https://vcdn.mn10.entel.bo/Content/DASH/Live/Channel(8757cb0a-3584-40cd-901e-8937c7deba83)/master.mpd",
+        "https://otte.cache.aiv-cdn.net/pdx-nitro/live/clients/dash/enc/o1h3lpgwk6/out/v1/59fdb67fd0fe4c0fbce666fe5ebf0f2d/cenc.mpd|user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/149.0.0.0 Safari/537.36&drmScheme=clearkey&drmLicense=617030931353331a40e6442cb8b0a4b9:82aa4f53702b979217b90af734e0a245"
       ],
-      "last_updated": "2026-09-09T16:44:43.448770"
+      "last_updated": "2026-09-09T16:49:46.779816"
     },
     {
       "title": "Dublin Guardians vs Belfast Wolves",
@@ -84,7 +85,7 @@
       "sport": "cricket",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "43",
+      "viewers": "44",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -95,7 +96,7 @@
       "server_urls": [
         "https://tvsen5.aynascope.net/cXPB2LKkErN9/tracks-v1a1/mono.ts.m3u8"
       ],
-      "last_updated": "2026-09-09T16:44:43.874311"
+      "last_updated": "2026-09-09T16:49:47.165813"
     },
     {
       "title": "Mohali Kings vs Bathinda Royals",
@@ -104,7 +105,7 @@
       "sport": "cricket",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "40",
+      "viewers": "41",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -116,7 +117,7 @@
         "https://stream.ottplus.live/live/ten_5_hd_abr/live/ten_5_hd_720/chunks.m3u8",
         "https://digitalotthub.com/tv/toffee-by-maruf/live.php?id=sony_sports_5_hd&e=.m3u8"
       ],
-      "last_updated": "2026-09-09T16:44:44.301527"
+      "last_updated": "2026-09-09T16:49:47.552057"
     },
     {
       "title": "Men's & Women's Singles vs Men's & Women's Singles",
@@ -125,7 +126,7 @@
       "sport": "others",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "1",
+      "viewers": "2",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -137,7 +138,7 @@
         "https://live.talkoraai.com/match/hls?t=IYidfLxaLH0oTACLs6rFLmfmv8c6kvVs6aRUwwFZHgnbVa8je5R6i5zzoyexfCC6eaVZAb_3Nw-hKPobCoRtkFu0ZbH3UBkmVJSxGIsMfFprTsc9fVEW5rFFmocDfIOh8faJ5iVoxlZbaxqBIwSIXSMv3M4imvawWopX1CnE2gJJ3MWKq-rvEogkjEE9MHtklrQlQi10WoGKWTERd8lM2ykIG1wSGWNLCdQgh5JkrtlOZ2dgzIIQUXuah1zX763lMfJRMNGtrD37-8vT",
         "https://live.talkoraai.com/match/seg?t=KnUOQSIbGo3zgnWJgUcAsSNT-uPSIHzMDu-vS973d6mw0bNr7236LqWWS-9KoLjVlIvaK1a0W7ke992o0a1vj2b_jBUDcSO5UbR8L8Ttyy48aYI9DiGNnXiIW_Icz60pYblWtyKawTxn6f2vciM3MFrz9twbCEusnCETveDTgCSG9zq_nAL4LJECGHfrYAlMOt1D7DVb5XwhI-sXOxlYIHPCc6Pz_GJUfvT8XDoqBqyYTb7QD9mF7zET1R-kf4NYtL168d_CxZPEIQJAtjnnyQciQgM"
       ],
-      "last_updated": "2026-09-09T16:44:44.718314"
+      "last_updated": "2026-09-09T16:49:47.933406"
     },
     {
       "title": "Nassr vs Abha",
@@ -155,7 +156,7 @@
       "thumbnail": "https://i.ytimg.com/vi/n2CkO_mHIpo/maxresdefault.jpg",
       "match_id": "785",
       "server_urls": [],
-      "last_updated": "2026-09-09T16:44:45.145459"
+      "last_updated": "2026-09-09T16:49:48.322206"
     },
     {
       "title": "SCP vs Galatasaray",
@@ -164,7 +165,7 @@
       "sport": "football",
       "status": "upcoming",
       "runtime": "00h 00m 00s",
-      "viewers": "1",
+      "viewers": "2",
       "viewers_type": "Waiting",
       "servers": null,
       "date": null,
@@ -173,7 +174,7 @@
       "thumbnail": "https://i.ytimg.com/vi/lQ82ucEFiko/sddefault.jpg?v=6a9741c6",
       "match_id": "789",
       "server_urls": [],
-      "last_updated": "2026-09-09T16:44:45.147552"
+      "last_updated": "2026-09-09T16:49:48.322855"
     },
     {
       "title": "PSG vs Slovan Bratislava",
@@ -191,7 +192,7 @@
       "thumbnail": "https://i.postimg.cc/D0Dqd8bh/c26e0059-f71d-4b6d-af53-9d2dec5ceb57.jpg",
       "match_id": "788",
       "server_urls": [],
-      "last_updated": "2026-09-09T16:44:45.148256"
+      "last_updated": "2026-09-09T16:49:48.323412"
     },
     {
       "title": "Liverpool vs Atletico Madrid",
@@ -209,7 +210,7 @@
       "thumbnail": "https://i.postimg.cc/9FFSLSRL/ec123aee-cf0b-48c4-9e09-25c5207586b6.jpg",
       "match_id": "787",
       "server_urls": [],
-      "last_updated": "2026-09-09T16:44:45.148896"
+      "last_updated": "2026-09-09T16:49:48.323969"
     },
     {
       "title": "Napoli vs Arsenal",
@@ -227,7 +228,7 @@
       "thumbnail": "https://i.postimg.cc/nz9V9rZj/0e3b64b0-e1c2-4c32-a3ba-c5972a569929.jpg",
       "match_id": "786",
       "server_urls": [],
-      "last_updated": "2026-09-09T16:44:45.149556"
+      "last_updated": "2026-09-09T16:49:48.324514"
     }
   ]
 }
