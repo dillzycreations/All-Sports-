@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-09-09T11:08:40.433274",
-  "total_matches": 6,
+  "timestamp": "2026-09-09T11:13:40.310723",
+  "total_matches": 7,
   "live_count": 1,
-  "upcoming_count": 5,
+  "upcoming_count": 6,
   "completed_count": 0,
   "matches": [
     {
@@ -12,7 +12,7 @@
       "sport": "cricket",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "44",
+      "viewers": "48",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -26,7 +26,7 @@
         "https://tvsen5.aynascope.net/willowhd/mono.m3u8",
         "https://stream.ottplus.live/live/ten_2_hd_abr/live/ten_2_hd_720/chunks.m3u8"
       ],
-      "last_updated": "2026-09-09T11:08:40.145323"
+      "last_updated": "2026-09-09T11:13:39.508216"
     },
     {
       "title": "Mohali Kings vs Bathinda Royals",
@@ -44,7 +44,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249122_53065_MOK_BHT_fc-web_1788345784011.jpg",
       "match_id": "781",
       "server_urls": [],
-      "last_updated": "2026-09-09T11:08:40.429827"
+      "last_updated": "2026-09-09T11:13:40.306563"
     },
     {
       "title": "VFB Stuttgart vs Viking",
@@ -62,7 +62,7 @@
       "thumbnail": "https://sumbar.akurat.co/_next/image?url=https%3A%2F%2Fakurat.sgp1.cdn.digitaloceanspaces.com%2Fimages%2F20260909-10393466365-0-stuttgart-vs-viking.png&w=3840&q=100",
       "match_id": "784",
       "server_urls": [],
-      "last_updated": "2026-09-09T11:08:40.430643"
+      "last_updated": "2026-09-09T11:13:40.307418"
     },
     {
       "title": "Barcelona vs Feyenoord",
@@ -80,7 +80,7 @@
       "thumbnail": "https://i.postimg.cc/PxQZcSpF/82d25320-972e-4795-bab0-5146916f90cf.jpg",
       "match_id": "783",
       "server_urls": [],
-      "last_updated": "2026-09-09T11:08:40.431294"
+      "last_updated": "2026-09-09T11:13:40.308096"
     },
     {
       "title": "Nassr vs Abha",
@@ -89,7 +89,7 @@
       "sport": "football",
       "status": "upcoming",
       "runtime": "00h 00m 00s",
-      "viewers": "495",
+      "viewers": "1",
       "viewers_type": "Waiting",
       "servers": null,
       "date": null,
@@ -98,7 +98,25 @@
       "thumbnail": "https://i.ytimg.com/vi/n2CkO_mHIpo/maxresdefault.jpg",
       "match_id": "785",
       "server_urls": [],
-      "last_updated": "2026-09-09T11:08:40.431982"
+      "last_updated": "2026-09-09T11:13:40.308746"
+    },
+    {
+      "title": "Napoli vs Arsenal",
+      "teams": "Napoli vs Arsenal",
+      "league": "UEFA Champions League 2026",
+      "sport": "football",
+      "status": "upcoming",
+      "runtime": "00h 00m 00s",
+      "viewers": "182",
+      "viewers_type": "Waiting",
+      "servers": null,
+      "date": null,
+      "time": null,
+      "match_url": "live/napoli-vs-arsenal-786",
+      "thumbnail": "https://i.postimg.cc/nz9V9rZj/0e3b64b0-e1c2-4c32-a3ba-c5972a569929.jpg",
+      "match_id": "786",
+      "server_urls": [],
+      "last_updated": "2026-09-09T11:13:40.309410"
     },
     {
       "title": "Dublin Guardians vs Belfast Wolves",
@@ -116,7 +134,7 @@
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1788932614540x302.jpg",
       "match_id": "782",
       "server_urls": [],
-      "last_updated": "2026-09-09T11:08:40.432646"
+      "last_updated": "2026-09-09T11:13:40.310072"
     }
   ]
 }
