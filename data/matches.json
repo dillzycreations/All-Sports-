@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-09-09T11:18:54.476380",
-  "total_matches": 9,
+  "timestamp": "2026-09-09T11:23:53.791075",
+  "total_matches": 10,
   "live_count": 1,
-  "upcoming_count": 8,
+  "upcoming_count": 9,
   "completed_count": 0,
   "matches": [
     {
@@ -12,7 +12,7 @@
       "sport": "cricket",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "49",
+      "viewers": "50",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -26,7 +26,7 @@
         "https://tvsen5.aynascope.net/willowhd/mono.m3u8",
         "https://stream.ottplus.live/live/ten_2_hd_abr/live/ten_2_hd_720/chunks.m3u8"
       ],
-      "last_updated": "2026-09-09T11:18:54.066897"
+      "last_updated": "2026-09-09T11:23:52.539464"
     },
     {
       "title": "Mohali Kings vs Bathinda Royals",
@@ -44,7 +44,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249122_53065_MOK_BHT_fc-web_1788345784011.jpg",
       "match_id": "781",
       "server_urls": [],
-      "last_updated": "2026-09-09T11:18:54.473266"
+      "last_updated": "2026-09-09T11:23:53.786524"
     },
     {
       "title": "VFB Stuttgart vs Viking",
@@ -62,7 +62,7 @@
       "thumbnail": "https://sumbar.akurat.co/_next/image?url=https%3A%2F%2Fakurat.sgp1.cdn.digitaloceanspaces.com%2Fimages%2F20260909-10393466365-0-stuttgart-vs-viking.png&w=3840&q=100",
       "match_id": "784",
       "server_urls": [],
-      "last_updated": "2026-09-09T11:18:54.473833"
+      "last_updated": "2026-09-09T11:23:53.787190"
     },
     {
       "title": "Barcelona vs Feyenoord",
@@ -80,7 +80,7 @@
       "thumbnail": "https://i.postimg.cc/PxQZcSpF/82d25320-972e-4795-bab0-5146916f90cf.jpg",
       "match_id": "783",
       "server_urls": [],
-      "last_updated": "2026-09-09T11:18:54.474208"
+      "last_updated": "2026-09-09T11:23:53.787691"
     },
     {
       "title": "Nassr vs Abha",
@@ -98,7 +98,25 @@
       "thumbnail": "https://i.ytimg.com/vi/n2CkO_mHIpo/maxresdefault.jpg",
       "match_id": "785",
       "server_urls": [],
-      "last_updated": "2026-09-09T11:18:54.474567"
+      "last_updated": "2026-09-09T11:23:53.788184"
+    },
+    {
+      "title": "SCP vs Galatasaray",
+      "teams": "SCP vs Galatasaray",
+      "league": "UEFA Champions League 2026",
+      "sport": "football",
+      "status": "upcoming",
+      "runtime": "00h 00m 00s",
+      "viewers": "293",
+      "viewers_type": "Waiting",
+      "servers": null,
+      "date": null,
+      "time": null,
+      "match_url": "live/scp-vs-galatasaray-789",
+      "thumbnail": "https://i.ytimg.com/vi/lQ82ucEFiko/sddefault.jpg?v=6a9741c6",
+      "match_id": "789",
+      "server_urls": [],
+      "last_updated": "2026-09-09T11:23:53.788666"
     },
     {
       "title": "PSG vs Slovan Bratislava",
@@ -116,7 +134,7 @@
       "thumbnail": "https://i.postimg.cc/D0Dqd8bh/c26e0059-f71d-4b6d-af53-9d2dec5ceb57.jpg",
       "match_id": "788",
       "server_urls": [],
-      "last_updated": "2026-09-09T11:18:54.474943"
+      "last_updated": "2026-09-09T11:23:53.789157"
     },
     {
       "title": "Liverpool vs Atletico Madrid",
@@ -134,7 +152,7 @@
       "thumbnail": "https://i.postimg.cc/9FFSLSRL/ec123aee-cf0b-48c4-9e09-25c5207586b6.jpg",
       "match_id": "787",
       "server_urls": [],
-      "last_updated": "2026-09-09T11:18:54.475309"
+      "last_updated": "2026-09-09T11:23:53.789628"
     },
     {
       "title": "Napoli vs Arsenal",
@@ -152,7 +170,7 @@
       "thumbnail": "https://i.postimg.cc/nz9V9rZj/0e3b64b0-e1c2-4c32-a3ba-c5972a569929.jpg",
       "match_id": "786",
       "server_urls": [],
-      "last_updated": "2026-09-09T11:18:54.475680"
+      "last_updated": "2026-09-09T11:23:53.790113"
     },
     {
       "title": "Dublin Guardians vs Belfast Wolves",
@@ -170,7 +188,7 @@
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1788932614540x302.jpg",
       "match_id": "782",
       "server_urls": [],
-      "last_updated": "2026-09-09T11:18:54.476029"
+      "last_updated": "2026-09-09T11:23:53.790584"
     }
   ]
 }
