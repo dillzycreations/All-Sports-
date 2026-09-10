@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-09-10T10:34:53.897899",
-  "total_matches": 10,
+  "timestamp": "2026-09-10T10:43:36.270533",
+  "total_matches": 14,
   "live_count": 3,
-  "upcoming_count": 7,
+  "upcoming_count": 11,
   "completed_count": 0,
   "matches": [
     {
@@ -12,7 +12,7 @@
       "sport": "cricket",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "42",
+      "viewers": "45",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -24,7 +24,7 @@
         "https://stream.ottplus.live/live/ten_5_hd_abr/live/ten_5_hd_720/chunks.m3u8",
         "https://digitalotthub.com/tv/toffee-by-maruf/live.php?id=sony_sports_5_hd&e=.m3u8"
       ],
-      "last_updated": "2026-09-10T10:34:51.847552"
+      "last_updated": "2026-09-10T10:43:33.975115"
     },
     {
       "title": "Rotterdam Dockers vs Glasgow Cosmic",
@@ -33,7 +33,7 @@
       "sport": "cricket",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "15",
+      "viewers": "18",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -43,9 +43,10 @@
       "match_id": "795",
       "server_urls": [
         "https://live.talkoraai.com/match/hls?t=k0FZVfBchrAkOjdi6THBmkrE3MSg-pgPx4DxFcnwLeA6BqkNwhOWfx3hcm6qZ-jIyHDN734j9ZVvo6AHZWuqBk3wcbIdhpWC-BmDoVoR1Ngh9ml23YAYHqAsjPi2SX9uO9dVyMoxcO_Nv0j5U0aacKwlK-9dqPUy0U-XZG1ubGw9yfkTGh3u56hQmoAX89_AvErWR0z6Kkt7X4B4DMznnxSaoGrBabSbHZmYH6lB2Y5PvEHm7agRayHSTzjmcTwNdsH7qPLvoBHFjfYKkCso7h9vDL2vEg",
-        "https://live.talkoraai.com/match/seg?t=B3RaY5rkUUwNAtXdCaVy36ckSgCBpNF3mWZE_9DuprIgcOP4I2_-nR55u6Nm4KtBkDhOYZIY5LZo-1TgpDapMCU6yHXVrmyVu1G4BXbmBA-bJ4seU6EYjf2rz4S3Y9xHLXYRxCc6VBmkJPhD46XnYbeDrbUwRgb90ZQF5vqeqjjQR8JHnmiiNxQ-2gBUXGFwiaG5H--3U4O_CZgjDqcztDbxvJfYLQyiBJaXjzQ8ft0Ii_dmDzDFyroViXgqjFY08gss1VcMUp07_FeSCDGclK5WTL2l3jWO4ZpOe079"
+        "https://live.talkoraai.com/match/seg?t=B3RaY5rkUUwNAtXdCaVy36ckSgCBpNF3mWZE_9DuprIgcOP4I2_-nR55u6Nm4KtBkDhOYZIY5LZo-1TgpDapMCU6yHXVrmyVu1G4BXbmBA-bJ4seU6EYjf2rz4S3Y9xHLXYRxCc6VBmkJPhD46XnYbeDrbUwRgb90ZQF5vqeqjjQR8JHnmiiNxQ-2gBUXGFwiaG5H--3U4O_CZgjDqcztDbxvJfYLQyiBJaXjzQ8ft0Ii_dmDzDFyroViXgqjFY08gss1VcMUp07_FeSCDGclK5WTL2l3jWO4ZpOe079",
+        "https://zerox.4048404.xyz/pro/brah.php?url=https%3A%2F%2Fsaseries.akamaized.net%2Fhls%2Flive%2F2110097%2FZIMvsIND-3827e1%2Fmaster.m3u8"
       ],
-      "last_updated": "2026-09-10T10:34:53.277507"
+      "last_updated": "2026-09-10T10:43:35.584417"
     },
     {
       "title": "England vs Pakistan",
@@ -54,7 +55,7 @@
       "sport": "cricket",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "189",
+      "viewers": "195",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -69,7 +70,7 @@
         "https://stream.ottplus.live/live/ten_2_hd_abr/live/ten_2_hd_720/chunks.m3u8",
         "https://sportz-obiram.emonsa4.workers.dev/proxy?url=DAcVFABRQ0tIRgRYRkNHVVYZSlYMLClFDRkSGg8HMnBTEFlZBUZVRlZSEVIKAhgcGhtVBwpRBlMNFEckdQJeU0kBBAI6J0oeWx9cTBdOFA0rLj9WT3peHUtjQmZdVXJbTXcEVE4PW1paUWtpXEdcXVBVFxAJAR4OUQxeXlpZ"
       ],
-      "last_updated": "2026-09-10T10:34:53.588458"
+      "last_updated": "2026-09-10T10:43:35.917191"
     },
     {
       "title": "Belfast Wolves vs Amsterdam Flames",
@@ -87,7 +88,7 @@
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1788940700540x302.jpg",
       "match_id": "796",
       "server_urls": [],
-      "last_updated": "2026-09-10T10:34:53.893160"
+      "last_updated": "2026-09-10T10:43:36.263392"
     },
     {
       "title": "Fazilka Falcons vs Bathinda Royals,",
@@ -105,7 +106,7 @@
       "thumbnail": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000023400/1788418071657255_PT20_Fazilka-Falcons-vs-Bathinda-Royals_live_landscape_thumb.jpg",
       "match_id": "792",
       "server_urls": [],
-      "last_updated": "2026-09-10T10:34:53.893912"
+      "last_updated": "2026-09-10T10:43:36.264104"
     },
     {
       "title": "Jamaica Empress Women vs Trinbago Knight Riders Women",
@@ -123,7 +124,7 @@
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1788939629540x302.jpg",
       "match_id": "797",
       "server_urls": [],
-      "last_updated": "2026-09-10T10:34:53.894575"
+      "last_updated": "2026-09-10T10:43:36.264772"
     },
     {
       "title": "India Women vs Bangladesh Women, Semi Final 1",
@@ -141,7 +142,7 @@
       "thumbnail": "https://i.postimg.cc/J0fcxgH0/1578c1b0-d7ce-4632-afb8-20739f793d48.jpg",
       "match_id": "793",
       "server_urls": [],
-      "last_updated": "2026-09-10T10:34:53.895285"
+      "last_updated": "2026-09-10T10:43:36.265417"
     },
     {
       "title": "PSV vs Shakhtar Donetsk",
@@ -159,7 +160,7 @@
       "thumbnail": "https://media-cdn-v2.laodong.vn/storage/newsportal/2026/9/10/1764243/Rsz_75099A87-2859-4F.jpg",
       "match_id": "799",
       "server_urls": [],
-      "last_updated": "2026-09-10T10:34:53.895954"
+      "last_updated": "2026-09-10T10:43:36.266060"
     },
     {
       "title": "Fenerbache vs Roma",
@@ -177,7 +178,79 @@
       "thumbnail": "https://media-cdn-v2.laodong.vn/storage/newsportal/2026/9/9/1764209/Rsz_216D9659-A0c1-46.jpg?w=800&h=420&crop=auto&scale=both",
       "match_id": "798",
       "server_urls": [],
-      "last_updated": "2026-09-10T10:34:53.896583"
+      "last_updated": "2026-09-10T10:43:36.266703"
+    },
+    {
+      "title": "Man United vs Sabah",
+      "teams": "Man United vs Sabah",
+      "league": "UEFA Champions League 2026",
+      "sport": "football",
+      "status": "upcoming",
+      "runtime": "00h 00m 00s",
+      "viewers": "461",
+      "viewers_type": "Waiting",
+      "servers": null,
+      "date": null,
+      "time": null,
+      "match_url": "live/man-united-vs-sabah-803",
+      "thumbnail": "https://production-greenball.s3.eu-north-1.amazonaws.com/news/237de9c4-9d50-46e6-b082-ec4b881543ee/manchester-united-vs-sabah-fk-2026-27-champions-league-first-h2h-form-team-news-and-injuries-1788994420749.jpg",
+      "match_id": "803",
+      "server_urls": [],
+      "last_updated": "2026-09-10T10:43:36.267346"
+    },
+    {
+      "title": "Slavia Praha vs Lens",
+      "teams": "Slavia Praha vs Lens",
+      "league": "UEFA Champions League 2026",
+      "sport": "football",
+      "status": "upcoming",
+      "runtime": "00h 00m 00s",
+      "viewers": "424",
+      "viewers_type": "Waiting",
+      "servers": null,
+      "date": null,
+      "time": null,
+      "match_url": "live/slavia-praha-vs-lens-802",
+      "thumbnail": "https://m.media-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.853ddc7d-732f-40ef-81e6-907e7e3f7478/2/BOXART-16X9/en-US._UR1920,1080_SX624_FMjpg_.jpeg",
+      "match_id": "802",
+      "server_urls": [],
+      "last_updated": "2026-09-10T10:43:36.267979"
+    },
+    {
+      "title": "Bayern vs Bodo/Glimt",
+      "teams": "Bayern vs Bodo/Glimt",
+      "league": "UEFA Champions League 2026",
+      "sport": "football",
+      "status": "upcoming",
+      "runtime": "00h 00m 00s",
+      "viewers": "387",
+      "viewers_type": "Waiting",
+      "servers": null,
+      "date": null,
+      "time": null,
+      "match_url": "live/bayern-vs-bodo-glimt-801",
+      "thumbnail": "https://media-cdn-v2.laodong.vn/storage/newsportal/2026/9/9/1764201/Rsz_E6f3b218-Df6c-47.jpg",
+      "match_id": "801",
+      "server_urls": [],
+      "last_updated": "2026-09-10T10:43:36.268618"
+    },
+    {
+      "title": "Como vs RB Leipzig",
+      "teams": "Como vs RB Leipzig",
+      "league": "UEFA Champions League 2026",
+      "sport": "football",
+      "status": "upcoming",
+      "runtime": "00h 00m 00s",
+      "viewers": "350",
+      "viewers_type": "Waiting",
+      "servers": null,
+      "date": null,
+      "time": null,
+      "match_url": "live/como-vs-rb-leipzig-800",
+      "thumbnail": "https://sportshub.cbsistatic.com/i/2026/09/04/1296da9d-4639-442f-a20f-0420c511d050/image-1788526911090.jpg",
+      "match_id": "800",
+      "server_urls": [],
+      "last_updated": "2026-09-10T10:43:36.269236"
     },
     {
       "title": "Sri Lanka Women vs Pakistan Women, Semi Final 2",
@@ -195,7 +268,7 @@
       "thumbnail": "https://i.postimg.cc/PxzP9R7x/6203c8be-3426-43f8-995a-2857124ea824.jpg",
       "match_id": "794",
       "server_urls": [],
-      "last_updated": "2026-09-10T10:34:53.897242"
+      "last_updated": "2026-09-10T10:43:36.269884"
     }
   ]
 }
