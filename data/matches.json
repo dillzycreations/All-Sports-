@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-10T16:34:29.469945",
+  "timestamp": "2026-09-10T16:39:37.036370",
   "total_matches": 12,
   "live_count": 5,
   "upcoming_count": 7,
@@ -12,7 +12,7 @@
       "sport": "cricket",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "292",
+      "viewers": "293",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -27,7 +27,7 @@
         "https://stream.ottplus.live/live/ten_2_hd_abr/live/ten_2_hd_720/chunks.m3u8",
         "https://sportz-obiram.emonsa4.workers.dev/proxy?url=DAcVFABRQ0tIRgRYRkNHVVYZSlYMLClFDRkSGg8HMnBTEFlZBUZVRlZSEVIKAhgcGhtVBwpRBlMNFEckdQJeU0kBBAI6J0oeWx9cTBdOFA0rLj9WT3peHUtjQmZdVXJbTXcEVE4PW1paUWtpXEdcXVBVFxAJAR4OUQxeXlpZ"
       ],
-      "last_updated": "2026-09-10T16:34:27.711236"
+      "last_updated": "2026-09-10T16:39:34.478958"
     },
     {
       "title": "Belfast Wolves vs Amsterdam Flames",
@@ -36,7 +36,7 @@
       "sport": "cricket",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "48",
+      "viewers": "49",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -50,7 +50,7 @@
         "https://digitalotthub.com/tv/dd/live.php/598.m3u8",
         "https://tvsen7.aynaott.com/ssport2hd/index.m3u8"
       ],
-      "last_updated": "2026-09-10T16:34:28.369526"
+      "last_updated": "2026-09-10T16:39:35.560022"
     },
     {
       "title": "Fazilka Falcons vs Bathinda Royals,",
@@ -59,7 +59,7 @@
       "sport": "cricket",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "44",
+      "viewers": "45",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -71,7 +71,7 @@
         "https://stream.ottplus.live/live/ten_5_hd_abr/live/ten_5_hd_720/chunks.m3u8",
         "https://digitalotthub.com/tv/toffee-by-maruf/live.php?id=sony_sports_5_hd&e=.m3u8"
       ],
-      "last_updated": "2026-09-10T16:34:28.644961"
+      "last_updated": "2026-09-10T16:39:35.925688"
     },
     {
       "title": "Jamaica Empress Women vs Trinbago Knight Riders Women",
@@ -80,7 +80,7 @@
       "sport": "cricket",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "38",
+      "viewers": "39",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -91,7 +91,7 @@
       "server_urls": [
         "https://curly-surf-da2d.hasannirob234.workers.dev/https://saseries.akamaized.net/hls/live/2110097/ZIMvsIND-3827e1/master.m3u8"
       ],
-      "last_updated": "2026-09-10T16:34:28.918003"
+      "last_updated": "2026-09-10T16:39:36.297701"
     },
     {
       "title": "India Women vs Bangladesh Women, Semi Final 1",
@@ -100,7 +100,7 @@
       "sport": "cricket",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "76",
+      "viewers": "77",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -114,7 +114,7 @@
         "https://digitalotthub.com/tv/toffee-by-maruf/live.php?id=sony_sports_1_hd&e=.m3u8",
         "https://warm-caverns-48629-92fab798385f.herokuapp.com/https://d36r8jifhgsk5j.cloudfront.net/Willow_TV540p.m3u8"
       ],
-      "last_updated": "2026-09-10T16:34:29.190912"
+      "last_updated": "2026-09-10T16:39:36.666658"
     },
     {
       "title": "PSV vs Shakhtar Donetsk",
@@ -132,7 +132,7 @@
       "thumbnail": "https://media-cdn-v2.laodong.vn/storage/newsportal/2026/9/10/1764243/Rsz_75099A87-2859-4F.jpg",
       "match_id": "799",
       "server_urls": [],
-      "last_updated": "2026-09-10T16:34:29.465290"
+      "last_updated": "2026-09-10T16:39:37.031652"
     },
     {
       "title": "Fenerbache vs Roma",
@@ -150,7 +150,7 @@
       "thumbnail": "https://media-cdn-v2.laodong.vn/storage/newsportal/2026/9/9/1764209/Rsz_216D9659-A0c1-46.jpg?w=800&h=420&crop=auto&scale=both",
       "match_id": "798",
       "server_urls": [],
-      "last_updated": "2026-09-10T16:34:29.465989"
+      "last_updated": "2026-09-10T16:39:37.032396"
     },
     {
       "title": "Man United vs Sabah",
@@ -168,7 +168,7 @@
       "thumbnail": "https://production-greenball.s3.eu-north-1.amazonaws.com/news/237de9c4-9d50-46e6-b082-ec4b881543ee/manchester-united-vs-sabah-fk-2026-27-champions-league-first-h2h-form-team-news-and-injuries-1788994420749.jpg",
       "match_id": "803",
       "server_urls": [],
-      "last_updated": "2026-09-10T16:34:29.466664"
+      "last_updated": "2026-09-10T16:39:37.033068"
     },
     {
       "title": "Slavia Praha vs Lens",
@@ -186,7 +186,7 @@
       "thumbnail": "https://m.media-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.853ddc7d-732f-40ef-81e6-907e7e3f7478/2/BOXART-16X9/en-US._UR1920,1080_SX624_FMjpg_.jpeg",
       "match_id": "802",
       "server_urls": [],
-      "last_updated": "2026-09-10T16:34:29.467329"
+      "last_updated": "2026-09-10T16:39:37.033823"
     },
     {
       "title": "Bayern vs Bodo/Glimt",
@@ -204,7 +204,7 @@
       "thumbnail": "https://media-cdn-v2.laodong.vn/storage/newsportal/2026/9/9/1764201/Rsz_E6f3b218-Df6c-47.jpg",
       "match_id": "801",
       "server_urls": [],
-      "last_updated": "2026-09-10T16:34:29.467969"
+      "last_updated": "2026-09-10T16:39:37.034461"
     },
     {
       "title": "Como vs RB Leipzig",
@@ -222,7 +222,7 @@
       "thumbnail": "https://sportshub.cbsistatic.com/i/2026/09/04/1296da9d-4639-442f-a20f-0420c511d050/image-1788526911090.jpg",
       "match_id": "800",
       "server_urls": [],
-      "last_updated": "2026-09-10T16:34:29.468627"
+      "last_updated": "2026-09-10T16:39:37.035104"
     },
     {
       "title": "Sri Lanka Women vs Pakistan Women, Semi Final 2",
@@ -240,7 +240,7 @@
       "thumbnail": "https://i.postimg.cc/PxzP9R7x/6203c8be-3426-43f8-995a-2857124ea824.jpg",
       "match_id": "794",
       "server_urls": [],
-      "last_updated": "2026-09-10T16:34:29.469289"
+      "last_updated": "2026-09-10T16:39:37.035739"
     }
   ]
 }
