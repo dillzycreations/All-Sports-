@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-10T02:23:45.586649",
+  "timestamp": "2026-09-10T02:28:47.997396",
   "total_matches": 1,
   "live_count": 0,
   "upcoming_count": 1,
@@ -12,7 +12,7 @@
       "sport": "cricket",
       "status": "upcoming",
       "runtime": "00h 00m 00s",
-      "viewers": "167",
+      "viewers": "168",
       "viewers_type": "Waiting",
       "servers": null,
       "date": null,
@@ -21,7 +21,7 @@
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1788178193540x302.jpg",
       "match_id": "780",
       "server_urls": [],
-      "last_updated": "2026-09-10T02:23:45.585929"
+      "last_updated": "2026-09-10T02:28:47.996499"
     }
   ]
 }
