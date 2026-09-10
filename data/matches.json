@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-10T10:06:32.675412",
+  "timestamp": "2026-09-10T10:11:29.699408",
   "total_matches": 8,
   "live_count": 3,
   "upcoming_count": 5,
@@ -12,7 +12,7 @@
       "sport": "cricket",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "39",
+      "viewers": "40",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -24,7 +24,7 @@
         "https://stream.ottplus.live/live/ten_5_hd_abr/live/ten_5_hd_720/chunks.m3u8",
         "https://digitalotthub.com/tv/toffee-by-maruf/live.php?id=sony_sports_5_hd&e=.m3u8"
       ],
-      "last_updated": "2026-09-10T10:06:31.681143"
+      "last_updated": "2026-09-10T10:11:28.078300"
     },
     {
       "title": "Rotterdam Dockers vs Glasgow Cosmic",
@@ -33,7 +33,7 @@
       "sport": "cricket",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "12",
+      "viewers": "13",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -45,7 +45,7 @@
         "https://live.talkoraai.com/match/hls?t=k0FZVfBchrAkOjdi6THBmkrE3MSg-pgPx4DxFcnwLeA6BqkNwhOWfx3hcm6qZ-jIyHDN734j9ZVvo6AHZWuqBk3wcbIdhpWC-BmDoVoR1Ngh9ml23YAYHqAsjPi2SX9uO9dVyMoxcO_Nv0j5U0aacKwlK-9dqPUy0U-XZG1ubGw9yfkTGh3u56hQmoAX89_AvErWR0z6Kkt7X4B4DMznnxSaoGrBabSbHZmYH6lB2Y5PvEHm7agRayHSTzjmcTwNdsH7qPLvoBHFjfYKkCso7h9vDL2vEg",
         "https://live.talkoraai.com/match/seg?t=B3RaY5rkUUwNAtXdCaVy36ckSgCBpNF3mWZE_9DuprIgcOP4I2_-nR55u6Nm4KtBkDhOYZIY5LZo-1TgpDapMCU6yHXVrmyVu1G4BXbmBA-bJ4seU6EYjf2rz4S3Y9xHLXYRxCc6VBmkJPhD46XnYbeDrbUwRgb90ZQF5vqeqjjQR8JHnmiiNxQ-2gBUXGFwiaG5H--3U4O_CZgjDqcztDbxvJfYLQyiBJaXjzQ8ft0Ii_dmDzDFyroViXgqjFY08gss1VcMUp07_FeSCDGclK5WTL2l3jWO4ZpOe079"
       ],
-      "last_updated": "2026-09-10T10:06:32.044223"
+      "last_updated": "2026-09-10T10:11:29.046422"
     },
     {
       "title": "England vs Pakistan",
@@ -54,7 +54,7 @@
       "sport": "cricket",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "179",
+      "viewers": "181",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -69,7 +69,7 @@
         "https://stream.ottplus.live/live/ten_2_hd_abr/live/ten_2_hd_720/chunks.m3u8",
         "https://sportz-obiram.emonsa4.workers.dev/proxy?url=DAcVFABRQ0tIRgRYRkNHVVYZSlYMLClFDRkSGg8HMnBTEFlZBUZVRlZSEVIKAhgcGhtVBwpRBlMNFEckdQJeU0kBBAI6J0oeWx9cTBdOFA0rLj9WT3peHUtjQmZdVXJbTXcEVE4PW1paUWtpXEdcXVBVFxAJAR4OUQxeXlpZ"
       ],
-      "last_updated": "2026-09-10T10:06:32.358909"
+      "last_updated": "2026-09-10T10:11:29.373559"
     },
     {
       "title": "Belfast Wolves vs Amsterdam Flames",
@@ -87,7 +87,7 @@
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1788940700540x302.jpg",
       "match_id": "796",
       "server_urls": [],
-      "last_updated": "2026-09-10T10:06:32.671924"
+      "last_updated": "2026-09-10T10:11:29.696030"
     },
     {
       "title": "Fazilka Falcons vs Bathinda Royals,",
@@ -96,7 +96,7 @@
       "sport": "cricket",
       "status": "upcoming",
       "runtime": "00h 00m 00s",
-      "viewers": "2",
+      "viewers": "3",
       "viewers_type": "Waiting",
       "servers": null,
       "date": null,
@@ -105,7 +105,7 @@
       "thumbnail": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000023400/1788418071657255_PT20_Fazilka-Falcons-vs-Bathinda-Royals_live_landscape_thumb.jpg",
       "match_id": "792",
       "server_urls": [],
-      "last_updated": "2026-09-10T10:06:32.672686"
+      "last_updated": "2026-09-10T10:11:29.696791"
     },
     {
       "title": "Jamaica Empress Women vs Trinbago Knight Riders Women",
@@ -123,7 +123,7 @@
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1788939629540x302.jpg",
       "match_id": "797",
       "server_urls": [],
-      "last_updated": "2026-09-10T10:06:32.673403"
+      "last_updated": "2026-09-10T10:11:29.697457"
     },
     {
       "title": "India Women vs Bangladesh Women, Semi Final 1",
@@ -141,7 +141,7 @@
       "thumbnail": "https://i.postimg.cc/J0fcxgH0/1578c1b0-d7ce-4632-afb8-20739f793d48.jpg",
       "match_id": "793",
       "server_urls": [],
-      "last_updated": "2026-09-10T10:06:32.674062"
+      "last_updated": "2026-09-10T10:11:29.698096"
     },
     {
       "title": "Sri Lanka Women vs Pakistan Women, Semi Final 2",
@@ -159,7 +159,7 @@
       "thumbnail": "https://i.postimg.cc/PxzP9R7x/6203c8be-3426-43f8-995a-2857124ea824.jpg",
       "match_id": "794",
       "server_urls": [],
-      "last_updated": "2026-09-10T10:06:32.674729"
+      "last_updated": "2026-09-10T10:11:29.698748"
     }
   ]
 }
