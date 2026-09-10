@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-10T07:15:48.551110",
+  "timestamp": "2026-09-10T07:20:52.363823",
   "total_matches": 5,
   "live_count": 0,
   "upcoming_count": 5,
@@ -21,7 +21,7 @@
       "thumbnail": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000023702/1788946397965887_PT20_Amritsar-Soormas-vs-Jalandhar-Warriors_landscape_thumb.jpg",
       "match_id": "791",
       "server_urls": [],
-      "last_updated": "2026-09-10T07:15:48.549139"
+      "last_updated": "2026-09-10T07:20:52.361076"
     },
     {
       "title": "England vs Pakistan",
@@ -39,7 +39,7 @@
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1788178193540x302.jpg",
       "match_id": "780",
       "server_urls": [],
-      "last_updated": "2026-09-10T07:15:48.549634"
+      "last_updated": "2026-09-10T07:20:52.361802"
     },
     {
       "title": "Fazilka Falcons vs Bathinda Royals,",
@@ -57,7 +57,7 @@
       "thumbnail": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000023400/1788418071657255_PT20_Fazilka-Falcons-vs-Bathinda-Royals_live_landscape_thumb.jpg",
       "match_id": "792",
       "server_urls": [],
-      "last_updated": "2026-09-10T07:15:48.549996"
+      "last_updated": "2026-09-10T07:20:52.362326"
     },
     {
       "title": "India Women vs Bangladesh Women, Semi Final 1",
@@ -75,7 +75,7 @@
       "thumbnail": "https://i.postimg.cc/J0fcxgH0/1578c1b0-d7ce-4632-afb8-20739f793d48.jpg",
       "match_id": "793",
       "server_urls": [],
-      "last_updated": "2026-09-10T07:15:48.550351"
+      "last_updated": "2026-09-10T07:20:52.362819"
     },
     {
       "title": "Sri Lanka Women vs Pakistan Women, Semi Final 2",
@@ -90,10 +90,10 @@
       "date": null,
       "time": null,
       "match_url": "live/sri-lanka-women-vs-pakistan-women-semi-final-2-794",
-      "thumbnail": null,
+      "thumbnail": "https://i.postimg.cc/PxzP9R7x/6203c8be-3426-43f8-995a-2857124ea824.jpg",
       "match_id": "794",
       "server_urls": [],
-      "last_updated": "2026-09-10T07:15:48.550745"
+      "last_updated": "2026-09-10T07:20:52.363324"
     }
   ]
 }
