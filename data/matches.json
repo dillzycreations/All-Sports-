@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-09-10T17:55:05.427842",
-  "total_matches": 9,
-  "live_count": 4,
+  "timestamp": "2026-09-10T18:16:34.749676",
+  "total_matches": 8,
+  "live_count": 3,
   "upcoming_count": 5,
   "completed_count": 0,
   "matches": [
@@ -12,7 +12,7 @@
       "sport": "cricket",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "314",
+      "viewers": "316",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -27,30 +27,7 @@
         "https://stream.ottplus.live/live/ten_2_hd_abr/live/ten_2_hd_720/chunks.m3u8",
         "https://sportz-obiram.emonsa4.workers.dev/proxy?url=DAcVFABRQ0tIRgRYRkNHVVYZSlYMLClFDRkSGg8HMnBTEFlZBUZVRlZSEVIKAhgcGhtVBwpRBlMNFEckdQJeU0kBBAI6J0oeWx9cTBdOFA0rLj9WT3peHUtjQmZdVXJbTXcEVE4PW1paUWtpXEdcXVBVFxAJAR4OUQxeXlpZ"
       ],
-      "last_updated": "2026-09-10T17:55:03.118320"
-    },
-    {
-      "title": "India Women vs Bangladesh Women, Semi Final 1",
-      "teams": "India Women vs Bangladesh Women, Semi Final 1",
-      "league": "Women's Asia Cup 2026-T20",
-      "sport": "cricket",
-      "status": "live",
-      "runtime": "00h 00m 00s",
-      "viewers": "95",
-      "viewers_type": "Watching",
-      "servers": null,
-      "date": null,
-      "time": null,
-      "match_url": "live/india-women-vs-bangladesh-women-semi-final-1-793",
-      "thumbnail": "https://i.postimg.cc/J0fcxgH0/1578c1b0-d7ce-4632-afb8-20739f793d48.jpg",
-      "match_id": "793",
-      "server_urls": [
-        "https://tvsen5.aynaott.com/TnMn5kZz8aLm/tracks-v1a1/mono.ts.m3u8",
-        "https://warm-caverns-48629-92fab798385f.herokuapp.com/https://d36r8jifhgsk5j.cloudfront.net/Willow_TV1080p.m3u8",
-        "https://digitalotthub.com/tv/toffee-by-maruf/live.php?id=sony_sports_1_hd&e=.m3u8",
-        "https://warm-caverns-48629-92fab798385f.herokuapp.com/https://d36r8jifhgsk5j.cloudfront.net/Willow_TV540p.m3u8"
-      ],
-      "last_updated": "2026-09-10T17:55:04.442210"
+      "last_updated": "2026-09-10T18:16:32.549281"
     },
     {
       "title": "PSV vs Shakhtar Donetsk",
@@ -59,7 +36,7 @@
       "sport": "football",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "21",
+      "viewers": "23",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -71,7 +48,7 @@
         "https://live.talkoraai.com/match/hls?t=ffp0vHfuteATSqTK4cf-2qBtwakJnnkewqulHTuMWVuLW2NBhzRTT3aBL7VjWNZuAOT0XDSmgDKeGQXMr6Tw53i561Sh3bQMmVsYmqn0h91gu_jhaaNVVBgVMcehr40wWpJ1et-MDpVJJUvcYJ__-MYzAuuI4D5D96r6rCJV7VwJ0naSFqLAwVylETEOZ7Petgk9R_0_JA_28Ai_hnH2FHV703p5jbe9o6zOuPjRBvbLOGOduFbqvrPplzlGXjzSrXFF4wSjT89QkkKg8VXJ6lk",
         "https://live.talkoraai.com/match/seg?t=-NP3VE8NFtSi48AbPomzREAzhaUuX8sbZ15xFfaNWTO1oH1uS-4Lqt_HRrQDeFVwQnXrnYmGDRM-6d5sUGie0D2byEOrVkcIXLIOulw1L039gdGgO8tV57Ng1vlsIdQVSGz-Q-AYEkfHL2t9r7VLpQ1Yxoo4AdqJeIPjfhvTl2GGaTNX8p0bC_xD1uDd1WaV9DN7EfVj6k2e8-goORDMA0IPTv3OeyPnDzrJXIpZGQzT4Z3X3nPqLaN9gh1OqZ_e2RuLbPDKAtEWiklZkzf1u2s4RV9FAKhKTQ"
       ],
-      "last_updated": "2026-09-10T17:55:04.774026"
+      "last_updated": "2026-09-10T18:16:32.950185"
     },
     {
       "title": "Fenerbache vs Roma",
@@ -80,7 +57,7 @@
       "sport": "football",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "21",
+      "viewers": "23",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -92,7 +69,7 @@
         "https://live.talkoraai.com/match/seg?t=48TPZWCGnwetRa0749601qLgP6vkM7ReSySpPmHdbP5Kxw_UoTJa_hbPn4pSZoUSf_vmnU7DcHnh3wbHSillzUP_StmVL3y-3fXGLuT5vAln-nz8h0jqMBqyLJBCclSGJOjOuME2zaRc_9y6e42VlVnfjzJqov59PNp9wpE1IoQKE5UT49h1rrjX3oEwEBa1FTsfKqWMJD5uNNu2fRLup5di3IexwRydmo873EhbasIktiH16t9TDe_0hzR-K80FrhlqydEMUmcagGqFDWjF5G1Zej2VNdJvEFXzYu4m",
         "https://live.talkoraai.com/match/seg?t=48TPZWCGnwetRa0749601qLgP6vkM7ReSySpPmHdbP5Kxw_UoTJa_hbPn4pSZoUSf_vmnU7DcHnh3wbHSillzUP_StmVL3y-3fXGLuT5vAln-nz8h0jqMBqyLJBCclSGJOjOuME2zaRc_9y6e42VlVnfjzJqov59PNp9wpE1IoQKE5UT49h1rrjX3oEwEBa1FTsfKqWMJD5uNNu2fRLup5di3IexwRydmo873EhbasIktiH16t9TDe_0hzR-K80FrhlqydEMUmcagGqFDWjF5G1Zej2VNdJvEFXzYu4m"
       ],
-      "last_updated": "2026-09-10T17:55:05.095010"
+      "last_updated": "2026-09-10T18:16:33.278120"
     },
     {
       "title": "Man United vs Sabah",
@@ -110,7 +87,7 @@
       "thumbnail": "https://production-greenball.s3.eu-north-1.amazonaws.com/news/237de9c4-9d50-46e6-b082-ec4b881543ee/manchester-united-vs-sabah-fk-2026-27-champions-league-first-h2h-form-team-news-and-injuries-1788994420749.jpg",
       "match_id": "803",
       "server_urls": [],
-      "last_updated": "2026-09-10T17:55:05.425174"
+      "last_updated": "2026-09-10T18:16:34.746325"
     },
     {
       "title": "Slavia Praha vs Lens",
@@ -128,7 +105,7 @@
       "thumbnail": "https://m.media-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.853ddc7d-732f-40ef-81e6-907e7e3f7478/2/BOXART-16X9/en-US._UR1920,1080_SX624_FMjpg_.jpeg",
       "match_id": "802",
       "server_urls": [],
-      "last_updated": "2026-09-10T17:55:05.425815"
+      "last_updated": "2026-09-10T18:16:34.747068"
     },
     {
       "title": "Bayern vs Bodo/Glimt",
@@ -146,7 +123,7 @@
       "thumbnail": "https://media-cdn-v2.laodong.vn/storage/newsportal/2026/9/9/1764201/Rsz_E6f3b218-Df6c-47.jpg",
       "match_id": "801",
       "server_urls": [],
-      "last_updated": "2026-09-10T17:55:05.426321"
+      "last_updated": "2026-09-10T18:16:34.747733"
     },
     {
       "title": "Como vs RB Leipzig",
@@ -164,7 +141,7 @@
       "thumbnail": "https://sportshub.cbsistatic.com/i/2026/09/04/1296da9d-4639-442f-a20f-0420c511d050/image-1788526911090.jpg",
       "match_id": "800",
       "server_urls": [],
-      "last_updated": "2026-09-10T17:55:05.426840"
+      "last_updated": "2026-09-10T18:16:34.748381"
     },
     {
       "title": "Sri Lanka Women vs Pakistan Women, Semi Final 2",
@@ -182,7 +159,7 @@
       "thumbnail": "https://i.postimg.cc/PxzP9R7x/6203c8be-3426-43f8-995a-2857124ea824.jpg",
       "match_id": "794",
       "server_urls": [],
-      "last_updated": "2026-09-10T17:55:05.427329"
+      "last_updated": "2026-09-10T18:16:34.749046"
     }
   ]
 }
