@@ -1,10 +1,28 @@
 {
-  "timestamp": "2026-09-10T07:02:36.832720",
-  "total_matches": 1,
+  "timestamp": "2026-09-10T07:10:46.348924",
+  "total_matches": 4,
   "live_count": 0,
-  "upcoming_count": 1,
+  "upcoming_count": 4,
   "completed_count": 0,
   "matches": [
+    {
+      "title": "Amritsar Soormas vs Jalandhar Warriors",
+      "teams": "Amritsar Soormas vs Jalandhar Warriors",
+      "league": "Sher-E-Punjab T20 League",
+      "sport": "cricket",
+      "status": "upcoming",
+      "runtime": "00h 00m 00s",
+      "viewers": "367",
+      "viewers_type": "Waiting",
+      "servers": null,
+      "date": null,
+      "time": null,
+      "match_url": "live/amritsar-soormas-vs-jalandhar-warriors-791",
+      "thumbnail": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000023702/1788946397965887_PT20_Amritsar-Soormas-vs-Jalandhar-Warriors_landscape_thumb.jpg",
+      "match_id": "791",
+      "server_urls": [],
+      "last_updated": "2026-09-10T07:10:46.346170"
+    },
     {
       "title": "England vs Pakistan",
       "teams": "England vs Pakistan",
@@ -12,7 +30,7 @@
       "sport": "cricket",
       "status": "upcoming",
       "runtime": "00h 00m 00s",
-      "viewers": "170",
+      "viewers": "171",
       "viewers_type": "Waiting",
       "servers": null,
       "date": null,
@@ -21,7 +39,43 @@
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1788178193540x302.jpg",
       "match_id": "780",
       "server_urls": [],
-      "last_updated": "2026-09-10T07:02:36.831948"
+      "last_updated": "2026-09-10T07:10:46.346995"
+    },
+    {
+      "title": "Fazilka Falcons vs Bathinda Royals,",
+      "teams": "Fazilka Falcons vs Bathinda Royals,",
+      "league": "Sher-E-Punjab T20 League",
+      "sport": "cricket",
+      "status": "upcoming",
+      "runtime": "00h 00m 00s",
+      "viewers": "404",
+      "viewers_type": "Waiting",
+      "servers": null,
+      "date": null,
+      "time": null,
+      "match_url": "live/fazilka-falcons-vs-bathinda-royals-792",
+      "thumbnail": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000023400/1788418071657255_PT20_Fazilka-Falcons-vs-Bathinda-Royals_live_landscape_thumb.jpg",
+      "match_id": "792",
+      "server_urls": [],
+      "last_updated": "2026-09-10T07:10:46.347653"
+    },
+    {
+      "title": "India Women vs Bangladesh Women, Semi Final 1",
+      "teams": "India Women vs Bangladesh Women, Semi Final 1",
+      "league": "Women's Asia Cup 2026-T20",
+      "sport": "cricket",
+      "status": "upcoming",
+      "runtime": "00h 00m 00s",
+      "viewers": "441",
+      "viewers_type": "Waiting",
+      "servers": null,
+      "date": null,
+      "time": null,
+      "match_url": "live/india-women-vs-bangladesh-women-semi-final-1-793",
+      "thumbnail": null,
+      "match_id": "793",
+      "server_urls": [],
+      "last_updated": "2026-09-10T07:10:46.348270"
     }
   ]
 }
