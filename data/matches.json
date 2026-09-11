@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-09-11T09:27:39.512352",
-  "total_matches": 2,
+  "timestamp": "2026-09-11T09:32:43.249236",
+  "total_matches": 4,
   "live_count": 1,
-  "upcoming_count": 1,
+  "upcoming_count": 3,
   "completed_count": 0,
   "matches": [
     {
@@ -12,7 +12,7 @@
       "sport": "cricket",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "337",
+      "viewers": "338",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -27,7 +27,43 @@
         "https://stream.ottplus.live/live/ten_2_hd_abr/live/ten_2_hd_720/chunks.m3u8",
         "https://sportz-obiram.emonsa4.workers.dev/proxy?url=DAcVFABRQ0tIRgRYRkNHVVYZSlYMLClFDRkSGg8HMnBTEFlZBUZVRlZSEVIKAhgcGhtVBwpRBlMNFEckdQJeU0kBBAI6J0oeWx9cTBdOFA0rLj9WT3peHUtjQmZdVXJbTXcEVE4PW1paUWtpXEdcXVBVFxAJAR4OUQxeXlpZ"
       ],
-      "last_updated": "2026-09-11T09:27:39.160467"
+      "last_updated": "2026-09-11T09:32:42.484115"
+    },
+    {
+      "title": "Dublin Guardians vs Edinburgh Castle Rockers",
+      "teams": "Dublin Guardians vs Edinburgh Castle Rockers",
+      "league": "European T20 Premier League 2026",
+      "sport": "cricket",
+      "status": "upcoming",
+      "runtime": "00h 00m 00s",
+      "viewers": "185",
+      "viewers_type": "Waiting",
+      "servers": null,
+      "date": null,
+      "time": null,
+      "match_url": "live/dublin-guardians-vs-edinburgh-castle-rockers-805",
+      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1789019381540x302.jpg",
+      "match_id": "805",
+      "server_urls": [],
+      "last_updated": "2026-09-11T09:32:43.247164"
+    },
+    {
+      "title": "Amritsar Soormas vs Ludhiana Lions,",
+      "teams": "Amritsar Soormas vs Ludhiana Lions,",
+      "league": "Sher-E-Punjab T20 League",
+      "sport": "cricket",
+      "status": "upcoming",
+      "runtime": "00h 00m 00s",
+      "viewers": "498",
+      "viewers_type": "Waiting",
+      "servers": null,
+      "date": null,
+      "time": null,
+      "match_url": "live/amritsar-soormas-vs-ludhiana-lions-804",
+      "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249115_53065_AMS_LLN_fc-web_1788345783974.jpg",
+      "match_id": "804",
+      "server_urls": [],
+      "last_updated": "2026-09-11T09:32:43.247919"
     },
     {
       "title": "Sri Lanka Women vs Pakistan Women, Semi Final 2",
@@ -45,7 +81,7 @@
       "thumbnail": "https://i.ibb.co.com/yc2KL1nW/6203c8be-3426-43f8-995a-2857124ea824.jpg",
       "match_id": "794",
       "server_urls": [],
-      "last_updated": "2026-09-11T09:27:39.511577"
+      "last_updated": "2026-09-11T09:32:43.248544"
     }
   ]
 }
