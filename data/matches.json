@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-11T06:26:26.689340",
+  "timestamp": "2026-09-11T06:31:31.939801",
   "total_matches": 2,
   "live_count": 0,
   "upcoming_count": 2,
@@ -12,7 +12,7 @@
       "sport": "cricket",
       "status": "upcoming",
       "runtime": "00h 00m 00s",
-      "viewers": "332",
+      "viewers": "333",
       "viewers_type": "Waiting",
       "servers": null,
       "date": null,
@@ -21,7 +21,7 @@
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1788178193540x302.jpg",
       "match_id": "780",
       "server_urls": [],
-      "last_updated": "2026-09-11T06:26:26.688334"
+      "last_updated": "2026-09-11T06:31:31.938458"
     },
     {
       "title": "Sri Lanka Women vs Pakistan Women, Semi Final 2",
@@ -39,7 +39,7 @@
       "thumbnail": "https://i.postimg.cc/PxzP9R7x/6203c8be-3426-43f8-995a-2857124ea824.jpg",
       "match_id": "794",
       "server_urls": [],
-      "last_updated": "2026-09-11T06:26:26.688914"
+      "last_updated": "2026-09-11T06:31:31.939215"
     }
   ]
 }
