@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-09-11T17:51:12.573487",
-  "total_matches": 3,
-  "live_count": 3,
+  "timestamp": "2026-09-11T17:56:14.551106",
+  "total_matches": 4,
+  "live_count": 4,
   "upcoming_count": 0,
   "completed_count": 0,
   "matches": [
@@ -12,7 +12,7 @@
       "sport": "cricket",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "507",
+      "viewers": "511",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -28,7 +28,7 @@
         "https://sportz-obiram.emonsa4.workers.dev/proxy?url=DAcVFABRQ0tIRgRYRkNHVVYZSlYMLClFDRkSGg8HMnBTEFlZBUZVRlZSEVIKAhgcGhtVBwpRBlMNFEckdQJeU0kBBAI6J0oeWx9cTBdOFA0rLj9WT3peHUtjQmZdVXJbTXcEVE4PW1paUWtpXEdcXVBVFxAJAR4OUQxeXlpZ",
         "https://tvsen5.aynascope.net/willowhd/tracks-v1a1/2026/09/11/09/34/16-09176.ts"
       ],
-      "last_updated": "2026-09-11T17:51:11.603403"
+      "last_updated": "2026-09-11T17:56:12.614331"
     },
     {
       "title": "Sri Lanka Women vs Pakistan Women, Semi Final 2",
@@ -37,7 +37,7 @@
       "sport": "cricket",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "62",
+      "viewers": "64",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -51,16 +51,16 @@
         "https://warm-caverns-48629-92fab798385f.herokuapp.com/https://d36r8jifhgsk5j.cloudfront.net/Willow_TV540p.m3u8",
         "https://digitalotthub.com/tv/toffee-by-maruf/live.php?id=sony_sports_1_hd&e=.m3u8"
       ],
-      "last_updated": "2026-09-11T17:51:11.969464"
+      "last_updated": "2026-09-11T17:56:12.954864"
     },
     {
       "title": "Women's Doubles Final vs Women's Doubles",
       "teams": "Women's Doubles Final vs Women's Doubles",
       "league": "Final",
-      "sport": "cricket",
+      "sport": "others",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "222",
+      "viewers": "3",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -72,7 +72,27 @@
         "https://live.talkoraai.com/match/hls?t=mW7eN6ir_ucU-VHpRz1g9i6h-cixfXbcwNS2XXEO2aIm268wj8IRuGYAfv5VAW6mdTejGSSlJFv53cdyUhUFX5Ov7FzcCkEPbpYkX42XEJPXI6kzcpzVCh9iReQJNc1m12-JXszUWTwbc5i_Y0dPAwn9f9QZXfzDbxlKfXSHLEpvpbNoBDJQohqOUd-UvjWjKLe-o9XZzthnucES9ZSlvN2WJ_7Gs_FsBELIsxG6vLMCp_0GqG4mXRxFGv9aOi3krFAJRE79-uG8rVqRTLWqYuaJIDpfAQHzMLM",
         "https://live.talkoraai.com/match/seg?t=zN73lpOMlw4-wN0JtOQzRI05jLgtF3OmEv_rtSitWZZclHUSPeVFHFF8TIwRTI587oGiJTecItK-ZMKNDs7HLo9DjmpvbS3tPau5vXoZVpkhb8XlloRPMWo7gSGQRH1vmFRDlC_4IkuXEFWDQB0nS7kccwDZFAShPKcJNTXpVGr7AOJwLpnKALoCZ8aVc3ci-h6osnyRMLn0PsKHwbd-YaDu2ZK8LOgleV5S79g8rSzhTBAg-Y7x3I6YFG2f75n5N-wvjfVlFTSxXRU2dEJjGp7lWMx3YBuKjfHYLKgPRpE8wg"
       ],
-      "last_updated": "2026-09-11T17:51:12.270815"
+      "last_updated": "2026-09-11T17:56:13.251701"
+    },
+    {
+      "title": "Ahli vs Al-Hazem",
+      "teams": "Ahli vs Al-Hazem",
+      "league": "Saudi Pro League 2026/27",
+      "sport": "football",
+      "status": "live",
+      "runtime": "00h 00m 00s",
+      "viewers": "259",
+      "viewers_type": "Watching",
+      "servers": null,
+      "date": null,
+      "time": null,
+      "match_url": "live/ahli-vs-al-hazem-807",
+      "thumbnail": "https://r2.thesportsdb.com/images/media/event/thumb/xjanvp1758292430.jpg",
+      "match_id": "807",
+      "server_urls": [
+        "https://curly-surf-da2d.hasannirob234.workers.dev/https://saseries.akamaized.net/hls/live/2110097/ZIMvsIND-3827e1/master.m3u8"
+      ],
+      "last_updated": "2026-09-11T17:56:13.536139"
     }
   ]
 }
