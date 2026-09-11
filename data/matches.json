@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-11T17:19:52.408519",
+  "timestamp": "2026-09-11T17:20:11.075509",
   "total_matches": 2,
   "live_count": 2,
   "upcoming_count": 0,
@@ -12,7 +12,7 @@
       "sport": "cricket",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "488",
+      "viewers": "489",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -28,7 +28,7 @@
         "https://sportz-obiram.emonsa4.workers.dev/proxy?url=DAcVFABRQ0tIRgRYRkNHVVYZSlYMLClFDRkSGg8HMnBTEFlZBUZVRlZSEVIKAhgcGhtVBwpRBlMNFEckdQJeU0kBBAI6J0oeWx9cTBdOFA0rLj9WT3peHUtjQmZdVXJbTXcEVE4PW1paUWtpXEdcXVBVFxAJAR4OUQxeXlpZ",
         "https://tvsen5.aynascope.net/willowhd/tracks-v1a1/2026/09/11/09/34/16-09176.ts"
       ],
-      "last_updated": "2026-09-11T17:19:50.622266"
+      "last_updated": "2026-09-11T17:20:09.318746"
     },
     {
       "title": "Sri Lanka Women vs Pakistan Women, Semi Final 2",
@@ -37,7 +37,7 @@
       "sport": "cricket",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "49",
+      "viewers": "50",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -51,7 +51,7 @@
         "https://warm-caverns-48629-92fab798385f.herokuapp.com/https://d36r8jifhgsk5j.cloudfront.net/Willow_TV540p.m3u8",
         "https://digitalotthub.com/tv/toffee-by-maruf/live.php?id=sony_sports_1_hd&e=.m3u8"
       ],
-      "last_updated": "2026-09-11T17:19:52.020027"
+      "last_updated": "2026-09-11T17:20:10.680163"
     }
   ]
 }
