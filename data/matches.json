@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-09-11T09:17:33.522531",
+  "timestamp": "2026-09-11T09:22:39.766793",
   "total_matches": 2,
-  "live_count": 0,
-  "upcoming_count": 2,
+  "live_count": 1,
+  "upcoming_count": 1,
   "completed_count": 0,
   "matches": [
     {
@@ -10,18 +10,24 @@
       "teams": "England vs Pakistan (Day 3)",
       "league": "ICC World Test Championship",
       "sport": "cricket",
-      "status": "upcoming",
+      "status": "live",
       "runtime": "00h 00m 00s",
       "viewers": "333",
-      "viewers_type": "Waiting",
+      "viewers_type": "Watching",
       "servers": null,
       "date": null,
       "time": null,
       "match_url": "live/england-vs-pakistan-day-3-780",
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1788178193540x302.jpg",
       "match_id": "780",
-      "server_urls": [],
-      "last_updated": "2026-09-11T09:17:33.521064"
+      "server_urls": [
+        "https://live.talkoraai.com/match/hls?t=yhHN1D5pSE1_KOxEXTsIOTkKeVHesCAI6SheJmIezcBB1LFE7I2_Co0YU3W0YQALPRPm1mUFW4DDyc7D-e0OA6lSG3FVELuFFZLyk-3lQHIPXoRrRU8GaciIbtPn9mAJeX8bqU2qL2BYAxI3Z4KdDBAG7M3H31zJo8RF4Y59ybfkTFa-Iwly2oha58uz46Jf8bzX5CKPLMQOasiZZyRy2q2A1wssjnT_zfnY-oKwLkvaZhYoPQkNwpbTEGwDSC-X9nVviNgxq8oPZBQZ9_LEri4N04m1TQ",
+        "https://live.talkoraai.com/match/seg?t=9INsbmwbTTuaD2Jbje-OeZEkEODUM3zND4rofEZTQkr_gHqFyMt-pE1HsjiFM7F3WjvUAiWVeDH7LaAljBQds9FKg5lKM3dAK5OUbt6mfPmwgzE7HbiSbZwQcXHytKmoeUo4TY5jE0qwXtYZa5KiVMUBcs8djY5vIwp6rHKfE3PBnT2gvOfFv0xRpsnwhggAzFF-5F2mOee3pJ8HQJhVrDSQBN3KVnyWd2o8es1sQVARVWx2NTYmMmpnbzLQnvt_E7rrQyfj2hHWk01GzUWXmyQ9-nmowyNve0cAZHo-",
+        "https://tvsen5.aynascope.net/willowhd/mono.m3u8",
+        "https://stream.ottplus.live/live/ten_2_hd_abr/live/ten_2_hd_720/chunks.m3u8",
+        "https://sportz-obiram.emonsa4.workers.dev/proxy?url=DAcVFABRQ0tIRgRYRkNHVVYZSlYMLClFDRkSGg8HMnBTEFlZBUZVRlZSEVIKAhgcGhtVBwpRBlMNFEckdQJeU0kBBAI6J0oeWx9cTBdOFA0rLj9WT3peHUtjQmZdVXJbTXcEVE4PW1paUWtpXEdcXVBVFxAJAR4OUQxeXlpZ"
+      ],
+      "last_updated": "2026-09-11T09:22:38.768166"
     },
     {
       "title": "Sri Lanka Women vs Pakistan Women, Semi Final 2",
@@ -39,7 +45,7 @@
       "thumbnail": "https://i.postimg.cc/PxzP9R7x/6203c8be-3426-43f8-995a-2857124ea824.jpg",
       "match_id": "794",
       "server_urls": [],
-      "last_updated": "2026-09-11T09:17:33.521907"
+      "last_updated": "2026-09-11T09:22:39.765937"
     }
   ]
 }
