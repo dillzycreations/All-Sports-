@@ -1,34 +1,51 @@
 {
-  "timestamp": "2026-09-11T18:21:32.693069",
-  "total_matches": 4,
-  "live_count": 3,
+  "timestamp": "2026-09-11T19:01:34.471061",
+  "total_matches": 7,
+  "live_count": 6,
   "upcoming_count": 1,
   "completed_count": 0,
   "matches": [
     {
-      "title": "England vs Pakistan (Day 3)",
-      "teams": "England vs Pakistan (Day 3)",
-      "league": "ICC World Test Championship",
-      "sport": "cricket",
+      "title": "Sevilla vs Valencia",
+      "teams": "Sevilla vs Valencia",
+      "league": "LaLiga 2026",
+      "sport": "football",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "517",
+      "viewers": "3",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
       "time": null,
-      "match_url": "live/england-vs-pakistan-day-3-780",
-      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1788178193540x302.jpg",
-      "match_id": "780",
+      "match_url": "live/sevilla-vs-valencia-808",
+      "thumbnail": "https://media-cdn-v2.laodong.vn/storage/newsportal/2026/9/11/1764840/Rsz_6740Cecc-600D-4E.jpg",
+      "match_id": "808",
       "server_urls": [
-        "https://live.talkoraai.com/match/hls?t=yhHN1D5pSE1_KOxEXTsIOTkKeVHesCAI6SheJmIezcBB1LFE7I2_Co0YU3W0YQALPRPm1mUFW4DDyc7D-e0OA6lSG3FVELuFFZLyk-3lQHIPXoRrRU8GaciIbtPn9mAJeX8bqU2qL2BYAxI3Z4KdDBAG7M3H31zJo8RF4Y59ybfkTFa-Iwly2oha58uz46Jf8bzX5CKPLMQOasiZZyRy2q2A1wssjnT_zfnY-oKwLkvaZhYoPQkNwpbTEGwDSC-X9nVviNgxq8oPZBQZ9_LEri4N04m1TQ",
-        "https://live.talkoraai.com/match/seg?t=9INsbmwbTTuaD2Jbje-OeZEkEODUM3zND4rofEZTQkr_gHqFyMt-pE1HsjiFM7F3WjvUAiWVeDH7LaAljBQds9FKg5lKM3dAK5OUbt6mfPmwgzE7HbiSbZwQcXHytKmoeUo4TY5jE0qwXtYZa5KiVMUBcs8djY5vIwp6rHKfE3PBnT2gvOfFv0xRpsnwhggAzFF-5F2mOee3pJ8HQJhVrDSQBN3KVnyWd2o8es1sQVARVWx2NTYmMmpnbzLQnvt_E7rrQyfj2hHWk01GzUWXmyQ9-nmowyNve0cAZHo-",
-        "https://tvsen5.aynascope.net/willowhd/mono.m3u8",
-        "https://stream.ottplus.live/live/ten_2_hd_abr/live/ten_2_hd_720/chunks.m3u8",
-        "https://sportz-obiram.emonsa4.workers.dev/proxy?url=DAcVFABRQ0tIRgRYRkNHVVYZSlYMLClFDRkSGg8HMnBTEFlZBUZVRlZSEVIKAhgcGhtVBwpRBlMNFEckdQJeU0kBBAI6J0oeWx9cTBdOFA0rLj9WT3peHUtjQmZdVXJbTXcEVE4PW1paUWtpXEdcXVBVFxAJAR4OUQxeXlpZ",
-        "https://tvsen5.aynascope.net/willowhd/tracks-v1a1/2026/09/11/09/34/16-09176.ts"
+        "https://live.talkoraai.com/match/hls?t=cGkf92xyWKE6pV_l7Z3fTrVeNv50HC4CyCjTo0n1hNwQpuIC8USgY8RIB73p-X9BRPnAaGWFpMIZrdJC_Bse8Xc4_7Re8-UWF2P-UnWNrG4WIt46OBdRTcLInFQ_CBhYt0PAyb40YRP0rUlTIHZtpJeTzWNUX25ZZD1Ci6TROiZTDOOjU0cJPV7xG9XU4C4wv1onba0qYSYrynigKWY_sJbD51fN9V-nOR6qSNxF1HlMSak76gbd5IbN6KfzjpDKaNTKZCEpwa0EYmvnidnEFZhN1uWJug",
+        "https://live.talkoraai.com/match/seg?t=jkREHS2BStIPWjWrQtdnwEqJrzdLEn_8HGqNaLbIFzdCOz8VQoGtWzzYDLoHkCFaWYjFCWb54vnDvV_n9IZS-kMh1ld4Aykq-Nfv2ErYrg5DRWKsdxVHmfCOzVgpwbgtuYpAtVw3_v3nWfHD5rc9AzZd77DIEhjCrM332gmFwBIbKwrnLNMdrgZy-N6thFIJIL25_3qgtFvoKME0SbQIEsdvRIXlkORs1ZZNhC4Vpi2wAqpiJ5kv9LlLIF-Us1OItIpVBI-AjnN2qFK5uglWFmQGWeN46ewWmfGCPDNj",
+        "https://fawa.duckdns.org/api/proxy?url=http%3A%2F%2F193.47.62.53%2Fhls%2FOFFFQQ.m3u8&headers=%7B%22Referer%22%3A%22http%3A%2F%2Fwww.fawanews.sc%2F%22%7D"
       ],
-      "last_updated": "2026-09-11T18:21:31.068950"
+      "last_updated": "2026-09-11T19:01:31.496403"
+    },
+    {
+      "title": "West Ham United VS Wrexham A.F.C",
+      "teams": "West Ham United VS Wrexham A.F.C",
+      "league": "EFL Cup",
+      "sport": "football",
+      "status": "live",
+      "runtime": "00h 00m 00s",
+      "viewers": "1",
+      "viewers_type": "Watching",
+      "servers": null,
+      "date": null,
+      "time": null,
+      "match_url": "live/west-ham-united-vs-wrexham-a-f-c-811",
+      "thumbnail": "https://r.testifier.nl/Acbs8526SDKI/resizing_type:fill/width:1200/height:675/plain/https://s3-newsifier.ams3.digitaloceanspaces.com/westhamworld.co.uk/images/2026-09/west-ham-v-wrexham-match-preview-6aa273e3a57c3.png@webp",
+      "match_id": "811",
+      "server_urls": [
+        "https://fawa.duckdns.org/api/proxy?url=http%3A%2F%2F193.47.62.53%2Fhls%2FOFFFQ.m3u8&headers=%7B%22Referer%22%3A%22http%3A%2F%2Fwww.fawanews.sc%2F%22%7D"
+      ],
+      "last_updated": "2026-09-11T19:01:31.842102"
     },
     {
       "title": "Women's Doubles Final vs Women's Doubles",
@@ -37,7 +54,7 @@
       "sport": "others",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "9",
+      "viewers": "12",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -49,7 +66,7 @@
         "https://live.talkoraai.com/match/hls?t=mW7eN6ir_ucU-VHpRz1g9i6h-cixfXbcwNS2XXEO2aIm268wj8IRuGYAfv5VAW6mdTejGSSlJFv53cdyUhUFX5Ov7FzcCkEPbpYkX42XEJPXI6kzcpzVCh9iReQJNc1m12-JXszUWTwbc5i_Y0dPAwn9f9QZXfzDbxlKfXSHLEpvpbNoBDJQohqOUd-UvjWjKLe-o9XZzthnucES9ZSlvN2WJ_7Gs_FsBELIsxG6vLMCp_0GqG4mXRxFGv9aOi3krFAJRE79-uG8rVqRTLWqYuaJIDpfAQHzMLM",
         "https://live.talkoraai.com/match/seg?t=zN73lpOMlw4-wN0JtOQzRI05jLgtF3OmEv_rtSitWZZclHUSPeVFHFF8TIwRTI587oGiJTecItK-ZMKNDs7HLo9DjmpvbS3tPau5vXoZVpkhb8XlloRPMWo7gSGQRH1vmFRDlC_4IkuXEFWDQB0nS7kccwDZFAShPKcJNTXpVGr7AOJwLpnKALoCZ8aVc3ci-h6osnyRMLn0PsKHwbd-YaDu2ZK8LOgleV5S79g8rSzhTBAg-Y7x3I6YFG2f75n5N-wvjfVlFTSxXRU2dEJjGp7lWMx3YBuKjfHYLKgPRpE8wg"
       ],
-      "last_updated": "2026-09-11T18:21:32.170623"
+      "last_updated": "2026-09-11T19:01:32.139359"
     },
     {
       "title": "Ahli vs Al-Hazem",
@@ -58,7 +75,7 @@
       "sport": "football",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "6",
+      "viewers": "9",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -69,25 +86,65 @@
       "server_urls": [
         "https://fawa.duckdns.org/api/proxy.mp4?url=http%3A%2F%2F193.47.62.42%2Fhls%2FB222-174.ts&headers=%7B%22Referer%22%3A%22http%3A%2F%2Fwww.fawanews.sc%2F%22%7D"
       ],
-      "last_updated": "2026-09-11T18:21:32.422313"
+      "last_updated": "2026-09-11T19:01:32.433402"
     },
     {
-      "title": "Sevilla vs Valencia",
-      "teams": "Sevilla vs Valencia",
-      "league": "LaLiga 2026",
+      "title": "Union Berlin vs Schalke",
+      "teams": "Union Berlin vs Schalke",
+      "league": "Bundesliga",
+      "sport": "cricket",
+      "status": "live",
+      "runtime": "00h 00m 00s",
+      "viewers": "2",
+      "viewers_type": "Watching",
+      "servers": null,
+      "date": null,
+      "time": null,
+      "match_url": "live/union-berlin-vs-schalke-809",
+      "thumbnail": "https://ichef.bbci.co.uk/ace/standard/1024/cpsprodpb/84b2/live/51d9b490-ad35-11f1-9bc8-3509bd1a4ead.jpg",
+      "match_id": "809",
+      "server_urls": [
+        "https://fawa.duckdns.org/api/proxy?url=http%3A%2F%2F193.47.62.57%2Fhls%2FZYYYQQQ.m3u8&headers=%7B%22Referer%22%3A%22http%3A%2F%2Fwww.fawanews.sc%2F%22%7D"
+      ],
+      "last_updated": "2026-09-11T19:01:33.647092"
+    },
+    {
+      "title": "Venezia vs Fiorentina",
+      "teams": "Venezia vs Fiorentina",
+      "league": "Serie A",
       "sport": "football",
+      "status": "live",
+      "runtime": "00h 00m 00s",
+      "viewers": "1",
+      "viewers_type": "Watching",
+      "servers": null,
+      "date": null,
+      "time": null,
+      "match_url": "live/venezia-vs-fiorentina-810",
+      "thumbnail": "https://cdn.ratingbet.com/ratingbet/20260909/d1d8aaba29f3a4233cd1be178dac64afd8aa5a6a721988d08914104894bf45e3-1200-750.webp",
+      "match_id": "810",
+      "server_urls": [
+        "https://fawa.duckdns.org/api/proxy?url=http%3A%2F%2F193.47.62.49%2Fhls%2FGE333Q.m3u8&headers=%7B%22Referer%22%3A%22http%3A%2F%2Fwww.fawanews.sc%2F%22%7D"
+      ],
+      "last_updated": "2026-09-11T19:01:34.166709"
+    },
+    {
+      "title": "England vs Pakistan (Day 4)",
+      "teams": "England vs Pakistan (Day 4)",
+      "league": "ICC World Test Championship",
+      "sport": "cricket",
       "status": "upcoming",
       "runtime": "00h 00m 00s",
-      "viewers": "296",
+      "viewers": "520",
       "viewers_type": "Waiting",
       "servers": null,
       "date": null,
       "time": null,
-      "match_url": "live/sevilla-vs-valencia-808",
-      "thumbnail": "https://media-cdn-v2.laodong.vn/storage/newsportal/2026/9/11/1764840/Rsz_6740Cecc-600D-4E.jpg",
-      "match_id": "808",
+      "match_url": "live/england-vs-pakistan-day-4-780",
+      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1788178193540x302.jpg",
+      "match_id": "780",
       "server_urls": [],
-      "last_updated": "2026-09-11T18:21:32.692537"
+      "last_updated": "2026-09-11T19:01:34.470488"
     }
   ]
 }
