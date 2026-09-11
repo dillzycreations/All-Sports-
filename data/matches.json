@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-11T18:01:19.779739",
+  "timestamp": "2026-09-11T18:06:20.271153",
   "total_matches": 5,
   "live_count": 4,
   "upcoming_count": 1,
@@ -12,7 +12,7 @@
       "sport": "cricket",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "512",
+      "viewers": "514",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -28,7 +28,7 @@
         "https://sportz-obiram.emonsa4.workers.dev/proxy?url=DAcVFABRQ0tIRgRYRkNHVVYZSlYMLClFDRkSGg8HMnBTEFlZBUZVRlZSEVIKAhgcGhtVBwpRBlMNFEckdQJeU0kBBAI6J0oeWx9cTBdOFA0rLj9WT3peHUtjQmZdVXJbTXcEVE4PW1paUWtpXEdcXVBVFxAJAR4OUQxeXlpZ",
         "https://tvsen5.aynascope.net/willowhd/tracks-v1a1/2026/09/11/09/34/16-09176.ts"
       ],
-      "last_updated": "2026-09-11T18:01:18.370351"
+      "last_updated": "2026-09-11T18:06:18.476894"
     },
     {
       "title": "Sri Lanka Women vs Pakistan Women, Semi Final 2",
@@ -37,7 +37,7 @@
       "sport": "cricket",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "65",
+      "viewers": "66",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -51,7 +51,7 @@
         "https://warm-caverns-48629-92fab798385f.herokuapp.com/https://d36r8jifhgsk5j.cloudfront.net/Willow_TV540p.m3u8",
         "https://digitalotthub.com/tv/toffee-by-maruf/live.php?id=sony_sports_1_hd&e=.m3u8"
       ],
-      "last_updated": "2026-09-11T18:01:18.809267"
+      "last_updated": "2026-09-11T18:06:19.313914"
     },
     {
       "title": "Women's Doubles Final vs Women's Doubles",
@@ -60,7 +60,7 @@
       "sport": "others",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "4",
+      "viewers": "5",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -72,7 +72,7 @@
         "https://live.talkoraai.com/match/hls?t=mW7eN6ir_ucU-VHpRz1g9i6h-cixfXbcwNS2XXEO2aIm268wj8IRuGYAfv5VAW6mdTejGSSlJFv53cdyUhUFX5Ov7FzcCkEPbpYkX42XEJPXI6kzcpzVCh9iReQJNc1m12-JXszUWTwbc5i_Y0dPAwn9f9QZXfzDbxlKfXSHLEpvpbNoBDJQohqOUd-UvjWjKLe-o9XZzthnucES9ZSlvN2WJ_7Gs_FsBELIsxG6vLMCp_0GqG4mXRxFGv9aOi3krFAJRE79-uG8rVqRTLWqYuaJIDpfAQHzMLM",
         "https://live.talkoraai.com/match/seg?t=zN73lpOMlw4-wN0JtOQzRI05jLgtF3OmEv_rtSitWZZclHUSPeVFHFF8TIwRTI587oGiJTecItK-ZMKNDs7HLo9DjmpvbS3tPau5vXoZVpkhb8XlloRPMWo7gSGQRH1vmFRDlC_4IkuXEFWDQB0nS7kccwDZFAShPKcJNTXpVGr7AOJwLpnKALoCZ8aVc3ci-h6osnyRMLn0PsKHwbd-YaDu2ZK8LOgleV5S79g8rSzhTBAg-Y7x3I6YFG2f75n5N-wvjfVlFTSxXRU2dEJjGp7lWMx3YBuKjfHYLKgPRpE8wg"
       ],
-      "last_updated": "2026-09-11T18:01:19.130634"
+      "last_updated": "2026-09-11T18:06:19.631924"
     },
     {
       "title": "Ahli vs Al-Hazem",
@@ -81,7 +81,7 @@
       "sport": "football",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "1",
+      "viewers": "2",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -90,9 +90,9 @@
       "thumbnail": "https://r2.thesportsdb.com/images/media/event/thumb/xjanvp1758292430.jpg",
       "match_id": "807",
       "server_urls": [
-        "https://curly-surf-da2d.hasannirob234.workers.dev/https://saseries.akamaized.net/hls/live/2110097/ZIMvsIND-3827e1/master.m3u8"
+        "https://fawa.duckdns.org/api/proxy.mp4?url=http%3A%2F%2F193.47.62.42%2Fhls%2FB222-174.ts&headers=%7B%22Referer%22%3A%22http%3A%2F%2Fwww.fawanews.sc%2F%22%7D"
       ],
-      "last_updated": "2026-09-11T18:01:19.456915"
+      "last_updated": "2026-09-11T18:06:19.951139"
     },
     {
       "title": "Sevilla vs Valencia",
@@ -110,7 +110,7 @@
       "thumbnail": "https://media-cdn-v2.laodong.vn/storage/newsportal/2026/9/11/1764840/Rsz_6740Cecc-600D-4E.jpg",
       "match_id": "808",
       "server_urls": [],
-      "last_updated": "2026-09-11T18:01:19.779120"
+      "last_updated": "2026-09-11T18:06:20.270447"
     }
   ]
 }
