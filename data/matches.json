@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-11T15:26:12.717443",
+  "timestamp": "2026-09-11T15:31:11.418252",
   "total_matches": 4,
   "live_count": 4,
   "upcoming_count": 0,
@@ -12,7 +12,7 @@
       "sport": "cricket",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "455",
+      "viewers": "456",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -28,7 +28,7 @@
         "https://sportz-obiram.emonsa4.workers.dev/proxy?url=DAcVFABRQ0tIRgRYRkNHVVYZSlYMLClFDRkSGg8HMnBTEFlZBUZVRlZSEVIKAhgcGhtVBwpRBlMNFEckdQJeU0kBBAI6J0oeWx9cTBdOFA0rLj9WT3peHUtjQmZdVXJbTXcEVE4PW1paUWtpXEdcXVBVFxAJAR4OUQxeXlpZ",
         "https://tvsen5.aynascope.net/willowhd/tracks-v1a1/2026/09/11/09/34/16-09176.ts"
       ],
-      "last_updated": "2026-09-11T15:26:11.519531"
+      "last_updated": "2026-09-11T15:31:10.226373"
     },
     {
       "title": "Dublin Guardians vs Edinburgh Castle Rockers",
@@ -37,7 +37,7 @@
       "sport": "cricket",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "30",
+      "viewers": "31",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -49,7 +49,7 @@
         "https://digitalotthub.com/tv/dd/live.php/598.m3u8",
         "https://tvsen7.aynaott.com/ssport2hd/index.m3u8"
       ],
-      "last_updated": "2026-09-11T15:26:11.890060"
+      "last_updated": "2026-09-11T15:31:10.551172"
     },
     {
       "title": "Amritsar Soormas vs Ludhiana Lions,",
@@ -58,7 +58,7 @@
       "sport": "cricket",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "29",
+      "viewers": "30",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -70,7 +70,7 @@
         "https://stream.ottplus.live/live/ten_5_hd_abr/live/ten_5_hd_720/chunks.m3u8",
         "https://digitalotthub.com/tv/toffee-by-maruf/live.php?id=sony_sports_5_hd&e=.m3u8"
       ],
-      "last_updated": "2026-09-11T15:26:12.171527"
+      "last_updated": "2026-09-11T15:31:10.836417"
     },
     {
       "title": "Sri Lanka Women vs Pakistan Women, Semi Final 2",
@@ -79,7 +79,7 @@
       "sport": "cricket",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "22",
+      "viewers": "24",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -93,7 +93,7 @@
         "https://warm-caverns-48629-92fab798385f.herokuapp.com/https://d36r8jifhgsk5j.cloudfront.net/Willow_TV540p.m3u8",
         "https://digitalotthub.com/tv/toffee-by-maruf/live.php?id=sony_sports_1_hd&e=.m3u8"
       ],
-      "last_updated": "2026-09-11T15:26:12.444652"
+      "last_updated": "2026-09-11T15:31:11.121134"
     }
   ]
 }
