@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-11T09:32:43.249236",
+  "timestamp": "2026-09-11T09:37:48.946643",
   "total_matches": 4,
   "live_count": 1,
   "upcoming_count": 3,
@@ -12,7 +12,7 @@
       "sport": "cricket",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "338",
+      "viewers": "339",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -25,9 +25,10 @@
         "https://live.talkoraai.com/match/seg?t=9INsbmwbTTuaD2Jbje-OeZEkEODUM3zND4rofEZTQkr_gHqFyMt-pE1HsjiFM7F3WjvUAiWVeDH7LaAljBQds9FKg5lKM3dAK5OUbt6mfPmwgzE7HbiSbZwQcXHytKmoeUo4TY5jE0qwXtYZa5KiVMUBcs8djY5vIwp6rHKfE3PBnT2gvOfFv0xRpsnwhggAzFF-5F2mOee3pJ8HQJhVrDSQBN3KVnyWd2o8es1sQVARVWx2NTYmMmpnbzLQnvt_E7rrQyfj2hHWk01GzUWXmyQ9-nmowyNve0cAZHo-",
         "https://tvsen5.aynascope.net/willowhd/mono.m3u8",
         "https://stream.ottplus.live/live/ten_2_hd_abr/live/ten_2_hd_720/chunks.m3u8",
-        "https://sportz-obiram.emonsa4.workers.dev/proxy?url=DAcVFABRQ0tIRgRYRkNHVVYZSlYMLClFDRkSGg8HMnBTEFlZBUZVRlZSEVIKAhgcGhtVBwpRBlMNFEckdQJeU0kBBAI6J0oeWx9cTBdOFA0rLj9WT3peHUtjQmZdVXJbTXcEVE4PW1paUWtpXEdcXVBVFxAJAR4OUQxeXlpZ"
+        "https://sportz-obiram.emonsa4.workers.dev/proxy?url=DAcVFABRQ0tIRgRYRkNHVVYZSlYMLClFDRkSGg8HMnBTEFlZBUZVRlZSEVIKAhgcGhtVBwpRBlMNFEckdQJeU0kBBAI6J0oeWx9cTBdOFA0rLj9WT3peHUtjQmZdVXJbTXcEVE4PW1paUWtpXEdcXVBVFxAJAR4OUQxeXlpZ",
+        "https://tvsen5.aynascope.net/willowhd/tracks-v1a1/2026/09/11/09/34/16-09176.ts"
       ],
-      "last_updated": "2026-09-11T09:32:42.484115"
+      "last_updated": "2026-09-11T09:37:47.559023"
     },
     {
       "title": "Dublin Guardians vs Edinburgh Castle Rockers",
@@ -45,7 +46,7 @@
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1789019381540x302.jpg",
       "match_id": "805",
       "server_urls": [],
-      "last_updated": "2026-09-11T09:32:43.247164"
+      "last_updated": "2026-09-11T09:37:48.944136"
     },
     {
       "title": "Amritsar Soormas vs Ludhiana Lions,",
@@ -63,7 +64,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249115_53065_AMS_LLN_fc-web_1788345783974.jpg",
       "match_id": "804",
       "server_urls": [],
-      "last_updated": "2026-09-11T09:32:43.247919"
+      "last_updated": "2026-09-11T09:37:48.945179"
     },
     {
       "title": "Sri Lanka Women vs Pakistan Women, Semi Final 2",
@@ -81,7 +82,7 @@
       "thumbnail": "https://i.ibb.co.com/yc2KL1nW/6203c8be-3426-43f8-995a-2857124ea824.jpg",
       "match_id": "794",
       "server_urls": [],
-      "last_updated": "2026-09-11T09:32:43.248544"
+      "last_updated": "2026-09-11T09:37:48.945978"
     }
   ]
 }
