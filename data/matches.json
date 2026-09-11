@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-09-11T19:48:46.439938",
-  "total_matches": 7,
-  "live_count": 6,
+  "timestamp": "2026-09-11T19:52:02.322786",
+  "total_matches": 6,
+  "live_count": 5,
   "upcoming_count": 1,
   "completed_count": 0,
   "matches": [
@@ -12,7 +12,7 @@
       "sport": "football",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "17",
+      "viewers": "19",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -25,7 +25,7 @@
         "https://live.talkoraai.com/match/seg?t=jkREHS2BStIPWjWrQtdnwEqJrzdLEn_8HGqNaLbIFzdCOz8VQoGtWzzYDLoHkCFaWYjFCWb54vnDvV_n9IZS-kMh1ld4Aykq-Nfv2ErYrg5DRWKsdxVHmfCOzVgpwbgtuYpAtVw3_v3nWfHD5rc9AzZd77DIEhjCrM332gmFwBIbKwrnLNMdrgZy-N6thFIJIL25_3qgtFvoKME0SbQIEsdvRIXlkORs1ZZNhC4Vpi2wAqpiJ5kv9LlLIF-Us1OItIpVBI-AjnN2qFK5uglWFmQGWeN46ewWmfGCPDNj",
         "https://fawa.duckdns.org/api/proxy?url=http%3A%2F%2F193.47.62.53%2Fhls%2FOFFFQQ.m3u8&headers=%7B%22Referer%22%3A%22http%3A%2F%2Fwww.fawanews.sc%2F%22%7D"
       ],
-      "last_updated": "2026-09-11T19:48:43.808701"
+      "last_updated": "2026-09-11T19:52:00.269027"
     },
     {
       "title": "West Ham United VS Wrexham A.F.C",
@@ -34,7 +34,7 @@
       "sport": "football",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "14",
+      "viewers": "16",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -45,28 +45,7 @@
       "server_urls": [
         "https://fawa.duckdns.org/api/proxy?url=http%3A%2F%2F193.47.62.53%2Fhls%2FOFFFQ.m3u8&headers=%7B%22Referer%22%3A%22http%3A%2F%2Fwww.fawanews.sc%2F%22%7D"
       ],
-      "last_updated": "2026-09-11T19:48:44.125157"
-    },
-    {
-      "title": "Women's Doubles Final vs Women's Doubles",
-      "teams": "Women's Doubles Final vs Women's Doubles",
-      "league": "Final",
-      "sport": "others",
-      "status": "live",
-      "runtime": "00h 00m 00s",
-      "viewers": "25",
-      "viewers_type": "Watching",
-      "servers": null,
-      "date": null,
-      "time": null,
-      "match_url": "live/women-s-doubles-final-vs-women-s-doubles-806",
-      "thumbnail": "https://thesportsencounter.com/wp-content/uploads/2026/09/us_open_womens_doubles_final_featured.webp",
-      "match_id": "806",
-      "server_urls": [
-        "https://live.talkoraai.com/match/hls?t=mW7eN6ir_ucU-VHpRz1g9i6h-cixfXbcwNS2XXEO2aIm268wj8IRuGYAfv5VAW6mdTejGSSlJFv53cdyUhUFX5Ov7FzcCkEPbpYkX42XEJPXI6kzcpzVCh9iReQJNc1m12-JXszUWTwbc5i_Y0dPAwn9f9QZXfzDbxlKfXSHLEpvpbNoBDJQohqOUd-UvjWjKLe-o9XZzthnucES9ZSlvN2WJ_7Gs_FsBELIsxG6vLMCp_0GqG4mXRxFGv9aOi3krFAJRE79-uG8rVqRTLWqYuaJIDpfAQHzMLM",
-        "https://live.talkoraai.com/match/seg?t=zN73lpOMlw4-wN0JtOQzRI05jLgtF3OmEv_rtSitWZZclHUSPeVFHFF8TIwRTI587oGiJTecItK-ZMKNDs7HLo9DjmpvbS3tPau5vXoZVpkhb8XlloRPMWo7gSGQRH1vmFRDlC_4IkuXEFWDQB0nS7kccwDZFAShPKcJNTXpVGr7AOJwLpnKALoCZ8aVc3ci-h6osnyRMLn0PsKHwbd-YaDu2ZK8LOgleV5S79g8rSzhTBAg-Y7x3I6YFG2f75n5N-wvjfVlFTSxXRU2dEJjGp7lWMx3YBuKjfHYLKgPRpE8wg"
-      ],
-      "last_updated": "2026-09-11T19:48:44.420339"
+      "last_updated": "2026-09-11T19:52:01.154567"
     },
     {
       "title": "Ahli vs Al-Hazem",
@@ -75,7 +54,7 @@
       "sport": "football",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "20",
+      "viewers": "22",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -86,7 +65,7 @@
       "server_urls": [
         "https://fawa.duckdns.org/api/proxy.mp4?url=http%3A%2F%2F193.47.62.42%2Fhls%2FB222-174.ts&headers=%7B%22Referer%22%3A%22http%3A%2F%2Fwww.fawanews.sc%2F%22%7D"
       ],
-      "last_updated": "2026-09-11T19:48:45.549246"
+      "last_updated": "2026-09-11T19:52:01.437547"
     },
     {
       "title": "Union Berlin vs Schalke",
@@ -95,7 +74,7 @@
       "sport": "cricket",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "16",
+      "viewers": "18",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -106,7 +85,7 @@
       "server_urls": [
         "https://fawa.duckdns.org/api/proxy?url=http%3A%2F%2F193.47.62.57%2Fhls%2FZYYYQQQ.m3u8&headers=%7B%22Referer%22%3A%22http%3A%2F%2Fwww.fawanews.sc%2F%22%7D"
       ],
-      "last_updated": "2026-09-11T19:48:45.844093"
+      "last_updated": "2026-09-11T19:52:01.732303"
     },
     {
       "title": "Venezia vs Fiorentina",
@@ -115,7 +94,7 @@
       "sport": "football",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "14",
+      "viewers": "16",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -126,7 +105,7 @@
       "server_urls": [
         "https://fawa.duckdns.org/api/proxy?url=http%3A%2F%2F193.47.62.49%2Fhls%2FGE333Q.m3u8&headers=%7B%22Referer%22%3A%22http%3A%2F%2Fwww.fawanews.sc%2F%22%7D"
       ],
-      "last_updated": "2026-09-11T19:48:46.135206"
+      "last_updated": "2026-09-11T19:52:02.025920"
     },
     {
       "title": "England vs Pakistan (Day 4)",
@@ -144,7 +123,7 @@
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1788178193540x302.jpg",
       "match_id": "780",
       "server_urls": [],
-      "last_updated": "2026-09-11T19:48:46.439211"
+      "last_updated": "2026-09-11T19:52:02.322045"
     }
   ]
 }
