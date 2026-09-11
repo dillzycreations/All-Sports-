@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-09-11T13:09:37.675560",
+  "timestamp": "2026-09-11T13:14:43.702815",
   "total_matches": 4,
-  "live_count": 1,
-  "upcoming_count": 3,
+  "live_count": 2,
+  "upcoming_count": 2,
   "completed_count": 0,
   "matches": [
     {
@@ -12,7 +12,7 @@
       "sport": "cricket",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "380",
+      "viewers": "381",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -28,25 +28,28 @@
         "https://sportz-obiram.emonsa4.workers.dev/proxy?url=DAcVFABRQ0tIRgRYRkNHVVYZSlYMLClFDRkSGg8HMnBTEFlZBUZVRlZSEVIKAhgcGhtVBwpRBlMNFEckdQJeU0kBBAI6J0oeWx9cTBdOFA0rLj9WT3peHUtjQmZdVXJbTXcEVE4PW1paUWtpXEdcXVBVFxAJAR4OUQxeXlpZ",
         "https://tvsen5.aynascope.net/willowhd/tracks-v1a1/2026/09/11/09/34/16-09176.ts"
       ],
-      "last_updated": "2026-09-11T13:09:37.364497"
+      "last_updated": "2026-09-11T13:14:42.141058"
     },
     {
       "title": "Dublin Guardians vs Edinburgh Castle Rockers",
       "teams": "Dublin Guardians vs Edinburgh Castle Rockers",
       "league": "European T20 Premier League 2026",
       "sport": "cricket",
-      "status": "upcoming",
+      "status": "live",
       "runtime": "00h 00m 00s",
       "viewers": "2",
-      "viewers_type": "Waiting",
+      "viewers_type": "Watching",
       "servers": null,
       "date": null,
       "time": null,
       "match_url": "live/dublin-guardians-vs-edinburgh-castle-rockers-805",
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1789019381540x302.jpg",
       "match_id": "805",
-      "server_urls": [],
-      "last_updated": "2026-09-11T13:09:37.673523"
+      "server_urls": [
+        "https://digitalotthub.com/tv/dd/live.php/598.m3u8",
+        "https://tvsen7.aynaott.com/ssport2hd/index.m3u8"
+      ],
+      "last_updated": "2026-09-11T13:14:43.434433"
     },
     {
       "title": "Amritsar Soormas vs Ludhiana Lions,",
@@ -64,7 +67,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249115_53065_AMS_LLN_fc-web_1788345783974.jpg",
       "match_id": "804",
       "server_urls": [],
-      "last_updated": "2026-09-11T13:09:37.674239"
+      "last_updated": "2026-09-11T13:14:43.701420"
     },
     {
       "title": "Sri Lanka Women vs Pakistan Women, Semi Final 2",
@@ -82,7 +85,7 @@
       "thumbnail": "https://i.ibb.co.com/yc2KL1nW/6203c8be-3426-43f8-995a-2857124ea824.jpg",
       "match_id": "794",
       "server_urls": [],
-      "last_updated": "2026-09-11T13:09:37.674906"
+      "last_updated": "2026-09-11T13:14:43.702154"
     }
   ]
 }
