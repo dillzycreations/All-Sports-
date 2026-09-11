@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-09-11T20:23:50.662317",
-  "total_matches": 9,
-  "live_count": 6,
+  "timestamp": "2026-09-11T20:29:41.571151",
+  "total_matches": 10,
+  "live_count": 7,
   "upcoming_count": 3,
   "completed_count": 0,
   "matches": [
@@ -12,7 +12,7 @@
       "sport": "football",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "29",
+      "viewers": "31",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -26,7 +26,7 @@
         "https://fawa.duckdns.org/api/proxy?url=http%3A%2F%2F193.47.62.53%2Fhls%2FOFFFQQ.m3u8&headers=%7B%22Referer%22%3A%22http%3A%2F%2Fwww.fawanews.sc%2F%22%7D",
         "https://live.talkoraai.com/match/seg?t=jkREHS2BStIPWjWrQtdnwEqJrzdLEn_8HGqNaLbIFzdCOz8VQoGtWzzYDLoHkCFaWYjFCWb54vnDvV_n9IZS-kMh1ld4Aykq-Nfv2ErYrg5DRWKsdxVHmfCOzVgpwbgtuYpAtVw3_v3nWfHD5rc9AzZd77DIEhjCrM332gmFwBIbKwrnLNMdrgZy-N6thFIJIL25_3qgtFvoKME0SbQIEsdvRIXlkORs1ZZNhC4Vpi2wAqpiJ5kv9LlLIF-Us1OItIpVBI-AjnN2qFK5uglWFmQGWeN46ewWmfGCPDNj"
       ],
-      "last_updated": "2026-09-11T20:23:48.161681"
+      "last_updated": "2026-09-11T20:29:39.644403"
     },
     {
       "title": "West Ham United VS Wrexham A.F.C",
@@ -35,7 +35,7 @@
       "sport": "football",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "25",
+      "viewers": "26",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -47,7 +47,7 @@
         "https://fancode.sm-monirul-islam-rs.workers.dev/4247489/index.m3u8",
         "https://fawa.duckdns.org/api/proxy?url=http%3A%2F%2F193.47.62.53%2Fhls%2FOFFFQ.m3u8&headers=%7B%22Referer%22%3A%22http%3A%2F%2Fwww.fawanews.sc%2F%22%7D"
       ],
-      "last_updated": "2026-09-11T20:23:49.365916"
+      "last_updated": "2026-09-11T20:29:39.959607"
     },
     {
       "title": "Men's Singles Semifinal vs Men's Singles Semifinal",
@@ -56,7 +56,7 @@
       "sport": "others",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "8",
+      "viewers": "9",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -67,7 +67,25 @@
       "server_urls": [
         "https://live.talkoraai.com/match/hls?t=1Eokv-81_EggDZNvvlGuWRZs_zqHcbdu_bfzpM7_TxDCThB7N1UHkuXdBCfNWQtwaDYtAkS4CNrvvIADsiALoNMbOz2RnO5-YpO2RnryShWIoU7Ux24gOt2jfESNVT4YRFfFawm4k0LnqylDMZLY8TU-FqB2qI1KBHvisevg6tWRfSzo2_HLKro-d9VewQb_LoTgAca60dEr4RAjCpFUguDuijiPOXYy4l7xj_77amlbuoLiW-nI8_tQ_vMDbM4acFrIu_0ac7TQ1i9oGD4qVAQHMbO8K0oCdSE"
       ],
-      "last_updated": "2026-09-11T20:23:49.624874"
+      "last_updated": "2026-09-11T20:29:40.223119"
+    },
+    {
+      "title": "YET Aston Villa vs Nottingham Forest",
+      "teams": "YET Aston Villa vs Nottingham Forest",
+      "league": "Football League",
+      "sport": "football",
+      "status": "live",
+      "runtime": "00h 00m 00s",
+      "viewers": "1",
+      "viewers_type": "Watching",
+      "servers": null,
+      "date": null,
+      "time": null,
+      "match_url": "live/yet-aston-villa-vs-nottingham-forest-842",
+      "thumbnail": "https://cdn.bongo-solutions.com/919f93a7-400e-4149-a70d-204beb589074/content/b6aeec51-8454-4ebc-899b-2495668be367/56f0f145-8f3f-4242-b468-8d70a64905d0.jpg",
+      "match_id": "842",
+      "server_urls": [],
+      "last_updated": "2026-09-11T20:29:40.486448"
     },
     {
       "title": "Ahli vs Al-Hazem",
@@ -76,7 +94,7 @@
       "sport": "football",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "29",
+      "viewers": "30",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -87,7 +105,7 @@
       "server_urls": [
         "https://fancode.sm-monirul-islam-rs.workers.dev/4249133/index.m3u8"
       ],
-      "last_updated": "2026-09-11T20:23:49.885259"
+      "last_updated": "2026-09-11T20:29:40.774027"
     },
     {
       "title": "Union Berlin vs Schalke",
@@ -96,7 +114,7 @@
       "sport": "cricket",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "24",
+      "viewers": "25",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -107,7 +125,7 @@
       "server_urls": [
         "https://fawa.duckdns.org/api/proxy?url=http%3A%2F%2F193.47.62.57%2Fhls%2FZYYYQQQ.m3u8&headers=%7B%22Referer%22%3A%22http%3A%2F%2Fwww.fawanews.sc%2F%22%7D"
       ],
-      "last_updated": "2026-09-11T20:23:50.145311"
+      "last_updated": "2026-09-11T20:29:41.040680"
     },
     {
       "title": "Venezia vs Fiorentina",
@@ -116,7 +134,7 @@
       "sport": "football",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "23",
+      "viewers": "24",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -127,7 +145,7 @@
       "server_urls": [
         "https://fawa.duckdns.org/api/proxy?url=http%3A%2F%2F193.47.62.49%2Fhls%2FGE333Q.m3u8&headers=%7B%22Referer%22%3A%22http%3A%2F%2Fwww.fawanews.sc%2F%22%7D"
       ],
-      "last_updated": "2026-09-11T20:23:50.405677"
+      "last_updated": "2026-09-11T20:29:41.305874"
     },
     {
       "title": "England vs Pakistan (Day 4)",
@@ -145,7 +163,7 @@
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1788178193540x302.jpg",
       "match_id": "780",
       "server_urls": [],
-      "last_updated": "2026-09-11T20:23:50.661304"
+      "last_updated": "2026-09-11T20:29:41.569114"
     },
     {
       "title": "Guyana Amazon Warriors vs Trinbago Knight Riders",
@@ -163,7 +181,7 @@
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1789023319540x302.jpg",
       "match_id": "839",
       "server_urls": [],
-      "last_updated": "2026-09-11T20:23:50.661678"
+      "last_updated": "2026-09-11T20:29:41.569849"
     },
     {
       "title": "West Ham United vs Wrexham A.F.C.",
@@ -181,7 +199,7 @@
       "thumbnail": "https://cdn.bongo-solutions.com/919f93a7-400e-4149-a70d-204beb589074/content/beadceb3-60ec-4a11-99ec-d10399e24cd7/5943e4f4-57c7-422d-9a80-05a6336028de.jpg",
       "match_id": "841",
       "server_urls": [],
-      "last_updated": "2026-09-11T20:23:50.662000"
+      "last_updated": "2026-09-11T20:29:41.570512"
     }
   ]
 }
