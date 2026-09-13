@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-09-13T19:52:04.342176",
-  "total_matches": 16,
+  "timestamp": "2026-09-13T19:57:07.872222",
+  "total_matches": 17,
   "live_count": 4,
-  "upcoming_count": 12,
+  "upcoming_count": 13,
   "completed_count": 0,
   "matches": [
     {
@@ -12,7 +12,7 @@
       "sport": "cricket",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "27",
+      "viewers": "28",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -24,7 +24,7 @@
         "https://live.talkoraai.com/match/hls?t=Jw5LqFzu86ARP-p5Pe45AqQU_H0L2i52IfuBFMjZCii6bbhQT_t9KqTRo_aSeYXw2O52g4zDVsKFaJ7wdhSRX3q-OpZAX_MpSbutOTGEh_lnw8jzPpC-p4f35pbINmOEZAMhJcaQ0BkUML_fO6-bwbxCyPeqOxCwb_MFULy4x42j5bBdeaxrfLF4CS_quqssWSC3P9RFfVsLnCGF_5vPsyBVPpOdIpNSzpBUddS3LeZUCA0Vd1JJdGf5HxrgfzLsQBQ-O_xJioJvyIhxL2-NpLcF4MDChA",
         "https://live.talkoraai.com/match/seg?t=SCN2A-50rwS7A4Ol8DRA44kx0OnYjIWUN4dOvP6VSZQASQWPfC5gngTB__eHmyNk7PgbHYE5w76GI8cyfLHfYLLw943jDrIWaxO04OfpnKh8jsPyp82ZNAq9DjS-t-7LjiNrWS8RdB9Ud8pZzR9Neqvi_3N7vBcYHH-W_Lr9DgphvQT0Pb_rJIdfkOnI14CiRhDfe5no7AjuVH_4GJUmt33qrtT1SJOXcSHkB4TprDFtK88a9eAd5Hfn0RhOw2DH8dwzQbzTvLwa_XgK6tXE1nJjgLFPBFFE5E4Hqxx-"
       ],
-      "last_updated": "2026-09-13T19:52:03.114493"
+      "last_updated": "2026-09-13T19:57:05.851964"
     },
     {
       "title": "Brest vs PSG",
@@ -33,7 +33,7 @@
       "sport": "cricket",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "18",
+      "viewers": "19",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -46,7 +46,7 @@
         "https://play.aarray.cn/rrty/hd-zh-1-4550870_gqzm.m3u8?auth_key=1789328707-0-0-1313bafd616a213a3f869643e06bb0b5&token=bc1e64a6cc403431&device=4&platform=rrty",
         "https://live2.felnorastreamvault.com/live/channel1.m3u8"
       ],
-      "last_updated": "2026-09-13T19:52:03.471268"
+      "last_updated": "2026-09-13T19:57:07.094385"
     },
     {
       "title": "Real Sociedad vs Atletico de Madrid",
@@ -55,7 +55,7 @@
       "sport": "football",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "21",
+      "viewers": "22",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -69,7 +69,7 @@
         "https://live2.felnorastreamvault.com/live/channel15.m3u8",
         "https://tvsen5.aynaott.com/TnMn5kZz8aLm/index.m3u8"
       ],
-      "last_updated": "2026-09-13T19:52:03.757467"
+      "last_updated": "2026-09-13T19:57:07.354850"
     },
     {
       "title": "Sassuolo vs Juventus",
@@ -78,7 +78,7 @@
       "sport": "cricket",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "17",
+      "viewers": "18",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -91,7 +91,7 @@
         "https://play.aarray.cn/rrty/hd-zh-1-4549135_gqzm.m3u8?auth_key=1789328585-0-0-739eefd4b81eb33bd5b093fbd781e55d&token=5ea92bb4288550d6&device=4&platform=rrty",
         "https://live2.felnorastreamvault.com/live/channel11.m3u8"
       ],
-      "last_updated": "2026-09-13T19:52:04.041612"
+      "last_updated": "2026-09-13T19:57:07.609092"
     },
     {
       "title": "Barbados Tridents vs Guyana Amazon Warriors",
@@ -109,7 +109,25 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4248313_53026_BT_GUY_FC-Web.png",
       "match_id": "894",
       "server_urls": [],
-      "last_updated": "2026-09-13T19:52:04.334375"
+      "last_updated": "2026-09-13T19:57:07.863659"
+    },
+    {
+      "title": "Desert Vipers Development vs MI Emirates Development",
+      "teams": "Desert Vipers Development vs MI Emirates Development",
+      "league": "ILT20 Dev - Match 3",
+      "sport": "football",
+      "status": "upcoming",
+      "runtime": "00h 00m 00s",
+      "viewers": "209",
+      "viewers_type": "Waiting",
+      "servers": null,
+      "date": null,
+      "time": null,
+      "match_url": "live/desert-vipers-development-vs-mi-emirates-development-957",
+      "thumbnail": "https://images.fancode.com/aig/match/v1789294242694/4249241_CASACARDS_APP.png",
+      "match_id": "957",
+      "server_urls": [],
+      "last_updated": "2026-09-13T19:57:07.864363"
     },
     {
       "title": "Villarreal CF vs Real Betis",
@@ -127,7 +145,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4247615_53004_VIL_RB_FC-Web.png",
       "match_id": "891",
       "server_urls": [],
-      "last_updated": "2026-09-13T19:52:04.335098"
+      "last_updated": "2026-09-13T19:57:07.865038"
     },
     {
       "title": "Zimbabwe vs Australia 1st ODI",
@@ -145,7 +163,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/ZIMvsAUS_Web-match-card.png",
       "match_id": "954",
       "server_urls": [],
-      "last_updated": "2026-09-13T19:52:04.335765"
+      "last_updated": "2026-09-13T19:57:07.865705"
     },
     {
       "title": "India vs Afghanistan 2nd T20I",
@@ -163,7 +181,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/AFG_IND_2026_FC-WEB_1788619389374.jpg",
       "match_id": "905",
       "server_urls": [],
-      "last_updated": "2026-09-13T19:52:04.336412"
+      "last_updated": "2026-09-13T19:57:07.866389"
     },
     {
       "title": "West Ham United vs Fulham",
@@ -181,7 +199,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249055_53016_WHU_FUL_fc-web.jpg",
       "match_id": "876",
       "server_urls": [],
-      "last_updated": "2026-09-13T19:52:04.337074"
+      "last_updated": "2026-09-13T19:57:07.867046"
     },
     {
       "title": "Reading vs Brentford",
@@ -199,7 +217,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249056_53016_RED_BRE_fc-web.jpg",
       "match_id": "878",
       "server_urls": [],
-      "last_updated": "2026-09-13T19:52:04.337700"
+      "last_updated": "2026-09-13T19:57:07.867702"
     },
     {
       "title": "Ipswich Town F.C. vs Arsenal",
@@ -217,7 +235,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249057_53016_IPT_ARS_fc-web.jpg",
       "match_id": "862",
       "server_urls": [],
-      "last_updated": "2026-09-13T19:52:04.338355"
+      "last_updated": "2026-09-13T19:57:07.868329"
     },
     {
       "title": "India vs Afghanistan 3rd T20I",
@@ -235,7 +253,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/AFG_IND_2026_FC-WEB_1788619389374.jpg",
       "match_id": "906",
       "server_urls": [],
-      "last_updated": "2026-09-13T19:52:04.338997"
+      "last_updated": "2026-09-13T19:57:07.869002"
     },
     {
       "title": "Manchester City vs Norwich City F.C.",
@@ -253,7 +271,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249062_53016_MCI_NOR_fc-web.jpg",
       "match_id": "892",
       "server_urls": [],
-      "last_updated": "2026-09-13T19:52:04.339619"
+      "last_updated": "2026-09-13T19:57:07.869656"
     },
     {
       "title": "Zimbabwe vs Australia 2nd ODI",
@@ -271,7 +289,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/ZIMvsAUS_Web-match-card.png",
       "match_id": "955",
       "server_urls": [],
-      "last_updated": "2026-09-13T19:52:04.340260"
+      "last_updated": "2026-09-13T19:57:07.870285"
     },
     {
       "title": "Bristol City F.C. vs Watford F.C.",
@@ -280,7 +298,7 @@
       "sport": "football",
       "status": "upcoming",
       "runtime": "00h 00m 00s",
-      "viewers": "1",
+      "viewers": "2",
       "viewers_type": "Waiting",
       "servers": null,
       "date": null,
@@ -289,7 +307,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4247493_52993_BRI_WAT_fc-web_1786657253841.jpg",
       "match_id": "879",
       "server_urls": [],
-      "last_updated": "2026-09-13T19:52:04.340904"
+      "last_updated": "2026-09-13T19:57:07.870940"
     },
     {
       "title": "Zimbabwe vs Australia 3rd ODI",
@@ -307,7 +325,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/ZIMvsAUS_Web-match-card.png",
       "match_id": "956",
       "server_urls": [],
-      "last_updated": "2026-09-13T19:52:04.341526"
+      "last_updated": "2026-09-13T19:57:07.871585"
     }
   ]
 }
