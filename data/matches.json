@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-09-13T07:58:28.543145",
-  "total_matches": 23,
-  "live_count": 3,
+  "timestamp": "2026-09-13T08:03:33.112127",
+  "total_matches": 22,
+  "live_count": 2,
   "upcoming_count": 20,
   "completed_count": 0,
   "matches": [
@@ -12,7 +12,7 @@
       "sport": "cricket",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "11",
+      "viewers": "13",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -23,7 +23,7 @@
       "server_urls": [
         "https://cdn-gstyx.styxsports.live/STYX/streams/68oRKR23qeWZvCXu6248791548119.m3u8"
       ],
-      "last_updated": "2026-09-13T07:58:27.696512"
+      "last_updated": "2026-09-13T08:03:31.648872"
     },
     {
       "title": "Sierra Leone vs Kenya",
@@ -32,7 +32,7 @@
       "sport": "cricket",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "12",
+      "viewers": "14",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -43,28 +43,7 @@
       "server_urls": [
         "https://fancode.sm-monirul-islam-rs.workers.dev/4249163/index.m3u8"
       ],
-      "last_updated": "2026-09-13T07:58:27.992653"
-    },
-    {
-      "title": "1000 Race Live vs Suzuka 1000 Race",
-      "teams": "1000 Race Live vs Suzuka 1000 Race",
-      "league": "Suzuka 1000 Race Liv",
-      "sport": "others",
-      "status": "live",
-      "runtime": "00h 00m 00s",
-      "viewers": "26",
-      "viewers_type": "Watching",
-      "servers": null,
-      "date": null,
-      "time": null,
-      "match_url": "live/1000-race-live-vs-suzuka-1000-race-935",
-      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1789242643540x302.jpg",
-      "match_id": "935",
-      "server_urls": [
-        "https://live.talkoraai.com/match/hls?t=9ucrbyavmss1f9k-xwHOCRSU0XHZOmJiMy4zt-eXExVcR8MCP1419OV4QhnD23cXqF7CrRj1ORYBaSEccEFSLMtP1R3s5OqKnXoZYOgNt4pAJnbmQF_P5Whysqq7lTX2ENYdO6YH0_dVBecgC9m6tDCyIyL77dO-rl81Jw41TtpxazyOf9TWqyt6LvCmcVUm1rAT0EwCnzVUSIpAgiyQMj6Mh0qk4LYypsnpTy4pADA_eR36ILo8_-rDq8sHU8gRXC_fABaWkdZ3nZlxOo8AQzSdKqOiYrDha7gR3ACpI4FKQSIeytM",
-        "https://live.talkoraai.com/match/seg?t=6TBRw3-nfargNw6ZxV-rpTM-c3prvFvgBkXELpTf9Dj8lmgCwZQbn5tV_ZWzHpy1BoFNw0LcuZCi5M1Q6EBLSDWYR8maQjo7bgYNJJrVWLzVClwGDzWHUs_jCjLzH9lPtJ6dz63Ju9ztfstaFH30ncMUdATqPtv_WGFYC50-mBXhPNLX9zmVS9PqxDLoOBJlkM4KnbDgvuY1dGni9EuU5ow_KSYxDDREiKPqIx2qa9VfrifH2SVbtzsfK-jgm0zlBNXAMLgFW71bxWY5XHuoCwyGVK-nBK32DCIwkqckHOD_LBtL0rXj9cLw8tYiKg"
-      ],
-      "last_updated": "2026-09-13T07:58:28.264366"
+      "last_updated": "2026-09-13T08:03:32.850227"
     },
     {
       "title": "Live Racing Match Streaming - Watch Racing Match Online Today",
@@ -82,7 +61,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/DTM2.png",
       "match_id": "938",
       "server_urls": [],
-      "last_updated": "2026-09-13T07:58:28.534170"
+      "last_updated": "2026-09-13T08:03:33.105492"
     },
     {
       "title": "Namibia vs South Africa 3rd",
@@ -100,7 +79,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/Namibia-vs-South-Africa-ODIs-old.jpg",
       "match_id": "939",
       "server_urls": [],
-      "last_updated": "2026-09-13T07:58:28.534684"
+      "last_updated": "2026-09-13T08:03:33.106090"
     },
     {
       "title": "Sheffield United F.C. vs Wolverhampton Wanderers F.C.",
@@ -118,7 +97,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4247492_52993_SHF_WOL_fc-web_1786657253831.jpg",
       "match_id": "864",
       "server_urls": [],
-      "last_updated": "2026-09-13T07:58:28.535142"
+      "last_updated": "2026-09-13T08:03:33.106617"
     },
     {
       "title": "RC Celta vs Malaga",
@@ -136,7 +115,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4247609_53004_CEV_MAG_FC-Web.png",
       "match_id": "883",
       "server_urls": [],
-      "last_updated": "2026-09-13T07:58:28.535588"
+      "last_updated": "2026-09-13T08:03:33.106975"
     },
     {
       "title": "Coventry City vs Brighton",
@@ -154,7 +133,7 @@
       "thumbnail": "https://assets.khelnow.com/news/uploads/2026/09/oventry-City-v-Brighton-Hove-Albion.jpg",
       "match_id": "928",
       "server_urls": [],
-      "last_updated": "2026-09-13T07:58:28.536030"
+      "last_updated": "2026-09-13T08:03:33.107288"
     },
     {
       "title": "Amritsar Soormas vs Ludhiana Lions Final",
@@ -172,7 +151,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249115_53065_AMS_LLN_fc-web_1788345783974.jpg",
       "match_id": "937",
       "server_urls": [],
-      "last_updated": "2026-09-13T07:58:28.536460"
+      "last_updated": "2026-09-13T08:03:33.107591"
     },
     {
       "title": "India vs Afghanistan 1st T20I",
@@ -190,7 +169,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/AFG_IND_2026_FC-WEB_1788619389374.jpg",
       "match_id": "904",
       "server_urls": [],
-      "last_updated": "2026-09-13T07:58:28.536890"
+      "last_updated": "2026-09-13T08:03:33.107906"
     },
     {
       "title": "Levante vs Barcelona",
@@ -208,7 +187,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4247610_53004_LET_BAR_FC-Web.png",
       "match_id": "884",
       "server_urls": [],
-      "last_updated": "2026-09-13T07:58:28.537329"
+      "last_updated": "2026-09-13T08:03:33.108209"
     },
     {
       "title": "Manchester United vs Manchester City",
@@ -226,7 +205,7 @@
       "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-julRMXcRytKZ3WMJyNAqVMy-UedKivtAOCY0T6OXEhcWUgVKiu1cGs53&s=10",
       "match_id": "929",
       "server_urls": [],
-      "last_updated": "2026-09-13T07:58:28.537774"
+      "last_updated": "2026-09-13T08:03:33.108515"
     },
     {
       "title": "Getafe CF vs Deportivo de La",
@@ -244,7 +223,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4247613_53004_GEF_COR_FC-Web.png",
       "match_id": "931",
       "server_urls": [],
-      "last_updated": "2026-09-13T07:58:28.538279"
+      "last_updated": "2026-09-13T08:03:33.108823"
     },
     {
       "title": "Real Sociedad vs Atletico de Madrid",
@@ -262,7 +241,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4247614_53004_RS_ATM_FC-Web.png",
       "match_id": "932",
       "server_urls": [],
-      "last_updated": "2026-09-13T07:58:28.538727"
+      "last_updated": "2026-09-13T08:03:33.109131"
     },
     {
       "title": "Barbados Tridents vs Guyana Amazon Warriors",
@@ -280,7 +259,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4248313_53026_BT_GUY_FC-Web.png",
       "match_id": "894",
       "server_urls": [],
-      "last_updated": "2026-09-13T07:58:28.539173"
+      "last_updated": "2026-09-13T08:03:33.109429"
     },
     {
       "title": "Villarreal CF vs Real Betis",
@@ -298,7 +277,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4247615_53004_VIL_RB_FC-Web.png",
       "match_id": "891",
       "server_urls": [],
-      "last_updated": "2026-09-13T07:58:28.539604"
+      "last_updated": "2026-09-13T08:03:33.109737"
     },
     {
       "title": "India vs Afghanistan 2nd T20I",
@@ -316,7 +295,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/AFG_IND_2026_FC-WEB_1788619389374.jpg",
       "match_id": "905",
       "server_urls": [],
-      "last_updated": "2026-09-13T07:58:28.540046"
+      "last_updated": "2026-09-13T08:03:33.110044"
     },
     {
       "title": "West Ham United vs Fulham",
@@ -334,7 +313,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249055_53016_WHU_FUL_fc-web.jpg",
       "match_id": "876",
       "server_urls": [],
-      "last_updated": "2026-09-13T07:58:28.540472"
+      "last_updated": "2026-09-13T08:03:33.110353"
     },
     {
       "title": "Reading vs Brentford",
@@ -352,7 +331,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249056_53016_RED_BRE_fc-web.jpg",
       "match_id": "878",
       "server_urls": [],
-      "last_updated": "2026-09-13T07:58:28.540894"
+      "last_updated": "2026-09-13T08:03:33.110658"
     },
     {
       "title": "Ipswich Town F.C. vs Arsenal",
@@ -370,7 +349,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249057_53016_IPT_ARS_fc-web.jpg",
       "match_id": "862",
       "server_urls": [],
-      "last_updated": "2026-09-13T07:58:28.541365"
+      "last_updated": "2026-09-13T08:03:33.110965"
     },
     {
       "title": "India vs Afghanistan 3rd T20I",
@@ -388,7 +367,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/AFG_IND_2026_FC-WEB_1788619389374.jpg",
       "match_id": "906",
       "server_urls": [],
-      "last_updated": "2026-09-13T07:58:28.541806"
+      "last_updated": "2026-09-13T08:03:33.111256"
     },
     {
       "title": "Manchester City vs Norwich City F.C.",
@@ -406,7 +385,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249062_53016_MCI_NOR_fc-web.jpg",
       "match_id": "892",
       "server_urls": [],
-      "last_updated": "2026-09-13T07:58:28.542260"
+      "last_updated": "2026-09-13T08:03:33.111538"
     },
     {
       "title": "Bristol City F.C. vs Watford F.C.",
@@ -424,7 +403,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4247493_52993_BRI_WAT_fc-web_1786657253841.jpg",
       "match_id": "879",
       "server_urls": [],
-      "last_updated": "2026-09-13T07:58:28.542697"
+      "last_updated": "2026-09-13T08:03:33.111825"
     }
   ]
 }
