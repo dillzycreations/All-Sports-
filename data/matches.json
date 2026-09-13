@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-09-13T18:41:41.524339",
-  "total_matches": 12,
-  "live_count": 2,
+  "timestamp": "2026-09-13T18:46:39.991126",
+  "total_matches": 13,
+  "live_count": 3,
   "upcoming_count": 10,
   "completed_count": 0,
   "matches": [
@@ -12,7 +12,7 @@
       "sport": "football",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "38",
+      "viewers": "39",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -24,7 +24,7 @@
         "https://live.talkoraai.com/match/hls?t=niBKuIDiayVXA6Eocp8giahNst2nVtBAJZN82Qu-fNw4JYpdAf9dIC6XWrhUNdKWktb_IUfSgC8kEoHyjDBjFoUXyRjS6r_4sDjo8Mf6nEmwhVxHKd70ZZTjoX2AJQxYibAc6pazCWGtYgFQlRHfWUPWjZ1wESs8nA2caihchp1k8Cb8eTWEfbqDDxK4vxtXrMXzMh2MqCgUH8gl9d4z5dsWEcJ3LkzDnh7fr8acfhNaBqr1fZNzMKlRV3z9myV8w6tsMWizxoXWmXwhUw5JClqzmg",
         "https://live.talkoraai.com/match/seg?t=ZYlKZH8WNjnp6zRw3uQYBC7bKxrcuniYKQzTC3P6a0-EautfhE6g_s47S9oE31lXVyRhbe30Bw5LFOfMoANERf1c4-YaNqEdvFZlcgxSl_1kMXAQ3BEE2HPoGH1yx4vC38seuJFKleZRWVj56l7FAjufX6JnfA_X4VLrjA297ye90-I4LAojjPDSYkt9iefnbteMhHRNyI8YnVESAwYPLQUM4vpL_oXgevfq50nC-zGtHWT8V6cxQahLtDwwQZBf2qO9JHJDFHUxEHR4k-VhG1Xm5JtNB8FXEDnU"
       ],
-      "last_updated": "2026-09-13T18:41:39.856986"
+      "last_updated": "2026-09-13T18:46:38.672077"
     },
     {
       "title": "Amazon Warriors Women vs Barbados Tridents Women",
@@ -33,7 +33,7 @@
       "sport": "cricket",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "7",
+      "viewers": "8",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -45,7 +45,28 @@
         "https://live.talkoraai.com/match/hls?t=Jw5LqFzu86ARP-p5Pe45AqQU_H0L2i52IfuBFMjZCii6bbhQT_t9KqTRo_aSeYXw2O52g4zDVsKFaJ7wdhSRX3q-OpZAX_MpSbutOTGEh_lnw8jzPpC-p4f35pbINmOEZAMhJcaQ0BkUML_fO6-bwbxCyPeqOxCwb_MFULy4x42j5bBdeaxrfLF4CS_quqssWSC3P9RFfVsLnCGF_5vPsyBVPpOdIpNSzpBUddS3LeZUCA0Vd1JJdGf5HxrgfzLsQBQ-O_xJioJvyIhxL2-NpLcF4MDChA",
         "https://live.talkoraai.com/match/seg?t=SCN2A-50rwS7A4Ol8DRA44kx0OnYjIWUN4dOvP6VSZQASQWPfC5gngTB__eHmyNk7PgbHYE5w76GI8cyfLHfYLLw943jDrIWaxO04OfpnKh8jsPyp82ZNAq9DjS-t-7LjiNrWS8RdB9Ud8pZzR9Neqvi_3N7vBcYHH-W_Lr9DgphvQT0Pb_rJIdfkOnI14CiRhDfe5no7AjuVH_4GJUmt33qrtT1SJOXcSHkB4TprDFtK88a9eAd5Hfn0RhOw2DH8dwzQbzTvLwa_XgK6tXE1nJjgLFPBFFE5E4Hqxx-"
       ],
-      "last_updated": "2026-09-13T18:41:41.238943"
+      "last_updated": "2026-09-13T18:46:39.431760"
+    },
+    {
+      "title": "Sassuolo vs Juventus",
+      "teams": "Sassuolo vs Juventus",
+      "league": "Serie A",
+      "sport": "cricket",
+      "status": "live",
+      "runtime": "00h 00m 00s",
+      "viewers": "1",
+      "viewers_type": "Watching",
+      "servers": null,
+      "date": null,
+      "time": null,
+      "match_url": "live/sassuolo-vs-juventus-952",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcVSEgecCQGqKvRr-oQeN23JNHisHNaqJhnbUZsn96d-iEFdGQVZsCDPrO&s=10",
+      "match_id": "952",
+      "server_urls": [
+        "https://www.rtmpcdn.com/live/064e983f-21c5-4964-aee5-53de07263a04.m3u8",
+        "https://play.aarray.cn/rrty/hd-zh-1-4549135_gqzm.m3u8?auth_key=1789328585-0-0-739eefd4b81eb33bd5b093fbd781e55d&token=5ea92bb4288550d6&device=4&platform=rrty"
+      ],
+      "last_updated": "2026-09-13T18:46:39.714960"
     },
     {
       "title": "Real Sociedad vs Atletico de Madrid",
@@ -63,7 +84,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4247614_53004_RS_ATM_FC-Web.png",
       "match_id": "932",
       "server_urls": [],
-      "last_updated": "2026-09-13T18:41:41.518426"
+      "last_updated": "2026-09-13T18:46:39.985387"
     },
     {
       "title": "Barbados Tridents vs Guyana Amazon Warriors",
@@ -81,7 +102,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4248313_53026_BT_GUY_FC-Web.png",
       "match_id": "894",
       "server_urls": [],
-      "last_updated": "2026-09-13T18:41:41.519107"
+      "last_updated": "2026-09-13T18:46:39.986039"
     },
     {
       "title": "Villarreal CF vs Real Betis",
@@ -99,7 +120,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4247615_53004_VIL_RB_FC-Web.png",
       "match_id": "891",
       "server_urls": [],
-      "last_updated": "2026-09-13T18:41:41.519707"
+      "last_updated": "2026-09-13T18:46:39.986628"
     },
     {
       "title": "India vs Afghanistan 2nd T20I",
@@ -117,7 +138,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/AFG_IND_2026_FC-WEB_1788619389374.jpg",
       "match_id": "905",
       "server_urls": [],
-      "last_updated": "2026-09-13T18:41:41.520299"
+      "last_updated": "2026-09-13T18:46:39.987194"
     },
     {
       "title": "West Ham United vs Fulham",
@@ -135,7 +156,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249055_53016_WHU_FUL_fc-web.jpg",
       "match_id": "876",
       "server_urls": [],
-      "last_updated": "2026-09-13T18:41:41.520889"
+      "last_updated": "2026-09-13T18:46:39.987748"
     },
     {
       "title": "Reading vs Brentford",
@@ -153,7 +174,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249056_53016_RED_BRE_fc-web.jpg",
       "match_id": "878",
       "server_urls": [],
-      "last_updated": "2026-09-13T18:41:41.521461"
+      "last_updated": "2026-09-13T18:46:39.988313"
     },
     {
       "title": "Ipswich Town F.C. vs Arsenal",
@@ -171,7 +192,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249057_53016_IPT_ARS_fc-web.jpg",
       "match_id": "862",
       "server_urls": [],
-      "last_updated": "2026-09-13T18:41:41.522043"
+      "last_updated": "2026-09-13T18:46:39.988872"
     },
     {
       "title": "India vs Afghanistan 3rd T20I",
@@ -189,7 +210,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/AFG_IND_2026_FC-WEB_1788619389374.jpg",
       "match_id": "906",
       "server_urls": [],
-      "last_updated": "2026-09-13T18:41:41.522623"
+      "last_updated": "2026-09-13T18:46:39.989436"
     },
     {
       "title": "Manchester City vs Norwich City F.C.",
@@ -207,7 +228,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249062_53016_MCI_NOR_fc-web.jpg",
       "match_id": "892",
       "server_urls": [],
-      "last_updated": "2026-09-13T18:41:41.523187"
+      "last_updated": "2026-09-13T18:46:39.990001"
     },
     {
       "title": "Bristol City F.C. vs Watford F.C.",
@@ -225,7 +246,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4247493_52993_BRI_WAT_fc-web_1786657253841.jpg",
       "match_id": "879",
       "server_urls": [],
-      "last_updated": "2026-09-13T18:41:41.523766"
+      "last_updated": "2026-09-13T18:46:39.990559"
     }
   ]
 }
