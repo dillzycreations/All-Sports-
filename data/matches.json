@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-09-13T20:42:23.985792",
-  "total_matches": 30,
+  "timestamp": "2026-09-13T20:47:23.772004",
+  "total_matches": 31,
   "live_count": 4,
-  "upcoming_count": 26,
+  "upcoming_count": 27,
   "completed_count": 0,
   "matches": [
     {
@@ -12,7 +12,7 @@
       "sport": "cricket",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "39",
+      "viewers": "40",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -24,7 +24,7 @@
         "https://live.talkoraai.com/match/hls?t=Jw5LqFzu86ARP-p5Pe45AqQU_H0L2i52IfuBFMjZCii6bbhQT_t9KqTRo_aSeYXw2O52g4zDVsKFaJ7wdhSRX3q-OpZAX_MpSbutOTGEh_lnw8jzPpC-p4f35pbINmOEZAMhJcaQ0BkUML_fO6-bwbxCyPeqOxCwb_MFULy4x42j5bBdeaxrfLF4CS_quqssWSC3P9RFfVsLnCGF_5vPsyBVPpOdIpNSzpBUddS3LeZUCA0Vd1JJdGf5HxrgfzLsQBQ-O_xJioJvyIhxL2-NpLcF4MDChA",
         "https://live.talkoraai.com/match/seg?t=SCN2A-50rwS7A4Ol8DRA44kx0OnYjIWUN4dOvP6VSZQASQWPfC5gngTB__eHmyNk7PgbHYE5w76GI8cyfLHfYLLw943jDrIWaxO04OfpnKh8jsPyp82ZNAq9DjS-t-7LjiNrWS8RdB9Ud8pZzR9Neqvi_3N7vBcYHH-W_Lr9DgphvQT0Pb_rJIdfkOnI14CiRhDfe5no7AjuVH_4GJUmt33qrtT1SJOXcSHkB4TprDFtK88a9eAd5Hfn0RhOw2DH8dwzQbzTvLwa_XgK6tXE1nJjgLFPBFFE5E4Hqxx-"
       ],
-      "last_updated": "2026-09-13T20:42:21.795230"
+      "last_updated": "2026-09-13T20:47:21.903876"
     },
     {
       "title": "Brest vs PSG",
@@ -33,7 +33,7 @@
       "sport": "cricket",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "29",
+      "viewers": "30",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -46,7 +46,7 @@
         "https://play.aarray.cn/rrty/hd-zh-1-4550870_gqzm.m3u8?auth_key=1789328707-0-0-1313bafd616a213a3f869643e06bb0b5&token=bc1e64a6cc403431&device=4&platform=rrty",
         "https://live2.felnorastreamvault.com/live/channel1.m3u8"
       ],
-      "last_updated": "2026-09-13T20:42:23.132203"
+      "last_updated": "2026-09-13T20:47:22.291881"
     },
     {
       "title": "Real Sociedad vs Atletico de Madrid",
@@ -55,7 +55,7 @@
       "sport": "football",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "35",
+      "viewers": "36",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -69,7 +69,7 @@
         "https://live2.felnorastreamvault.com/live/channel15.m3u8",
         "https://tvsen5.aynaott.com/TnMn5kZz8aLm/index.m3u8"
       ],
-      "last_updated": "2026-09-13T20:42:23.410448"
+      "last_updated": "2026-09-13T20:47:22.658866"
     },
     {
       "title": "Sassuolo vs Juventus",
@@ -78,7 +78,7 @@
       "sport": "cricket",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "30",
+      "viewers": "31",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -91,7 +91,7 @@
         "https://play.aarray.cn/rrty/hd-zh-1-4549135_gqzm.m3u8?auth_key=1789328585-0-0-739eefd4b81eb33bd5b093fbd781e55d&token=5ea92bb4288550d6&device=4&platform=rrty",
         "https://live2.felnorastreamvault.com/live/channel11.m3u8"
       ],
-      "last_updated": "2026-09-13T20:42:23.696044"
+      "last_updated": "2026-09-13T20:47:23.472830"
     },
     {
       "title": "Barbados Tridents vs Guyana Amazon Warriors",
@@ -109,7 +109,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4248313_53026_BT_GUY_FC-Web.png",
       "match_id": "894",
       "server_urls": [],
-      "last_updated": "2026-09-13T20:42:23.970162"
+      "last_updated": "2026-09-13T20:47:23.754629"
     },
     {
       "title": "Desert Vipers Development vs MI Emirates Development",
@@ -127,7 +127,7 @@
       "thumbnail": "https://images.fancode.com/aig/match/v1789294242694/4249241_CASACARDS_APP.png",
       "match_id": "959",
       "server_urls": [],
-      "last_updated": "2026-09-13T20:42:23.970825"
+      "last_updated": "2026-09-13T20:47:23.755348"
     },
     {
       "title": "PFC Neftchi vs Air Force SC",
@@ -145,7 +145,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4248680_53053_NB_AFSC_fc-web.jpg",
       "match_id": "964",
       "server_urls": [],
-      "last_updated": "2026-09-13T20:42:23.971456"
+      "last_updated": "2026-09-13T20:47:23.756031"
     },
     {
       "title": "Al Shamal vs Al-Ittihad",
@@ -163,7 +163,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/Al-Shamal-vs-Al-Ittihad-Old-card.jpg",
       "match_id": "966",
       "server_urls": [],
-      "last_updated": "2026-09-13T20:42:23.972077"
+      "last_updated": "2026-09-13T20:47:23.756757"
     },
     {
       "title": "Shabab Al Ahli vs Tractor",
@@ -181,7 +181,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4248681_53053_SAA_TFC_fc-web.jpg",
       "match_id": "965",
       "server_urls": [],
-      "last_updated": "2026-09-13T20:42:23.972670"
+      "last_updated": "2026-09-13T20:47:23.757416"
     },
     {
       "title": "Gulf Giants Development vs Dubai Capitals Development",
@@ -190,7 +190,7 @@
       "sport": "cricket",
       "status": "upcoming",
       "runtime": "00h 00m 00s",
-      "viewers": "320",
+      "viewers": "1",
       "viewers_type": "Waiting",
       "servers": null,
       "date": null,
@@ -199,7 +199,25 @@
       "thumbnail": "https://images.fancode.com/aig/match/v1789294242693/4249242_CASACARDS_APP.png",
       "match_id": "960",
       "server_urls": [],
-      "last_updated": "2026-09-13T20:42:23.973285"
+      "last_updated": "2026-09-13T20:47:23.758100"
+    },
+    {
+      "title": "Al Qadisiyah vs Al Wasl F.C. Match 6 Live Match Streaming & Information: AFC Champions League Elite 2026-27",
+      "teams": "Al Qadisiyah vs Al Wasl F.C. Match 6 Live Match Streaming & Information: AFC Champions League Elite 2026-27",
+      "league": "AFC Champions League Elite 2026-27",
+      "sport": "football",
+      "status": "upcoming",
+      "runtime": "00h 00m 00s",
+      "viewers": "488",
+      "viewers_type": "Waiting",
+      "servers": null,
+      "date": null,
+      "time": null,
+      "match_url": "live/al-qadisiyah-vs-al-wasl-f-c-match-6-live-match-streaming-information-afc-champions-league-elite-2026-27-974",
+      "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/Al-Qadsiah-FC-vs-Mehdi-Taremi--Old-card.jpg",
+      "match_id": "974",
+      "server_urls": [],
+      "last_updated": "2026-09-13T20:47:23.758750"
     },
     {
       "title": "Esteghlal vs Al Sadd",
@@ -217,7 +235,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/Esteghlal-FC-vs-Al-Sadd-SC--Old-card.jpg",
       "match_id": "972",
       "server_urls": [],
-      "last_updated": "2026-09-13T20:42:23.973887"
+      "last_updated": "2026-09-13T20:47:23.759374"
     },
     {
       "title": "Al-Ahli Saudi vs Pakhtakor Tashkent",
@@ -235,7 +253,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/Al-Ahli-vs-Pakhtakor-FC-Old-card.jpg",
       "match_id": "967",
       "server_urls": [],
-      "last_updated": "2026-09-13T20:42:23.974503"
+      "last_updated": "2026-09-13T20:47:23.760022"
     },
     {
       "title": "Villarreal CF vs Real Betis",
@@ -253,7 +271,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4247615_53004_VIL_RB_FC-Web.png",
       "match_id": "891",
       "server_urls": [],
-      "last_updated": "2026-09-13T20:42:23.975084"
+      "last_updated": "2026-09-13T20:47:23.760663"
     },
     {
       "title": "Zimbabwe vs Australia 1st ODI",
@@ -271,7 +289,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/ZIMvsAUS_Web-match-card.png",
       "match_id": "954",
       "server_urls": [],
-      "last_updated": "2026-09-13T20:42:23.975685"
+      "last_updated": "2026-09-13T20:47:23.761293"
     },
     {
       "title": "Dubai Capitals Development vs Sharjah Warriorz Development",
@@ -289,7 +307,7 @@
       "thumbnail": "https://images.fancode.com/aig/match/v1789294242670/4249243_CASACARDS_APP.png",
       "match_id": "962",
       "server_urls": [],
-      "last_updated": "2026-09-13T20:42:23.976284"
+      "last_updated": "2026-09-13T20:47:23.761936"
     },
     {
       "title": "India vs Afghanistan 2nd T20I",
@@ -307,7 +325,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/AFG_IND_2026_FC-WEB_1788619389374.jpg",
       "match_id": "905",
       "server_urls": [],
-      "last_updated": "2026-09-13T20:42:23.976906"
+      "last_updated": "2026-09-13T20:47:23.762554"
     },
     {
       "title": "Abu Dhabi Knight Riders Development vs MI Emirates Development",
@@ -325,7 +343,7 @@
       "thumbnail": "https://images.fancode.com/aig/match/v1789294242699/4249244_CASACARDS_APP.png",
       "match_id": "963",
       "server_urls": [],
-      "last_updated": "2026-09-13T20:42:23.977503"
+      "last_updated": "2026-09-13T20:47:23.763205"
     },
     {
       "title": "West Ham United vs Fulham",
@@ -343,7 +361,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249055_53016_WHU_FUL_fc-web.jpg",
       "match_id": "876",
       "server_urls": [],
-      "last_updated": "2026-09-13T20:42:23.978099"
+      "last_updated": "2026-09-13T20:47:23.763844"
     },
     {
       "title": "Reading vs Brentford",
@@ -361,7 +379,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249056_53016_RED_BRE_fc-web.jpg",
       "match_id": "878",
       "server_urls": [],
-      "last_updated": "2026-09-13T20:42:23.978712"
+      "last_updated": "2026-09-13T20:47:23.764460"
     },
     {
       "title": "Ipswich Town F.C. vs Arsenal",
@@ -379,7 +397,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249057_53016_IPT_ARS_fc-web.jpg",
       "match_id": "862",
       "server_urls": [],
-      "last_updated": "2026-09-13T20:42:23.979301"
+      "last_updated": "2026-09-13T20:47:23.765105"
     },
     {
       "title": "Abu Dhabi Knight Riders Development vs Gulf Giants Development",
@@ -397,7 +415,7 @@
       "thumbnail": "https://images.fancode.com/aig/match/v1789294242699/4249245_CASACARDS_APP.png",
       "match_id": "968",
       "server_urls": [],
-      "last_updated": "2026-09-13T20:42:23.979882"
+      "last_updated": "2026-09-13T20:47:23.765741"
     },
     {
       "title": "Desert Vipers Development vs Sharjah Warriorz Development",
@@ -415,7 +433,7 @@
       "thumbnail": "https://images.fancode.com/aig/match/v1789294242689/4249246_CASACARDS_APP.png",
       "match_id": "969",
       "server_urls": [],
-      "last_updated": "2026-09-13T20:42:23.980465"
+      "last_updated": "2026-09-13T20:47:23.766356"
     },
     {
       "title": "MI Emirates Development vs Dubai Capitals Development",
@@ -433,25 +451,7 @@
       "thumbnail": "https://images.fancode.com/aig/match/v1789294242697/4249247_CASACARDS_APP.png",
       "match_id": "970",
       "server_urls": [],
-      "last_updated": "2026-09-13T20:42:23.981056"
-    },
-    {
-      "title": "Live Golf Match Streaming - Watch Golf Match Online Today",
-      "teams": "Live Golf Match Streaming - Watch Golf Match Online Today",
-      "league": "Roshn Saudi League 2026-2027",
-      "sport": "cricket",
-      "status": "upcoming",
-      "runtime": "00h 00m 00s",
-      "viewers": "451",
-      "viewers_type": "Waiting",
-      "servers": null,
-      "date": null,
-      "time": null,
-      "match_url": "live/live-golf-match-streaming-watch-golf-match-online-today-973",
-      "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/La-Sella-Open_fc-web.jpg",
-      "match_id": "973",
-      "server_urls": [],
-      "last_updated": "2026-09-13T20:42:23.981645"
+      "last_updated": "2026-09-13T20:47:23.766984"
     },
     {
       "title": "India vs Afghanistan 3rd T20I",
@@ -469,7 +469,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/AFG_IND_2026_FC-WEB_1788619389374.jpg",
       "match_id": "906",
       "server_urls": [],
-      "last_updated": "2026-09-13T20:42:23.982239"
+      "last_updated": "2026-09-13T20:47:23.767613"
     },
     {
       "title": "Gulf Giants Development vs Desert Vipers Development",
@@ -487,7 +487,7 @@
       "thumbnail": "https://images.fancode.com/aig/match/v1789294242689/4249248_CASACARDS_APP.png",
       "match_id": "971",
       "server_urls": [],
-      "last_updated": "2026-09-13T20:42:23.982817"
+      "last_updated": "2026-09-13T20:47:23.768232"
     },
     {
       "title": "Manchester City vs Norwich City F.C.",
@@ -505,7 +505,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249062_53016_MCI_NOR_fc-web.jpg",
       "match_id": "892",
       "server_urls": [],
-      "last_updated": "2026-09-13T20:42:23.983416"
+      "last_updated": "2026-09-13T20:47:23.768864"
     },
     {
       "title": "Zimbabwe vs Australia 2nd ODI",
@@ -523,7 +523,25 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/ZIMvsAUS_Web-match-card.png",
       "match_id": "955",
       "server_urls": [],
-      "last_updated": "2026-09-13T20:42:23.984008"
+      "last_updated": "2026-09-13T20:47:23.769479"
+    },
+    {
+      "title": "Live Golf Match Streaming - Watch Golf Match Online Today",
+      "teams": "Live Golf Match Streaming - Watch Golf Match Online Today",
+      "league": "Roshn Saudi League 2026-2027",
+      "sport": "football",
+      "status": "upcoming",
+      "runtime": "00h 00m 00s",
+      "viewers": "451",
+      "viewers_type": "Waiting",
+      "servers": null,
+      "date": null,
+      "time": null,
+      "match_url": "live/live-golf-match-streaming-watch-golf-match-online-today-973",
+      "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/La-Sella-Open_fc-web.jpg",
+      "match_id": "973",
+      "server_urls": [],
+      "last_updated": "2026-09-13T20:47:23.770112"
     },
     {
       "title": "Bristol City F.C. vs Watford F.C.",
@@ -541,7 +559,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4247493_52993_BRI_WAT_fc-web_1786657253841.jpg",
       "match_id": "879",
       "server_urls": [],
-      "last_updated": "2026-09-13T20:42:23.984586"
+      "last_updated": "2026-09-13T20:47:23.770745"
     },
     {
       "title": "Zimbabwe vs Australia 3rd ODI",
@@ -559,7 +577,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/ZIMvsAUS_Web-match-card.png",
       "match_id": "956",
       "server_urls": [],
-      "last_updated": "2026-09-13T20:42:23.985190"
+      "last_updated": "2026-09-13T20:47:23.771355"
     }
   ]
 }
