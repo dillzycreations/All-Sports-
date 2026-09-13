@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-09-13T18:01:14.447086",
-  "total_matches": 13,
-  "live_count": 3,
+  "timestamp": "2026-09-13T18:06:25.072095",
+  "total_matches": 12,
+  "live_count": 2,
   "upcoming_count": 10,
   "completed_count": 0,
   "matches": [
@@ -12,7 +12,7 @@
       "sport": "cricket",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "257",
+      "viewers": "260",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -25,31 +25,7 @@
         "https://stream.ottplus.live/live/ten_1_hd_abr/live/ten_1_hd_720/chunks.m3u8",
         "https://digitalotthub.com/tv/toffee-by-maruf/live.php?id=ten_cricket&e=.m3u8"
       ],
-      "last_updated": "2026-09-13T18:01:13.554952"
-    },
-    {
-      "title": "Manchester United vs Manchester City",
-      "teams": "Manchester United vs Manchester City",
-      "league": "Premier League",
-      "sport": "football",
-      "status": "live",
-      "runtime": "00h 00m 00s",
-      "viewers": "72",
-      "viewers_type": "Watching",
-      "servers": null,
-      "date": null,
-      "time": null,
-      "match_url": "live/manchester-united-vs-manchester-city-929",
-      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-julRMXcRytKZ3WMJyNAqVMy-UedKivtAOCY0T6OXEhcWUgVKiu1cGs53&s=10",
-      "match_id": "929",
-      "server_urls": [
-        "https://hamyra-api.mdibrahimkhalil516.workers.dev/bongo/live?id=chYhYQMbOFV",
-        "https://live.talkoraai.com/match/seg?t=EQrZGpASlOof1lgOrEwF3ftSJHqziEMA8Szw2FVcQXngVxr1icKFFi87do-glbam2PvD-GmxAj7NI23VLjJLG3XS1PvGRDyVWTt-AkU5ekF851nD7L-1dzvsMu-eVY1Qe8dZpiHHJb-rBa-IJGc3ODQoXG4_dHx9yTD4mnIlnQ6DRFRdUr2lMZAhXnGeZjT2JKOvIRx1PwF_HucoyaeRqtAdYXj1y8-w8sMFnKh_NI-DRqJuO_KRY-QNQENOcaXFjyArDEegYpTIcgkP-CKgE41y8ar49zRZWsv5kd2Xb7eMl-Vp-j6LqWIJTCy2-XdvFIvIChNVEgnqKJ6UjFQIQcBnoBTs6ujXuII0HHsRW9avDKa-wZePEeIgJWbiacZHDLEg2H7j0kydgFp1juPgVMOkUw",
-        "https://tvsen7.aynascope.net/Sports1/index.m3u8",
-        "https:\\\\live2.felnorastreamvault.com\\live\\channel1.m3u8",
-        "https:\\\\live2.felnorastreamvault.com\\live\\channel15.m3u8"
-      ],
-      "last_updated": "2026-09-13T18:01:13.891374"
+      "last_updated": "2026-09-13T18:06:23.817593"
     },
     {
       "title": "Getafe CF vs Deportivo de La",
@@ -58,7 +34,7 @@
       "sport": "football",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "29",
+      "viewers": "30",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -70,7 +46,7 @@
         "https://live.talkoraai.com/match/hls?t=niBKuIDiayVXA6Eocp8giahNst2nVtBAJZN82Qu-fNw4JYpdAf9dIC6XWrhUNdKWktb_IUfSgC8kEoHyjDBjFoUXyRjS6r_4sDjo8Mf6nEmwhVxHKd70ZZTjoX2AJQxYibAc6pazCWGtYgFQlRHfWUPWjZ1wESs8nA2caihchp1k8Cb8eTWEfbqDDxK4vxtXrMXzMh2MqCgUH8gl9d4z5dsWEcJ3LkzDnh7fr8acfhNaBqr1fZNzMKlRV3z9myV8w6tsMWizxoXWmXwhUw5JClqzmg",
         "https://live.talkoraai.com/match/seg?t=ZYlKZH8WNjnp6zRw3uQYBC7bKxrcuniYKQzTC3P6a0-EautfhE6g_s47S9oE31lXVyRhbe30Bw5LFOfMoANERf1c4-YaNqEdvFZlcgxSl_1kMXAQ3BEE2HPoGH1yx4vC38seuJFKleZRWVj56l7FAjufX6JnfA_X4VLrjA297ye90-I4LAojjPDSYkt9iefnbteMhHRNyI8YnVESAwYPLQUM4vpL_oXgevfq50nC-zGtHWT8V6cxQahLtDwwQZBf2qO9JHJDFHUxEHR4k-VhG1Xm5JtNB8FXEDnU"
       ],
-      "last_updated": "2026-09-13T18:01:14.169955"
+      "last_updated": "2026-09-13T18:06:24.808784"
     },
     {
       "title": "Real Sociedad vs Atletico de Madrid",
@@ -88,7 +64,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4247614_53004_RS_ATM_FC-Web.png",
       "match_id": "932",
       "server_urls": [],
-      "last_updated": "2026-09-13T18:01:14.442787"
+      "last_updated": "2026-09-13T18:06:25.067467"
     },
     {
       "title": "Barbados Tridents vs Guyana Amazon Warriors",
@@ -106,7 +82,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4248313_53026_BT_GUY_FC-Web.png",
       "match_id": "894",
       "server_urls": [],
-      "last_updated": "2026-09-13T18:01:14.443317"
+      "last_updated": "2026-09-13T18:06:25.067993"
     },
     {
       "title": "Villarreal CF vs Real Betis",
@@ -124,7 +100,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4247615_53004_VIL_RB_FC-Web.png",
       "match_id": "891",
       "server_urls": [],
-      "last_updated": "2026-09-13T18:01:14.443748"
+      "last_updated": "2026-09-13T18:06:25.068473"
     },
     {
       "title": "India vs Afghanistan 2nd T20I",
@@ -142,7 +118,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/AFG_IND_2026_FC-WEB_1788619389374.jpg",
       "match_id": "905",
       "server_urls": [],
-      "last_updated": "2026-09-13T18:01:14.444181"
+      "last_updated": "2026-09-13T18:06:25.068930"
     },
     {
       "title": "West Ham United vs Fulham",
@@ -160,7 +136,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249055_53016_WHU_FUL_fc-web.jpg",
       "match_id": "876",
       "server_urls": [],
-      "last_updated": "2026-09-13T18:01:14.444599"
+      "last_updated": "2026-09-13T18:06:25.069392"
     },
     {
       "title": "Reading vs Brentford",
@@ -178,7 +154,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249056_53016_RED_BRE_fc-web.jpg",
       "match_id": "878",
       "server_urls": [],
-      "last_updated": "2026-09-13T18:01:14.445023"
+      "last_updated": "2026-09-13T18:06:25.069831"
     },
     {
       "title": "Ipswich Town F.C. vs Arsenal",
@@ -196,7 +172,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249057_53016_IPT_ARS_fc-web.jpg",
       "match_id": "862",
       "server_urls": [],
-      "last_updated": "2026-09-13T18:01:14.445438"
+      "last_updated": "2026-09-13T18:06:25.070294"
     },
     {
       "title": "India vs Afghanistan 3rd T20I",
@@ -214,7 +190,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/AFG_IND_2026_FC-WEB_1788619389374.jpg",
       "match_id": "906",
       "server_urls": [],
-      "last_updated": "2026-09-13T18:01:14.445845"
+      "last_updated": "2026-09-13T18:06:25.070740"
     },
     {
       "title": "Manchester City vs Norwich City F.C.",
@@ -232,7 +208,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249062_53016_MCI_NOR_fc-web.jpg",
       "match_id": "892",
       "server_urls": [],
-      "last_updated": "2026-09-13T18:01:14.446262"
+      "last_updated": "2026-09-13T18:06:25.071193"
     },
     {
       "title": "Bristol City F.C. vs Watford F.C.",
@@ -250,7 +226,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4247493_52993_BRI_WAT_fc-web_1786657253841.jpg",
       "match_id": "879",
       "server_urls": [],
-      "last_updated": "2026-09-13T18:01:14.446665"
+      "last_updated": "2026-09-13T18:06:25.071628"
     }
   ]
 }
