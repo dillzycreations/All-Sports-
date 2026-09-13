@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-13T13:27:23.358907",
+  "timestamp": "2026-09-13T13:32:21.546185",
   "total_matches": 28,
   "live_count": 13,
   "upcoming_count": 15,
@@ -12,7 +12,7 @@
       "sport": "cricket",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "93",
+      "viewers": "94",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -24,7 +24,7 @@
         "https://fancode.sm-monirul-islam-rs.workers.dev/4248634/index.m3u8",
         "https://cdn-gstyx.styxsports.live/STYX/streams/68oRKR23qeWZvCXu6248791548119.m3u8"
       ],
-      "last_updated": "2026-09-13T13:27:19.205344"
+      "last_updated": "2026-09-13T13:32:16.842266"
     },
     {
       "title": "Manchester United Women vs Chelsea F.C. Women",
@@ -33,7 +33,7 @@
       "sport": "football",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "18",
+      "viewers": "19",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -44,7 +44,7 @@
       "server_urls": [
         "https://fancode.sm-monirul-islam-rs.workers.dev/4248471/index.m3u8"
       ],
-      "last_updated": "2026-09-13T13:27:20.178095"
+      "last_updated": "2026-09-13T13:32:17.154246"
     },
     {
       "title": "Sheffield United F.C. vs Wolverhampton Wanderers F.C.",
@@ -53,7 +53,7 @@
       "sport": "football",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "41",
+      "viewers": "43",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -66,7 +66,7 @@
         "https://live.dyrur1.com/live/72339828_b4e309c1e8658bab135d3b4e047cba33_1080p.m3u8?auth_key=1789311319-0-0-664e3ab0baa77682f1e7d7de034a5e21",
         "https://live.dyrur1.com/live/72339828_b4e309c1e8658bab135d3b4e047cba33_540p.m3u8?auth_key=1789311319-0-0-664e3ab0baa77682f1e7d7de034a5e21"
       ],
-      "last_updated": "2026-09-13T13:27:20.445140"
+      "last_updated": "2026-09-13T13:32:18.272853"
     },
     {
       "title": "RC Celta vs Malaga",
@@ -75,7 +75,7 @@
       "sport": "football",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "26",
+      "viewers": "27",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -88,25 +88,7 @@
         "https://fancode.sm-monirul-islam-rs.workers.dev/4247609/index.m3u8",
         "https://live.talkoraai.com/match/seg?t=zNYNOm6VbJsTybA5PFKToWLNY5mpIa-2i5pbEmbNw8J87oAEZAj1beJrl9pvaG20HKfQwpU_NRxgJAkBA8Pk10SqqE5-8s_tv9AWXXnO1Q-ywf7rOXIC4WXcRkhsi0sNCdQ_m4-xEwtO-42m5YtorCuIYPsJ4b09mRfx-9h15hn27sC1DPISQ7K4impl5cs3s8Z7XCEgs_B0Vpc2aN7MqE5R7hsenJyUDn9hormdqDDyp4-U-giYENsYlLQAus9nm7UEDoXY8vBHYH6K9ar25keAqKi9LS8xDZ1y"
       ],
-      "last_updated": "2026-09-13T13:27:20.706984"
-    },
-    {
-      "title": "Coventry City vs Brighton",
-      "teams": "Coventry City vs Brighton",
-      "league": "EFL Championship",
-      "sport": "football",
-      "status": "live",
-      "runtime": "00h 00m 00s",
-      "viewers": "7",
-      "viewers_type": "Watching",
-      "servers": null,
-      "date": null,
-      "time": null,
-      "match_url": "live/coventry-city-vs-brighton-928",
-      "thumbnail": "https://assets.khelnow.com/news/uploads/2026/09/oventry-City-v-Brighton-Hove-Albion.jpg",
-      "match_id": "928",
-      "server_urls": [],
-      "last_updated": "2026-09-13T13:27:20.969794"
+      "last_updated": "2026-09-13T13:32:18.571734"
     },
     {
       "title": "Belfast Wolves vs Glasgow Cosmic",
@@ -115,7 +97,7 @@
       "sport": "cricket",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "3",
+      "viewers": "6",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -129,7 +111,7 @@
         "https://tvsen5.aynascope.net/cXPB2LKkErN9/tracks-v1a1/mono.ts.m3u8",
         "https://tvsen5.aynaott.com/willowhd/tracks-v1a1/mono.ts.m3u8"
       ],
-      "last_updated": "2026-09-13T13:27:21.242116"
+      "last_updated": "2026-09-13T13:32:18.892569"
     },
     {
       "title": "Amritsar Soormas vs Ludhiana Lions Final",
@@ -138,7 +120,7 @@
       "sport": "cricket",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "5",
+      "viewers": "6",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -151,7 +133,7 @@
         "https://stream.ottplus.live/live/ten_5_hd_abr/live/ten_5_hd_720/chunks.m3u8",
         "https://digitalotthub.com/tv/toffee-by-maruf/live.php?id=sony_sports_5_hd&e=.m3u8"
       ],
-      "last_updated": "2026-09-13T13:27:21.505485"
+      "last_updated": "2026-09-13T13:32:19.197102"
     },
     {
       "title": "Rangers vs Celtic",
@@ -160,7 +142,7 @@
       "sport": "football",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "29",
+      "viewers": "30",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -172,7 +154,7 @@
         "https://live2.dyrur1.com/live/73778626_b56a00cefee2f4ac50276299788dccb1_1080p.m3u8?auth_key=1789311319-0-0-68a43f1b0fc6989a04c244c0bd96539b",
         "https://live2.dyrur1.com/live/73778626_b56a00cefee2f4ac50276299788dccb1_540p.m3u8?auth_key=1789311319-0-0-68a43f1b0fc6989a04c244c0bd96539b"
       ],
-      "last_updated": "2026-09-13T13:27:21.769273"
+      "last_updated": "2026-09-13T13:32:19.489148"
     },
     {
       "title": "Botswana vs Rwanda",
@@ -181,7 +163,7 @@
       "sport": "cricket",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "16",
+      "viewers": "17",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -192,7 +174,7 @@
       "server_urls": [
         "https://fancode.sm-monirul-islam-rs.workers.dev/4249164/index.m3u8"
       ],
-      "last_updated": "2026-09-13T13:27:22.032949"
+      "last_updated": "2026-09-13T13:32:19.785649"
     },
     {
       "title": "Race Day",
@@ -201,7 +183,7 @@
       "sport": "others",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "16",
+      "viewers": "17",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -212,7 +194,7 @@
       "server_urls": [
         "https://fancode.sm-monirul-islam-rs.workers.dev/139968/index.m3u8"
       ],
-      "last_updated": "2026-09-13T13:27:22.296710"
+      "last_updated": "2026-09-13T13:32:20.071860"
     },
     {
       "title": "Golf Day 3",
@@ -221,7 +203,7 @@
       "sport": "others",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "15",
+      "viewers": "16",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -232,7 +214,7 @@
       "server_urls": [
         "https://fancode.sm-monirul-islam-rs.workers.dev/4249083/index.m3u8"
       ],
-      "last_updated": "2026-09-13T13:27:22.563791"
+      "last_updated": "2026-09-13T13:32:20.360707"
     },
     {
       "title": "Race",
@@ -241,7 +223,7 @@
       "sport": "others",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "14",
+      "viewers": "20",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -252,7 +234,7 @@
       "server_urls": [
         "https://fancode.sm-monirul-islam-rs.workers.dev/139491/index.m3u8"
       ],
-      "last_updated": "2026-09-13T13:27:22.826848"
+      "last_updated": "2026-09-13T13:32:20.662647"
     },
     {
       "title": "Race 2",
@@ -261,7 +243,7 @@
       "sport": "others",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "14",
+      "viewers": "15",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -272,7 +254,28 @@
       "server_urls": [
         "https://fancode.sm-monirul-islam-rs.workers.dev/4249175/index.m3u8"
       ],
-      "last_updated": "2026-09-13T13:27:23.089334"
+      "last_updated": "2026-09-13T13:32:20.951393"
+    },
+    {
+      "title": "Coventry City vs Brighton",
+      "teams": "Coventry City vs Brighton",
+      "league": "EFL Championship",
+      "sport": "football",
+      "status": "live",
+      "runtime": "00h 00m 00s",
+      "viewers": "8",
+      "viewers_type": "Watching",
+      "servers": null,
+      "date": null,
+      "time": null,
+      "match_url": "live/coventry-city-vs-brighton-928",
+      "thumbnail": "https://assets.khelnow.com/news/uploads/2026/09/oventry-City-v-Brighton-Hove-Albion.jpg",
+      "match_id": "928",
+      "server_urls": [
+        "https://hamyra-api.mdibrahimkhalil516.workers.dev/bongo/live?id=wEXFiYEIXy4",
+        "https://live.talkoraai.com/match/seg?t=elA5BiIPex5VS_JKTA0tHs3jCAabNk55E0x8sFhpkpt8jT0r2fIgVGLdfZkKTzR5qP8vLHm3w6Sban893ja0sgiS0RyDs48uvUhYq0d5cpBIkvdGeLUCb9N1CicUNV9QFXvhhF90ZldX4nI_P8-uc7U2n9EyXUNsd9vScR1JcsNk_bqS3vzndiLsXnnK0KB9ktZndJ5Tstah9LEWryQiSw5FCfvt4J-1rtYojIqFWLzUEMh7XAn62Q10aQH4Le5_40b1IfVh0bbS7bnA45ZIkw6RJ_aUx9C8US29bTv9DrKBIqDaylAYKLPCoAMPhcBapIwi3hQ2vP177vfxZoAYvgkXNIT7b3abdLvD2yPjYW0ZZ2Ro8CGquPwzvfUbqwPpngLBvB4nU6-o1EeD62bocRTilw"
+      ],
+      "last_updated": "2026-09-13T13:32:21.239173"
     },
     {
       "title": "India Women vs Sri Lanka Women Final",
@@ -281,7 +284,7 @@
       "sport": "cricket",
       "status": "upcoming",
       "runtime": "00h 00m 00s",
-      "viewers": "1",
+      "viewers": "2",
       "viewers_type": "Waiting",
       "servers": null,
       "date": null,
@@ -290,7 +293,7 @@
       "thumbnail": "https://storage.googleapis.com/cricinnings-uploads/uploads/img-1789198096742-729028bbef5aaaafdd16b53f2e1ce6e8.jpg",
       "match_id": "943",
       "server_urls": [],
-      "last_updated": "2026-09-13T13:27:23.353476"
+      "last_updated": "2026-09-13T13:32:21.536397"
     },
     {
       "title": "India vs Afghanistan 1st T20I",
@@ -299,7 +302,7 @@
       "sport": "cricket",
       "status": "upcoming",
       "runtime": "00h 00m 00s",
-      "viewers": "5",
+      "viewers": "6",
       "viewers_type": "Waiting",
       "servers": null,
       "date": null,
@@ -308,7 +311,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/AFG_IND_2026_FC-WEB_1788619389374.jpg",
       "match_id": "904",
       "server_urls": [],
-      "last_updated": "2026-09-13T13:27:23.353915"
+      "last_updated": "2026-09-13T13:32:21.537114"
     },
     {
       "title": "Levante vs Barcelona",
@@ -326,7 +329,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4247610_53004_LET_BAR_FC-Web.png",
       "match_id": "884",
       "server_urls": [],
-      "last_updated": "2026-09-13T13:27:23.354278"
+      "last_updated": "2026-09-13T13:32:21.537797"
     },
     {
       "title": "Manchester United vs Manchester City",
@@ -344,7 +347,7 @@
       "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR-julRMXcRytKZ3WMJyNAqVMy-UedKivtAOCY0T6OXEhcWUgVKiu1cGs53&s=10",
       "match_id": "929",
       "server_urls": [],
-      "last_updated": "2026-09-13T13:27:23.354649"
+      "last_updated": "2026-09-13T13:32:21.538453"
     },
     {
       "title": "Getafe CF vs Deportivo de La",
@@ -362,7 +365,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4247613_53004_GEF_COR_FC-Web.png",
       "match_id": "931",
       "server_urls": [],
-      "last_updated": "2026-09-13T13:27:23.354997"
+      "last_updated": "2026-09-13T13:32:21.539102"
     },
     {
       "title": "Real Sociedad vs Atletico de Madrid",
@@ -380,7 +383,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4247614_53004_RS_ATM_FC-Web.png",
       "match_id": "932",
       "server_urls": [],
-      "last_updated": "2026-09-13T13:27:23.355365"
+      "last_updated": "2026-09-13T13:32:21.539769"
     },
     {
       "title": "Barbados Tridents vs Guyana Amazon Warriors",
@@ -398,7 +401,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4248313_53026_BT_GUY_FC-Web.png",
       "match_id": "894",
       "server_urls": [],
-      "last_updated": "2026-09-13T13:27:23.355716"
+      "last_updated": "2026-09-13T13:32:21.540437"
     },
     {
       "title": "Villarreal CF vs Real Betis",
@@ -416,7 +419,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4247615_53004_VIL_RB_FC-Web.png",
       "match_id": "891",
       "server_urls": [],
-      "last_updated": "2026-09-13T13:27:23.356058"
+      "last_updated": "2026-09-13T13:32:21.541066"
     },
     {
       "title": "India vs Afghanistan 2nd T20I",
@@ -434,7 +437,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/AFG_IND_2026_FC-WEB_1788619389374.jpg",
       "match_id": "905",
       "server_urls": [],
-      "last_updated": "2026-09-13T13:27:23.356417"
+      "last_updated": "2026-09-13T13:32:21.541717"
     },
     {
       "title": "West Ham United vs Fulham",
@@ -452,7 +455,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249055_53016_WHU_FUL_fc-web.jpg",
       "match_id": "876",
       "server_urls": [],
-      "last_updated": "2026-09-13T13:27:23.356770"
+      "last_updated": "2026-09-13T13:32:21.542342"
     },
     {
       "title": "Reading vs Brentford",
@@ -470,7 +473,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249056_53016_RED_BRE_fc-web.jpg",
       "match_id": "878",
       "server_urls": [],
-      "last_updated": "2026-09-13T13:27:23.357116"
+      "last_updated": "2026-09-13T13:32:21.542987"
     },
     {
       "title": "Ipswich Town F.C. vs Arsenal",
@@ -488,7 +491,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249057_53016_IPT_ARS_fc-web.jpg",
       "match_id": "862",
       "server_urls": [],
-      "last_updated": "2026-09-13T13:27:23.357479"
+      "last_updated": "2026-09-13T13:32:21.543637"
     },
     {
       "title": "India vs Afghanistan 3rd T20I",
@@ -506,7 +509,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/AFG_IND_2026_FC-WEB_1788619389374.jpg",
       "match_id": "906",
       "server_urls": [],
-      "last_updated": "2026-09-13T13:27:23.357827"
+      "last_updated": "2026-09-13T13:32:21.544264"
     },
     {
       "title": "Manchester City vs Norwich City F.C.",
@@ -524,7 +527,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249062_53016_MCI_NOR_fc-web.jpg",
       "match_id": "892",
       "server_urls": [],
-      "last_updated": "2026-09-13T13:27:23.358174"
+      "last_updated": "2026-09-13T13:32:21.544905"
     },
     {
       "title": "Bristol City F.C. vs Watford F.C.",
@@ -542,7 +545,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4247493_52993_BRI_WAT_fc-web_1786657253841.jpg",
       "match_id": "879",
       "server_urls": [],
-      "last_updated": "2026-09-13T13:27:23.358541"
+      "last_updated": "2026-09-13T13:32:21.545547"
     }
   ]
 }
