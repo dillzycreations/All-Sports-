@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-17T09:31:04.822465",
+  "timestamp": "2026-09-17T09:36:02.727037",
   "total_matches": 33,
   "live_count": 1,
   "upcoming_count": 32,
@@ -12,7 +12,7 @@
       "sport": "cricket",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "3",
+      "viewers": "5",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -21,45 +21,12 @@
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1789549080540x302.jpg",
       "match_id": "1079",
       "server_urls": [
-        "https://tvsen5.aynascope.net/cXPB2LKkErN9/tracks-v1a1/mono.ts.m3u8"
+        "https://live.talkoraai.com/match/hls?t=23jjDnCVMxjtn2f0yB07ExzY3BzrRpHgeVdh-OmFwswvrMqJuuD3f7lLECvvE3F92YhGX9gyZ0nNGFf8wDTZuAVK7hhO2_65vZQM9lCjXATD7SHW_xvj4ra2JW75paZdr7HseH4qfPVA_1E5fo_2oOwxA0p-MI79sAv4twSAHFW4e5-kt6RxQYXBhnNzYKX3FN_Rf4BHwMSXVAekO6UBQflbX0_3nSFoEVbUkq24ytAv57AuJIjatxIeOcyoHpuQgunRvkr1hSk5Ca5exdD8GcNbX60GNQ",
+        "https://live.talkoraai.com/match/seg?t=hNicKp3pP0W8L6t5dMTur6TLJJ4AeCAI3CN1gvAuGqO45s242vmgAmx-LjMPqjaG9zXOcuAR_yEvhJ3mCHjgsiQQk5CQrN3x4uI_Y7salv8sEAWmIQDUEsueyoS_xWF9xwsJJRj_42_FmWLzh6_nSRZdnLndXQYbjs1me0-uprXNpVtu6Z5mylAZWJVieZzaxH37j5lwhQiljPuuHwC1obF4YAkmjj52_pAEbIk7myHSPKeOef7lcW9OuNqkBOdo2iiORR62P5Dl3rwHjupnoxrsorjui5CHbv7XTf-L",
+        "https://tvsen5.aynascope.net/cXPB2LKkErN9/tracks-v1a1/mono.ts.m3u8",
+        "https://tvsen7.aynascope.net/ssport2hd/tracks-v1a1/mono.ts.m3u8"
       ],
-      "last_updated": "2026-09-17T09:31:04.456224"
-    },
-    {
-      "title": "Lion City Sailors  (SGP) vs BG Pathum United",
-      "teams": "Lion City Sailors  (SGP) vs BG Pathum United",
-      "league": "Adelaide United  (AUS) vs Tai Po",
-      "sport": "cricket",
-      "status": "upcoming",
-      "runtime": "00h 00m 00s",
-      "viewers": "395",
-      "viewers_type": "Waiting",
-      "servers": null,
-      "date": null,
-      "time": null,
-      "match_url": "live/lion-city-sailors-sgp-vs-bg-pathum-united-1085",
-      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1789627823540x302.jpg",
-      "match_id": "1085",
-      "server_urls": [],
-      "last_updated": "2026-09-17T09:31:04.802891"
-    },
-    {
-      "title": "Adelaide United  (AUS) vs Tai Po",
-      "teams": "Adelaide United  (AUS) vs Tai Po",
-      "league": "AFC Champions League Two 2026-27",
-      "sport": "cricket",
-      "status": "upcoming",
-      "runtime": "00h 00m 00s",
-      "viewers": "358",
-      "viewers_type": "Waiting",
-      "servers": null,
-      "date": null,
-      "time": null,
-      "match_url": "live/adelaide-united-aus-vs-tai-po-1084",
-      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1789628278540x302.jpg",
-      "match_id": "1084",
-      "server_urls": [],
-      "last_updated": "2026-09-17T09:31:04.803715"
+      "last_updated": "2026-09-17T09:36:02.398651"
     },
     {
       "title": "Rotterdam Dockers vs Dublin Guardians",
@@ -77,7 +44,7 @@
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1789549199540x302.jpg",
       "match_id": "1080",
       "server_urls": [],
-      "last_updated": "2026-09-17T09:31:04.804357"
+      "last_updated": "2026-09-17T09:36:02.718446"
     },
     {
       "title": "India vs Afghanistan 3rd T20I",
@@ -95,7 +62,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/AFG_IND_2026_FC-WEB_1788619389374.jpg",
       "match_id": "906",
       "server_urls": [],
-      "last_updated": "2026-09-17T09:31:04.804956"
+      "last_updated": "2026-09-17T09:36:02.718776"
     },
     {
       "title": "Levski Sofia vs RB Salzburg",
@@ -113,7 +80,7 @@
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1789553413540x302.jpg",
       "match_id": "1082",
       "server_urls": [],
-      "last_updated": "2026-09-17T09:31:04.805566"
+      "last_updated": "2026-09-17T09:36:02.719070"
     },
     {
       "title": "OFI vs Hoffenheim",
@@ -131,7 +98,7 @@
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1789556663540x302.jpg",
       "match_id": "1081",
       "server_urls": [],
-      "last_updated": "2026-09-17T09:31:04.806176"
+      "last_updated": "2026-09-17T09:36:02.719337"
     },
     {
       "title": "Real Betis vs Getafe CF",
@@ -149,7 +116,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4247620_53004_RB_GEF_FC-Web.png",
       "match_id": "986",
       "server_urls": [],
-      "last_updated": "2026-09-17T09:31:04.806760"
+      "last_updated": "2026-09-17T09:36:02.719626"
     },
     {
       "title": "England vs Sri Lanka-2nd T20",
@@ -167,7 +134,7 @@
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1789471490540x302.jpg",
       "match_id": "1057",
       "server_urls": [],
-      "last_updated": "2026-09-17T09:31:04.807414"
+      "last_updated": "2026-09-17T09:36:02.719890"
     },
     {
       "title": "Manchester City vs Norwich City F.C.",
@@ -185,7 +152,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249062_53016_MCI_NOR_fc-web.jpg",
       "match_id": "892",
       "server_urls": [],
-      "last_updated": "2026-09-17T09:31:04.807996"
+      "last_updated": "2026-09-17T09:36:02.720161"
     },
     {
       "title": "Malaga vs Villarreal CF",
@@ -203,7 +170,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4247627_53004_MAG_VIL_FC-Web.png",
       "match_id": "987",
       "server_urls": [],
-      "last_updated": "2026-09-17T09:31:04.808608"
+      "last_updated": "2026-09-17T09:36:02.720423"
     },
     {
       "title": "Guyana Amazon Warriors vs Antigua & Barbuda Falcons Qualifier 1",
@@ -221,7 +188,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4248296_53026_GUY_ABF_FC-Web.png",
       "match_id": "1039",
       "server_urls": [],
-      "last_updated": "2026-09-17T09:31:04.809211"
+      "last_updated": "2026-09-17T09:36:02.720682"
     },
     {
       "title": "Zimbabwe vs Australia 2nd ODI",
@@ -239,7 +206,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/ZIMvsAUS_Web-match-card.png",
       "match_id": "955",
       "server_urls": [],
-      "last_updated": "2026-09-17T09:31:04.809798"
+      "last_updated": "2026-09-17T09:36:02.720946"
     },
     {
       "title": "RCD Espanyol vs Elche CF",
@@ -257,7 +224,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4247634_53004_ESL_ELC_FC-Web.png",
       "match_id": "992",
       "server_urls": [],
-      "last_updated": "2026-09-17T09:31:04.810405"
+      "last_updated": "2026-09-17T09:36:02.721217"
     },
     {
       "title": "Bristol City F.C. vs Watford F.C.",
@@ -275,7 +242,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4247493_52993_BRI_WAT_fc-web_1786657253841.jpg",
       "match_id": "879",
       "server_urls": [],
-      "last_updated": "2026-09-17T09:31:04.810983"
+      "last_updated": "2026-09-17T09:36:02.721480"
     },
     {
       "title": "Millwall F.C. vs West Ham United",
@@ -293,7 +260,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4247494_52993_MLW_WHU_fc-web_1786657253865.jpg",
       "match_id": "988",
       "server_urls": [],
-      "last_updated": "2026-09-17T09:31:04.811637"
+      "last_updated": "2026-09-17T09:36:02.721745"
     },
     {
       "title": "CA Osasuna vs Rayo Vallecano",
@@ -311,7 +278,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4247636_53004_OSN_RVL_FC-Web.png",
       "match_id": "993",
       "server_urls": [],
-      "last_updated": "2026-09-17T09:31:04.812310"
+      "last_updated": "2026-09-17T09:36:02.722015"
     },
     {
       "title": "Wrexham A.F.C. vs Southampton F.C.",
@@ -329,7 +296,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4247497_52993_WRX_SOU_fc-web_1786657253176.jpg",
       "match_id": "989",
       "server_urls": [],
-      "last_updated": "2026-09-17T09:31:04.812902"
+      "last_updated": "2026-09-17T09:36:02.722277"
     },
     {
       "title": "Athletic Club vs Deportivo Alaves",
@@ -347,7 +314,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4247635_53004_ATH_ALA_FC-Web.png",
       "match_id": "994",
       "server_urls": [],
-      "last_updated": "2026-09-17T09:31:04.813539"
+      "last_updated": "2026-09-17T09:36:02.722536"
     },
     {
       "title": "RC Celta vs Racing Club de Santander",
@@ -365,7 +332,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4247630_53004_CEV_RAC_FC-Web.png",
       "match_id": "995",
       "server_urls": [],
-      "last_updated": "2026-09-17T09:31:04.814148"
+      "last_updated": "2026-09-17T09:36:02.722796"
     },
     {
       "title": "Sevilla vs Barcelona",
@@ -383,7 +350,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4247628_53004_SEV_BAR_FC-Web.png",
       "match_id": "996",
       "server_urls": [],
-      "last_updated": "2026-09-17T09:31:04.814729"
+      "last_updated": "2026-09-17T09:36:02.723067"
     },
     {
       "title": "Zimbabwe vs Australia 3rd ODI",
@@ -401,7 +368,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/ZIMvsAUS_Web-match-card.png",
       "match_id": "956",
       "server_urls": [],
-      "last_updated": "2026-09-17T09:31:04.815334"
+      "last_updated": "2026-09-17T09:36:02.723327"
     },
     {
       "title": "Wolverhampton Wanderers F.C. vs West Bromwich Albion F.C.",
@@ -419,7 +386,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4247498_52993_WOL_WBA_fc-web_1786657253863.jpg",
       "match_id": "990",
       "server_urls": [],
-      "last_updated": "2026-09-17T09:31:04.815914"
+      "last_updated": "2026-09-17T09:36:02.723592"
     },
     {
       "title": "Valencia CF vs Real Sociedad",
@@ -437,7 +404,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4247633_53004_VAL_RS_FC-Web.png",
       "match_id": "1002",
       "server_urls": [],
-      "last_updated": "2026-09-17T09:31:04.816517"
+      "last_updated": "2026-09-17T09:36:02.723854"
     },
     {
       "title": "Japan vs India India",
@@ -455,7 +422,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
       "match_id": "1003",
       "server_urls": [],
-      "last_updated": "2026-09-17T09:31:04.817123"
+      "last_updated": "2026-09-17T09:36:02.724122"
     },
     {
       "title": "India Champions vs Australia Champions",
@@ -473,7 +440,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
       "match_id": "1037",
       "server_urls": [],
-      "last_updated": "2026-09-17T09:31:04.817708"
+      "last_updated": "2026-09-17T09:36:02.724383"
     },
     {
       "title": "Al-Kholood Club vs Al-Qadsiah",
@@ -491,7 +458,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249136_53025_ALK_ALQ_FC-Web.png",
       "match_id": "1000",
       "server_urls": [],
-      "last_updated": "2026-09-17T09:31:04.818311"
+      "last_updated": "2026-09-17T09:36:02.724646"
     },
     {
       "title": "Al-Fateh SC vs Al-Ahli Saudi",
@@ -509,7 +476,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249137_53025_AFF_AAS_FC-Web.png",
       "match_id": "1001",
       "server_urls": [],
-      "last_updated": "2026-09-17T09:31:04.818884"
+      "last_updated": "2026-09-17T09:36:02.724908"
     },
     {
       "title": "Al-Nassr vs Diriyah",
@@ -527,7 +494,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249138_53025_ANF_DIR_FC-Web.png",
       "match_id": "1008",
       "server_urls": [],
-      "last_updated": "2026-09-17T09:31:04.819480"
+      "last_updated": "2026-09-17T09:36:02.725176"
     },
     {
       "title": "Al Hilal SFC vs Al-Ittihad",
@@ -545,7 +512,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249139_53025_AHS_ITT_FC-Web.png",
       "match_id": "1042",
       "server_urls": [],
-      "last_updated": "2026-09-17T09:31:04.820078"
+      "last_updated": "2026-09-17T09:36:02.725437"
     },
     {
       "title": "Barcelona vs Getafe CF",
@@ -563,7 +530,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
       "match_id": "1049",
       "server_urls": [],
-      "last_updated": "2026-09-17T09:31:04.820668"
+      "last_updated": "2026-09-17T09:36:02.725698"
     },
     {
       "title": "Deportivo Alaves vs Atletico de Madrid",
@@ -581,7 +548,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
       "match_id": "1043",
       "server_urls": [],
-      "last_updated": "2026-09-17T09:31:04.821268"
+      "last_updated": "2026-09-17T09:36:02.725969"
     },
     {
       "title": "Machida Zelvia (JPN) vs Preah Khan Reach Svay Rieng",
@@ -599,7 +566,43 @@
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1789628636540x302.jpg",
       "match_id": "1086",
       "server_urls": [],
-      "last_updated": "2026-09-17T09:31:04.821845"
+      "last_updated": "2026-09-17T09:36:02.726233"
+    },
+    {
+      "title": "Lion City Sailors  (SGP) vs BG Pathum United",
+      "teams": "Lion City Sailors  (SGP) vs BG Pathum United",
+      "league": "Adelaide United  (AUS) vs Tai Po",
+      "sport": "cricket",
+      "status": "upcoming",
+      "runtime": "00h 00m 00s",
+      "viewers": "395",
+      "viewers_type": "Waiting",
+      "servers": null,
+      "date": null,
+      "time": null,
+      "match_url": "live/lion-city-sailors-sgp-vs-bg-pathum-united-1085",
+      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1789627823540x302.jpg",
+      "match_id": "1085",
+      "server_urls": [],
+      "last_updated": "2026-09-17T09:36:02.726494"
+    },
+    {
+      "title": "Adelaide United  (AUS) vs Tai Po",
+      "teams": "Adelaide United  (AUS) vs Tai Po",
+      "league": "AFC Champions League Two 2026-27",
+      "sport": "cricket",
+      "status": "upcoming",
+      "runtime": "00h 00m 00s",
+      "viewers": "358",
+      "viewers_type": "Waiting",
+      "servers": null,
+      "date": null,
+      "time": null,
+      "match_url": "live/adelaide-united-aus-vs-tai-po-1084",
+      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1789628278540x302.jpg",
+      "match_id": "1084",
+      "server_urls": [],
+      "last_updated": "2026-09-17T09:36:02.726756"
     }
   ]
 }
