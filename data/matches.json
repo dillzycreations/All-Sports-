@@ -1,45 +1,94 @@
 {
-  "timestamp": "2026-09-18T18:23:58.795336",
-  "total_matches": 19,
-  "live_count": 0,
-  "upcoming_count": 19,
+  "timestamp": "2026-09-18T18:55:13.718670",
+  "total_matches": 22,
+  "live_count": 4,
+  "upcoming_count": 18,
   "completed_count": 0,
   "matches": [
+    {
+      "title": "Bayern Munchen vs Union Berlin",
+      "teams": "Bayern Munchen vs Union Berlin",
+      "league": "Bundesliga",
+      "sport": "football",
+      "status": "live",
+      "runtime": "00h 00m 00s",
+      "viewers": "213",
+      "viewers_type": "Watching",
+      "servers": null,
+      "date": null,
+      "time": null,
+      "match_url": "live/bayern-munchen-vs-union-berlin-1099",
+      "thumbnail": "https://vstatic.vietnam.vn/vietnam/resource/IMAGE/2025/11/08/1762566363354_union_berlin_vs_bayern_munich_tnuo.jpeg",
+      "match_id": "1099",
+      "server_urls": [
+        "https://www.rtmpcdn.com/live/9771736a-b031-4f77-99b1-5a4c1af18101.m3u8",
+        "https://play.aarray.cn/rrty/hd-zh-1-4566254_gqzm.m3u8?auth_key=1789760529-0-0-99f676d884a4b14f3a89cdcd24e8d4b2&token=832dae26512e1bba&device=4&platform=rrty",
+        "https://live.dyrur1.com/live/72513202_ad88f4139d393ad5cf970b687310d1d9_540p.m3u8?auth_key=1789770551-0-0-2b1adaede74784f4977ba20543c167c6"
+      ],
+      "last_updated": "2026-09-18T18:55:12.319284"
+    },
     {
       "title": "RCD Espanyol vs Elche CF",
       "teams": "RCD Espanyol vs Elche CF",
       "league": "LALIGA 2026-27",
       "sport": "football",
-      "status": "upcoming",
+      "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "14",
-      "viewers_type": "Waiting",
+      "viewers": "15",
+      "viewers_type": "Watching",
       "servers": null,
       "date": null,
       "time": null,
       "match_url": "live/rcd-espanyol-vs-elche-cf-992",
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4247634_53004_ESL_ELC_FC-Web.png",
       "match_id": "992",
-      "server_urls": [],
-      "last_updated": "2026-09-18T18:23:58.783569"
+      "server_urls": [
+        "https://live.talkoraai.com/match/hls?t=_MFFGxKFvPM0kuBHMeIU8tD0Zz6fNE4gOcccuhMmcdan32ZJhvEPRa5ZGnib3ZCYUs3DhQaKJ8HFmaXPRwADIYY1_WLb64atuAZ4sN2JLdUT0rUqxsDsC_mImLUcYfyIfa17TZ7VJ58V7fsatGiUmL5-lUncVB33d3KkiCMAKumJgXB0U8niqVKp_sUysENnM_HKEcdAQ0oAT0CPeqgO0l6OCIGt8QsJWzRJqr92anwkSFO6vghGNJUmDJm9eju-Mr0w0cy0DNYC0w1OjJCkElnlVA",
+        "https://live.talkoraai.com/match/seg?t=ZfjeKyTFFp8Urp1ygxVD9W3KVSbjyY-97vw1TG2ngK9LxPDMB6xEUkeiX6dJBwqhzqMRztvQzPz24uUoKSlhKR5t8zfVLy69NGb-NdORXZVYtT5sIDK9Wic7vdPh4v5h2OMrANWeZjQb-hYFIl8xUCGAYHL9H8YqcNhslxpsr5wEibhAx58j2ryNsqw35PB9M7emRRt_hO1DYrNCx2Y4tCS0G-jQVcU9kHnwIJ9sZulPH9SJykI-UzYnsQOZ2_JYUO1Q2tDoQMsgFCOO_zEL0Ni76M3hQeyZT2PR"
+      ],
+      "last_updated": "2026-09-18T18:55:12.674057"
     },
     {
-      "title": "Bristol City F.C. vs Watford F.C.",
-      "teams": "Bristol City F.C. vs Watford F.C.",
-      "league": "EFL Championship",
+      "title": "Brentford vs Chelsea",
+      "teams": "Brentford vs Chelsea",
+      "league": "Premier League",
       "sport": "football",
-      "status": "upcoming",
+      "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "14",
-      "viewers_type": "Waiting",
+      "viewers": "1",
+      "viewers_type": "Watching",
       "servers": null,
       "date": null,
       "time": null,
-      "match_url": "live/bristol-city-f-c-vs-watford-f-c-879",
-      "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4247493_52993_BRI_WAT_fc-web_1786657253841.jpg",
-      "match_id": "879",
-      "server_urls": [],
-      "last_updated": "2026-09-18T18:23:58.784369"
+      "match_url": "live/brentford-vs-chelsea-1100",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQvpex4Tv8gZiAq9d3gURRLwm0etU20CVJX7-QTkjXhNYv0y26NQ6S5Nhk&s=10",
+      "match_id": "1100",
+      "server_urls": [
+        "https://www.rtmpcdn.com/live/23a1e2df-7456-4ba9-9360-12dea194f2c6.m3u8",
+        "https://play.aarray.cn/rrty/hd-zh-1-4558557_gqzm.m3u8?auth_key=1789761250-0-0-ca1653a29b171750d2c636d431a95fa4&token=4ce194cc0d8dbd8b&device=4&platform=rrty"
+      ],
+      "last_updated": "2026-09-18T18:55:13.012814"
+    },
+    {
+      "title": "Monza vs Sassuolo",
+      "teams": "Monza vs Sassuolo",
+      "league": "Serie A",
+      "sport": "football",
+      "status": "live",
+      "runtime": "00h 00m 00s",
+      "viewers": "176",
+      "viewers_type": "Watching",
+      "servers": null,
+      "date": null,
+      "time": null,
+      "match_url": "live/monza-vs-sassuolo-1098",
+      "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGvdkSNtCZlWxEkKaFdFg6QD5Jf8QVKF3bHKbf-ntRpiojMBPg_JkaUvU7&s=10",
+      "match_id": "1098",
+      "server_urls": [
+        "https://www.rtmpcdn.com/live/7ad87852-b23b-4ac8-a232-a1cfb2e2b32c.m3u8",
+        "https://play.aarray.cn/rrty/hd-zh-1-4549089_gqzm.m3u8?auth_key=1789760290-0-0-c01e969b4d2372a2d343afd52a1ce34f&token=e542d13205a1fb61&device=4&platform=rrty"
+      ],
+      "last_updated": "2026-09-18T18:55:13.358269"
     },
     {
       "title": "Millwall F.C. vs West Ham United",
@@ -57,7 +106,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4247494_52993_MLW_WHU_fc-web_1786657253865.jpg",
       "match_id": "988",
       "server_urls": [],
-      "last_updated": "2026-09-18T18:23:58.785010"
+      "last_updated": "2026-09-18T18:55:13.709300"
     },
     {
       "title": "CA Osasuna vs Rayo Vallecano",
@@ -75,7 +124,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4247636_53004_OSN_RVL_FC-Web.png",
       "match_id": "993",
       "server_urls": [],
-      "last_updated": "2026-09-18T18:23:58.785659"
+      "last_updated": "2026-09-18T18:55:13.709937"
     },
     {
       "title": "Wrexham A.F.C. vs Southampton F.C.",
@@ -93,7 +142,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4247497_52993_WRX_SOU_fc-web_1786657253176.jpg",
       "match_id": "989",
       "server_urls": [],
-      "last_updated": "2026-09-18T18:23:58.786268"
+      "last_updated": "2026-09-18T18:55:13.710494"
     },
     {
       "title": "Athletic Club vs Deportivo Alaves",
@@ -111,7 +160,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4247635_53004_ATH_ALA_FC-Web.png",
       "match_id": "994",
       "server_urls": [],
-      "last_updated": "2026-09-18T18:23:58.786888"
+      "last_updated": "2026-09-18T18:55:13.711030"
     },
     {
       "title": "RC Celta vs Racing Club de Santander",
@@ -129,7 +178,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4247630_53004_CEV_RAC_FC-Web.png",
       "match_id": "995",
       "server_urls": [],
-      "last_updated": "2026-09-18T18:23:58.787510"
+      "last_updated": "2026-09-18T18:55:13.711522"
     },
     {
       "title": "Sevilla vs Barcelona",
@@ -147,7 +196,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4247628_53004_SEV_BAR_FC-Web.png",
       "match_id": "996",
       "server_urls": [],
-      "last_updated": "2026-09-18T18:23:58.788104"
+      "last_updated": "2026-09-18T18:55:13.712035"
     },
     {
       "title": "Zimbabwe vs Australia 3rd ODI",
@@ -165,7 +214,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/ZIMvsAUS_Web-match-card.png",
       "match_id": "956",
       "server_urls": [],
-      "last_updated": "2026-09-18T18:23:58.788719"
+      "last_updated": "2026-09-18T18:55:13.712548"
     },
     {
       "title": "Wolverhampton Wanderers F.C. vs West Bromwich Albion F.C.",
@@ -183,7 +232,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4247498_52993_WOL_WBA_fc-web_1786657253863.jpg",
       "match_id": "990",
       "server_urls": [],
-      "last_updated": "2026-09-18T18:23:58.789311"
+      "last_updated": "2026-09-18T18:55:13.713073"
     },
     {
       "title": "Valencia CF vs Real Sociedad",
@@ -201,7 +250,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4247633_53004_VAL_RS_FC-Web.png",
       "match_id": "1002",
       "server_urls": [],
-      "last_updated": "2026-09-18T18:23:58.789918"
+      "last_updated": "2026-09-18T18:55:13.713576"
     },
     {
       "title": "Japan vs India India",
@@ -219,7 +268,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
       "match_id": "1003",
       "server_urls": [],
-      "last_updated": "2026-09-18T18:23:58.790520"
+      "last_updated": "2026-09-18T18:55:13.714111"
     },
     {
       "title": "India Champions vs Australia Champions",
@@ -237,7 +286,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
       "match_id": "1037",
       "server_urls": [],
-      "last_updated": "2026-09-18T18:23:58.791105"
+      "last_updated": "2026-09-18T18:55:13.714624"
     },
     {
       "title": "Al-Kholood Club vs Al-Qadsiah",
@@ -255,7 +304,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249136_53025_ALK_ALQ_FC-Web.png",
       "match_id": "1000",
       "server_urls": [],
-      "last_updated": "2026-09-18T18:23:58.791712"
+      "last_updated": "2026-09-18T18:55:13.715179"
     },
     {
       "title": "Al-Fateh SC vs Al-Ahli Saudi",
@@ -273,7 +322,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249137_53025_AFF_AAS_FC-Web.png",
       "match_id": "1001",
       "server_urls": [],
-      "last_updated": "2026-09-18T18:23:58.792300"
+      "last_updated": "2026-09-18T18:55:13.715676"
     },
     {
       "title": "Al-Nassr vs Diriyah",
@@ -291,7 +340,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249138_53025_ANF_DIR_FC-Web.png",
       "match_id": "1008",
       "server_urls": [],
-      "last_updated": "2026-09-18T18:23:58.792920"
+      "last_updated": "2026-09-18T18:55:13.716187"
     },
     {
       "title": "Al Hilal SFC vs Al-Ittihad",
@@ -309,7 +358,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249139_53025_AHS_ITT_FC-Web.png",
       "match_id": "1042",
       "server_urls": [],
-      "last_updated": "2026-09-18T18:23:58.793533"
+      "last_updated": "2026-09-18T18:55:13.716669"
     },
     {
       "title": "Barcelona vs Getafe CF",
@@ -327,7 +376,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
       "match_id": "1049",
       "server_urls": [],
-      "last_updated": "2026-09-18T18:23:58.794126"
+      "last_updated": "2026-09-18T18:55:13.717162"
     },
     {
       "title": "Deportivo Alaves vs Atletico de Madrid",
@@ -345,7 +394,25 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
       "match_id": "1043",
       "server_urls": [],
-      "last_updated": "2026-09-18T18:23:58.794736"
+      "last_updated": "2026-09-18T18:55:13.717642"
+    },
+    {
+      "title": "Bristol City F.C. vs Watford F.C.",
+      "teams": "Bristol City F.C. vs Watford F.C.",
+      "league": "EFL Championship",
+      "sport": "football",
+      "status": "upcoming",
+      "runtime": "00h 00m 00s",
+      "viewers": "14",
+      "viewers_type": "Waiting",
+      "servers": null,
+      "date": null,
+      "time": null,
+      "match_url": "live/bristol-city-f-c-vs-watford-f-c-879",
+      "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4247493_52993_BRI_WAT_fc-web_1786657253841.jpg",
+      "match_id": "879",
+      "server_urls": [],
+      "last_updated": "2026-09-18T18:55:13.718136"
     }
   ]
 }
