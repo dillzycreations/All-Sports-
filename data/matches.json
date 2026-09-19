@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-19T12:19:09.123435",
+  "timestamp": "2026-09-19T12:24:07.842704",
   "total_matches": 27,
   "live_count": 4,
   "upcoming_count": 23,
@@ -12,7 +12,7 @@
       "sport": "football",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "18",
+      "viewers": "19",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -28,7 +28,7 @@
         "https://live01-cn-ali.lmqvw.com/live/37392521_tsc.m3u8",
         "https://www.rtmpcdn.com/live/migu12.m3u8"
       ],
-      "last_updated": "2026-09-19T12:19:06.863373"
+      "last_updated": "2026-09-19T12:24:05.667594"
     },
     {
       "title": "Millwall F.C. vs West Ham United",
@@ -37,7 +37,7 @@
       "sport": "football",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "28",
+      "viewers": "29",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -49,7 +49,7 @@
         "https://www.rtmpcdn.com/live/ed9539fc-6dee-47c5-96b7-0b9c13af75d1.m3u8",
         "https://play.aarray.cn/rrty/sd-1-4563591_gqzm.m3u8?auth_key=1789821013-0-0-77f1cd929d956c588b007b2d97774943&token=786a138325eab257&device=4&platform=rrty"
       ],
-      "last_updated": "2026-09-19T12:19:08.134281"
+      "last_updated": "2026-09-19T12:24:06.881450"
     },
     {
       "title": "CA Osasuna vs Rayo Vallecano",
@@ -58,7 +58,7 @@
       "sport": "football",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "15",
+      "viewers": "20",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -66,8 +66,11 @@
       "match_url": "live/ca-osasuna-vs-rayo-vallecano-993",
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4247636_53004_OSN_RVL_FC-Web.png",
       "match_id": "993",
-      "server_urls": [],
-      "last_updated": "2026-09-19T12:19:08.455229"
+      "server_urls": [
+        "https://live.talkoraai.com/match/hls?t=8fm_yJ73rZkBc7ndGiVzJhGPQzc6QE7qKadyx7SIdZQjBe_FmXViQtEAEA5CsUJikogZUlphdDxPzQw2t8dPqKCzsSFnR_KwxpUMSEWo2bxxbwOOieAovahjBLQ83dRyku5857nJH0ebTUh4k2nmdQTvQyz7W9M6mJ5KU3fWaIhGftY9phPmNrCfbp9ZzM77QLgAl_gDJrt2TCLdUEPQFPyE2OMgq7xpgs6iAOCIIGJS3TClw7cb352DJvM775g-S_C77m2yKIfcc52QDyjKcGvJNxZAeg",
+        "https://live.talkoraai.com/match/seg?t=8TK5HZjxI0ng-J_AQKfBMb-oCqOG5IHenGghnxu0juCNyir4SJnmzNcIxg35GFU-r12JlBNlYn06HYcIbmmj6giWtXXKALqWeV4EfOikwQA2oHf0cnPOxsCSLB-KxH8Sg6jkOl35VW2K1awfjsBX_RAehgiElB9VcWBLvIiiM1wlxU4_FfOGrUxBZUoByZlVwfVx_df_RdBFy0q2aWQPaDLzAPXrt90TvPfG_Ye6rYzSf0IdaJTK0-c5sRrgDFRVqASypK_J6XGjfpLMBGuRiq_ItjDyqLbwOpXOuq9U"
+      ],
+      "last_updated": "2026-09-19T12:24:07.200963"
     },
     {
       "title": "Stoke City vs Sheffield United",
@@ -76,7 +79,7 @@
       "sport": "football",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "14",
+      "viewers": "16",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -88,7 +91,7 @@
         "https://www.rtmpcdn.com/live/7437927c-18ba-4dea-a869-5edbf5310299.m3u8",
         "http://193.47.62.41/hls/grrraaaaaqqqq.m3u8"
       ],
-      "last_updated": "2026-09-19T12:19:08.774135"
+      "last_updated": "2026-09-19T12:24:07.515765"
     },
     {
       "title": "England vs Sri Lanka",
@@ -106,7 +109,7 @@
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1789674004540x302.jpg",
       "match_id": "1105",
       "server_urls": [],
-      "last_updated": "2026-09-19T12:19:09.109085"
+      "last_updated": "2026-09-19T12:24:07.828049"
     },
     {
       "title": "Brighton vs Arsenal",
@@ -124,7 +127,7 @@
       "thumbnail": "https://vstatic.vietnam.vn/vietnam/resource/IMAGE/2026/09/19/1789780930249_brighton_vs_arsenal_ulds.jpeg",
       "match_id": "1111",
       "server_urls": [],
-      "last_updated": "2026-09-19T12:19:09.109779"
+      "last_updated": "2026-09-19T12:24:07.828772"
     },
     {
       "title": "Wrexham A.F.C. vs Southampton F.C.",
@@ -142,7 +145,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4247497_52993_WRX_SOU_fc-web_1786657253176.jpg",
       "match_id": "989",
       "server_urls": [],
-      "last_updated": "2026-09-19T12:19:09.110434"
+      "last_updated": "2026-09-19T12:24:07.829413"
     },
     {
       "title": "Athletic Club vs Deportivo Alaves",
@@ -160,7 +163,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4247635_53004_ATH_ALA_FC-Web.png",
       "match_id": "994",
       "server_urls": [],
-      "last_updated": "2026-09-19T12:19:09.111077"
+      "last_updated": "2026-09-19T12:24:07.830058"
     },
     {
       "title": "RC Celta vs Racing Club de Santander",
@@ -178,7 +181,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4247630_53004_CEV_RAC_FC-Web.png",
       "match_id": "995",
       "server_urls": [],
-      "last_updated": "2026-09-19T12:19:09.111694"
+      "last_updated": "2026-09-19T12:24:07.830701"
     },
     {
       "title": "Sevilla vs Barcelona",
@@ -196,7 +199,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4247628_53004_SEV_BAR_FC-Web.png",
       "match_id": "996",
       "server_urls": [],
-      "last_updated": "2026-09-19T12:19:09.112321"
+      "last_updated": "2026-09-19T12:24:07.831323"
     },
     {
       "title": "Pakistan Women vs Sri Lanka Women, 1st Semi Final",
@@ -214,7 +217,7 @@
       "thumbnail": "https://myimgs.org/storage/images/41158/917e92fb-46c8-4b34-a04e-bdf878442005.jpg",
       "match_id": "1107",
       "server_urls": [],
-      "last_updated": "2026-09-19T12:19:09.112948"
+      "last_updated": "2026-09-19T12:24:07.831974"
     },
     {
       "title": "India Women vs Bangladesh Women 2nd Semi Final",
@@ -232,7 +235,7 @@
       "thumbnail": "https://i.ibb.co.com/F4tfFVqP/bf3874e2-07f9-4eaa-b924-97ad5dd49da6.jpg",
       "match_id": "1108",
       "server_urls": [],
-      "last_updated": "2026-09-19T12:19:09.113553"
+      "last_updated": "2026-09-19T12:24:07.832602"
     },
     {
       "title": "Zimbabwe vs Australia 3rd ODI",
@@ -250,7 +253,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/ZIMvsAUS_Web-match-card.png",
       "match_id": "956",
       "server_urls": [],
-      "last_updated": "2026-09-19T12:19:09.114183"
+      "last_updated": "2026-09-19T12:24:07.833216"
     },
     {
       "title": "Wolverhampton Wanderers F.C. vs West Bromwich Albion F.C.",
@@ -268,7 +271,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4247498_52993_WOL_WBA_fc-web_1786657253863.jpg",
       "match_id": "990",
       "server_urls": [],
-      "last_updated": "2026-09-19T12:19:09.114786"
+      "last_updated": "2026-09-19T12:24:07.833849"
     },
     {
       "title": "Getafe CF vs Malaga",
@@ -286,7 +289,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4247629_53004_GEF_MAG_FC-Web.png",
       "match_id": "1113",
       "server_urls": [],
-      "last_updated": "2026-09-19T12:19:09.115427"
+      "last_updated": "2026-09-19T12:24:07.834464"
     },
     {
       "title": "Atletico de Madrid vs Real Madrid",
@@ -304,7 +307,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4247637_53004_ATM_RM_FC-Web.png",
       "match_id": "1114",
       "server_urls": [],
-      "last_updated": "2026-09-19T12:19:09.116048"
+      "last_updated": "2026-09-19T12:24:07.835096"
     },
     {
       "title": "Villarreal CF vs Levante",
@@ -322,7 +325,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4247632_53004_VIL_LET_FC-Web.png",
       "match_id": "1116",
       "server_urls": [],
-      "last_updated": "2026-09-19T12:19:09.116663"
+      "last_updated": "2026-09-19T12:24:07.835733"
     },
     {
       "title": "Deportivo de La Coruna vs Real Betis",
@@ -340,7 +343,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4247631_53004_COR_RB_FC-Web.png",
       "match_id": "1115",
       "server_urls": [],
-      "last_updated": "2026-09-19T12:19:09.117299"
+      "last_updated": "2026-09-19T12:24:07.836349"
     },
     {
       "title": "Valencia CF vs Real Sociedad",
@@ -358,7 +361,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4247633_53004_VAL_RS_FC-Web.png",
       "match_id": "1002",
       "server_urls": [],
-      "last_updated": "2026-09-19T12:19:09.117916"
+      "last_updated": "2026-09-19T12:24:07.836984"
     },
     {
       "title": "Japan vs India India",
@@ -376,7 +379,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
       "match_id": "1003",
       "server_urls": [],
-      "last_updated": "2026-09-19T12:19:09.118516"
+      "last_updated": "2026-09-19T12:24:07.837618"
     },
     {
       "title": "India Champions vs Australia Champions",
@@ -394,7 +397,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
       "match_id": "1037",
       "server_urls": [],
-      "last_updated": "2026-09-19T12:19:09.119138"
+      "last_updated": "2026-09-19T12:24:07.838232"
     },
     {
       "title": "Al-Kholood Club vs Al-Qadsiah",
@@ -412,7 +415,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249136_53025_ALK_ALQ_FC-Web.png",
       "match_id": "1000",
       "server_urls": [],
-      "last_updated": "2026-09-19T12:19:09.119734"
+      "last_updated": "2026-09-19T12:24:07.838869"
     },
     {
       "title": "Al-Fateh SC vs Al-Ahli Saudi",
@@ -430,7 +433,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249137_53025_AFF_AAS_FC-Web.png",
       "match_id": "1001",
       "server_urls": [],
-      "last_updated": "2026-09-19T12:19:09.120357"
+      "last_updated": "2026-09-19T12:24:07.839507"
     },
     {
       "title": "Al-Nassr vs Diriyah",
@@ -448,7 +451,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249138_53025_ANF_DIR_FC-Web.png",
       "match_id": "1008",
       "server_urls": [],
-      "last_updated": "2026-09-19T12:19:09.120979"
+      "last_updated": "2026-09-19T12:24:07.840131"
     },
     {
       "title": "Al Hilal SFC vs Al-Ittihad",
@@ -466,7 +469,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249139_53025_AHS_ITT_FC-Web.png",
       "match_id": "1042",
       "server_urls": [],
-      "last_updated": "2026-09-19T12:19:09.121577"
+      "last_updated": "2026-09-19T12:24:07.840764"
     },
     {
       "title": "Barcelona vs Getafe CF",
@@ -484,7 +487,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
       "match_id": "1049",
       "server_urls": [],
-      "last_updated": "2026-09-19T12:19:09.122197"
+      "last_updated": "2026-09-19T12:24:07.841380"
     },
     {
       "title": "Deportivo Alaves vs Atletico de Madrid",
@@ -502,7 +505,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
       "match_id": "1043",
       "server_urls": [],
-      "last_updated": "2026-09-19T12:19:09.122794"
+      "last_updated": "2026-09-19T12:24:07.842047"
     }
   ]
 }
