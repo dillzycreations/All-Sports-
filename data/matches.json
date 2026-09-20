@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-09-20T17:59:59.010791",
-  "total_matches": 15,
-  "live_count": 4,
+  "timestamp": "2026-09-20T18:05:02.463428",
+  "total_matches": 14,
+  "live_count": 3,
   "upcoming_count": 11,
   "completed_count": 0,
   "matches": [
@@ -12,7 +12,7 @@
       "sport": "football",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "51",
+      "viewers": "52",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -23,7 +23,7 @@
       "server_urls": [
         "https://tvsen7.aynascope.net/Sports1/index.m3u8"
       ],
-      "last_updated": "2026-09-20T17:59:56.595737"
+      "last_updated": "2026-09-20T18:05:00.160215"
     },
     {
       "title": "Villarreal CF vs Levante",
@@ -32,7 +32,7 @@
       "sport": "football",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "28",
+      "viewers": "29",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -44,7 +44,7 @@
         "https://www.rtmpcdn.com/live/0c856cf7-24e1-47eb-b211-af32abf2d9be.m3u8",
         "https://play.aarray.cn/rrty/hd-zh-1-4565431_gqzm.m3u8?auth_key=1789929789-0-0-a1fa503bee558ae8ee48d4c1e86e57f9&token=c0d8b8a1c1d5f27c&device=4&platform=rrty"
       ],
-      "last_updated": "2026-09-20T17:59:58.082159"
+      "last_updated": "2026-09-20T18:05:01.723431"
     },
     {
       "title": "Deportivo de La Coruna vs Real Betis",
@@ -53,7 +53,7 @@
       "sport": "football",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "29",
+      "viewers": "30",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -65,25 +65,7 @@
         "https://www.rtmpcdn.com/live/199b967c-1de2-4443-9f92-3c073661fb84.m3u8",
         "https://play.aarray.cn/rrty/hd-zh-1-4565423_gqzm.m3u8?auth_key=1789929729-0-0-8e6ab5bbad958ab572c670ed24d4a6a5&token=7d1196cb2b0e5a94&device=4&platform=rrty"
       ],
-      "last_updated": "2026-09-20T17:59:58.392096"
-    },
-    {
-      "title": "Nice vs LOSC",
-      "teams": "Nice vs LOSC",
-      "league": "Ligue 1",
-      "sport": "football",
-      "status": "live",
-      "runtime": "00h 00m 00s",
-      "viewers": "36",
-      "viewers_type": "Watching",
-      "servers": null,
-      "date": null,
-      "time": null,
-      "match_url": "live/nice-vs-losc-1140",
-      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1789894227540x302.jpg",
-      "match_id": "1140",
-      "server_urls": [],
-      "last_updated": "2026-09-20T17:59:58.698506"
+      "last_updated": "2026-09-20T18:05:02.112546"
     },
     {
       "title": "Marseille vs PSG",
@@ -101,7 +83,7 @@
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1789894488540x302.jpg",
       "match_id": "1141",
       "server_urls": [],
-      "last_updated": "2026-09-20T17:59:59.003917"
+      "last_updated": "2026-09-20T18:05:02.458837"
     },
     {
       "title": "Valencia CF vs Real Sociedad",
@@ -119,7 +101,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4247633_53004_VAL_RS_FC-Web.png",
       "match_id": "1002",
       "server_urls": [],
-      "last_updated": "2026-09-20T17:59:59.004604"
+      "last_updated": "2026-09-20T18:05:02.459322"
     },
     {
       "title": "Antigua & Barbuda Falcons vs Jamaica Kingsmen Final",
@@ -137,7 +119,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4248286_53026_JK_ABF_FC-Web_1786367986999.png",
       "match_id": "1130",
       "server_urls": [],
-      "last_updated": "2026-09-20T17:59:59.005256"
+      "last_updated": "2026-09-20T18:05:02.459746"
     },
     {
       "title": "Japan vs India India",
@@ -155,7 +137,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
       "match_id": "1003",
       "server_urls": [],
-      "last_updated": "2026-09-20T17:59:59.005865"
+      "last_updated": "2026-09-20T18:05:02.460165"
     },
     {
       "title": "India Champions vs Australia Champions",
@@ -173,7 +155,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
       "match_id": "1037",
       "server_urls": [],
-      "last_updated": "2026-09-20T17:59:59.006506"
+      "last_updated": "2026-09-20T18:05:02.460584"
     },
     {
       "title": "Al-Kholood Club vs Al-Qadsiah",
@@ -191,7 +173,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249136_53025_ALK_ALQ_FC-Web.png",
       "match_id": "1000",
       "server_urls": [],
-      "last_updated": "2026-09-20T17:59:59.007130"
+      "last_updated": "2026-09-20T18:05:02.460994"
     },
     {
       "title": "Al-Fateh SC vs Al-Ahli Saudi",
@@ -209,7 +191,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249137_53025_AFF_AAS_FC-Web.png",
       "match_id": "1001",
       "server_urls": [],
-      "last_updated": "2026-09-20T17:59:59.007734"
+      "last_updated": "2026-09-20T18:05:02.461398"
     },
     {
       "title": "Al-Nassr vs Diriyah",
@@ -227,7 +209,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249138_53025_ANF_DIR_FC-Web.png",
       "match_id": "1008",
       "server_urls": [],
-      "last_updated": "2026-09-20T17:59:59.008350"
+      "last_updated": "2026-09-20T18:05:02.461808"
     },
     {
       "title": "Al Hilal SFC vs Al-Ittihad",
@@ -245,7 +227,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249139_53025_AHS_ITT_FC-Web.png",
       "match_id": "1042",
       "server_urls": [],
-      "last_updated": "2026-09-20T17:59:59.008976"
+      "last_updated": "2026-09-20T18:05:02.462208"
     },
     {
       "title": "Barcelona vs Getafe CF",
@@ -263,7 +245,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
       "match_id": "1049",
       "server_urls": [],
-      "last_updated": "2026-09-20T17:59:59.009577"
+      "last_updated": "2026-09-20T18:05:02.462621"
     },
     {
       "title": "Deportivo Alaves vs Atletico de Madrid",
@@ -281,7 +263,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
       "match_id": "1043",
       "server_urls": [],
-      "last_updated": "2026-09-20T17:59:59.010188"
+      "last_updated": "2026-09-20T18:05:02.463025"
     }
   ]
 }
