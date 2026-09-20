@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-09-20T11:47:37.530009",
-  "total_matches": 25,
+  "timestamp": "2026-09-20T11:52:44.322239",
+  "total_matches": 26,
   "live_count": 6,
-  "upcoming_count": 19,
+  "upcoming_count": 20,
   "completed_count": 0,
   "matches": [
     {
@@ -12,7 +12,7 @@
       "sport": "cricket",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "107",
+      "viewers": "108",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -24,7 +24,7 @@
         "https://live.talkoraai.com/match/hls?t=BSwwmhkkMqjlaEQjzA_bhRBMZ0iSfp_LIB92gGNlxPTVd1xlSmeZJklNjxert5MnJvSA7BBWfmp9xegVvIFWRVXVr9McMthet46hIZBllS8Fib94V8YOu5DIdKIg3pB7itPg86sASMA-ZftVha9jVSyyHhkgazV0Y0Omgx46D_wWTcezsX6n21nDX_j6s0QwbTPCHL7JVt70ye_pbfNMQkjrvhNoVXi_bqiVsJtPHQCr8iB4PhrF0r_0dnYkYfRR6jGx6Rqp35RitUWVUlLuwFSQscAhIQ",
         "https://live.talkoraai.com/match/seg?t=w2FUlxWzyYMvXKzhUnRATfO1m9wgX97VCElHHrvRoQTOpvYuDAfRNvtyGRN29zcplc5W_m7p4iYpu6AQpZhpGBTovuWVvVbS-xT4YqbEgixFfim9SSJt0xglTDA_uf_QuxUPMdpvLT5UovFMhvzafMoG5j0B9izOm3ZxDd5_Bo_m78ZCQSxutyQa9ni4xYIkka86qGax1x1JXRwW9OpG1VFCsfXh5bzA7Bbnr6Rwzqo3X8Z9n91MDEm5Kxu8lX0z5hXSKhrddAkKG_-8qSfRwUAmPqMW1zwpo8cN_S30"
       ],
-      "last_updated": "2026-09-20T11:47:34.206145"
+      "last_updated": "2026-09-20T11:52:41.184483"
     },
     {
       "title": "Getafe CF vs Malaga",
@@ -33,7 +33,7 @@
       "sport": "football",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "5",
+      "viewers": "6",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -45,7 +45,7 @@
         "https://live.talkoraai.com/match/hls?t=LO2JBlw5WWjES3w-0DJEJ4g2RBzD7GIDgjlK_ZNnAlynm9DEEMW30Tvj4QfbDpb_GlUCuM-v15oqKn7rNwWmIoJN1PZqrd2jkz7Yv3pUbG4CyegU7aCdKh-YmhPGS-EDWe1540HQS9o5ATbuJ-1-YmErEL5BVGElx4afhGYQJ33jrNZOwVyzzjCy8FfHRF6W7eBUXGm9nd-k112XUh_cl9xkWwr1BzSVEkFzPmc4T7pniwRiYNyax_nWrJ-cMotOV3TSeJGiWHF2nkGKstdjAYYTgw",
         "https://live.talkoraai.com/match/seg?t=si-Wg6A8Wa9UFqe0dGMeiesDj090cm3paTdLtRZzakIeKqcVNJxVm6SwVT03_dJadhyTDOXio_k9CLNpzipPW1AkJxYrsUpts0GaSMirLPGd9a_nUDX3GIxQFLXwrN2BT3TW7rMtbkTrhAEY90dr4dklwItObcJVqjWbzdpyiu931wyjWAeTJYXOI_dzluCoxqTOjDSl9OXFh6TRDPoPnoe511sPqVDplvaH56XOTDIRa6cjEBKnvKrtckXQD0R3_qVEOhvoMgBivH0f38N2jDwFnEABz8nehCL6"
       ],
-      "last_updated": "2026-09-20T11:47:35.846139"
+      "last_updated": "2026-09-20T11:52:42.711571"
     },
     {
       "title": "Fiorentina vs Napoli",
@@ -54,7 +54,7 @@
       "sport": "football",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "8",
+      "viewers": "9",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -66,7 +66,7 @@
         "https://www.rtmpcdn.com/live/3390f73a-38f2-49aa-9669-a4ef7f83ceb2.m3u8",
         "https://play.aarray.cn/rrty/hd-zh-1-4549154_gqzm.m3u8?auth_key=1789905728-0-0-2a12f8460949617c043120fce6629385&token=ff438e9297c20afb&device=4&platform=rrty"
       ],
-      "last_updated": "2026-09-20T11:47:36.181950"
+      "last_updated": "2026-09-20T11:52:43.030526"
     },
     {
       "title": "Kyrgyzstan U23 vs Japan U23",
@@ -75,7 +75,7 @@
       "sport": "football",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "10",
+      "viewers": "11",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -87,7 +87,7 @@
         "https://warm-caverns-48629-92fab798385f.herokuapp.com/https://d36r8jifhgsk5j.cloudfront.net/Willow_TV1080p.m3u8",
         "https://warm-caverns-48629-92fab798385f.herokuapp.com/https://d36r8jifhgsk5j.cloudfront.net/Willow_TV540p.m3u8"
       ],
-      "last_updated": "2026-09-20T11:47:36.516036"
+      "last_updated": "2026-09-20T11:52:43.354783"
     },
     {
       "title": "Celtic vs Rangers",
@@ -96,7 +96,7 @@
       "sport": "football",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "7",
+      "viewers": "8",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -107,7 +107,7 @@
       "server_urls": [
         "https://live1.dyrur1.com/live/72201644_82c6f97ee97b360c015003a2ca109151_720p.m3u8?auth_key=1789916431-0-0-619499e08f40a2587f5b418c2a521178"
       ],
-      "last_updated": "2026-09-20T11:47:36.851084"
+      "last_updated": "2026-09-20T11:52:43.676833"
     },
     {
       "title": "Wolverhampton Wanderers F.C. vs West Bromwich Albion F.C.",
@@ -116,7 +116,7 @@
       "sport": "football",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "26",
+      "viewers": "27",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -127,25 +127,7 @@
       "server_urls": [
         "https://live.dyrur1.com/live/72339860_84487dc38d0e9ee8daff17984459bea2_720p.m3u8?auth_key=1789916430-0-0-50bb87b0a2f4dd7a34087c87a0b8c6d2"
       ],
-      "last_updated": "2026-09-20T11:47:37.185409"
-    },
-    {
-      "title": "Nice vs LOSC",
-      "teams": "Nice vs LOSC",
-      "league": "Sports Tournament",
-      "sport": "cricket",
-      "status": "upcoming",
-      "runtime": "00h 00m 00s",
-      "viewers": "330",
-      "viewers_type": "Waiting",
-      "servers": null,
-      "date": null,
-      "time": null,
-      "match_url": "live/nice-vs-losc-1140",
-      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1789894227540x302.jpg",
-      "match_id": "1140",
-      "server_urls": [],
-      "last_updated": "2026-09-20T11:47:37.518164"
+      "last_updated": "2026-09-20T11:52:43.991208"
     },
     {
       "title": "Fulham vs Manchester United",
@@ -163,7 +145,7 @@
       "thumbnail": "https://assets.myco.io/public/compressed/thumbnails/20260915/mycolive-Match_16__P-1789502481404.webp",
       "match_id": "1138",
       "server_urls": [],
-      "last_updated": "2026-09-20T11:47:37.518860"
+      "last_updated": "2026-09-20T11:52:44.314266"
     },
     {
       "title": "Manchester City vs Sunderland",
@@ -181,7 +163,7 @@
       "thumbnail": "https://assets.myco.io/public/compressed/thumbnails/20260915/mycolive-Match_16__P-1789502226577.webp",
       "match_id": "1137",
       "server_urls": [],
-      "last_updated": "2026-09-20T11:47:37.519471"
+      "last_updated": "2026-09-20T11:52:44.314759"
     },
     {
       "title": "Leeds United vs Crystal Palace",
@@ -199,7 +181,7 @@
       "thumbnail": "https://assets.myco.io/public/compressed/thumbnails/20260915/mycolive-Match_16__P-1789502003272.webp",
       "match_id": "1136",
       "server_urls": [],
-      "last_updated": "2026-09-20T11:47:37.520110"
+      "last_updated": "2026-09-20T11:52:44.315161"
     },
     {
       "title": "Bournemouth vs Liverpool",
@@ -217,7 +199,7 @@
       "thumbnail": "https://assets.myco.io/public/compressed/thumbnails/20260915/mycolive-Match_16__P-1789501803225.webp",
       "match_id": "1135",
       "server_urls": [],
-      "last_updated": "2026-09-20T11:47:37.520745"
+      "last_updated": "2026-09-20T11:52:44.315560"
     },
     {
       "title": "Atletico de Madrid vs Real Madrid",
@@ -235,7 +217,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4247637_53004_ATM_RM_FC-Web.png",
       "match_id": "1114",
       "server_urls": [],
-      "last_updated": "2026-09-20T11:47:37.521345"
+      "last_updated": "2026-09-20T11:52:44.315951"
     },
     {
       "title": "Villarreal CF vs Levante",
@@ -253,7 +235,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4247632_53004_VIL_LET_FC-Web.png",
       "match_id": "1116",
       "server_urls": [],
-      "last_updated": "2026-09-20T11:47:37.521986"
+      "last_updated": "2026-09-20T11:52:44.316350"
     },
     {
       "title": "Deportivo de La Coruna vs Real Betis",
@@ -271,7 +253,25 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4247631_53004_COR_RB_FC-Web.png",
       "match_id": "1115",
       "server_urls": [],
-      "last_updated": "2026-09-20T11:47:37.522624"
+      "last_updated": "2026-09-20T11:52:44.316733"
+    },
+    {
+      "title": "Marseille vs PSG",
+      "teams": "Marseille vs PSG",
+      "league": "Ligue 1",
+      "sport": "football",
+      "status": "upcoming",
+      "runtime": "00h 00m 00s",
+      "viewers": "367",
+      "viewers_type": "Waiting",
+      "servers": null,
+      "date": null,
+      "time": null,
+      "match_url": "live/marseille-vs-psg-1141",
+      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1789894488540x302.jpg",
+      "match_id": "1141",
+      "server_urls": [],
+      "last_updated": "2026-09-20T11:52:44.317116"
     },
     {
       "title": "Valencia CF vs Real Sociedad",
@@ -289,7 +289,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4247633_53004_VAL_RS_FC-Web.png",
       "match_id": "1002",
       "server_urls": [],
-      "last_updated": "2026-09-20T11:47:37.523231"
+      "last_updated": "2026-09-20T11:52:44.317523"
     },
     {
       "title": "Antigua & Barbuda Falcons vs Jamaica Kingsmen Final",
@@ -307,7 +307,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4248286_53026_JK_ABF_FC-Web_1786367986999.png",
       "match_id": "1130",
       "server_urls": [],
-      "last_updated": "2026-09-20T11:47:37.523854"
+      "last_updated": "2026-09-20T11:52:44.317911"
     },
     {
       "title": "Japan vs India India",
@@ -325,7 +325,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
       "match_id": "1003",
       "server_urls": [],
-      "last_updated": "2026-09-20T11:47:37.524461"
+      "last_updated": "2026-09-20T11:52:44.318318"
     },
     {
       "title": "India Champions vs Australia Champions",
@@ -343,7 +343,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
       "match_id": "1037",
       "server_urls": [],
-      "last_updated": "2026-09-20T11:47:37.525088"
+      "last_updated": "2026-09-20T11:52:44.318714"
     },
     {
       "title": "Al-Kholood Club vs Al-Qadsiah",
@@ -361,7 +361,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249136_53025_ALK_ALQ_FC-Web.png",
       "match_id": "1000",
       "server_urls": [],
-      "last_updated": "2026-09-20T11:47:37.525702"
+      "last_updated": "2026-09-20T11:52:44.319097"
     },
     {
       "title": "Al-Fateh SC vs Al-Ahli Saudi",
@@ -379,7 +379,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249137_53025_AFF_AAS_FC-Web.png",
       "match_id": "1001",
       "server_urls": [],
-      "last_updated": "2026-09-20T11:47:37.526298"
+      "last_updated": "2026-09-20T11:52:44.319492"
     },
     {
       "title": "Al-Nassr vs Diriyah",
@@ -397,7 +397,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249138_53025_ANF_DIR_FC-Web.png",
       "match_id": "1008",
       "server_urls": [],
-      "last_updated": "2026-09-20T11:47:37.526920"
+      "last_updated": "2026-09-20T11:52:44.319870"
     },
     {
       "title": "Al Hilal SFC vs Al-Ittihad",
@@ -415,7 +415,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249139_53025_AHS_ITT_FC-Web.png",
       "match_id": "1042",
       "server_urls": [],
-      "last_updated": "2026-09-20T11:47:37.527516"
+      "last_updated": "2026-09-20T11:52:44.320259"
     },
     {
       "title": "Barcelona vs Getafe CF",
@@ -433,7 +433,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
       "match_id": "1049",
       "server_urls": [],
-      "last_updated": "2026-09-20T11:47:37.528146"
+      "last_updated": "2026-09-20T11:52:44.320650"
     },
     {
       "title": "Deportivo Alaves vs Atletico de Madrid",
@@ -451,7 +451,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
       "match_id": "1043",
       "server_urls": [],
-      "last_updated": "2026-09-20T11:47:37.528768"
+      "last_updated": "2026-09-20T11:52:44.321035"
     },
     {
       "title": "Auxerre vs Brest",
@@ -469,7 +469,25 @@
       "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJLuAlbVo07I6CKf5qprjTdu1O-pGqjnTHTycU8q1dY_lQMRtvQWkjYOk&s=10",
       "match_id": "1139",
       "server_urls": [],
-      "last_updated": "2026-09-20T11:47:37.529373"
+      "last_updated": "2026-09-20T11:52:44.321433"
+    },
+    {
+      "title": "Nice vs LOSC",
+      "teams": "Nice vs LOSC",
+      "league": "Ligue 1",
+      "sport": "football",
+      "status": "upcoming",
+      "runtime": "00h 00m 00s",
+      "viewers": "330",
+      "viewers_type": "Waiting",
+      "servers": null,
+      "date": null,
+      "time": null,
+      "match_url": "live/nice-vs-losc-1140",
+      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1789894227540x302.jpg",
+      "match_id": "1140",
+      "server_urls": [],
+      "last_updated": "2026-09-20T11:52:44.321819"
     }
   ]
 }
