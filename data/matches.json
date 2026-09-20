@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-09-20T21:06:21.418580",
-  "total_matches": 12,
-  "live_count": 3,
+  "timestamp": "2026-09-20T21:35:08.298006",
+  "total_matches": 11,
+  "live_count": 2,
   "upcoming_count": 9,
   "completed_count": 0,
   "matches": [
@@ -12,7 +12,7 @@
       "sport": "cricket",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "10",
+      "viewers": "11",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -24,28 +24,7 @@
         "https://www.rtmpcdn.com/live/99744c54-3d8b-4347-b02c-e8eadc10b77c.m3u8",
         "https://play.aarray.cn/rrty/hd-zh-1-4549150_gqzm.m3u8?auth_key=1789933448-0-0-32b253aaa6888f7a0975c68d47c3c4d5&token=55ea7b2d5b419ee1&device=4&platform=rrty"
       ],
-      "last_updated": "2026-09-20T21:06:19.714899"
-    },
-    {
-      "title": "Marseille vs PSG",
-      "teams": "Marseille vs PSG",
-      "league": "Ligue 1",
-      "sport": "football",
-      "status": "live",
-      "runtime": "00h 00m 00s",
-      "viewers": "24",
-      "viewers_type": "Watching",
-      "servers": null,
-      "date": null,
-      "time": null,
-      "match_url": "live/marseille-vs-psg-1141",
-      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1789894488540x302.jpg",
-      "match_id": "1141",
-      "server_urls": [
-        "https://www.rtmpcdn.com/live/3e0cfd2e-ab15-4db7-99e2-d849fcff115a.m3u8",
-        "https://play.aarray.cn/rrty/hd-zh-1-4550886_gqzm.m3u8?auth_key=1789933389-0-0-faf1ec929019e1fa3f8b2f0f714f46e5&token=5cdc6449943dd415&device=4&platform=rrty"
-      ],
-      "last_updated": "2026-09-20T21:06:20.740789"
+      "last_updated": "2026-09-20T21:35:06.354443"
     },
     {
       "title": "Valencia CF vs Real Sociedad",
@@ -54,7 +33,7 @@
       "sport": "football",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "30",
+      "viewers": "31",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -68,7 +47,7 @@
         "https://tvsen5.aynaott.com/TnMn5kZz8aLm/index.m3u8",
         "https://tapmed.dmcamoviezmad.workers.dev/https://saseries.akamaized.net/hls/live/2110097/56408643-tapMad/master.m3u8"
       ],
-      "last_updated": "2026-09-20T21:06:21.070868"
+      "last_updated": "2026-09-20T21:35:07.953930"
     },
     {
       "title": "Antigua & Barbuda Falcons vs Jamaica Kingsmen Final",
@@ -86,7 +65,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4248286_53026_JK_ABF_FC-Web_1786367986999.png",
       "match_id": "1130",
       "server_urls": [],
-      "last_updated": "2026-09-20T21:06:21.412903"
+      "last_updated": "2026-09-20T21:35:08.293664"
     },
     {
       "title": "Japan vs India India",
@@ -104,7 +83,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
       "match_id": "1003",
       "server_urls": [],
-      "last_updated": "2026-09-20T21:06:21.413631"
+      "last_updated": "2026-09-20T21:35:08.294280"
     },
     {
       "title": "India Champions vs Australia Champions",
@@ -122,7 +101,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
       "match_id": "1037",
       "server_urls": [],
-      "last_updated": "2026-09-20T21:06:21.414284"
+      "last_updated": "2026-09-20T21:35:08.294805"
     },
     {
       "title": "Al-Kholood Club vs Al-Qadsiah",
@@ -140,7 +119,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249136_53025_ALK_ALQ_FC-Web.png",
       "match_id": "1000",
       "server_urls": [],
-      "last_updated": "2026-09-20T21:06:21.414898"
+      "last_updated": "2026-09-20T21:35:08.295282"
     },
     {
       "title": "Al-Fateh SC vs Al-Ahli Saudi",
@@ -158,7 +137,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249137_53025_AFF_AAS_FC-Web.png",
       "match_id": "1001",
       "server_urls": [],
-      "last_updated": "2026-09-20T21:06:21.415524"
+      "last_updated": "2026-09-20T21:35:08.295703"
     },
     {
       "title": "Al-Nassr vs Diriyah",
@@ -176,7 +155,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249138_53025_ANF_DIR_FC-Web.png",
       "match_id": "1008",
       "server_urls": [],
-      "last_updated": "2026-09-20T21:06:21.416130"
+      "last_updated": "2026-09-20T21:35:08.296176"
     },
     {
       "title": "Al Hilal SFC vs Al-Ittihad",
@@ -194,7 +173,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249139_53025_AHS_ITT_FC-Web.png",
       "match_id": "1042",
       "server_urls": [],
-      "last_updated": "2026-09-20T21:06:21.416753"
+      "last_updated": "2026-09-20T21:35:08.296592"
     },
     {
       "title": "Barcelona vs Getafe CF",
@@ -212,7 +191,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
       "match_id": "1049",
       "server_urls": [],
-      "last_updated": "2026-09-20T21:06:21.417371"
+      "last_updated": "2026-09-20T21:35:08.297071"
     },
     {
       "title": "Deportivo Alaves vs Atletico de Madrid",
@@ -230,7 +209,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
       "match_id": "1043",
       "server_urls": [],
-      "last_updated": "2026-09-20T21:06:21.417961"
+      "last_updated": "2026-09-20T21:35:08.297528"
     }
   ]
 }
