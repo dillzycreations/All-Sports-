@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-22T00:48:35.071570",
+  "timestamp": "2026-09-22T01:03:14.951521",
   "total_matches": 9,
   "live_count": 0,
   "upcoming_count": 9,
@@ -12,7 +12,7 @@
       "sport": "cricket",
       "status": "upcoming",
       "runtime": "00h 00m 00s",
-      "viewers": "21",
+      "viewers": "22",
       "viewers_type": "Waiting",
       "servers": null,
       "date": null,
@@ -21,7 +21,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
       "match_id": "1003",
       "server_urls": [],
-      "last_updated": "2026-09-22T00:48:35.064871"
+      "last_updated": "2026-09-22T01:03:14.947503"
     },
     {
       "title": "England vs Sri Lanka 1st ODI",
@@ -39,7 +39,7 @@
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1789972006540x302.jpg",
       "match_id": "1146",
       "server_urls": [],
-      "last_updated": "2026-09-22T00:48:35.065865"
+      "last_updated": "2026-09-22T01:03:14.948134"
     },
     {
       "title": "India Champions vs Australia Champions",
@@ -57,7 +57,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
       "match_id": "1037",
       "server_urls": [],
-      "last_updated": "2026-09-22T00:48:35.066625"
+      "last_updated": "2026-09-22T01:03:14.948574"
     },
     {
       "title": "Al-Kholood Club vs Al-Qadsiah",
@@ -66,7 +66,7 @@
       "sport": "cricket",
       "status": "upcoming",
       "runtime": "00h 00m 00s",
-      "viewers": "13",
+      "viewers": "14",
       "viewers_type": "Waiting",
       "servers": null,
       "date": null,
@@ -75,11 +75,29 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249136_53025_ALK_ALQ_FC-Web.png",
       "match_id": "1000",
       "server_urls": [],
-      "last_updated": "2026-09-22T00:48:35.067329"
+      "last_updated": "2026-09-22T01:03:14.948999"
     },
     {
       "title": "Al-Fateh SC vs Al-Ahli Saudi",
       "teams": "Al-Fateh SC vs Al-Ahli Saudi",
+      "league": "Roshn Saudi League 2026-2027",
+      "sport": "football",
+      "status": "upcoming",
+      "runtime": "00h 00m 00s",
+      "viewers": "14",
+      "viewers_type": "Waiting",
+      "servers": null,
+      "date": null,
+      "time": null,
+      "match_url": "live/al-fateh-sc-vs-al-ahli-saudi-1001",
+      "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249137_53025_AFF_AAS_FC-Web.png",
+      "match_id": "1001",
+      "server_urls": [],
+      "last_updated": "2026-09-22T01:03:14.949433"
+    },
+    {
+      "title": "Al-Nassr vs Diriyah",
+      "teams": "Al-Nassr vs Diriyah",
       "league": "Roshn Saudi League 2026-2027",
       "sport": "football",
       "status": "upcoming",
@@ -89,29 +107,11 @@
       "servers": null,
       "date": null,
       "time": null,
-      "match_url": "live/al-fateh-sc-vs-al-ahli-saudi-1001",
-      "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249137_53025_AFF_AAS_FC-Web.png",
-      "match_id": "1001",
-      "server_urls": [],
-      "last_updated": "2026-09-22T00:48:35.068067"
-    },
-    {
-      "title": "Al-Nassr vs Diriyah",
-      "teams": "Al-Nassr vs Diriyah",
-      "league": "Roshn Saudi League 2026-2027",
-      "sport": "football",
-      "status": "upcoming",
-      "runtime": "00h 00m 00s",
-      "viewers": "12",
-      "viewers_type": "Waiting",
-      "servers": null,
-      "date": null,
-      "time": null,
       "match_url": "live/al-nassr-vs-diriyah-1008",
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249138_53025_ANF_DIR_FC-Web.png",
       "match_id": "1008",
       "server_urls": [],
-      "last_updated": "2026-09-22T00:48:35.068748"
+      "last_updated": "2026-09-22T01:03:14.949849"
     },
     {
       "title": "Al Hilal SFC vs Al-Ittihad",
@@ -129,7 +129,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249139_53025_AHS_ITT_FC-Web.png",
       "match_id": "1042",
       "server_urls": [],
-      "last_updated": "2026-09-22T00:48:35.069468"
+      "last_updated": "2026-09-22T01:03:14.950258"
     },
     {
       "title": "Barcelona vs Getafe CF",
@@ -147,7 +147,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
       "match_id": "1049",
       "server_urls": [],
-      "last_updated": "2026-09-22T00:48:35.070131"
+      "last_updated": "2026-09-22T01:03:14.950685"
     },
     {
       "title": "Deportivo Alaves vs Atletico de Madrid",
@@ -165,7 +165,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
       "match_id": "1043",
       "server_urls": [],
-      "last_updated": "2026-09-22T00:48:35.070851"
+      "last_updated": "2026-09-22T01:03:14.951093"
     }
   ]
 }
