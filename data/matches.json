@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-22T17:16:14.199759",
+  "timestamp": "2026-09-22T17:21:14.723233",
   "total_matches": 21,
   "live_count": 3,
   "upcoming_count": 18,
@@ -12,7 +12,7 @@
       "sport": "cricket",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "128",
+      "viewers": "130",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -20,8 +20,13 @@
       "match_url": "live/england-vs-sri-lanka-1st-odi-1146",
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1789972006540x302.jpg",
       "match_id": "1146",
-      "server_urls": [],
-      "last_updated": "2026-09-22T17:16:13.244221"
+      "server_urls": [
+        "https://live.talkoraai.com/match/hls?t=3dxF_ej437XfVb5KpDkHU94eVOLk7IPLYyWfX6hzBGlEh69nfmMLjT5GMnGEOLfC6eiYHA4Rq1_d85s7H-wigjfVQ4715FG7sCSbm87bmoik4PzxNNBo2-WNQCugdMCyV9-linS7WBf-fQc7EMwMzsiv5tF92CPJenxJtCLjLxR9mdroWE2dBNru2-AzwOTII5r1lEVEoA9EnTySXzuPQrjPhaY8LKYqASgLTRPkeyoyozA0yExOpWElW1dbVydNm89dlZkjnUxEADU0XyhbQk0Fnw3fzg",
+        "https://live.talkoraai.com/match/seg?t=pFi0gHvYN_BS_tknNom2juQwuQLzhYG6gaurIRB-X2_OAZMqf-VaL1bQh2xmyRGQzpfb4w8ykoRp5ASJdI-v2UDwFWJLhAAquzNdBJC_zzMzeEJGr4ddfP0HSQu4H4sHPxdSnaOSvcthzMZIo_6ntyNwsKqQVXRhl9_NJ-exi2-MLr4BgRZs2iiPCH0X3zmQtixbIwwFLODU1oDlUsssvkMRzUqgqkTISSVTOBMvGlLqTDk_5iqmLkSWn26MiMilv8ibIJwDyvap5RrrolqZP8PM32UfihUT2ThXBJ4p",
+        "https://robitv.com/lps/https://ml-pull-dvc-myco.io:2096/TENSPORTS_HD/mono.m3u8",
+        "https://drk6xq0vhn.gpcdn.net/live/ten_1_hd_720/index.m3u8"
+      ],
+      "last_updated": "2026-09-22T17:21:11.948110"
     },
     {
       "title": "Inter W vs Hacken W",
@@ -30,7 +35,7 @@
       "sport": "football",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "3",
+      "viewers": "6",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -38,8 +43,10 @@
       "match_url": "live/inter-w-vs-hacken-w-1158",
       "thumbnail": "https://tips.gg/match/inter-w-vs-hacken-w-22-09-2026-05-45/poster/",
       "match_id": "1158",
-      "server_urls": [],
-      "last_updated": "2026-09-22T17:16:13.581252"
+      "server_urls": [
+        "https://live.talkoraai.com/match/hls?t=3dxF_ej437XfVb5KpDkHU94eVOLk7IPLYyWfX6hzBGlEh69nfmMLjT5GMnGEOLfC6eiYHA4Rq1_d85s7H-wigjfVQ4715FG7sCSbm87bmoik4PzxNNBo2-WNQCugdMCyV9-linS7WBf-fQc7EMwMzsiv5tF92CPJenxJtCLjLxR9mdroWE2dBNru2-AzwOTII5r1lEVEoA9EnTySXzuPQrjPhaY8LKYqASgLTRPkeyoyozA0yExOpWElW1dbVydNm89dlZkjnUxEADU0XyhbQk0Fnw3fzg"
+      ],
+      "last_updated": "2026-09-22T17:21:13.945403"
     },
     {
       "title": "Bayern Munchen W vs Manchester City W",
@@ -56,8 +63,10 @@
       "match_url": "live/bayern-munchen-w-vs-manchester-city-w-1159",
       "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQEKOBhxlUuesuI3Lj7D2Y89IYCStOzxnzGqgRjsSPcIEqRc8lwgjZfkkM&s=10",
       "match_id": "1159",
-      "server_urls": [],
-      "last_updated": "2026-09-22T17:16:13.875351"
+      "server_urls": [
+        "https://live.talkoraai.com/match/hls?t=3dxF_ej437XfVb5KpDkHU94eVOLk7IPLYyWfX6hzBGlEh69nfmMLjT5GMnGEOLfC6eiYHA4Rq1_d85s7H-wigjfVQ4715FG7sCSbm87bmoik4PzxNNBo2-WNQCugdMCyV9-linS7WBf-fQc7EMwMzsiv5tF92CPJenxJtCLjLxR9mdroWE2dBNru2-AzwOTII5r1lEVEoA9EnTySXzuPQrjPhaY8LKYqASgLTRPkeyoyozA0yExOpWElW1dbVydNm89dlZkjnUxEADU0XyhbQk0Fnw3fzg"
+      ],
+      "last_updated": "2026-09-22T17:21:14.324639"
     },
     {
       "title": "Rahamatgonj MFS vs Brothers Union Ltd",
@@ -75,7 +84,7 @@
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1789984478540x302.jpg",
       "match_id": "1148",
       "server_urls": [],
-      "last_updated": "2026-09-22T17:16:14.188832"
+      "last_updated": "2026-09-22T17:21:14.715751"
     },
     {
       "title": "South Africa vs Australia",
@@ -93,7 +102,7 @@
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1790068057540x302.jpg",
       "match_id": "1149",
       "server_urls": [],
-      "last_updated": "2026-09-22T17:16:14.189604"
+      "last_updated": "2026-09-22T17:21:14.716246"
     },
     {
       "title": "Andorra vs Malta",
@@ -111,7 +120,7 @@
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1789993037540x302.jpg",
       "match_id": "1150",
       "server_urls": [],
-      "last_updated": "2026-09-22T17:16:14.190192"
+      "last_updated": "2026-09-22T17:21:14.716680"
     },
     {
       "title": "Norway vs Denmark",
@@ -129,7 +138,7 @@
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1789993139540x302.jpg",
       "match_id": "1151",
       "server_urls": [],
-      "last_updated": "2026-09-22T17:16:14.190818"
+      "last_updated": "2026-09-22T17:21:14.717093"
     },
     {
       "title": "Liechtenstein vs Luthuania",
@@ -147,7 +156,7 @@
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1789993336540x302.jpg",
       "match_id": "1152",
       "server_urls": [],
-      "last_updated": "2026-09-22T17:16:14.191429"
+      "last_updated": "2026-09-22T17:21:14.717512"
     },
     {
       "title": "Serbia vs Greece",
@@ -165,7 +174,7 @@
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1789993868540x302.jpg",
       "match_id": "1153",
       "server_urls": [],
-      "last_updated": "2026-09-22T17:16:14.192013"
+      "last_updated": "2026-09-22T17:21:14.717914"
     },
     {
       "title": "Portugal vs Wales",
@@ -183,7 +192,7 @@
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1789993766540x302.jpg",
       "match_id": "1154",
       "server_urls": [],
-      "last_updated": "2026-09-22T17:16:14.192612"
+      "last_updated": "2026-09-22T17:21:14.718310"
     },
     {
       "title": "Kosovo vs Ireland",
@@ -201,7 +210,7 @@
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1789993438540x302.jpg",
       "match_id": "1155",
       "server_urls": [],
-      "last_updated": "2026-09-22T17:16:14.193201"
+      "last_updated": "2026-09-22T17:21:14.718726"
     },
     {
       "title": "Austria vs Israel",
@@ -219,7 +228,7 @@
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1789993659540x302.jpg",
       "match_id": "1156",
       "server_urls": [],
-      "last_updated": "2026-09-22T17:16:14.193800"
+      "last_updated": "2026-09-22T17:21:14.719125"
     },
     {
       "title": "Netherlands vs Germany",
@@ -237,7 +246,7 @@
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1789993554540x302.jpg",
       "match_id": "1157",
       "server_urls": [],
-      "last_updated": "2026-09-22T17:16:14.194415"
+      "last_updated": "2026-09-22T17:21:14.719541"
     },
     {
       "title": "Chattogram City vs Abahani Ltd. Dhaka",
@@ -255,7 +264,7 @@
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1789984534540x302.jpg",
       "match_id": "1147",
       "server_urls": [],
-      "last_updated": "2026-09-22T17:16:14.194989"
+      "last_updated": "2026-09-22T17:21:14.719942"
     },
     {
       "title": "India Champions vs Australia Champions",
@@ -273,7 +282,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
       "match_id": "1037",
       "server_urls": [],
-      "last_updated": "2026-09-22T17:16:14.195590"
+      "last_updated": "2026-09-22T17:21:14.720358"
     },
     {
       "title": "Al-Kholood Club vs Al-Qadsiah",
@@ -291,7 +300,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249136_53025_ALK_ALQ_FC-Web.png",
       "match_id": "1000",
       "server_urls": [],
-      "last_updated": "2026-09-22T17:16:14.196180"
+      "last_updated": "2026-09-22T17:21:14.720770"
     },
     {
       "title": "Al-Fateh SC vs Al-Ahli Saudi",
@@ -309,7 +318,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249137_53025_AFF_AAS_FC-Web.png",
       "match_id": "1001",
       "server_urls": [],
-      "last_updated": "2026-09-22T17:16:14.196782"
+      "last_updated": "2026-09-22T17:21:14.721175"
     },
     {
       "title": "Al-Nassr vs Diriyah",
@@ -327,7 +336,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249138_53025_ANF_DIR_FC-Web.png",
       "match_id": "1008",
       "server_urls": [],
-      "last_updated": "2026-09-22T17:16:14.197383"
+      "last_updated": "2026-09-22T17:21:14.721600"
     },
     {
       "title": "Al Hilal SFC vs Al-Ittihad",
@@ -345,7 +354,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249139_53025_AHS_ITT_FC-Web.png",
       "match_id": "1042",
       "server_urls": [],
-      "last_updated": "2026-09-22T17:16:14.197966"
+      "last_updated": "2026-09-22T17:21:14.722013"
     },
     {
       "title": "Barcelona vs Getafe CF",
@@ -363,7 +372,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
       "match_id": "1049",
       "server_urls": [],
-      "last_updated": "2026-09-22T17:16:14.198566"
+      "last_updated": "2026-09-22T17:21:14.722422"
     },
     {
       "title": "Deportivo Alaves vs Atletico de Madrid",
@@ -381,7 +390,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
       "match_id": "1043",
       "server_urls": [],
-      "last_updated": "2026-09-22T17:16:14.199140"
+      "last_updated": "2026-09-22T17:21:14.722820"
     }
   ]
 }
