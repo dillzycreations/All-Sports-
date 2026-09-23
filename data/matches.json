@@ -1,7 +1,7 @@
 {
-  "timestamp": "2026-09-23T16:07:26.033063",
-  "total_matches": 8,
-  "live_count": 1,
+  "timestamp": "2026-09-23T16:12:29.892003",
+  "total_matches": 9,
+  "live_count": 2,
   "upcoming_count": 7,
   "completed_count": 0,
   "matches": [
@@ -12,7 +12,7 @@
       "sport": "others",
       "status": "live",
       "runtime": null,
-      "viewers": "64",
+      "viewers": "66",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -26,7 +26,29 @@
         "https://stream.ottplus.live/live/ten_5_hd_abr/live/ten_5_hd_720/chunks.m3u8",
         "https://drk6xq0vhn.gpcdn.net/live/ten_1_hd_720/chunks.m3u8?nimblesessionid=186399488"
       ],
-      "last_updated": "2026-09-23T16:07:25.676571"
+      "last_updated": "2026-09-23T16:12:28.579488"
+    },
+    {
+      "title": "Azerbaijan vs Tajikistan",
+      "teams": "Azerbaijan vs Tajikistan",
+      "league": "Friendly 2026",
+      "sport": "football",
+      "status": "live",
+      "runtime": "00h 00m 00s",
+      "viewers": "2",
+      "viewers_type": "Watching",
+      "servers": null,
+      "date": null,
+      "time": null,
+      "match_url": "live/azerbaijan-vs-tajikistan-1082",
+      "thumbnail": "https://m.media-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.cc193e03-4d03-4cf5-a7f0-7e3ad3d5cd08/2/BOXART-16X9/en-US._UR1920,1080_SX624_FMjpg_.jpg",
+      "match_id": "1082",
+      "server_urls": [
+        "https://backend.plusbox.tv/SonyTen1HD/index.fmp4.m3u8?token=bc4cd83461de86fdfbcf43b4430ab2ab64aaa046-ad07d31f93fa8b6ec4d2afbe4b461072-1790190019-1790179219",
+        "https://drk6xq0vhn.gpcdn.net/live/ten_1_hd_720/index.m3u8",
+        "https://stream.ottplus.live/live/ten_1_hd_abr/live/ten_1_hd_720/chunks.m3u8"
+      ],
+      "last_updated": "2026-09-23T16:12:29.558326"
     },
     {
       "title": "India Champions vs Australia Champions",
@@ -44,7 +66,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
       "match_id": "1037",
       "server_urls": [],
-      "last_updated": "2026-09-23T16:07:26.030514"
+      "last_updated": "2026-09-23T16:12:29.888378"
     },
     {
       "title": "Al-Kholood Club vs Al-Qadsiah",
@@ -62,7 +84,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249136_53025_ALK_ALQ_FC-Web.png",
       "match_id": "1000",
       "server_urls": [],
-      "last_updated": "2026-09-23T16:07:26.030991"
+      "last_updated": "2026-09-23T16:12:29.888975"
     },
     {
       "title": "Al-Fateh SC vs Al-Ahli Saudi",
@@ -80,7 +102,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249137_53025_AFF_AAS_FC-Web.png",
       "match_id": "1001",
       "server_urls": [],
-      "last_updated": "2026-09-23T16:07:26.031357"
+      "last_updated": "2026-09-23T16:12:29.889487"
     },
     {
       "title": "Al-Nassr vs Diriyah",
@@ -98,7 +120,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249138_53025_ANF_DIR_FC-Web.png",
       "match_id": "1008",
       "server_urls": [],
-      "last_updated": "2026-09-23T16:07:26.031690"
+      "last_updated": "2026-09-23T16:12:29.889994"
     },
     {
       "title": "Al Hilal SFC vs Al-Ittihad",
@@ -116,7 +138,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249139_53025_AHS_ITT_FC-Web.png",
       "match_id": "1042",
       "server_urls": [],
-      "last_updated": "2026-09-23T16:07:26.032025"
+      "last_updated": "2026-09-23T16:12:29.890487"
     },
     {
       "title": "Barcelona vs Getafe CF",
@@ -134,7 +156,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
       "match_id": "1049",
       "server_urls": [],
-      "last_updated": "2026-09-23T16:07:26.032364"
+      "last_updated": "2026-09-23T16:12:29.890992"
     },
     {
       "title": "Deportivo Alaves vs Atletico de Madrid",
@@ -152,7 +174,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
       "match_id": "1043",
       "server_urls": [],
-      "last_updated": "2026-09-23T16:07:26.032697"
+      "last_updated": "2026-09-23T16:12:29.891495"
     }
   ]
 }
