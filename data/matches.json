@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-24T03:28:11.880496",
+  "timestamp": "2026-09-24T03:33:10.271500",
   "total_matches": 9,
   "live_count": 1,
   "upcoming_count": 8,
@@ -12,7 +12,7 @@
       "sport": "others",
       "status": "live",
       "runtime": null,
-      "viewers": "133",
+      "viewers": "134",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -27,7 +27,7 @@
         "https://drk6xq0vhn.gpcdn.net/live/ten_1_hd_720/chunks.m3u8?nimblesessionid=186399488",
         "https://rangdhonu-proxy.tasinazad2009.workers.dev/stream/unitie8sports2/playlist.m3u8?expires=1792304580&sig=kwFSlJxMIyoRGrVRS2rafQd7LJ0BbP57vTxNcjxWIgE"
       ],
-      "last_updated": "2026-09-24T03:28:11.021606"
+      "last_updated": "2026-09-24T03:33:09.906222"
     },
     {
       "title": "India Champions vs Australia Champions",
@@ -45,7 +45,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
       "match_id": "1037",
       "server_urls": [],
-      "last_updated": "2026-09-24T03:28:11.876787"
+      "last_updated": "2026-09-24T03:33:10.266381"
     },
     {
       "title": "India Vs Brazil",
@@ -63,7 +63,7 @@
       "thumbnail": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000024504/1790111246357701_FIFA_international_friendlies_india_vs_brazil_dated_landscape_thumb.jpg",
       "match_id": "1083",
       "server_urls": [],
-      "last_updated": "2026-09-24T03:28:11.877364"
+      "last_updated": "2026-09-24T03:33:10.267126"
     },
     {
       "title": "Al-Kholood Club vs Al-Qadsiah",
@@ -81,7 +81,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249136_53025_ALK_ALQ_FC-Web.png",
       "match_id": "1000",
       "server_urls": [],
-      "last_updated": "2026-09-24T03:28:11.877821"
+      "last_updated": "2026-09-24T03:33:10.267772"
     },
     {
       "title": "Al-Fateh SC vs Al-Ahli Saudi",
@@ -99,7 +99,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249137_53025_AFF_AAS_FC-Web.png",
       "match_id": "1001",
       "server_urls": [],
-      "last_updated": "2026-09-24T03:28:11.878289"
+      "last_updated": "2026-09-24T03:33:10.268401"
     },
     {
       "title": "Al-Nassr vs Diriyah",
@@ -117,7 +117,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249138_53025_ANF_DIR_FC-Web.png",
       "match_id": "1008",
       "server_urls": [],
-      "last_updated": "2026-09-24T03:28:11.878731"
+      "last_updated": "2026-09-24T03:33:10.269008"
     },
     {
       "title": "Al Hilal SFC vs Al-Ittihad",
@@ -135,7 +135,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249139_53025_AHS_ITT_FC-Web.png",
       "match_id": "1042",
       "server_urls": [],
-      "last_updated": "2026-09-24T03:28:11.879186"
+      "last_updated": "2026-09-24T03:33:10.269624"
     },
     {
       "title": "Barcelona vs Getafe CF",
@@ -153,7 +153,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
       "match_id": "1049",
       "server_urls": [],
-      "last_updated": "2026-09-24T03:28:11.879622"
+      "last_updated": "2026-09-24T03:33:10.270278"
     },
     {
       "title": "Deportivo Alaves vs Atletico de Madrid",
@@ -171,7 +171,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
       "match_id": "1043",
       "server_urls": [],
-      "last_updated": "2026-09-24T03:28:11.880058"
+      "last_updated": "2026-09-24T03:33:10.270880"
     }
   ]
 }
