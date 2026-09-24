@@ -1,80 +1,10 @@
 {
-  "timestamp": "2026-09-24T21:25:45.897036",
-  "total_matches": 23,
-  "live_count": 7,
+  "timestamp": "2026-09-24T21:35:15.549619",
+  "total_matches": 17,
+  "live_count": 1,
   "upcoming_count": 16,
   "completed_count": 0,
   "matches": [
-    {
-      "title": "Norway vs Denmark",
-      "teams": "Norway vs Denmark",
-      "league": "UEFA Nations League 2026/27",
-      "sport": "football",
-      "status": "live",
-      "runtime": "00h 00m 00s",
-      "viewers": "53",
-      "viewers_type": "Watching",
-      "servers": null,
-      "date": null,
-      "time": null,
-      "match_url": "live/norway-vs-denmark-1087",
-      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1789993139540x302.jpg",
-      "match_id": "1087",
-      "server_urls": [
-        "https://live.talkoraai.com/match/hls?t=eKlPqd0ACW_7x9-tlH0L5NKgw7KqzFn8n-Qelg_yZlgh06-rApcVyuOGKXkNtpX-dqQIYdyw5uc5bln6DRu_Nq1YIC6maS3EWGRtorXKELWnql_D9fFY7f-EmNH_AREFmDZwCXx5SMoXApRDElR3eDn3hf3DmWD-JGBCnDc_00oD45A5sjK6eG-z2iZS-pfmm5bZtIEOCxqPIhql7aJNYEs8oiOA7eaZGKtYMYhS0ARWqAdXUT_KJQJhhYMBDOOaDDr283XeLuURIFmWAjpkX9N_CXpkiQ",
-        "https://live.talkoraai.com/match/seg?t=JSDfQP6kkKBKVFjca02N2GhU0QYtDRQ2uI1RxVac45klZJZDNVmtYmZoWLn27qxOD77NwLrmiKqZAA1_dKtf3_yuxTuC_NJT5Ay6DIV9b7VYnGbc2duXlJ7nL1V8lBYQ760___HsaSBmsjJH-GfvjrPe84te0PuPq4CpUs2JZ4yNuLpRcLrefTkjr0_mATogZS4pQgty6VUooACdsnwBIdSTN2yWSQ7x4BJhMBNsb_gl8g1xF7ei45geeqrKPNCSf4yIra6Eyukg02vFY7XdGS-IxuFR2M0hkwJvmoQn",
-        "https://www.rtmpcdn.com/live/a1c47aaa-ef07-478c-b162-7b213e147389.m3u8"
-      ],
-      "last_updated": "2026-09-24T21:25:43.823014"
-    },
-    {
-      "title": "Netherlands vs Germany",
-      "teams": "Netherlands vs Germany",
-      "league": "UEFA Nations League 2026/27",
-      "sport": "football",
-      "status": "live",
-      "runtime": "00h 00m 00s",
-      "viewers": "81",
-      "viewers_type": "Watching",
-      "servers": null,
-      "date": null,
-      "time": null,
-      "match_url": "live/netherlands-vs-germany-1089",
-      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1789993554540x302.jpg",
-      "match_id": "1089",
-      "server_urls": [
-        "https://live.talkoraai.com/match/hls?t=lJ3FmaF_fMXgfT4DImTlMZXIAdAlzBPkzlq9U93U8CW6xXl4_oEn0ibicPFPi4p3WgT1761KpDuCvYgAN2M43hP6a7RITqnu3TjI9cMEpMnBEyzLQrA-9gm8l4xrOuQe4JmTOD0OeoO9lvXzUcQn36ShwJhS4BBCDPU0TdhPMTV0XRvbSMFuTNgtrfvYPEUqhQ0MlLYupkxCrrZGVyikx5J1lWHCpcZNeRJPzH4nGeJKfLlu4jXOXMcv4XEWb5xoBF-D9E4HgnU9G6_KnAGbGkYpcw",
-        "https://www.rtmpcdn.com/live/cf5ebe77-6ee6-4ad4-9747-7c59b9618ae1.m3u8",
-        "https://live.talkoraai.com/match/seg?t=C5tEJnQOYFk40KIuCu6vtzlU8wl4qAxGsdMMDBBrMRzek3VeuKpyiUs9i2hJN2aR61I60bS-gXQLYsZ_bLQHjkuNUWzDucbVRO7vjXSHEpL8yjC-3cyzbf0Tz1sZ9VFlpMpIfPwNClv5FVhgh1JZ4CEaY1J0Q_OEQUvCPHXjhHFwsVor69SyEQRdf0jHOisNt-Y1BUHlgX7_cDN2pB_n34EyQuKScZou1dVDsRmo3Hfl9sqao6ktK9HhuNx8QPsiHSu06IZ_9IIIar6ISOV6Zzp_9Qvw7KSKfgYK"
-      ],
-      "last_updated": "2026-09-24T21:25:44.159912"
-    },
-    {
-      "title": "Portugal vs Wales",
-      "teams": "Portugal vs Wales",
-      "league": "UEFA Nations League 2026/27",
-      "sport": "football",
-      "status": "live",
-      "runtime": "00h 00m 00s",
-      "viewers": "63",
-      "viewers_type": "Watching",
-      "servers": null,
-      "date": null,
-      "time": null,
-      "match_url": "live/portugal-vs-wales-1092",
-      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1789993766540x302.jpg",
-      "match_id": "1092",
-      "server_urls": [
-        "https://live.talkoraai.com/match/hls?t=DdRWjpy-rfuIFdr_3CxUs-6myn2ANT9y21F3OeHAMcbYB64XeSHGWC-h5qDDQMIh-YV8HpaR5Na9Tb2LR96fK73cuaqu6BGRl_9W8EMzcA3JWwz2-hjcxYLx3-gtJl1cxCYbB3S0UzC8rH4wWB6jmNKzshyq4JUcO0cV3g2TYBL3hae4sTp9wS7Cd4NYaEuvGNIdSAE07TTslVQtOdwvzVnQgh0HbvPIxr2RMgulw2tWTancfyrPlAIFfhPFc5MJ36K_T1Dp_uEvmUmCWC7X97NLAAD_jZw",
-        "https://www.rtmpcdn.com/live/8d8da816-f12f-4ac2-9769-978d38255fd9.m3u8",
-        "https://papacito.cfd/m3u/429583/live.m3u8",
-        "https://stream.ottplus.live/live/ten_2_hd_abr/live/ten_2_hd_720/chunks.m3u8",
-        "https://play.aarray.cn/rrty/hd-zh-1-4517785_gqzm.m3u8?auth_key=1790279224-0-0-79fc8c296bc553ce4490db5bce30be8e&token=af3d8618032538a1&device=4&platform=rrty",
-        "https://live.talkoraai.com/match/seg?t=IwAUEui3kXFGvm6dO-rmxzwBA4L5I9vxOHckONvlRlzZCV_C2RzFl5XFooUkvPFR7aBv8jTedKa41tPpkC70rPmGINQmDuqM__Dx37JNdPJs_FIv5Uuweiha2IsCixxoU9QD_QLQi26KMG2aL3qfx-gCdN1JE8u4mOKKd8Heq3Iuj1-w3iC9Eg-VVIDSNFNqkFnubUO7DO5Jd-SbJ0gl5Ti7QmATsc86blSyB8D6bFCkBQz2ZCCLoeIKlMwg5g6T0yYgNpyhYVQq9lO6PbMWPMFTihyFnUgGD-FggLPYKw",
-        "https://sonydaimenew.akamaized.net/hls/live/2022320/footlive2409/ENG/std_lrh-800300010.m3u8?hdnea=exp=1790317312~acl=/*~id=59169402425271199837830411682006~hmac=9770ee1e6d912c70b66d7659acd6dd52e88a4b78c1ea50129e348dfc5c700b92"
-      ],
-      "last_updated": "2026-09-24T21:25:44.444194"
-    },
     {
       "title": "Asian Games 2026",
       "teams": "Asian Games 2026",
@@ -82,7 +12,7 @@
       "sport": "others",
       "status": "live",
       "runtime": null,
-      "viewers": "423",
+      "viewers": "424",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -99,73 +29,7 @@
         "https://warm-caverns-48629-92fab798385f.herokuapp.com/https://d36r8jifhgsk5j.cloudfront.net/Willow_TV1080p.m3u8",
         "https://warm-caverns-48629-92fab798385f.herokuapp.com/https://d36r8jifhgsk5j.cloudfront.net/Willow_TV540p.m3u8"
       ],
-      "last_updated": "2026-09-24T21:25:44.727790"
-    },
-    {
-      "title": "Liechtenstein vs Luthuania",
-      "teams": "Liechtenstein vs Luthuania",
-      "league": "UEFA Nations League 2026/27",
-      "sport": "football",
-      "status": "live",
-      "runtime": "00h 00m 00s",
-      "viewers": "43",
-      "viewers_type": "Watching",
-      "servers": null,
-      "date": null,
-      "time": null,
-      "match_url": "live/liechtenstein-vs-luthuania-1088",
-      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1789993336540x302.jpg",
-      "match_id": "1088",
-      "server_urls": [
-        "https://live.talkoraai.com/match/hls?t=vQYtxtDB-QvRvA9KQexl5LoLFiIVgJWV0-A_NurFERsAs8QPGSqsYmjxEhm57YmXQxQvRgC6t3UY4yHxpFSZ6k6Q6XgGeitl8MDDJjaa2SFqOi1xa1U_OuDN2ATGFnpkDoXI2yy7B3Tn_ODb2f2durB0aE5K6f9oUHukY7BErgpPQ4BBF7__rN1nKFgQDzjhVmPoPokdFqjwG3cx4VN85-LzBvNZYpuBniVVQG5KVSe20tyEvOOKEVt0NYrKnn2VhFT7posp-3QpSy70jwM9zDeZyIZxxA",
-        "https://www.rtmpcdn.com/live/870f6977-557c-40f9-afc0-75fbec73025d.m3u8",
-        "https://live.talkoraai.com/match/seg?t=wul63frH5qZT6rpNfjfc_F9blM4hIX36hbM8VtEYz63MP6HSYJhHrtX0kUJCe6iKxlOeD7zxpsEogkaQkYW9JUTbU4teY5yersyoxfFG9TePLKx2v95sgqMnDoa5T8L_wwUS98BUGT7LPJrbTS_GZ4C2yiP29xpgW-knUbC4f84rMH-biVueG1bsIG1i6Azns_VQ2vuxKHIsj-D67QnNsSaUzsW9j95IuQv0MA7-SLYQjDfsQdIJz0BPSwhquUP5MqyGOugrJ1SFtKoGBdHpGOBnHPM10FQvIf9DYE4S"
-      ],
-      "last_updated": "2026-09-24T21:25:45.016197"
-    },
-    {
-      "title": "Kosovo vs Ireland",
-      "teams": "Kosovo vs Ireland",
-      "league": "UEFA Nations League 2026/27",
-      "sport": "football",
-      "status": "live",
-      "runtime": "00h 00m 00s",
-      "viewers": "103",
-      "viewers_type": "Watching",
-      "servers": null,
-      "date": null,
-      "time": null,
-      "match_url": "live/kosovo-vs-ireland-1093",
-      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1789993438540x302.jpg",
-      "match_id": "1093",
-      "server_urls": [
-        "https://live.talkoraai.com/match/hls?t=_fkqOhoNTcbwKgtJzh7HanueGmABHxDn7u7KT5oUWSiot3JWCFOAPQJRiEKXCp84Np8ZlK81m3b2f0mM6TyUyYqlRH2In7JcENovn6I5WEvVfJLB0CDMHsFXFwJKnQF6oE382khoCLFKtgc4WQrl7YvS5gEEMIJ7VFrzGBa9ME6-OAXt-e6BuO3QtsjexrB0btVx8jBlf_WCY7U14FMjz9VVOeR4fDOa69kcl4t6hRjhKH0EmRBmzIAynq6ni5o5O8bHp-MQXg5hY8knBhVZHcw",
-        "https://www.rtmpcdn.com/live/1e296c12-08cf-4c17-bfb2-1afc54ed408c.m3u8",
-        "https://live.talkoraai.com/match/seg?t=K4S8Zwbk1r4-ZDeuJYKW_ZxAGf4JJ8Jm7f3rbisQCMYDtiK07r1m0exBWYVsH0mDM8wlwZBFpho63_hd-ArX1JMkVMpILLQLuJDjMQDaUNe2bguA17Myzwl8eUiYcrXcvpZURhs5fH9ZBMnXPlfbXeLm0wVoKDshef35FBr7l-4Iv-ncjdwZAV0J1NmIt65PLy6u82fEtDf731KCnESSIlN-SW-oM9ms9RlZwqluwqqCFlV_WnwRVXe4_e4iBrDDIC2OYDb0tva6w-ZtrWOu5EM9XkUBfXNiWQ"
-      ],
-      "last_updated": "2026-09-24T21:25:45.315578"
-    },
-    {
-      "title": "Serbia vs Greece",
-      "teams": "Serbia vs Greece",
-      "league": "UEFA Nations League 2026/27",
-      "sport": "football",
-      "status": "live",
-      "runtime": "00h 00m 00s",
-      "viewers": "42",
-      "viewers_type": "Watching",
-      "servers": null,
-      "date": null,
-      "time": null,
-      "match_url": "live/serbia-vs-greece-1091",
-      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1789993868540x302.jpg",
-      "match_id": "1091",
-      "server_urls": [
-        "https://live.talkoraai.com/match/hls?t=VL2OFHiwXz7JxpRg9U5SUiPUqzH1plAzqQjrL7ntj8VQ0yJjGp3LlbNVHulg5fXwH1N-lzXHeuAyPkuYu7nalNV-lmyhyybOVq8Oafo-KACRsUuyQS3g8L-rt26Ufq6o4oKSFnwgt67nEd7saeGgDyEcfFSOkZCX3aUFMvsDxxA5-hteR3dQGC-3V6C72iWnTufbGzPnGqolfTe57FqU89hRp8E9dVLMFikRTCeBVuJpYAWYNIKVL-fdMPtx9QaTbhydhRU2EJaBi2W2vRJ9Kh0iPPxU",
-        "https://www.rtmpcdn.com/live/65fe6ba9-d3f1-4df3-bc42-811b4ef467a7.m3u8",
-        "https://live.talkoraai.com/match/seg?t=4-xFnQd--FI6NmZkuCF-CasK2wDUIFonZnsBGJzArbgQKrxHxewzpe5bHd4_P4BpPP0Y4YFEdXTI79kMEZ75ncBIVQ2NHhDD74GgmqEtwuvrCl6z6bZ30d6TGkiW_ORhfPfumaMVouJurRXNF5jPEhRSKsZrbqjHu52toqsP7GHpZd9xEOPbkN5yXc6DbkLkVA0Grg54FL5ON-noYGF7tgtljm7EIM3vmwcqvlKkXu0kINpCgvKxA1d9HRVOQYvq-J7xeQ8b0bykFr4-iGKOhVYknv145GgftnQIUw"
-      ],
-      "last_updated": "2026-09-24T21:25:45.600952"
+      "last_updated": "2026-09-24T21:35:15.191648"
     },
     {
       "title": "Armenia vs Latvia",
@@ -183,7 +47,7 @@
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1790163927540x302.jpg",
       "match_id": "1095",
       "server_urls": [],
-      "last_updated": "2026-09-24T21:25:45.887000"
+      "last_updated": "2026-09-24T21:35:15.539322"
     },
     {
       "title": "Georgia vs Northern Ireland",
@@ -201,7 +65,7 @@
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1790163815540x302.jpg",
       "match_id": "1094",
       "server_urls": [],
-      "last_updated": "2026-09-24T21:25:45.887685"
+      "last_updated": "2026-09-24T21:35:15.540156"
     },
     {
       "title": "South Africa vs Australia 2nd ODI",
@@ -219,7 +83,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/AUS-vs-SA_Web-match-card.png",
       "match_id": "1098",
       "server_urls": [],
-      "last_updated": "2026-09-24T21:25:45.888431"
+      "last_updated": "2026-09-24T21:35:15.540812"
     },
     {
       "title": "South Africa vs Australia 3rd ODI",
@@ -237,7 +101,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/AUS-vs-SA_Web-match-card.png",
       "match_id": "1099",
       "server_urls": [],
-      "last_updated": "2026-09-24T21:25:45.889066"
+      "last_updated": "2026-09-24T21:35:15.541471"
     },
     {
       "title": "India Champions vs Australia Champions",
@@ -255,7 +119,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
       "match_id": "1037",
       "server_urls": [],
-      "last_updated": "2026-09-24T21:25:45.889675"
+      "last_updated": "2026-09-24T21:35:15.542126"
     },
     {
       "title": "India Vs Brazil",
@@ -273,7 +137,7 @@
       "thumbnail": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000024504/1790111246357701_FIFA_international_friendlies_india_vs_brazil_dated_landscape_thumb.jpg",
       "match_id": "1083",
       "server_urls": [],
-      "last_updated": "2026-09-24T21:25:45.890299"
+      "last_updated": "2026-09-24T21:35:15.542733"
     },
     {
       "title": "South Africa vs Australia 1st Test",
@@ -291,7 +155,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/AUS-vs-SA_Web-match-card.png",
       "match_id": "1100",
       "server_urls": [],
-      "last_updated": "2026-09-24T21:25:45.890905"
+      "last_updated": "2026-09-24T21:35:15.543362"
     },
     {
       "title": "Al-Kholood Club vs Al-Qadsiah",
@@ -309,7 +173,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249136_53025_ALK_ALQ_FC-Web.png",
       "match_id": "1000",
       "server_urls": [],
-      "last_updated": "2026-09-24T21:25:45.891529"
+      "last_updated": "2026-09-24T21:35:15.544028"
     },
     {
       "title": "Al-Fateh SC vs Al-Ahli Saudi",
@@ -327,7 +191,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249137_53025_AFF_AAS_FC-Web.png",
       "match_id": "1001",
       "server_urls": [],
-      "last_updated": "2026-09-24T21:25:45.892142"
+      "last_updated": "2026-09-24T21:35:15.544641"
     },
     {
       "title": "Al-Nassr vs Diriyah",
@@ -345,7 +209,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249138_53025_ANF_DIR_FC-Web.png",
       "match_id": "1008",
       "server_urls": [],
-      "last_updated": "2026-09-24T21:25:45.892754"
+      "last_updated": "2026-09-24T21:35:15.545266"
     },
     {
       "title": "Al Hilal SFC vs Al-Ittihad",
@@ -363,7 +227,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249139_53025_AHS_ITT_FC-Web.png",
       "match_id": "1042",
       "server_urls": [],
-      "last_updated": "2026-09-24T21:25:45.893376"
+      "last_updated": "2026-09-24T21:35:15.545871"
     },
     {
       "title": "Barcelona vs Getafe CF",
@@ -381,7 +245,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
       "match_id": "1049",
       "server_urls": [],
-      "last_updated": "2026-09-24T21:25:45.893983"
+      "last_updated": "2026-09-24T21:35:15.546492"
     },
     {
       "title": "Deportivo Alaves vs Atletico de Madrid",
@@ -399,7 +263,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
       "match_id": "1043",
       "server_urls": [],
-      "last_updated": "2026-09-24T21:25:45.894584"
+      "last_updated": "2026-09-24T21:35:15.547116"
     },
     {
       "title": "South Africa vs Australia 2nd Test",
@@ -417,7 +281,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/AUS-vs-SA_Web-match-card.png",
       "match_id": "1101",
       "server_urls": [],
-      "last_updated": "2026-09-24T21:25:45.895201"
+      "last_updated": "2026-09-24T21:35:15.547717"
     },
     {
       "title": "South Africa vs Australia 3rd Test",
@@ -435,7 +299,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/AUS-vs-SA_Web-match-card.png",
       "match_id": "1102",
       "server_urls": [],
-      "last_updated": "2026-09-24T21:25:45.895789"
+      "last_updated": "2026-09-24T21:35:15.548376"
     },
     {
       "title": "Hong Kong, China vs Oman",
@@ -453,7 +317,7 @@
       "thumbnail": "https://m.media-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.ad4674f2-e9b7-467b-b1af-deb17eb28dbf/2/HERO-16X9/en-US._UR1920,1080_SX1080_FMjpg_.jpeg",
       "match_id": "1097",
       "server_urls": [],
-      "last_updated": "2026-09-24T21:25:45.896403"
+      "last_updated": "2026-09-24T21:35:15.549004"
     }
   ]
 }
