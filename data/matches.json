@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-09-29T18:31:32.080703",
+  "timestamp": "2026-09-29T18:36:34.914061",
   "total_matches": 23,
-  "live_count": 2,
-  "upcoming_count": 21,
+  "live_count": 3,
+  "upcoming_count": 20,
   "completed_count": 0,
   "matches": [
     {
@@ -12,7 +12,7 @@
       "sport": "football",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "222",
+      "viewers": "2",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -25,7 +25,28 @@
         "https://live.talkoraai.com/match/seg?t=v2Ob7SO3s8sPHEqNhwyFOBP5r_mu_teOuHLR3SOsA_lOoNus93-cBccV_NE-waLXNa1GIPBLruuMOkWp1JPiCvwijqcdiOSdF2kCfN8PyKLhKxBmIsZdrQB1ahK8LZPPALZ6QNzM-Iw4J8MV2PB88BK5WkXdIiSWMT1FraOcOSNYLqbYzknK-VcTTMQWzz-gWb-FdY8sDKxdXSGtYY4oWlyHRhAtPK78_B-9W30h91f8AlBHT0rCQox3TRltf1z9IaGK2XMWdAUqQQxVNl-DVoQ6Xk12kOmWqz6r",
         "https://www.rtmpcdn.com/live/05213fd0-0c33-49a6-a1d1-d8209356b688.m3u8"
       ],
-      "last_updated": "2026-09-29T18:31:31.076398"
+      "last_updated": "2026-09-29T18:36:33.268499"
+    },
+    {
+      "title": "Czechia vs England",
+      "teams": "Czechia vs England",
+      "league": "Sports Tournament",
+      "sport": "football",
+      "status": "live",
+      "runtime": "00h 00m 00s",
+      "viewers": "333",
+      "viewers_type": "Watching",
+      "servers": null,
+      "date": null,
+      "time": null,
+      "match_url": "live/czechia-vs-england-1159",
+      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17905436641020x576.jpg",
+      "match_id": "1159",
+      "server_urls": [
+        "https://live.talkoraai.com/match/hls?t=5NKesaTI3HJ-mi7me6FDVswrxTucevOsD1swrVwK_Wg2Cjt9aiUQhNmJuppbEToBVKxpYkES8Q2jJ7XVH21ddhHdNczv-4Z42Vy46Y3q47o0ShpUtrcMmHzvezWhwI4Aw3BxVwsXX_2nRrldxihy3CJ0rb8uLSBuy3OXAt6sBMf6CGif_WSPK7kHL3suLtSqHcgEZkqn81EvMNJsxclPv7K_VYIMr7S26BaeOntxYmc_eJ-aRWmS7t2TXEqZUhWGXmDfRCC388fBrEeVZWiZerxCOqPjQg",
+        "https://live.talkoraai.com/match/seg?t=03_RSSKcj0KpNwre1P324tOoH8bmHPauhCsR5pqaUp2XE1S7YcDS8TtNFzyALIIMyIGL6yjFamYU6ATt1Hjky4E2fB06OjYfajoTA0GaLNIFrF1blmwlQ1Dm3h6XKbyC0ai2DNcCmyNRIjd9DnL_3HtBR_A_5R2C4v1avRW4RMS3mPmRSVLZ0EPNUDX12mOslRBCHbMvxhXUnjSM03yEaZkF9ZmxWKhdFJZ_oTxoco7K059jwKiS_N1iqlHjVj6lc7ehVKpzAXpi-Ii1ZqMHyAEw_i4X-V-m47alSzGM"
+      ],
+      "last_updated": "2026-09-29T18:36:34.210562"
     },
     {
       "title": "Asian Games 2026",
@@ -34,7 +55,7 @@
       "sport": "others",
       "status": "live",
       "runtime": null,
-      "viewers": "764",
+      "viewers": "765",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -54,7 +75,7 @@
         "https://crickcast-fam.pages.dev/api/proxy?u=https://cloudplay-sonyliv.pages.dev/ten1.m3u8",
         "https://crickcast-fam.pages.dev/api/proxy?u=https://cloudplay-sonyliv.pages.dev/ten3.m3u8"
       ],
-      "last_updated": "2026-09-29T18:31:31.754298"
+      "last_updated": "2026-09-29T18:36:34.559866"
     },
     {
       "title": "Luxembourg vs Iceland",
@@ -72,79 +93,7 @@
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17905430411020x576.jpg",
       "match_id": "1157",
       "server_urls": [],
-      "last_updated": "2026-09-29T18:31:32.067630"
-    },
-    {
-      "title": "Slovakia vs Kazakhstan",
-      "teams": "Slovakia vs Kazakhstan",
-      "league": "Sports Tournament",
-      "sport": "football",
-      "status": "upcoming",
-      "runtime": "00h 00m 00s",
-      "viewers": "296",
-      "viewers_type": "Waiting",
-      "servers": null,
-      "date": null,
-      "time": null,
-      "match_url": "live/slovakia-vs-kazakhstan-1158",
-      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17905432211020x576.jpg",
-      "match_id": "1158",
-      "server_urls": [],
-      "last_updated": "2026-09-29T18:31:32.068375"
-    },
-    {
-      "title": "Czechia vs England",
-      "teams": "Czechia vs England",
-      "league": "Sports Tournament",
-      "sport": "football",
-      "status": "upcoming",
-      "runtime": "00h 00m 00s",
-      "viewers": "333",
-      "viewers_type": "Waiting",
-      "servers": null,
-      "date": null,
-      "time": null,
-      "match_url": "live/czechia-vs-england-1159",
-      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17905436641020x576.jpg",
-      "match_id": "1159",
-      "server_urls": [],
-      "last_updated": "2026-09-29T18:31:32.069013"
-    },
-    {
-      "title": "Slovenia vs North Macedonia",
-      "teams": "Slovenia vs North Macedonia",
-      "league": "Sports Tournament",
-      "sport": "football",
-      "status": "upcoming",
-      "runtime": "00h 00m 00s",
-      "viewers": "370",
-      "viewers_type": "Waiting",
-      "servers": null,
-      "date": null,
-      "time": null,
-      "match_url": "live/slovenia-vs-north-macedonia-1160",
-      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17905438931020x576.jpg",
-      "match_id": "1160",
-      "server_urls": [],
-      "last_updated": "2026-09-29T18:31:32.069657"
-    },
-    {
-      "title": "Bulgaria vs Estonia",
-      "teams": "Bulgaria vs Estonia",
-      "league": "Sports Tournament",
-      "sport": "football",
-      "status": "upcoming",
-      "runtime": "00h 00m 00s",
-      "viewers": "407",
-      "viewers_type": "Waiting",
-      "servers": null,
-      "date": null,
-      "time": null,
-      "match_url": "live/bulgaria-vs-estonia-1161",
-      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17905442461020x576.jpg",
-      "match_id": "1161",
-      "server_urls": [],
-      "last_updated": "2026-09-29T18:31:32.070294"
+      "last_updated": "2026-09-29T18:36:34.901437"
     },
     {
       "title": "San Marino vs Albania",
@@ -162,7 +111,7 @@
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17905444551020x576.jpg",
       "match_id": "1162",
       "server_urls": [],
-      "last_updated": "2026-09-29T18:31:32.070905"
+      "last_updated": "2026-09-29T18:36:34.902164"
     },
     {
       "title": "Scotland vs Switzerland",
@@ -180,7 +129,7 @@
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17905446431020x576.jpg",
       "match_id": "1163",
       "server_urls": [],
-      "last_updated": "2026-09-29T18:31:32.071537"
+      "last_updated": "2026-09-29T18:36:34.902821"
     },
     {
       "title": "India vs West Indies 2nd ODI",
@@ -198,7 +147,7 @@
       "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17901552361020x576.jpg",
       "match_id": "1132",
       "server_urls": [],
-      "last_updated": "2026-09-29T18:31:32.072132"
+      "last_updated": "2026-09-29T18:36:34.903463"
     },
     {
       "title": "South Africa vs Australia 3rd ODI",
@@ -216,7 +165,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/AUS-vs-SA_Web-match-card.png",
       "match_id": "1099",
       "server_urls": [],
-      "last_updated": "2026-09-29T18:31:32.072747"
+      "last_updated": "2026-09-29T18:36:34.904109"
     },
     {
       "title": "India Champions vs Australia Champions",
@@ -234,7 +183,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
       "match_id": "1037",
       "server_urls": [],
-      "last_updated": "2026-09-29T18:31:32.073378"
+      "last_updated": "2026-09-29T18:36:34.904764"
     },
     {
       "title": "India Vs Brazil",
@@ -252,7 +201,7 @@
       "thumbnail": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000024504/1790111246357701_FIFA_international_friendlies_india_vs_brazil_dated_landscape_thumb.jpg",
       "match_id": "1083",
       "server_urls": [],
-      "last_updated": "2026-09-29T18:31:32.073970"
+      "last_updated": "2026-09-29T18:36:34.905379"
     },
     {
       "title": "Pakistan Champions vs Bangladesh Champions",
@@ -270,7 +219,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
       "match_id": "1146",
       "server_urls": [],
-      "last_updated": "2026-09-29T18:31:32.074588"
+      "last_updated": "2026-09-29T18:36:34.906008"
     },
     {
       "title": "South Africa vs Australia 1st Test",
@@ -288,7 +237,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/AUS-vs-SA_Web-match-card.png",
       "match_id": "1100",
       "server_urls": [],
-      "last_updated": "2026-09-29T18:31:32.075197"
+      "last_updated": "2026-09-29T18:36:34.906607"
     },
     {
       "title": "Al-Kholood Club vs Al-Qadsiah",
@@ -306,7 +255,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249136_53025_ALK_ALQ_FC-Web.png",
       "match_id": "1000",
       "server_urls": [],
-      "last_updated": "2026-09-29T18:31:32.075800"
+      "last_updated": "2026-09-29T18:36:34.907240"
     },
     {
       "title": "Al-Fateh SC vs Al-Ahli Saudi",
@@ -324,7 +273,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249137_53025_AFF_AAS_FC-Web.png",
       "match_id": "1001",
       "server_urls": [],
-      "last_updated": "2026-09-29T18:31:32.076415"
+      "last_updated": "2026-09-29T18:36:34.907867"
     },
     {
       "title": "Al-Nassr vs Diriyah",
@@ -342,7 +291,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249138_53025_ANF_DIR_FC-Web.png",
       "match_id": "1008",
       "server_urls": [],
-      "last_updated": "2026-09-29T18:31:32.077007"
+      "last_updated": "2026-09-29T18:36:34.908480"
     },
     {
       "title": "Al Hilal SFC vs Al-Ittihad",
@@ -360,7 +309,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249139_53025_AHS_ITT_FC-Web.png",
       "match_id": "1042",
       "server_urls": [],
-      "last_updated": "2026-09-29T18:31:32.077628"
+      "last_updated": "2026-09-29T18:36:34.909118"
     },
     {
       "title": "Barcelona vs Getafe CF",
@@ -378,7 +327,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
       "match_id": "1049",
       "server_urls": [],
-      "last_updated": "2026-09-29T18:31:32.078248"
+      "last_updated": "2026-09-29T18:36:34.909717"
     },
     {
       "title": "Deportivo Alaves vs Atletico de Madrid",
@@ -396,7 +345,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
       "match_id": "1043",
       "server_urls": [],
-      "last_updated": "2026-09-29T18:31:32.078849"
+      "last_updated": "2026-09-29T18:36:34.910350"
     },
     {
       "title": "South Africa vs Australia 2nd Test",
@@ -414,7 +363,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/AUS-vs-SA_Web-match-card.png",
       "match_id": "1101",
       "server_urls": [],
-      "last_updated": "2026-09-29T18:31:32.079474"
+      "last_updated": "2026-09-29T18:36:34.910975"
     },
     {
       "title": "South Africa vs Australia 3rd Test",
@@ -432,7 +381,61 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/AUS-vs-SA_Web-match-card.png",
       "match_id": "1102",
       "server_urls": [],
-      "last_updated": "2026-09-29T18:31:32.080067"
+      "last_updated": "2026-09-29T18:36:34.911585"
+    },
+    {
+      "title": "Bulgaria vs Estonia",
+      "teams": "Bulgaria vs Estonia",
+      "league": "Sports Tournament",
+      "sport": "football",
+      "status": "upcoming",
+      "runtime": "00h 00m 00s",
+      "viewers": "407",
+      "viewers_type": "Waiting",
+      "servers": null,
+      "date": null,
+      "time": null,
+      "match_url": "live/bulgaria-vs-estonia-1161",
+      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17905442461020x576.jpg",
+      "match_id": "1161",
+      "server_urls": [],
+      "last_updated": "2026-09-29T18:36:34.912206"
+    },
+    {
+      "title": "Slovenia vs North Macedonia",
+      "teams": "Slovenia vs North Macedonia",
+      "league": "Sports Tournament",
+      "sport": "football",
+      "status": "upcoming",
+      "runtime": "00h 00m 00s",
+      "viewers": "370",
+      "viewers_type": "Waiting",
+      "servers": null,
+      "date": null,
+      "time": null,
+      "match_url": "live/slovenia-vs-north-macedonia-1160",
+      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17905438931020x576.jpg",
+      "match_id": "1160",
+      "server_urls": [],
+      "last_updated": "2026-09-29T18:36:34.912825"
+    },
+    {
+      "title": "Slovakia vs Kazakhstan",
+      "teams": "Slovakia vs Kazakhstan",
+      "league": "Sports Tournament",
+      "sport": "football",
+      "status": "upcoming",
+      "runtime": "00h 00m 00s",
+      "viewers": "296",
+      "viewers_type": "Waiting",
+      "servers": null,
+      "date": null,
+      "time": null,
+      "match_url": "live/slovakia-vs-kazakhstan-1158",
+      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17905432211020x576.jpg",
+      "match_id": "1158",
+      "server_urls": [],
+      "last_updated": "2026-09-29T18:36:34.913428"
     }
   ]
 }
