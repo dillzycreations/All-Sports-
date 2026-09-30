@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-30T23:42:45.763018",
+  "timestamp": "2026-09-30T23:43:37.360659",
   "total_matches": 28,
   "live_count": 3,
   "upcoming_count": 25,
@@ -12,7 +12,7 @@
       "sport": "cricket",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "38",
+      "viewers": "40",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -25,7 +25,7 @@
         "https://tvsen7.aynascope.net/zY3hJ7pQ2vM5gD8s/tracks-v1a1/mono.ts.m3u8",
         "https://tvsen5.aynaott.com/TnMn5kZz8aLmjkl/index.m3u8"
       ],
-      "last_updated": "2026-09-30T23:42:44.209395"
+      "last_updated": "2026-09-30T23:43:35.752777"
     },
     {
       "title": "Vancouver Anchors vs Montreal Royal Tigers-T10",
@@ -34,7 +34,7 @@
       "sport": "cricket",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "9",
+      "viewers": "11",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -47,7 +47,7 @@
         "https://tvsen7.aynascope.net/zY3hJ7pQ2vM5gD8s/tracks-v1a1/mono.ts.m3u8",
         "http://livetv.akr4m.com:8080/bdtv/restrem/02.m3u8"
       ],
-      "last_updated": "2026-09-30T23:42:45.098546"
+      "last_updated": "2026-09-30T23:43:36.688129"
     },
     {
       "title": "Asian Games 2026",
@@ -56,7 +56,7 @@
       "sport": "others",
       "status": "live",
       "runtime": null,
-      "viewers": "080",
+      "viewers": "082",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -78,7 +78,7 @@
         "https://alixbd.com/playlistconfig/toffee.php?ts_proxy=aHR0cHM6Ly9wcm9kLWxpbmVhci1tZWRpYS50b2ZmZWVsaXZlLmNvbS9jZG4vbGl2ZS9zb255X3Nwb3J0c18yX2hkLzU3Ni81NzYubTN1OD9oZG50bD1FeHBpcmVzPTE3OTA4ODY0OTB%2BX0dPPUdlbmVyYXRlZH5VUkxQcmVmaXg9YUhSMGNITTZMeTl3Y205a0xXeHBibVZoY2kxdFpXUnBZUzUwYjJabVpXVnNhWFpsTG1OdmJRfkRhdGE9ZXlKemRXSnpZM0pwWW1WeVgybGtJam9pTW1ZeU5tRXlabVl0T0RSa1lTMDBOelJpTFdKaU4yRXRNakZsWTJWaFpUSXlOREJtSW4wflNpZ25hdHVyZT1BZGhCMkxjWUtzR2k5Mzd3QnIxU0l6T0RHUzVlVVNIdEVla1FEbGNENlY1RDQtczFHM1E4Y25xYnFJN1Q0NEVhVG1LTkVlOUlPZkZKVUtUcVJlU2hHN0xueW5nSw%3D%3D",
         "https://alixbd.com/playlistconfig/toffee.php?channel=Sony%20Ten%20Sports%202%20HD&raw=1"
       ],
-      "last_updated": "2026-09-30T23:42:45.418411"
+      "last_updated": "2026-09-30T23:43:37.011627"
     },
     {
       "title": "Argentina vs Bolivia",
@@ -96,7 +96,7 @@
       "thumbnail": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTGP4EJtzORsldLfl9g-dGndStsYOmt77FMWyjNrT71gqo8pWVaA9t_F6g&s=10",
       "match_id": "1179",
       "server_urls": [],
-      "last_updated": "2026-09-30T23:42:45.746972"
+      "last_updated": "2026-09-30T23:43:37.350325"
     },
     {
       "title": "Pakistan vs Bangladesh 1st Semi-Final",
@@ -114,7 +114,7 @@
       "thumbnail": "https://m.media-amazon.com/images/S/le-target-images-prod/amzn1.dv.gti.2f6f8b61-15b2-48df-b66c-7011d1f87238/2/HERO-16X9/en-US._UR1920,1080_.jpeg",
       "match_id": "1177",
       "server_urls": [],
-      "last_updated": "2026-09-30T23:42:45.747708"
+      "last_updated": "2026-09-30T23:43:37.350814"
     },
     {
       "title": "White Rock Warriors vs Mississauga Masters-T10",
@@ -132,7 +132,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249816_53099_WRW_MGM_FC-Web.png",
       "match_id": "1167",
       "server_urls": [],
-      "last_updated": "2026-09-30T23:42:45.748359"
+      "last_updated": "2026-09-30T23:43:37.351225"
     },
     {
       "title": "India vs Sri Lanka 2nd Semi-Final",
@@ -150,7 +150,7 @@
       "thumbnail": "https://api.bdcrictime.com/india-vs-sri-lanka-2nd-semi-final-30_09_2026.jpg",
       "match_id": "1178",
       "server_urls": [],
-      "last_updated": "2026-09-30T23:42:45.749022"
+      "last_updated": "2026-09-30T23:43:37.351649"
     },
     {
       "title": "Vancouver Anchors vs Brampton Blitz",
@@ -168,7 +168,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249817_53099_VAC_BBZ_FC-Web.png",
       "match_id": "1168",
       "server_urls": [],
-      "last_updated": "2026-09-30T23:42:45.749690"
+      "last_updated": "2026-09-30T23:43:37.352075"
     },
     {
       "title": "Toronto Sixers vs White Rock Warriors",
@@ -186,7 +186,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249818_53099_TTS_WRW_FC-Web.png",
       "match_id": "1169",
       "server_urls": [],
-      "last_updated": "2026-09-30T23:42:45.750325"
+      "last_updated": "2026-09-30T23:43:37.352480"
     },
     {
       "title": "Montreal Royal Tigers vs Mississauga Masters",
@@ -204,7 +204,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249819_53099_MRT_MGM_FC-Web.png",
       "match_id": "1170",
       "server_urls": [],
-      "last_updated": "2026-09-30T23:42:45.750967"
+      "last_updated": "2026-09-30T23:43:37.352897"
     },
     {
       "title": "Vancouver Anchors vs Toronto Sixers",
@@ -222,7 +222,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249820_53099_VAC_TTS_FC-Web.png",
       "match_id": "1171",
       "server_urls": [],
-      "last_updated": "2026-09-30T23:42:45.751618"
+      "last_updated": "2026-09-30T23:43:37.353297"
     },
     {
       "title": "Montreal Royal Tigers vs White Rock Warriors",
@@ -240,7 +240,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249821_53099_MRT_WRW_FC-Web.png",
       "match_id": "1172",
       "server_urls": [],
-      "last_updated": "2026-09-30T23:42:45.752242"
+      "last_updated": "2026-09-30T23:43:37.353723"
     },
     {
       "title": "Brampton Blitz vs Mississauga Masters",
@@ -258,7 +258,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249822_53099_BBZ_MGM_FC-Web.png",
       "match_id": "1173",
       "server_urls": [],
-      "last_updated": "2026-09-30T23:42:45.752883"
+      "last_updated": "2026-09-30T23:43:37.354136"
     },
     {
       "title": "India Champions vs Australia Champions",
@@ -276,7 +276,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
       "match_id": "1037",
       "server_urls": [],
-      "last_updated": "2026-09-30T23:42:45.753508"
+      "last_updated": "2026-09-30T23:43:37.354538"
     },
     {
       "title": "India Vs Brazil",
@@ -294,7 +294,7 @@
       "thumbnail": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000024504/1790111246357701_FIFA_international_friendlies_india_vs_brazil_dated_landscape_thumb.jpg",
       "match_id": "1083",
       "server_urls": [],
-      "last_updated": "2026-09-30T23:42:45.754141"
+      "last_updated": "2026-09-30T23:43:37.354956"
     },
     {
       "title": "Pakistan Champions vs Bangladesh Champions",
@@ -312,7 +312,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
       "match_id": "1146",
       "server_urls": [],
-      "last_updated": "2026-09-30T23:42:45.754780"
+      "last_updated": "2026-09-30T23:43:37.355359"
     },
     {
       "title": "White Rock Warriors vs Vancouver Anchors",
@@ -330,7 +330,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249823_53099_WRW_VAC_FC-Web.png",
       "match_id": "1174",
       "server_urls": [],
-      "last_updated": "2026-09-30T23:42:45.755405"
+      "last_updated": "2026-09-30T23:43:37.355777"
     },
     {
       "title": "Mississauga Masters vs Toronto Sixers",
@@ -348,7 +348,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249824_53099_MGM_TTS_FC-Web.png",
       "match_id": "1175",
       "server_urls": [],
-      "last_updated": "2026-09-30T23:42:45.756043"
+      "last_updated": "2026-09-30T23:43:37.356181"
     },
     {
       "title": "Brampton Blitz vs Montreal Royal Tigers",
@@ -366,7 +366,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249825_53099_BBZ_MRT_FC-Web.png",
       "match_id": "1176",
       "server_urls": [],
-      "last_updated": "2026-09-30T23:42:45.756683"
+      "last_updated": "2026-09-30T23:43:37.356588"
     },
     {
       "title": "South Africa vs Australia 1st Test",
@@ -384,7 +384,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/AUS-vs-SA_Web-match-card.png",
       "match_id": "1100",
       "server_urls": [],
-      "last_updated": "2026-09-30T23:42:45.757306"
+      "last_updated": "2026-09-30T23:43:37.356993"
     },
     {
       "title": "Al-Kholood Club vs Al-Qadsiah",
@@ -402,7 +402,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249136_53025_ALK_ALQ_FC-Web.png",
       "match_id": "1000",
       "server_urls": [],
-      "last_updated": "2026-09-30T23:42:45.757949"
+      "last_updated": "2026-09-30T23:43:37.357391"
     },
     {
       "title": "Al-Fateh SC vs Al-Ahli Saudi",
@@ -420,7 +420,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249137_53025_AFF_AAS_FC-Web.png",
       "match_id": "1001",
       "server_urls": [],
-      "last_updated": "2026-09-30T23:42:45.758575"
+      "last_updated": "2026-09-30T23:43:37.357806"
     },
     {
       "title": "Al-Nassr vs Diriyah",
@@ -438,7 +438,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249138_53025_ANF_DIR_FC-Web.png",
       "match_id": "1008",
       "server_urls": [],
-      "last_updated": "2026-09-30T23:42:45.759201"
+      "last_updated": "2026-09-30T23:43:37.358205"
     },
     {
       "title": "Al Hilal SFC vs Al-Ittihad",
@@ -456,7 +456,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249139_53025_AHS_ITT_FC-Web.png",
       "match_id": "1042",
       "server_urls": [],
-      "last_updated": "2026-09-30T23:42:45.759855"
+      "last_updated": "2026-09-30T23:43:37.358614"
     },
     {
       "title": "Barcelona vs Getafe CF",
@@ -474,7 +474,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
       "match_id": "1049",
       "server_urls": [],
-      "last_updated": "2026-09-30T23:42:45.760478"
+      "last_updated": "2026-09-30T23:43:37.359018"
     },
     {
       "title": "Deportivo Alaves vs Atletico de Madrid",
@@ -492,7 +492,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
       "match_id": "1043",
       "server_urls": [],
-      "last_updated": "2026-09-30T23:42:45.761125"
+      "last_updated": "2026-09-30T23:43:37.359420"
     },
     {
       "title": "South Africa vs Australia 2nd Test",
@@ -510,7 +510,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/AUS-vs-SA_Web-match-card.png",
       "match_id": "1101",
       "server_urls": [],
-      "last_updated": "2026-09-30T23:42:45.761757"
+      "last_updated": "2026-09-30T23:43:37.359838"
     },
     {
       "title": "South Africa vs Australia 3rd Test",
@@ -528,7 +528,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/AUS-vs-SA_Web-match-card.png",
       "match_id": "1102",
       "server_urls": [],
-      "last_updated": "2026-09-30T23:42:45.762368"
+      "last_updated": "2026-09-30T23:43:37.360238"
     }
   ]
 }
