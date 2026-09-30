@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-09-30T12:03:53.638443",
+  "timestamp": "2026-09-30T12:08:37.171856",
   "total_matches": 15,
   "live_count": 3,
   "upcoming_count": 12,
@@ -12,7 +12,7 @@
       "sport": "cricket",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "139",
+      "viewers": "141",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -26,7 +26,7 @@
         "https://fawa.duckdns.org/api/proxy?url=http%3A%2F%2F193.47.62.50%2Fhls%2FARRRa.m3u8&headers=%7B%22Referer%22%3A%22http%3A%2F%2Fwww.fawanews.sc%2F%22%7D",
         "https://live.talkoraai.com/match/seg?t=KaAbIFslNIne4I_S3Mfoo04O4Db1XtqfZppSPIgYIKqEG6oT-wgpSFuzdpdiulASCVzbRevGXNlwB94dGLkxDXB5Gw6wok1j6Jjs5JeItoil1edWk-QZ_HTxtkT5qnBlFa7NSH1kBgfe7ydVd95Q6u5i32VJiseK46wZEXKrGzVbToGXBCX2TaDl8RMLdroz2IG_ahOn08ushdFCa3iiDGVzPRUqPoBRRciHSc2K1JbSoegYudfVN6axZbL87q7wBFitq4tY-x5yVDUv_6UsyhBfS1WnhIfNYTHLqivNWw"
       ],
-      "last_updated": "2026-09-30T12:03:37.921536"
+      "last_updated": "2026-09-30T12:08:35.496561"
     },
     {
       "title": "South Africa vs Australia 3rd ODI",
@@ -35,7 +35,7 @@
       "sport": "cricket",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "21",
+      "viewers": "22",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -48,7 +48,7 @@
         "https://tvsen6.aynaott.com/zv68oqPDu7MZZwmHhRxt/tracks-v1a1/mono.ts.m3u8",
         "https://live.talkoraai.com/match/seg?t=hU2kcSs6syll2bF17Ymn4Fu8xfi1QmyWcsHW8oZ66ZRq-EH990Kf0uHbqBl6yhoG_tQ38Sxj9I4ll717Ir7t18W-8vVJL1Y9srUCT5ePzMAZFopdEqOl3920DemFPoNJedgR34ReyHksfFjp68MS2FtWf_IYrVUDvc8s_C0tn7oGbjYjHySpBR4Ym0nuP9cp-zO7e0ICLZEvKoLtqQnXOCdZKFS3tJo7rwkmeeLkAVGuF7eG3XAluJmXMCdBUpNgdTHM6UwrecgpmCUjCJmZqaA3BMQpWSOweDdG"
       ],
-      "last_updated": "2026-09-30T12:03:38.281543"
+      "last_updated": "2026-09-30T12:08:36.470544"
     },
     {
       "title": "Asian Games 2026",
@@ -65,8 +65,19 @@
       "match_url": "live/asian-games-2026-1081",
       "thumbnail": "https://myimgs.org/storage/images/44609/AsianGames2026.jpg",
       "match_id": "1081",
-      "server_urls": [],
-      "last_updated": "2026-09-30T12:03:38.616391"
+      "server_urls": [
+        "https://drk6xq0vhn.gpcdn.net/live/ten_2_hd_720/index.m3u8",
+        "https://robitv.com/lps/https://ml-pull-dvc-myco.io:2096/TENSPORTS_HD/mono.m3u8",
+        "https://drk6xq0vhn.gpcdn.net/live/ten_5_hd_720/index.m3u8",
+        "https://drk6xq0vhn.gpcdn.net/live/ten_1_hd_720/index.m3u8",
+        "https://flussonic.defineatoz.com/PTV/index.m3u8",
+        "https://warm-caverns-48629-92fab798385f.herokuapp.com/https://d36r8jifhgsk5j.cloudfront.net/Willow_TV1080p.m3u8",
+        "https://warm-caverns-48629-92fab798385f.herokuapp.com/https://d36r8jifhgsk5j.cloudfront.net/Willow_TV540p.m3u8",
+        "https://amg01269-amg01269c1-sportstribal-emea-5204.playouts.now.amagi.tv/ts-eu-w1-n2/playlist/amg01269-willowtvfast-willowplus-sportstribalemea/playlist.m3u8",
+        "https://crickcast-fam.pages.dev/api/proxy?u=https://cloudplay-sonyliv.pages.dev/ten1.m3u8",
+        "https://crickcast-fam.pages.dev/api/proxy?u=https://cloudplay-sonyliv.pages.dev/ten3.m3u8"
+      ],
+      "last_updated": "2026-09-30T12:08:36.822567"
     },
     {
       "title": "India Champions vs Australia Champions",
@@ -84,7 +95,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
       "match_id": "1037",
       "server_urls": [],
-      "last_updated": "2026-09-30T12:03:53.632958"
+      "last_updated": "2026-09-30T12:08:37.164380"
     },
     {
       "title": "India Vs Brazil",
@@ -102,7 +113,7 @@
       "thumbnail": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000024504/1790111246357701_FIFA_international_friendlies_india_vs_brazil_dated_landscape_thumb.jpg",
       "match_id": "1083",
       "server_urls": [],
-      "last_updated": "2026-09-30T12:03:53.633620"
+      "last_updated": "2026-09-30T12:08:37.165097"
     },
     {
       "title": "Pakistan Champions vs Bangladesh Champions",
@@ -120,7 +131,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_cricket-old.jpg",
       "match_id": "1146",
       "server_urls": [],
-      "last_updated": "2026-09-30T12:03:53.634066"
+      "last_updated": "2026-09-30T12:08:37.165719"
     },
     {
       "title": "South Africa vs Australia 1st Test",
@@ -138,7 +149,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/AUS-vs-SA_Web-match-card.png",
       "match_id": "1100",
       "server_urls": [],
-      "last_updated": "2026-09-30T12:03:53.634528"
+      "last_updated": "2026-09-30T12:08:37.166386"
     },
     {
       "title": "Al-Kholood Club vs Al-Qadsiah",
@@ -156,7 +167,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249136_53025_ALK_ALQ_FC-Web.png",
       "match_id": "1000",
       "server_urls": [],
-      "last_updated": "2026-09-30T12:03:53.634966"
+      "last_updated": "2026-09-30T12:08:37.167030"
     },
     {
       "title": "Al-Fateh SC vs Al-Ahli Saudi",
@@ -174,7 +185,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249137_53025_AFF_AAS_FC-Web.png",
       "match_id": "1001",
       "server_urls": [],
-      "last_updated": "2026-09-30T12:03:53.635415"
+      "last_updated": "2026-09-30T12:08:37.167640"
     },
     {
       "title": "Al-Nassr vs Diriyah",
@@ -192,7 +203,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249138_53025_ANF_DIR_FC-Web.png",
       "match_id": "1008",
       "server_urls": [],
-      "last_updated": "2026-09-30T12:03:53.635850"
+      "last_updated": "2026-09-30T12:08:37.168257"
     },
     {
       "title": "Al Hilal SFC vs Al-Ittihad",
@@ -210,7 +221,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249139_53025_AHS_ITT_FC-Web.png",
       "match_id": "1042",
       "server_urls": [],
-      "last_updated": "2026-09-30T12:03:53.636274"
+      "last_updated": "2026-09-30T12:08:37.168868"
     },
     {
       "title": "Barcelona vs Getafe CF",
@@ -228,7 +239,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
       "match_id": "1049",
       "server_urls": [],
-      "last_updated": "2026-09-30T12:03:53.636712"
+      "last_updated": "2026-09-30T12:08:37.169459"
     },
     {
       "title": "Deportivo Alaves vs Atletico de Madrid",
@@ -246,7 +257,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
       "match_id": "1043",
       "server_urls": [],
-      "last_updated": "2026-09-30T12:03:53.637132"
+      "last_updated": "2026-09-30T12:08:37.170063"
     },
     {
       "title": "South Africa vs Australia 2nd Test",
@@ -264,7 +275,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/AUS-vs-SA_Web-match-card.png",
       "match_id": "1101",
       "server_urls": [],
-      "last_updated": "2026-09-30T12:03:53.637579"
+      "last_updated": "2026-09-30T12:08:37.170651"
     },
     {
       "title": "South Africa vs Australia 3rd Test",
@@ -282,7 +293,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/AUS-vs-SA_Web-match-card.png",
       "match_id": "1102",
       "server_urls": [],
-      "last_updated": "2026-09-30T12:03:53.638006"
+      "last_updated": "2026-09-30T12:08:37.171254"
     }
   ]
 }
