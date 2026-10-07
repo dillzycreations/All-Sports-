@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-07T00:59:36.583586",
+  "timestamp": "2026-10-07T01:04:35.441329",
   "total_matches": 24,
   "live_count": 2,
   "upcoming_count": 22,
@@ -12,7 +12,7 @@
       "sport": "football",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "107",
+      "viewers": "113",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -26,7 +26,7 @@
         "https://tfzw1gr4uqmtt8y41hcjzgezdrmmcpf5gkce.100ycdn.com/live1.quickscoreboardz.com/live/channel6/playlist.m3u8?wsSecret=50d362f883165fe49ad78ad5547b6c5b&wsABSTime=1791357803&wsSession=64ed3e79a7ece57c6cc9459e-179131612549701&wsIPSercert=d09a9b62dec27196c444a3e2d5ef9c13&wsBindIP=2&wsserid=1168309213681259573",
         "https://pull.niues.live/live/stream-9912135_lhd.m3u8?auth_key=1791316181-0-0-e778028fa972c3d1da951c92e5875053"
       ],
-      "last_updated": "2026-10-07T00:59:35.854844"
+      "last_updated": "2026-10-07T01:04:34.635460"
     },
     {
       "title": "Asian Games 2026",
@@ -35,7 +35,7 @@
       "sport": "others",
       "status": "live",
       "runtime": null,
-      "viewers": "704",
+      "viewers": "707",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -57,11 +57,29 @@
         "https://alixbd.com/playlistconfig/toffee.php?ts_proxy=aHR0cHM6Ly9wcm9kLWxpbmVhci1tZWRpYS50b2ZmZWVsaXZlLmNvbS9jZG4vbGl2ZS9zb255X3Nwb3J0c18yX2hkLzU3Ni81NzYubTN1OD9oZG50bD1FeHBpcmVzPTE3OTA4ODY0OTB%2BX0dPPUdlbmVyYXRlZH5VUkxQcmVmaXg9YUhSMGNITTZMeTl3Y205a0xXeHBibVZoY2kxdFpXUnBZUzUwYjJabVpXVnNhWFpsTG1OdmJRfkRhdGE9ZXlKemRXSnpZM0pwWW1WeVgybGtJam9pTW1ZeU5tRXlabVl0T0RSa1lTMDBOelJpTFdKaU4yRXRNakZsWTJWaFpUSXlOREJtSW4wflNpZ25hdHVyZT1BZGhCMkxjWUtzR2k5Mzd3QnIxU0l6T0RHUzVlVVNIdEVla1FEbGNENlY1RDQtczFHM1E4Y25xYnFJN1Q0NEVhVG1LTkVlOUlPZkZKVUtUcVJlU2hHN0xueW5nSw%3D%3D",
         "https://alixbd.com/playlistconfig/toffee.php?channel=Sony%20Ten%20Sports%202%20HD&raw=1"
       ],
-      "last_updated": "2026-10-07T00:59:36.221892"
+      "last_updated": "2026-10-07T01:04:35.009378"
     },
     {
       "title": "Australia Champions vs Bangladesh Champions",
       "teams": "Australia Champions vs Bangladesh Champions",
+      "league": "World Championship of Legends, 2026",
+      "sport": "cricket",
+      "status": "upcoming",
+      "runtime": "00h 00m 00s",
+      "viewers": "12",
+      "viewers_type": "Waiting",
+      "servers": null,
+      "date": null,
+      "time": null,
+      "match_url": "live/australia-champions-vs-bangladesh-champions-1190",
+      "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249224_53069_AAC_BGC_FC-Web_1790764440661.png",
+      "match_id": "1190",
+      "server_urls": [],
+      "last_updated": "2026-10-07T01:04:35.434460"
+    },
+    {
+      "title": "England Champions vs West Indies Champions",
+      "teams": "England Champions vs West Indies Champions",
       "league": "World Championship of Legends, 2026",
       "sport": "cricket",
       "status": "upcoming",
@@ -71,29 +89,11 @@
       "servers": null,
       "date": null,
       "time": null,
-      "match_url": "live/australia-champions-vs-bangladesh-champions-1190",
-      "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249224_53069_AAC_BGC_FC-Web_1790764440661.png",
-      "match_id": "1190",
-      "server_urls": [],
-      "last_updated": "2026-10-07T00:59:36.569354"
-    },
-    {
-      "title": "England Champions vs West Indies Champions",
-      "teams": "England Champions vs West Indies Champions",
-      "league": "World Championship of Legends, 2026",
-      "sport": "cricket",
-      "status": "upcoming",
-      "runtime": "00h 00m 00s",
-      "viewers": "10",
-      "viewers_type": "Waiting",
-      "servers": null,
-      "date": null,
-      "time": null,
       "match_url": "live/england-champions-vs-west-indies-champions-1191",
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249233_53069_EDC_WIC_FC-Web_1790764440785.png",
       "match_id": "1191",
       "server_urls": [],
-      "last_updated": "2026-10-07T00:59:36.570057"
+      "last_updated": "2026-10-07T01:04:35.434853"
     },
     {
       "title": "South Africa vs Australia 1st Test",
@@ -102,7 +102,7 @@
       "sport": "cricket",
       "status": "upcoming",
       "runtime": "00h 00m 00s",
-      "viewers": "21",
+      "viewers": "22",
       "viewers_type": "Waiting",
       "servers": null,
       "date": null,
@@ -111,7 +111,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/AUS-vs-SA_Web-match-card.png",
       "match_id": "1100",
       "server_urls": [],
-      "last_updated": "2026-10-07T00:59:36.570708"
+      "last_updated": "2026-10-07T01:04:35.435181"
     },
     {
       "title": "Australia Champions vs South Africa Champions",
@@ -120,7 +120,7 @@
       "sport": "cricket",
       "status": "upcoming",
       "runtime": "00h 00m 00s",
-      "viewers": "10",
+      "viewers": "11",
       "viewers_type": "Waiting",
       "servers": null,
       "date": null,
@@ -129,7 +129,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249232_53069_AAC_SAC_FC-Web_1790764440838.png",
       "match_id": "1192",
       "server_urls": [],
-      "last_updated": "2026-10-07T00:59:36.571362"
+      "last_updated": "2026-10-07T01:04:35.435494"
     },
     {
       "title": "Al-Kholood Club vs Al-Qadsiah",
@@ -138,7 +138,7 @@
       "sport": "cricket",
       "status": "upcoming",
       "runtime": "00h 00m 00s",
-      "viewers": "31",
+      "viewers": "32",
       "viewers_type": "Waiting",
       "servers": null,
       "date": null,
@@ -147,7 +147,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249136_53025_ALK_ALQ_FC-Web.png",
       "match_id": "1000",
       "server_urls": [],
-      "last_updated": "2026-10-07T00:59:36.571998"
+      "last_updated": "2026-10-07T01:04:35.435807"
     },
     {
       "title": "Al-Fateh SC vs Al-Ahli Saudi",
@@ -156,7 +156,7 @@
       "sport": "football",
       "status": "upcoming",
       "runtime": "00h 00m 00s",
-      "viewers": "28",
+      "viewers": "29",
       "viewers_type": "Waiting",
       "servers": null,
       "date": null,
@@ -165,7 +165,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249137_53025_AFF_AAS_FC-Web.png",
       "match_id": "1001",
       "server_urls": [],
-      "last_updated": "2026-10-07T00:59:36.572649"
+      "last_updated": "2026-10-07T01:04:35.436122"
     },
     {
       "title": "Bangladesh Champions vs West Indies Champions",
@@ -174,7 +174,7 @@
       "sport": "cricket",
       "status": "upcoming",
       "runtime": "00h 00m 00s",
-      "viewers": "9",
+      "viewers": "10",
       "viewers_type": "Waiting",
       "servers": null,
       "date": null,
@@ -183,7 +183,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249227_53069_BGC_WIC_FC-Web_1790764441429.png",
       "match_id": "1193",
       "server_urls": [],
-      "last_updated": "2026-10-07T00:59:36.573425"
+      "last_updated": "2026-10-07T01:04:35.436439"
     },
     {
       "title": "Al-Nassr vs Diriyah",
@@ -192,7 +192,7 @@
       "sport": "football",
       "status": "upcoming",
       "runtime": "00h 00m 00s",
-      "viewers": "26",
+      "viewers": "27",
       "viewers_type": "Waiting",
       "servers": null,
       "date": null,
@@ -201,7 +201,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249138_53025_ANF_DIR_FC-Web.png",
       "match_id": "1008",
       "server_urls": [],
-      "last_updated": "2026-10-07T00:59:36.574050"
+      "last_updated": "2026-10-07T01:04:35.436750"
     },
     {
       "title": "England Champions vs South Africa Champions",
@@ -210,7 +210,7 @@
       "sport": "cricket",
       "status": "upcoming",
       "runtime": "00h 00m 00s",
-      "viewers": "10",
+      "viewers": "11",
       "viewers_type": "Waiting",
       "servers": null,
       "date": null,
@@ -219,11 +219,47 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249236_53069_EDC_SAC_FC-Web_1790764440985.png",
       "match_id": "1194",
       "server_urls": [],
-      "last_updated": "2026-10-07T00:59:36.574678"
+      "last_updated": "2026-10-07T01:04:35.437058"
     },
     {
       "title": "India Champions vs Pakistan Champions",
       "teams": "India Champions vs Pakistan Champions",
+      "league": "World Championship of Legends, 2026",
+      "sport": "cricket",
+      "status": "upcoming",
+      "runtime": "00h 00m 00s",
+      "viewers": "11",
+      "viewers_type": "Waiting",
+      "servers": null,
+      "date": null,
+      "time": null,
+      "match_url": "live/india-champions-vs-pakistan-champions-1195",
+      "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249238_53069_IAC_PNC_FC-Web_1790764441535.png",
+      "match_id": "1195",
+      "server_urls": [],
+      "last_updated": "2026-10-07T01:04:35.437367"
+    },
+    {
+      "title": "Al Hilal SFC vs Al-Ittihad",
+      "teams": "Al Hilal SFC vs Al-Ittihad",
+      "league": "Roshn Saudi League 2026-2027",
+      "sport": "football",
+      "status": "upcoming",
+      "runtime": "00h 00m 00s",
+      "viewers": "24",
+      "viewers_type": "Waiting",
+      "servers": null,
+      "date": null,
+      "time": null,
+      "match_url": "live/al-hilal-sfc-vs-al-ittihad-1042",
+      "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249139_53025_AHS_ITT_FC-Web.png",
+      "match_id": "1042",
+      "server_urls": [],
+      "last_updated": "2026-10-07T01:04:35.437670"
+    },
+    {
+      "title": "Australia Champions vs West Indies Champions",
+      "teams": "Australia Champions vs West Indies Champions",
       "league": "World Championship of Legends, 2026",
       "sport": "cricket",
       "status": "upcoming",
@@ -233,47 +269,11 @@
       "servers": null,
       "date": null,
       "time": null,
-      "match_url": "live/india-champions-vs-pakistan-champions-1195",
-      "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249238_53069_IAC_PNC_FC-Web_1790764441535.png",
-      "match_id": "1195",
-      "server_urls": [],
-      "last_updated": "2026-10-07T00:59:36.575286"
-    },
-    {
-      "title": "Al Hilal SFC vs Al-Ittihad",
-      "teams": "Al Hilal SFC vs Al-Ittihad",
-      "league": "Roshn Saudi League 2026-2027",
-      "sport": "football",
-      "status": "upcoming",
-      "runtime": "00h 00m 00s",
-      "viewers": "23",
-      "viewers_type": "Waiting",
-      "servers": null,
-      "date": null,
-      "time": null,
-      "match_url": "live/al-hilal-sfc-vs-al-ittihad-1042",
-      "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249139_53025_AHS_ITT_FC-Web.png",
-      "match_id": "1042",
-      "server_urls": [],
-      "last_updated": "2026-10-07T00:59:36.576025"
-    },
-    {
-      "title": "Australia Champions vs West Indies Champions",
-      "teams": "Australia Champions vs West Indies Champions",
-      "league": "World Championship of Legends, 2026",
-      "sport": "cricket",
-      "status": "upcoming",
-      "runtime": "00h 00m 00s",
-      "viewers": "9",
-      "viewers_type": "Waiting",
-      "servers": null,
-      "date": null,
-      "time": null,
       "match_url": "live/australia-champions-vs-west-indies-champions-1196",
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249225_53069_AAC_WIC_FC-Web_1790764440714.png",
       "match_id": "1196",
       "server_urls": [],
-      "last_updated": "2026-10-07T00:59:36.576664"
+      "last_updated": "2026-10-07T01:04:35.437976"
     },
     {
       "title": "India Champions vs Bangladesh Champions",
@@ -282,7 +282,7 @@
       "sport": "cricket",
       "status": "upcoming",
       "runtime": "00h 00m 00s",
-      "viewers": "9",
+      "viewers": "10",
       "viewers_type": "Waiting",
       "servers": null,
       "date": null,
@@ -291,7 +291,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249237_53069_IAC_BGC_FC-Web_1790764440982.png",
       "match_id": "1197",
       "server_urls": [],
-      "last_updated": "2026-10-07T00:59:36.577276"
+      "last_updated": "2026-10-07T01:04:35.438293"
     },
     {
       "title": "Barcelona vs Getafe CF",
@@ -300,7 +300,7 @@
       "sport": "football",
       "status": "upcoming",
       "runtime": "00h 00m 00s",
-      "viewers": "20",
+      "viewers": "21",
       "viewers_type": "Waiting",
       "servers": null,
       "date": null,
@@ -309,7 +309,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
       "match_id": "1049",
       "server_urls": [],
-      "last_updated": "2026-10-07T00:59:36.577906"
+      "last_updated": "2026-10-07T01:04:35.438599"
     },
     {
       "title": "Deportivo Alaves vs Atletico de Madrid",
@@ -318,7 +318,7 @@
       "sport": "football",
       "status": "upcoming",
       "runtime": "00h 00m 00s",
-      "viewers": "20",
+      "viewers": "21",
       "viewers_type": "Waiting",
       "servers": null,
       "date": null,
@@ -327,47 +327,11 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
       "match_id": "1043",
       "server_urls": [],
-      "last_updated": "2026-10-07T00:59:36.578580"
+      "last_updated": "2026-10-07T01:04:35.438904"
     },
     {
       "title": "Pakistan Champions vs South Africa Champions",
       "teams": "Pakistan Champions vs South Africa Champions",
-      "league": "World Championship of Legends, 2026",
-      "sport": "cricket",
-      "status": "upcoming",
-      "runtime": "00h 00m 00s",
-      "viewers": "7",
-      "viewers_type": "Waiting",
-      "servers": null,
-      "date": null,
-      "time": null,
-      "match_url": "live/pakistan-champions-vs-south-africa-champions-1198",
-      "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249226_53069_PNC_SAC_FC-Web_1790764440890.png",
-      "match_id": "1198",
-      "server_urls": [],
-      "last_updated": "2026-10-07T00:59:36.579205"
-    },
-    {
-      "title": "Australia Champions vs England Champions",
-      "teams": "Australia Champions vs England Champions",
-      "league": "World Championship of Legends, 2026",
-      "sport": "cricket",
-      "status": "upcoming",
-      "runtime": "00h 00m 00s",
-      "viewers": "7",
-      "viewers_type": "Waiting",
-      "servers": null,
-      "date": null,
-      "time": null,
-      "match_url": "live/australia-champions-vs-england-champions-1199",
-      "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249239_53069_AAC_EDC_FC-Web_1790764440878.png",
-      "match_id": "1199",
-      "server_urls": [],
-      "last_updated": "2026-10-07T00:59:36.579842"
-    },
-    {
-      "title": "India Champions vs West Indies Champions",
-      "teams": "India Champions vs West Indies Champions",
       "league": "World Championship of Legends, 2026",
       "sport": "cricket",
       "status": "upcoming",
@@ -377,11 +341,47 @@
       "servers": null,
       "date": null,
       "time": null,
+      "match_url": "live/pakistan-champions-vs-south-africa-champions-1198",
+      "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249226_53069_PNC_SAC_FC-Web_1790764440890.png",
+      "match_id": "1198",
+      "server_urls": [],
+      "last_updated": "2026-10-07T01:04:35.439214"
+    },
+    {
+      "title": "Australia Champions vs England Champions",
+      "teams": "Australia Champions vs England Champions",
+      "league": "World Championship of Legends, 2026",
+      "sport": "cricket",
+      "status": "upcoming",
+      "runtime": "00h 00m 00s",
+      "viewers": "8",
+      "viewers_type": "Waiting",
+      "servers": null,
+      "date": null,
+      "time": null,
+      "match_url": "live/australia-champions-vs-england-champions-1199",
+      "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249239_53069_AAC_EDC_FC-Web_1790764440878.png",
+      "match_id": "1199",
+      "server_urls": [],
+      "last_updated": "2026-10-07T01:04:35.439516"
+    },
+    {
+      "title": "India Champions vs West Indies Champions",
+      "teams": "India Champions vs West Indies Champions",
+      "league": "World Championship of Legends, 2026",
+      "sport": "cricket",
+      "status": "upcoming",
+      "runtime": "00h 00m 00s",
+      "viewers": "9",
+      "viewers_type": "Waiting",
+      "servers": null,
+      "date": null,
+      "time": null,
       "match_url": "live/india-champions-vs-west-indies-champions-1200",
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249231_53069_IAC_WIC_FC-Web_1790764441502.png",
       "match_id": "1200",
       "server_urls": [],
-      "last_updated": "2026-10-07T00:59:36.580471"
+      "last_updated": "2026-10-07T01:04:35.439818"
     },
     {
       "title": "England Champions vs Pakistan Champions",
@@ -390,7 +390,7 @@
       "sport": "cricket",
       "status": "upcoming",
       "runtime": "00h 00m 00s",
-      "viewers": "7",
+      "viewers": "8",
       "viewers_type": "Waiting",
       "servers": null,
       "date": null,
@@ -399,7 +399,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249235_53069_EDC_PNC_FC-Web_1790764440910.png",
       "match_id": "1201",
       "server_urls": [],
-      "last_updated": "2026-10-07T00:59:36.581083"
+      "last_updated": "2026-10-07T01:04:35.440123"
     },
     {
       "title": "Bangladesh Champions vs South Africa Champions",
@@ -408,7 +408,7 @@
       "sport": "cricket",
       "status": "upcoming",
       "runtime": "00h 00m 00s",
-      "viewers": "7",
+      "viewers": "8",
       "viewers_type": "Waiting",
       "servers": null,
       "date": null,
@@ -417,7 +417,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249240_53069_BGC_SAC_FC-Web_1790764441547.png",
       "match_id": "1202",
       "server_urls": [],
-      "last_updated": "2026-10-07T00:59:36.581713"
+      "last_updated": "2026-10-07T01:04:35.440418"
     },
     {
       "title": "South Africa vs Australia 2nd Test",
@@ -426,7 +426,7 @@
       "sport": "cricket",
       "status": "upcoming",
       "runtime": "00h 00m 00s",
-      "viewers": "17",
+      "viewers": "19",
       "viewers_type": "Waiting",
       "servers": null,
       "date": null,
@@ -435,7 +435,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/AUS-vs-SA_Web-match-card.png",
       "match_id": "1101",
       "server_urls": [],
-      "last_updated": "2026-10-07T00:59:36.582316"
+      "last_updated": "2026-10-07T01:04:35.440719"
     },
     {
       "title": "South Africa vs Australia 3rd Test",
@@ -444,7 +444,7 @@
       "sport": "cricket",
       "status": "upcoming",
       "runtime": "00h 00m 00s",
-      "viewers": "16",
+      "viewers": "18",
       "viewers_type": "Waiting",
       "servers": null,
       "date": null,
@@ -453,7 +453,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/AUS-vs-SA_Web-match-card.png",
       "match_id": "1102",
       "server_urls": [],
-      "last_updated": "2026-10-07T00:59:36.582939"
+      "last_updated": "2026-10-07T01:04:35.441016"
     }
   ]
 }
