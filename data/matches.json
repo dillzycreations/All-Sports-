@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-09T17:32:14.312052",
+  "timestamp": "2026-10-09T17:37:17.467147",
   "total_matches": 21,
   "live_count": 6,
   "upcoming_count": 15,
@@ -12,7 +12,7 @@
       "sport": "cricket",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "323",
+      "viewers": "324",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -26,7 +26,7 @@
         "https://bpl24middleeast.akamaized.net/hls/live/2109311/j15klM//master.m3u8",
         "https://live.talkoraai.com/match/seg?t=Shv3UsQAmD0jZKca_m8MthsaF9wICJMojTmLo5ZmY7RP5IBD5lrq6JsdggVxpUZkQ8HPMZdH59gjaIHHQUMaphj25r8B1LElXKekge_tinJoGBi9VD3qG3h9bGx1_dHSFAFFVckZQAxztFiz6W2YSexQ-D2__LCbCRVLMbJvvyTutq0h9zn_mbafeJTldnkUJqujjhglqsEDEpb0l5eSoqEsDaZfRyubpiKPXv-U59sPQV86yNUU2g6aDTol_gGdQGLRes9dMiKNCCx8OGiPb2eTH9wEMx2Vnp1ywA"
       ],
-      "last_updated": "2026-10-09T17:32:11.572141"
+      "last_updated": "2026-10-09T17:37:14.038018"
     },
     {
       "title": "South Africa vs Australia 1st Test",
@@ -35,7 +35,7 @@
       "sport": "cricket",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "178",
+      "viewers": "179",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -48,7 +48,7 @@
         "https://live.talkoraai.com/match/seg?t=FxEBBRIcUgH5fqr8oTn-pruyx--eSnE4qBCjIqdagctfi8F1XTmraQrx2XHAVhey3QTIy25Pzr5_4VqVuVMdc6IRpgowrLbRgg152a4bVS0UXCqYb2cvzneqMJRN5D2xiVjvBACYyajEVSG-qQtYkY_iAy3Lhzi6vLPiAZ-LCcgMa32AatGoraWvoBgwDUBJxnH4b9jCdM6tdwOajq7gtp1tjCv00sEnfDl5CHlBelT9CfbNgv4xGoAZyZ9kfONlj4HEhz8dcaT_8_MAM-HvM1U2SkvHqz_1KJ4",
         "https://tvsen6.aynaott.com/zv68oqPDu7MZZwmHhRxt/index.m3u8?e=1784102512&u=ee5437a7-c16b-4700-b317-a41b77d5cba9&token=968935df4fd0678de5d7fe392c0610d9"
       ],
-      "last_updated": "2026-10-09T17:32:12.028763"
+      "last_updated": "2026-10-09T17:37:14.469325"
     },
     {
       "title": "Al-Kholood Club vs Al-Qadsiah",
@@ -57,7 +57,7 @@
       "sport": "cricket",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "83",
+      "viewers": "84",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -66,7 +66,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249136_53025_ALK_ALQ_FC-Web.png",
       "match_id": "1000",
       "server_urls": [],
-      "last_updated": "2026-10-09T17:32:12.400667"
+      "last_updated": "2026-10-09T17:37:15.368515"
     },
     {
       "title": "Al-Fateh SC vs Al-Ahli Saudi",
@@ -75,7 +75,7 @@
       "sport": "football",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "71",
+      "viewers": "72",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -86,7 +86,7 @@
       "server_urls": [
         "https://fawa.duckdns.org/api/proxy?url=http%3A%2F%2F193.47.62.44%2Fhls%2Fseeeaaaaaqqqqqq.m3u8&headers=%7B%22Referer%22%3A%22http%3A%2F%2Fwww.fawanews.sc%2F%22%7D"
       ],
-      "last_updated": "2026-10-09T17:32:13.284151"
+      "last_updated": "2026-10-09T17:37:15.736532"
     },
     {
       "title": "Bangladesh Champions vs West Indies Champions",
@@ -95,7 +95,7 @@
       "sport": "cricket",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "51",
+      "viewers": "52",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -106,7 +106,7 @@
       "server_urls": [
         "https://tvsen7.aynaott.com/ssport2hd/tracks-v1a1/mono.ts.m3u8"
       ],
-      "last_updated": "2026-10-09T17:32:13.616135"
+      "last_updated": "2026-10-09T17:37:16.790721"
     },
     {
       "title": "Asian Games 2026",
@@ -115,7 +115,7 @@
       "sport": "others",
       "status": "live",
       "runtime": null,
-      "viewers": "176",
+      "viewers": "177",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -137,7 +137,7 @@
         "https://alixbd.com/playlistconfig/toffee.php?ts_proxy=aHR0cHM6Ly9wcm9kLWxpbmVhci1tZWRpYS50b2ZmZWVsaXZlLmNvbS9jZG4vbGl2ZS9zb255X3Nwb3J0c18yX2hkLzU3Ni81NzYubTN1OD9oZG50bD1FeHBpcmVzPTE3OTA4ODY0OTB%2BX0dPPUdlbmVyYXRlZH5VUkxQcmVmaXg9YUhSMGNITTZMeTl3Y205a0xXeHBibVZoY2kxdFpXUnBZUzUwYjJabVpXVnNhWFpsTG1OdmJRfkRhdGE9ZXlKemRXSnpZM0pwWW1WeVgybGtJam9pTW1ZeU5tRXlabVl0T0RSa1lTMDBOelJpTFdKaU4yRXRNakZsWTJWaFpUSXlOREJtSW4wflNpZ25hdHVyZT1BZGhCMkxjWUtzR2k5Mzd3QnIxU0l6T0RHUzVlVVNIdEVla1FEbGNENlY1RDQtczFHM1E4Y25xYnFJN1Q0NEVhVG1LTkVlOUlPZkZKVUtUcVJlU2hHN0xueW5nSw%3D%3D",
         "https://alixbd.com/playlistconfig/toffee.php?channel=Sony%20Ten%20Sports%202%20HD&raw=1"
       ],
-      "last_updated": "2026-10-09T17:32:13.945311"
+      "last_updated": "2026-10-09T17:37:17.126207"
     },
     {
       "title": "Al-Nassr vs Diriyah",
@@ -155,7 +155,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249138_53025_ANF_DIR_FC-Web.png",
       "match_id": "1008",
       "server_urls": [],
-      "last_updated": "2026-10-09T17:32:14.304656"
+      "last_updated": "2026-10-09T17:37:17.457298"
     },
     {
       "title": "England Champions vs South Africa Champions",
@@ -173,7 +173,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249236_53069_EDC_SAC_FC-Web_1790764440985.png",
       "match_id": "1194",
       "server_urls": [],
-      "last_updated": "2026-10-09T17:32:14.305243"
+      "last_updated": "2026-10-09T17:37:17.458064"
     },
     {
       "title": "India Champions vs Pakistan Champions",
@@ -191,7 +191,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249238_53069_IAC_PNC_FC-Web_1790764441535.png",
       "match_id": "1195",
       "server_urls": [],
-      "last_updated": "2026-10-09T17:32:14.305731"
+      "last_updated": "2026-10-09T17:37:17.458740"
     },
     {
       "title": "Al Hilal SFC vs Al-Ittihad",
@@ -209,7 +209,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249139_53025_AHS_ITT_FC-Web.png",
       "match_id": "1042",
       "server_urls": [],
-      "last_updated": "2026-10-09T17:32:14.306219"
+      "last_updated": "2026-10-09T17:37:17.459375"
     },
     {
       "title": "Australia Champions vs West Indies Champions",
@@ -227,7 +227,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249225_53069_AAC_WIC_FC-Web_1790764440714.png",
       "match_id": "1196",
       "server_urls": [],
-      "last_updated": "2026-10-09T17:32:14.306689"
+      "last_updated": "2026-10-09T17:37:17.460067"
     },
     {
       "title": "India Champions vs Bangladesh Champions",
@@ -245,7 +245,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249237_53069_IAC_BGC_FC-Web_1790764440982.png",
       "match_id": "1197",
       "server_urls": [],
-      "last_updated": "2026-10-09T17:32:14.307163"
+      "last_updated": "2026-10-09T17:37:17.460723"
     },
     {
       "title": "Barcelona vs Getafe CF",
@@ -263,7 +263,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
       "match_id": "1049",
       "server_urls": [],
-      "last_updated": "2026-10-09T17:32:14.307639"
+      "last_updated": "2026-10-09T17:37:17.461343"
     },
     {
       "title": "Deportivo Alaves vs Atletico de Madrid",
@@ -281,7 +281,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
       "match_id": "1043",
       "server_urls": [],
-      "last_updated": "2026-10-09T17:32:14.308125"
+      "last_updated": "2026-10-09T17:37:17.461984"
     },
     {
       "title": "Pakistan Champions vs South Africa Champions",
@@ -299,7 +299,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249226_53069_PNC_SAC_FC-Web_1790764440890.png",
       "match_id": "1198",
       "server_urls": [],
-      "last_updated": "2026-10-09T17:32:14.308601"
+      "last_updated": "2026-10-09T17:37:17.462643"
     },
     {
       "title": "Australia Champions vs England Champions",
@@ -317,7 +317,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249239_53069_AAC_EDC_FC-Web_1790764440878.png",
       "match_id": "1199",
       "server_urls": [],
-      "last_updated": "2026-10-09T17:32:14.309083"
+      "last_updated": "2026-10-09T17:37:17.463259"
     },
     {
       "title": "India Champions vs West Indies Champions",
@@ -335,7 +335,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249231_53069_IAC_WIC_FC-Web_1790764441502.png",
       "match_id": "1200",
       "server_urls": [],
-      "last_updated": "2026-10-09T17:32:14.309554"
+      "last_updated": "2026-10-09T17:37:17.463929"
     },
     {
       "title": "England Champions vs Pakistan Champions",
@@ -353,7 +353,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249235_53069_EDC_PNC_FC-Web_1790764440910.png",
       "match_id": "1201",
       "server_urls": [],
-      "last_updated": "2026-10-09T17:32:14.310126"
+      "last_updated": "2026-10-09T17:37:17.464580"
     },
     {
       "title": "Bangladesh Champions vs South Africa Champions",
@@ -371,7 +371,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249240_53069_BGC_SAC_FC-Web_1790764441547.png",
       "match_id": "1202",
       "server_urls": [],
-      "last_updated": "2026-10-09T17:32:14.310601"
+      "last_updated": "2026-10-09T17:37:17.465201"
     },
     {
       "title": "South Africa vs Australia 2nd Test",
@@ -389,7 +389,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/AUS-vs-SA_Web-match-card.png",
       "match_id": "1101",
       "server_urls": [],
-      "last_updated": "2026-10-09T17:32:14.311080"
+      "last_updated": "2026-10-09T17:37:17.465866"
     },
     {
       "title": "South Africa vs Australia 3rd Test",
@@ -407,7 +407,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/AUS-vs-SA_Web-match-card.png",
       "match_id": "1102",
       "server_urls": [],
-      "last_updated": "2026-10-09T17:32:14.311555"
+      "last_updated": "2026-10-09T17:37:17.466478"
     }
   ]
 }
