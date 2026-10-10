@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-10T12:32:54.546254",
+  "timestamp": "2026-10-10T12:38:16.896189",
   "total_matches": 18,
   "live_count": 5,
   "upcoming_count": 13,
@@ -12,7 +12,7 @@
       "sport": "cricket",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "457",
+      "viewers": "459",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -26,7 +26,7 @@
         "https://bpl24middleeast.akamaized.net/hls/live/2109311/j15klM//master.m3u8",
         "https://live.talkoraai.com/match/seg?t=Jh_rz-dbDVNP9UGdthV39oED40s7nAHedog2foku2ZS4RaPB2nKT063hrdUkAfKLAss7uFR9dblzXrmnFnZW7bmMKoU6WUEkbj_YWkrQ7XmgN2a_oP830Puj5GJRfHKdXmh0mNVzB0ysJ-Lkms3dnNDPN7RYmnuqAlv0jFG902qVMuho1X_fpVXfx68LE7zxdyZ4-KlSw7DXWyJvnTJPM5jiQtT5_s1vf4CFwnDG0pFsicWz0rUaNNDVJXAn5hV4dsqUt8VQeOYWTPrzoIV_HrUK3GINT6okdb73kWKYlW7dhy_id8Fm4iWDecTrEA"
       ],
-      "last_updated": "2026-10-10T12:32:51.462079"
+      "last_updated": "2026-10-10T12:38:14.461281"
     },
     {
       "title": "South Africa vs Australia 1st Test",
@@ -35,7 +35,7 @@
       "sport": "cricket",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "259",
+      "viewers": "260",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -48,7 +48,7 @@
         "https://tvsen6.aynaott.com/zv68oqPDu7MZZwmHhRxt/index.m3u8?e=1784102512&u=ee5437a7-c16b-4700-b317-a41b77d5cba9&token=968935df4fd0678de5d7fe392c0610d9",
         "https://live.talkoraai.com/match/seg?t=yKwsqd2rqyga7cCi_gP8LDuk57Gr9K6DkOQe5wSbJL1ApLr4ImqLro8DLys9gnmXyokBW7Fryo5kkEPAJr_-AUGzvDl_SUO3-KOmTRJMgs-cmaNeNmTK_H4kVEEMUz4KkuMHaq_LuFnwNqpK3oKRDhR9rshwkUFmQiKkD4MY8j1PU8bL87rRambBDVkhzNTXXPt8LH65Y3to-vpJos5OFooIYnxOdTSam93ygdpnTAjbJqdD_AsIaTPPZaBhxMOQmY9dbN-YRJCZARfs7Y-mtTxchewVyuJUS-g"
       ],
-      "last_updated": "2026-10-10T12:32:52.262080"
+      "last_updated": "2026-10-10T12:38:15.609290"
     },
     {
       "title": "England Champions vs South Africa Champions",
@@ -57,7 +57,7 @@
       "sport": "cricket",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "38",
+      "viewers": "39",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -69,7 +69,7 @@
         "https://tvsen5.aynaott.com/TnMn5kZz8aLmjkl/index.m3u8",
         "https://tvsen7.aynaott.com/ssport2hd/tracks-v1a1/mono.ts.m3u8"
       ],
-      "last_updated": "2026-10-10T12:32:52.552503"
+      "last_updated": "2026-10-10T12:38:15.936334"
     },
     {
       "title": "Arsenal vs Leeds United",
@@ -78,7 +78,7 @@
       "sport": "cricket",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "8",
+      "viewers": "10",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -91,7 +91,7 @@
         "https://hamyra-api.aininjaibrahim.workers.dev/bongo/live?id=7HDdwx8lVvq",
         "https://live.talkoraai.com/match/seg?t=LaMyUd9nH9gl9pZw3DWPSqurta-u-kqF6aamhWd2_ec3PHOxJnX5AYA94zdWsjU6TttjL1iF5BF4vARNhRQPvh582Q3RapQKQ5hdkJCVAwtBRptyeN720r9ueHclWlZ-f-LNFWMNjybTuxWpKgoYHAQmxrKXWKbS09VMaaWfXEUd_AGbcv2P6W5jGSbTR5fKn12YwlB6c9FKRlNtbFEPstV_kHlsfs5OHSRkELsu_glO0YKU2DMCWH6Iw00CY-hfQWG99CuAO3Rw6JRJph9wSUbA20KEv8RM-BF1oQmayYOEd0kPUX5yqwcqqUPJD4_WPUDOlRQWpHrtv0iG4BuiITgkyYDX27hgNnsiEhpIG51qYeQDUo1m1n-m79iYaAHqjFlx8RDnZbQPmRULSucDbcxqLnsCgA"
       ],
-      "last_updated": "2026-10-10T12:32:52.827395"
+      "last_updated": "2026-10-10T12:38:16.255391"
     },
     {
       "title": "Asian Games 2026",
@@ -100,7 +100,7 @@
       "sport": "others",
       "status": "live",
       "runtime": null,
-      "viewers": "406",
+      "viewers": "408",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -122,7 +122,7 @@
         "https://alixbd.com/playlistconfig/toffee.php?ts_proxy=aHR0cHM6Ly9wcm9kLWxpbmVhci1tZWRpYS50b2ZmZWVsaXZlLmNvbS9jZG4vbGl2ZS9zb255X3Nwb3J0c18yX2hkLzU3Ni81NzYubTN1OD9oZG50bD1FeHBpcmVzPTE3OTA4ODY0OTB%2BX0dPPUdlbmVyYXRlZH5VUkxQcmVmaXg9YUhSMGNITTZMeTl3Y205a0xXeHBibVZoY2kxdFpXUnBZUzUwYjJabVpXVnNhWFpsTG1OdmJRfkRhdGE9ZXlKemRXSnpZM0pwWW1WeVgybGtJam9pTW1ZeU5tRXlabVl0T0RSa1lTMDBOelJpTFdKaU4yRXRNakZsWTJWaFpUSXlOREJtSW4wflNpZ25hdHVyZT1BZGhCMkxjWUtzR2k5Mzd3QnIxU0l6T0RHUzVlVVNIdEVla1FEbGNENlY1RDQtczFHM1E4Y25xYnFJN1Q0NEVhVG1LTkVlOUlPZkZKVUtUcVJlU2hHN0xueW5nSw%3D%3D",
         "https://alixbd.com/playlistconfig/toffee.php?channel=Sony%20Ten%20Sports%202%20HD&raw=1"
       ],
-      "last_updated": "2026-10-10T12:32:54.250195"
+      "last_updated": "2026-10-10T12:38:16.575324"
     },
     {
       "title": "India Champions vs Pakistan Champions",
@@ -140,7 +140,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249238_53069_IAC_PNC_FC-Web_1790764441535.png",
       "match_id": "1195",
       "server_urls": [],
-      "last_updated": "2026-10-10T12:32:54.538126"
+      "last_updated": "2026-10-10T12:38:16.888172"
     },
     {
       "title": "Al Hilal SFC vs Al-Ittihad",
@@ -158,7 +158,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249139_53025_AHS_ITT_FC-Web.png",
       "match_id": "1042",
       "server_urls": [],
-      "last_updated": "2026-10-10T12:32:54.538825"
+      "last_updated": "2026-10-10T12:38:16.888856"
     },
     {
       "title": "Australia Champions vs West Indies Champions",
@@ -176,7 +176,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249225_53069_AAC_WIC_FC-Web_1790764440714.png",
       "match_id": "1196",
       "server_urls": [],
-      "last_updated": "2026-10-10T12:32:54.539470"
+      "last_updated": "2026-10-10T12:38:16.889497"
     },
     {
       "title": "India Champions vs Bangladesh Champions",
@@ -194,7 +194,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249237_53069_IAC_BGC_FC-Web_1790764440982.png",
       "match_id": "1197",
       "server_urls": [],
-      "last_updated": "2026-10-10T12:32:54.540084"
+      "last_updated": "2026-10-10T12:38:16.890127"
     },
     {
       "title": "Barcelona vs Getafe CF",
@@ -212,7 +212,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
       "match_id": "1049",
       "server_urls": [],
-      "last_updated": "2026-10-10T12:32:54.540719"
+      "last_updated": "2026-10-10T12:38:16.890730"
     },
     {
       "title": "Deportivo Alaves vs Atletico de Madrid",
@@ -230,7 +230,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/FC_Sports_Default_Football-old-copy.jpg",
       "match_id": "1043",
       "server_urls": [],
-      "last_updated": "2026-10-10T12:32:54.541345"
+      "last_updated": "2026-10-10T12:38:16.891342"
     },
     {
       "title": "Pakistan Champions vs South Africa Champions",
@@ -248,7 +248,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249226_53069_PNC_SAC_FC-Web_1790764440890.png",
       "match_id": "1198",
       "server_urls": [],
-      "last_updated": "2026-10-10T12:32:54.541952"
+      "last_updated": "2026-10-10T12:38:16.891949"
     },
     {
       "title": "Australia Champions vs England Champions",
@@ -266,7 +266,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249239_53069_AAC_EDC_FC-Web_1790764440878.png",
       "match_id": "1199",
       "server_urls": [],
-      "last_updated": "2026-10-10T12:32:54.542569"
+      "last_updated": "2026-10-10T12:38:16.892536"
     },
     {
       "title": "India Champions vs West Indies Champions",
@@ -284,7 +284,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249231_53069_IAC_WIC_FC-Web_1790764441502.png",
       "match_id": "1200",
       "server_urls": [],
-      "last_updated": "2026-10-10T12:32:54.543181"
+      "last_updated": "2026-10-10T12:38:16.893150"
     },
     {
       "title": "England Champions vs Pakistan Champions",
@@ -302,7 +302,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249235_53069_EDC_PNC_FC-Web_1790764440910.png",
       "match_id": "1201",
       "server_urls": [],
-      "last_updated": "2026-10-10T12:32:54.543785"
+      "last_updated": "2026-10-10T12:38:16.893743"
     },
     {
       "title": "Bangladesh Champions vs South Africa Champions",
@@ -320,7 +320,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249240_53069_BGC_SAC_FC-Web_1790764441547.png",
       "match_id": "1202",
       "server_urls": [],
-      "last_updated": "2026-10-10T12:32:54.544416"
+      "last_updated": "2026-10-10T12:38:16.894364"
     },
     {
       "title": "South Africa vs Australia 2nd Test",
@@ -338,7 +338,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/AUS-vs-SA_Web-match-card.png",
       "match_id": "1101",
       "server_urls": [],
-      "last_updated": "2026-10-10T12:32:54.545018"
+      "last_updated": "2026-10-10T12:38:16.894976"
     },
     {
       "title": "South Africa vs Australia 3rd Test",
@@ -356,7 +356,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/AUS-vs-SA_Web-match-card.png",
       "match_id": "1102",
       "server_urls": [],
-      "last_updated": "2026-10-10T12:32:54.545631"
+      "last_updated": "2026-10-10T12:38:16.895563"
     }
   ]
 }
