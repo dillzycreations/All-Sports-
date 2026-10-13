@@ -1,5 +1,5 @@
 {
-  "timestamp": "2026-10-13T14:43:33.275928",
+  "timestamp": "2026-10-13T14:48:42.476731",
   "total_matches": 29,
   "live_count": 3,
   "upcoming_count": 26,
@@ -12,7 +12,7 @@
       "sport": "cricket",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "252",
+      "viewers": "253",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -26,7 +26,7 @@
         "https://devm3u.netlify.app/stream/devm3u-tsports/playlist.m3u8",
         "https://live.talkoraai.com/match/seg?t=scmVXfbHlYwhMwKaPtCHEZTiF3simYpazJWSckMvRidx8V16N3FdcHI61DtzOjGYQI6_DDUf3P9L_VVTaTuj9SlBT3f6ujp_iUYYqwPC0Pc_p2hrohm6m8KhfLQOp-xFwbO0X3JVNZr1nXlD4QdrjkVx8W6gp6FGjnWZqs2Lcx8DBf2ZtdMh2CyZ9DWCN0FwoZ3IcFI49yVKEJZBninPKgvsPjy-slVdE2VRnY-g5NWNU86hvf0j3o2LQXkgbsbsEuBWa4xG0yEB5nKmQZaBC9h_Eke0B79KWHtL"
       ],
-      "last_updated": "2026-10-13T14:43:32.208699"
+      "last_updated": "2026-10-13T14:48:39.482909"
     },
     {
       "title": "South Africa vs Australia 1st Test",
@@ -35,7 +35,7 @@
       "sport": "cricket",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "880",
+      "viewers": "881",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -49,7 +49,7 @@
         "https://live.talkoraai.com/match/seg?t=2gDjrXt0GtXKZ0Owt-JS0aBPfHrw5V1pBdG3BkjK1RjHWXOHSfctt9U7lvKe6EUk6ri2BHz5-5AKGr5P_AKuLhxQ2xXwb3XdENhKUDqFuTjEyznzK-hlXFuEJVLTbJX1BrhLwdCG9BJ66Z8pWtyam7zyPEzx_IXJQnlm7z61XoR2njq0P9t2vUlJjgeylDqcXZsTC-Wnohk-40sqF_d_HlSXgmmw5nbk2T58hkofzcQNnim3bB6Bj9bs2MfYYczDEaskiucIfIlBPbOfvqUFa1bWigoyiPeZeg8-bOKPLQ",
         "https://fawa.duckdns.org/api/proxy?url=http%3A%2F%2F193.47.62.50%2Fhls%2FHHHHRX.m3u8&headers=%7B%22Referer%22%3A%22http%3A%2F%2Fwww.fawanews.sc%2F%22%7D"
       ],
-      "last_updated": "2026-10-13T14:43:32.561576"
+      "last_updated": "2026-10-13T14:48:41.652656"
     },
     {
       "title": "Australia Champions v South Africa Champions",
@@ -58,7 +58,7 @@
       "sport": "cricket",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "72",
+      "viewers": "73",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -69,7 +69,7 @@
       "server_urls": [
         "https://tvsen7.aynascope.net/ssport2hd/tracks-v1a1/mono.ts.m3u8"
       ],
-      "last_updated": "2026-10-13T14:43:32.904703"
+      "last_updated": "2026-10-13T14:48:42.058522"
     },
     {
       "title": "India Champions vs West Indies Champions",
@@ -87,7 +87,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249231_53069_IAC_WIC_FC-Web_1790764441502.png",
       "match_id": "1200",
       "server_urls": [],
-      "last_updated": "2026-10-13T14:43:33.259228"
+      "last_updated": "2026-10-13T14:48:42.462590"
     },
     {
       "title": "England Champions vs Pakistan Champions",
@@ -105,7 +105,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249235_53069_EDC_PNC_FC-Web_1790764440910.png",
       "match_id": "1201",
       "server_urls": [],
-      "last_updated": "2026-10-13T14:43:33.259967"
+      "last_updated": "2026-10-13T14:48:42.463218"
     },
     {
       "title": "Bangladesh Champions vs South Africa Champions",
@@ -123,7 +123,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4249240_53069_BGC_SAC_FC-Web_1790764441547.png",
       "match_id": "1202",
       "server_urls": [],
-      "last_updated": "2026-10-13T14:43:33.260645"
+      "last_updated": "2026-10-13T14:48:42.463775"
     },
     {
       "title": "Deportivo de La Coruna vs Levante",
@@ -141,7 +141,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4247653_53004_COR_LET_FC-Web.png",
       "match_id": "1250",
       "server_urls": [],
-      "last_updated": "2026-10-13T14:43:33.261281"
+      "last_updated": "2026-10-13T14:48:42.464322"
     },
     {
       "title": "RCD Espanyol vs Atletico de Madrid",
@@ -159,7 +159,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4247654_53004_ESL_ATM_FC-Web.png",
       "match_id": "1251",
       "server_urls": [],
-      "last_updated": "2026-10-13T14:43:33.261932"
+      "last_updated": "2026-10-13T14:48:42.464869"
     },
     {
       "title": "Villarreal CF vs Elche CF",
@@ -177,7 +177,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4247652_53004_VIL_ELC_FC-Web.png",
       "match_id": "1252",
       "server_urls": [],
-      "last_updated": "2026-10-13T14:43:33.262580"
+      "last_updated": "2026-10-13T14:48:42.465404"
     },
     {
       "title": "Real Betis vs Barcelona",
@@ -195,7 +195,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4247656_53004_RB_BAR_FC-Web.png",
       "match_id": "1253",
       "server_urls": [],
-      "last_updated": "2026-10-13T14:43:33.263205"
+      "last_updated": "2026-10-13T14:48:42.465952"
     },
     {
       "title": "Valencia CF vs Athletic Club",
@@ -213,7 +213,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4247655_53004_VAL_ATH_FC-Web.png",
       "match_id": "1254",
       "server_urls": [],
-      "last_updated": "2026-10-13T14:43:33.263850"
+      "last_updated": "2026-10-13T14:48:42.466491"
     },
     {
       "title": "South Africa vs Australia 2nd Test",
@@ -231,7 +231,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/AUS-vs-SA_Web-match-card.png",
       "match_id": "1101",
       "server_urls": [],
-      "last_updated": "2026-10-13T14:43:33.264465"
+      "last_updated": "2026-10-13T14:48:42.467036"
     },
     {
       "title": "CA Osasuna vs Racing Club de Santander",
@@ -249,7 +249,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4247657_53004_OSN_RAC_FC-Web.png",
       "match_id": "1255",
       "server_urls": [],
-      "last_updated": "2026-10-13T14:43:33.265125"
+      "last_updated": "2026-10-13T14:48:42.467568"
     },
     {
       "title": "RC Celta vs Deportivo Alaves",
@@ -267,7 +267,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4247648_53004_CEV_ALA_FC-Web.png",
       "match_id": "1256",
       "server_urls": [],
-      "last_updated": "2026-10-13T14:43:33.265790"
+      "last_updated": "2026-10-13T14:48:42.468108"
     },
     {
       "title": "Malaga vs Real Sociedad",
@@ -285,7 +285,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4247649_53004_MAG_RS_FC-Web.png",
       "match_id": "1257",
       "server_urls": [],
-      "last_updated": "2026-10-13T14:43:33.266410"
+      "last_updated": "2026-10-13T14:48:42.468642"
     },
     {
       "title": "Real Madrid vs Sevilla",
@@ -303,7 +303,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4247651_53004_RM_SEV_FC-Web.png",
       "match_id": "1258",
       "server_urls": [],
-      "last_updated": "2026-10-13T14:43:33.267061"
+      "last_updated": "2026-10-13T14:48:42.469183"
     },
     {
       "title": "Getafe CF vs Rayo Vallecano",
@@ -321,7 +321,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4247650_53004_GEF_RVL_FC-Web.png",
       "match_id": "1259",
       "server_urls": [],
-      "last_updated": "2026-10-13T14:43:33.267700"
+      "last_updated": "2026-10-13T14:48:42.469721"
     },
     {
       "title": "Levante vs Athletic Club",
@@ -339,7 +339,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4247624_53004_LET_ATH_FC-Web.png",
       "match_id": "1260",
       "server_urls": [],
-      "last_updated": "2026-10-13T14:43:33.268326"
+      "last_updated": "2026-10-13T14:48:42.470267"
     },
     {
       "title": "Deportivo Alaves vs Malaga",
@@ -357,7 +357,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4247660_53004_ALA_MAG_FC-Web.png",
       "match_id": "1261",
       "server_urls": [],
-      "last_updated": "2026-10-13T14:43:33.268973"
+      "last_updated": "2026-10-13T14:48:42.470811"
     },
     {
       "title": "Rayo Vallecano vs Elche CF",
@@ -375,7 +375,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4247665_53004_RVL_ELC_FC-Web.png",
       "match_id": "1262",
       "server_urls": [],
-      "last_updated": "2026-10-13T14:43:33.269610"
+      "last_updated": "2026-10-13T14:48:42.471337"
     },
     {
       "title": "Racing Club de Santander vs RCD Espanyol",
@@ -393,7 +393,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4247658_53004_RAC_ESL_FC-Web.png",
       "match_id": "1263",
       "server_urls": [],
-      "last_updated": "2026-10-13T14:43:33.270227"
+      "last_updated": "2026-10-13T14:48:42.471875"
     },
     {
       "title": "Valencia CF vs Villarreal CF",
@@ -411,7 +411,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4247661_53004_VAL_VIL_FC-Web.png",
       "match_id": "1264",
       "server_urls": [],
-      "last_updated": "2026-10-13T14:43:33.270867"
+      "last_updated": "2026-10-13T14:48:42.472404"
     },
     {
       "title": "Atletico de Madrid vs Deportivo de La Coruna",
@@ -429,7 +429,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4247659_53004_ATM_COR_FC-Web.png",
       "match_id": "1265",
       "server_urls": [],
-      "last_updated": "2026-10-13T14:43:33.271501"
+      "last_updated": "2026-10-13T14:48:42.472941"
     },
     {
       "title": "Athletic Club vs Getafe CF",
@@ -447,7 +447,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4247662_53004_ATH_GEF_FC-Web.png",
       "match_id": "1266",
       "server_urls": [],
-      "last_updated": "2026-10-13T14:43:33.272116"
+      "last_updated": "2026-10-13T14:48:42.473472"
     },
     {
       "title": "RC Celta vs Real Betis",
@@ -465,7 +465,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4247664_53004_CEV_RB_FC-Web.png",
       "match_id": "1267",
       "server_urls": [],
-      "last_updated": "2026-10-13T14:43:33.272752"
+      "last_updated": "2026-10-13T14:48:42.474013"
     },
     {
       "title": "Real Sociedad vs Levante",
@@ -483,7 +483,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4247663_53004_RS_LET_FC-Web.png",
       "match_id": "1246",
       "server_urls": [],
-      "last_updated": "2026-10-13T14:43:33.273369"
+      "last_updated": "2026-10-13T14:48:42.474554"
     },
     {
       "title": "Barcelona vs Real Madrid",
@@ -501,7 +501,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4247666_53004_BAR_RM_FC-Web.png",
       "match_id": "1245",
       "server_urls": [],
-      "last_updated": "2026-10-13T14:43:33.274007"
+      "last_updated": "2026-10-13T14:48:42.475096"
     },
     {
       "title": "Sevilla vs CA Osasuna",
@@ -519,7 +519,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/4247667_53004_SEV_OSN_FC-Web.png",
       "match_id": "1243",
       "server_urls": [],
-      "last_updated": "2026-10-13T14:43:33.274642"
+      "last_updated": "2026-10-13T14:48:42.475634"
     },
     {
       "title": "South Africa vs Australia 3rd Test",
@@ -537,7 +537,7 @@
       "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/AUS-vs-SA_Web-match-card.png",
       "match_id": "1102",
       "server_urls": [],
-      "last_updated": "2026-10-13T14:43:33.275259"
+      "last_updated": "2026-10-13T14:48:42.476171"
     }
   ]
 }
