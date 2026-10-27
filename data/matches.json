@@ -1,10 +1,53 @@
 {
-  "timestamp": "2026-10-27T06:48:04.988596",
-  "total_matches": 4,
-  "live_count": 1,
-  "upcoming_count": 3,
+  "timestamp": "2026-10-27T12:43:16.358501",
+  "total_matches": 3,
+  "live_count": 3,
+  "upcoming_count": 0,
   "completed_count": 0,
   "matches": [
+    {
+      "title": "Pakistan vs Sri Lanka",
+      "teams": "Pakistan vs Sri Lanka",
+      "league": "Pakistan ODI Tri-Series 2026",
+      "sport": "cricket",
+      "status": "live",
+      "runtime": "00h 00m 00s",
+      "viewers": "90",
+      "viewers_type": "Watching",
+      "servers": null,
+      "date": null,
+      "time": null,
+      "match_url": "live/pakistan-vs-sri-lanka-1303",
+      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17925776481020x576.jpg",
+      "match_id": "1303",
+      "server_urls": [
+        "https://live.talkoraai.com/match/hls?t=_OxeTdxSpcIeB9pSKuKBLz_DMXlT91P8rujRhN6Zb31_eZpugrVkW8YFjaP0wHwvlpVtuhhoV12iPJsaXK-J9tPT0ZPbH8HxzfmTS3fC1u4z-qK0TMhRfhU-nyToMkZ4FniGiBkgPU_3R6k8W2yhXbkgKD58eX3ROgasJJZspfzbPQg51nZ6Db5BBYj_RHsRka_lafY8ybZ1YLCNeyB9XTA00QKjfmbMCtGzCAmJfW4wgd8I3HruqV3HjjwXIfNM0SM6L34_-FTMen5r",
+        "https://live.talkoraai.com/match/hls?t=_OxeTdxSpcIeB9pSKuKBLz_DMXlT91P8rujRhN6Zb31_eZpugrVkW8YFjaP0wHwvlpVtuhhoV12iPJsaXK-J9tPT0ZPbH8HxzfmTS3fC1u4z-qK0TMhRfhU-nyToMkZ4FniGiBkgPU_3R6k8W2yhXbkgKD58eX3ROgasJJZspfzbPQg51nZ6Db5BBYj_RHsRka_lafY8ybZ1YLCNeyB9XTA00QKjfmbMCtGzCAmJfW4wgd8I3HruqV3HjjwXIfNM0SM6L34_-FTMen5r"
+      ],
+      "last_updated": "2026-10-27T12:43:13.867097"
+    },
+    {
+      "title": "South Africa vs Australia 3rd Test",
+      "teams": "South Africa vs Australia 3rd Test",
+      "league": "Australia tour of South Africa",
+      "sport": "cricket",
+      "status": "live",
+      "runtime": "00h 00m 00s",
+      "viewers": "588",
+      "viewers_type": "Watching",
+      "servers": null,
+      "date": null,
+      "time": null,
+      "match_url": "live/south-africa-vs-australia-3rd-test-1102",
+      "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/AUS-vs-SA_Web-match-card.png",
+      "match_id": "1102",
+      "server_urls": [
+        "https://tvsen6.aynaott.com/zv68oqPDu7MZZwmHhRxt/index.m3u8",
+        "https://live.talkoraai.com/match/hls?t=uHyfJ1dFBi5JKCn9HB8M38vtiRbmqpgLOg3sj2iLDqmEXBIPAawIl5fi6Xq9liY1UhUE1SAHrLob6oLR1C-Xp9j76yW33VgegxA_PaepDbInslVpUCgvxc0ipvzYIfpxMQFKHHEpMaZ_b1QSCKzDi3JMHVOFlEdG28sdo3VqwxPtT8M5b236rbHMkA_pvK-A7CxzwILfdBEl326m8gxyNH97jvHUQmkS6EazbmB43SiZD290aCltA60RcKTNLI5VvbjTlvfmuFgwLe0-",
+        "https://live.talkoraai.com/match/seg?t=d2IAPLESuv90vrrS306Wuuf-j6cUQBT3oM7E85Hry-Qnfvn9nOAe3iTr9jP54TYLRcF-qliNBKIGjZXfEvgf8nIU2jvUQ6rcfHjUcUbD9IPv99SawkGztlM_SCG3YF73QwJspUTEGJ_If0sr3sAtTwOLa3e2iKNfy7ca0NDNDic_zu5QQlxuslaa9G9bOgeOrwdN63_FgqgQMVK0Wp0CA-0Iz2WJGyaHN4Rcez-Pz6sXKi1IhYAT-vzXmyj4CSSMeeeU6o0WF4j_iLP9l7s4vPFX2n0"
+      ],
+      "last_updated": "2026-10-27T12:43:14.660517"
+    },
     {
       "title": "New Zealand A vs India A 1st Unofficial Test",
       "teams": "New Zealand A vs India A 1st Unofficial Test",
@@ -12,7 +55,7 @@
       "sport": "cricket",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "20",
+      "viewers": "98",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -23,61 +66,7 @@
       "server_urls": [
         "https://alixbd.com/playlistconfig/channel/36.m3u8"
       ],
-      "last_updated": "2026-10-27T06:48:04.536670"
-    },
-    {
-      "title": "New Zealand vs India 3rd T20I",
-      "teams": "New Zealand vs India 3rd T20I",
-      "league": "India tour of New Zealand 2026",
-      "sport": "cricket",
-      "status": "upcoming",
-      "runtime": "00h 00m 00s",
-      "viewers": "374",
-      "viewers_type": "Waiting",
-      "servers": null,
-      "date": null,
-      "time": null,
-      "match_url": "live/new-zealand-vs-india-3rd-t20i-1302",
-      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17923949181020x576.jpg",
-      "match_id": "1302",
-      "server_urls": [],
-      "last_updated": "2026-10-27T06:48:04.987381"
-    },
-    {
-      "title": "Pakistan vs Sri Lanka",
-      "teams": "Pakistan vs Sri Lanka",
-      "league": "Pakistan ODI Tri-Series 2026",
-      "sport": "cricket",
-      "status": "upcoming",
-      "runtime": "00h 00m 00s",
-      "viewers": "411",
-      "viewers_type": "Waiting",
-      "servers": null,
-      "date": null,
-      "time": null,
-      "match_url": "live/pakistan-vs-sri-lanka-1303",
-      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/mobile_large/17925776481020x576.jpg",
-      "match_id": "1303",
-      "server_urls": [],
-      "last_updated": "2026-10-27T06:48:04.987908"
-    },
-    {
-      "title": "South Africa vs Australia 3rd Test",
-      "teams": "South Africa vs Australia 3rd Test",
-      "league": "Australia tour of South Africa",
-      "sport": "cricket",
-      "status": "upcoming",
-      "runtime": "00h 00m 00s",
-      "viewers": "519",
-      "viewers_type": "Waiting",
-      "servers": null,
-      "date": null,
-      "time": null,
-      "match_url": "live/south-africa-vs-australia-3rd-test-1102",
-      "thumbnail": "https://images.fancode.com/skillup-uploads/cms-media/AUS-vs-SA_Web-match-card.png",
-      "match_id": "1102",
-      "server_urls": [],
-      "last_updated": "2026-10-27T06:48:04.988262"
+      "last_updated": "2026-10-27T12:43:15.641737"
     }
   ]
 }
