@@ -1,8 +1,8 @@
 {
-  "timestamp": "2026-10-29T02:22:45.703411",
-  "total_matches": 3,
-  "live_count": 3,
-  "upcoming_count": 0,
+  "timestamp": "2026-10-29T08:40:11.834620",
+  "total_matches": 6,
+  "live_count": 5,
+  "upcoming_count": 1,
   "completed_count": 0,
   "matches": [
     {
@@ -12,7 +12,7 @@
       "sport": "cricket",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "130",
+      "viewers": "214",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -26,29 +26,71 @@
         "https://live.talkoraai.com/match/seg?t=XFQawEj-cK5eymK4_YNb-e9vvnnhrXQ9v5fzLftIOsSu92tvsTr0tELuZM4QZ3oE8M8FenlyiSv6XrhUPUPJo8Ho_sHZefAlsxFLF-fHnGcFhhadAMnTpHsI-17WJhQ24_JWPfRg3bs2guuV6NuIzd8pQ_Tmy0zSlxtraLD1ubIs2jO1zet7YEiA0_Lz3RfOrI9vx1Mog7qt_gLN6XBEp0_PVmH81gOXeFO4Imo-QYOi9QwNHtoQXr-GjrrNgKStrdmIIiNIYMUMhBPyZee6NV0YMlU",
         "https://fawa.duckdns.org/api/proxy?url=http%3A%2F%2F193.47.62.44%2Fhls%2FXAXAXAAX.m3u8&headers=%7B%22Referer%22%3A%22http%3A%2F%2Fwww.fawanews.sc%2F%22%7D"
       ],
-      "last_updated": "2026-10-29T02:22:44.615593"
+      "last_updated": "2026-10-29T08:40:09.950390"
     },
     {
-      "title": "Bangladesh vs West Indies 1St Test (Day 1)",
-      "teams": "Bangladesh vs West Indies 1St Test (Day 1)",
+      "title": "Bangladesh vs West Indies 1St Test (Day 2)",
+      "teams": "Bangladesh vs West Indies 1St Test (Day 2)",
       "league": "Test Series 2026",
       "sport": "cricket",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "235",
+      "viewers": "342",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
       "time": null,
-      "match_url": "live/bangladesh-vs-west-indies-1st-test-day-1-1306",
+      "match_url": "live/bangladesh-vs-west-indies-1st-test-day-2-1306",
       "thumbnail": "https://www.fancode.com/skillup-uploads/cms-media/West-Indies-tour-of-Bangladesh-web-.jpg",
       "match_id": "1306",
       "server_urls": [
-        "https://live.talkoraai.com/match/hls?t=yhJvKrk_eooKCFO9CGOBfCIGA_AZ-37BMbZIqhbeulmWZbcPffFedrcYSDNO1_H_xDuBwKqZ0fnPBm08GyJ-n8fAjwNnqsMnITHyB8zMRHjzMBmX3CdbIp-179_uYUoS8LX30AaM1nBcaYS_XyxIi7goAyIoBZh9AlXjp0LY-iIuPxhN6PR3s5bvZhmVFYgaC7XgQHXfKI2aqelJKwAhjdf_Ofn4Tb8_iPm0awznR0FY7rMv8a7P7dWQJRJJne9ngPsU5HceTwZNa7KE",
-        "https://live.talkoraai.com/match/seg?t=qvR70zFXebE4QNgBwlwnaAxJY22rfL3tYCPVp6-yb4SavljuWF0V90EAHe3OaAEXiklHpiWfK3Z2iLk2ZWmRNIZoKwUyA20wa38GjgQ9IlePD9W8qE7HEMCa5CAeW6xQNg9yhjMJ-WNoicTT0s1BuQ1OPhvbJz6O2BJyvzaLNLrb2CozGXSEOwVqFMMYmnFqc4NBz6l33Yi3IZwdzPbqe5SchYKSCNwVEUUJyDpDKaOc70Knkx51D7z7H5BkYvAMrwHwvCFsDOfU2Vc4ifdQxTqB-3s",
-        "https://otte.cache.aiv-cdn.net/iad-nitro/live/clients/dash/enc/avqlywnuzx/out/v1/aefca6420f944a9482e117f315de535f/cenc.mpd"
+        "https://tvsen5.aynaott.com/TnMn5kZz8aLmjklkk/index.m3u8",
+        "https://live.talkoraai.com/match/hls?t=tINVwn5CDcL_eG1wqDfoTy3xDIpu6B5OpzAH_zp-0VspvSHFuu_WzgiHCdmAQx2xu7Np93E26reVMG6jPPzTDqXcTlafYGJfmX6uQHEk7CG3HF36FqBrbSVk2v1sVMmtPxfRe_vpjGYuJxQPvTxkEH_BSYXD6y5CF7Cj9lneMejq0BnwXpTSS-NSH9q6gHm1JZajYxbOGyK1_-v_aTEAW5098bCLxgJWI9LCM6MgTmMnY-3SJRVez3nTMsOvZXXixKonUmpS5UqYR5pa",
+        "https://live.talkoraai.com/match/seg?t=pIrqKufSEpJwKlEz0ItZ97ja0RbMxvy49RwSGKy5SOZolxgxAFT14Is0JZAi_UikbIoX-hPuN2GAa6YMekd2jgxdbydzc5h17sKrL9WFVMsRaxHOXbnY-73xd7od3TCGIwTZ6A0ra-5KQ9VrnMA8dpbPC0vAri0JlBQ1906XyAymexGxNV9KM_s_tUSuXw9I0D3Ese_jatmFAIgxMjc8rxpaao6TKuNcKtG-KbzlF_8oNzYcCVAVPckrSV0WOA197FaGLUSlXjA7L6nP8Qc2m_SGA2M"
       ],
-      "last_updated": "2026-10-29T02:22:44.973766"
+      "last_updated": "2026-10-29T08:40:10.306929"
+    },
+    {
+      "title": "Melbourne Renegades vs Sydney Thunder",
+      "teams": "Melbourne Renegades vs Sydney Thunder",
+      "league": "Women's Big Bash League 2026",
+      "sport": "cricket",
+      "status": "live",
+      "runtime": "00h 00m 00s",
+      "viewers": "38",
+      "viewers_type": "Watching",
+      "servers": null,
+      "date": null,
+      "time": null,
+      "match_url": "live/melbourne-renegades-vs-sydney-thunder-1308",
+      "thumbnail": "https://www.fancode.com/skillup-uploads/cms-media/4250387_53125_MR-W_ST-W_fc-web.jpg",
+      "match_id": "1308",
+      "server_urls": [
+        "https://live.talkoraai.com/match/hls?t=DeoI31zV_eZcBxMDoRfZn6zx-RuU-KuKM3KAxzP1U2T7ImPsSRHubP28UKNRcySjY4BaXKGbG3QYqLOOot0VY1QusNYzBaZz3EnWLKcE_yBBORYTa1mCrE3HARp2HlJf7p_qIu_OotoT0S7ubuLbRrOcVP0Pi9sTbZmkV3gMt_JupOcEQi-PENbABTkqxFaZTdnNQxEg0A1O5wLizz1P_-87tLND4CnmjnI0Vlk6813-AC_YGXJ2lfJiQm2hsEzUPE7B8cHqTGIW5dRNCAKLFt79fFSubUFabawGcMEDULDotgD8juY_KQmapt8MgToLqzzbUg",
+        "https://live.talkoraai.com/match/seg?t=6jvorqSIbYVZi2ywTcB1JQgq0iw-_4Oa3ayWrUgwhAV9bxaVvMvvciR0FqTFcN5ey2HFPq9508HsVM3mLt6uEW9DkWFKCc6hjOnkwHlamqTZR3qyEqlyHWF52wxm9UnCZ-PODhBqhJdtTl8HOKmkH13SfP9uCd3-vVWAac8p5QgAZL3ZBL2Icy_OxiyxGDCRdbpfZ2ovx_X7QmlJiYla9F4-icAX29BCHWQnwMsZwU7XNaw7PyZ1assDDWp0GGCOIUdmjPRzeIWFB6JFbRsAesZtf4F2uHPXFpypJiGckWYSdK4uRhehoalX27cBlF2485Z-U8PuFImF7RILgDgTfHg-X4_vhaUTMaksXg-s"
+      ],
+      "last_updated": "2026-10-29T08:40:10.662126"
+    },
+    {
+      "title": "England vs Sri Lanka",
+      "teams": "England vs Sri Lanka",
+      "league": "Pakistan ODI Tri-Series",
+      "sport": "cricket",
+      "status": "live",
+      "runtime": "00h 00m 00s",
+      "viewers": "7",
+      "viewers_type": "Watching",
+      "servers": null,
+      "date": null,
+      "time": null,
+      "match_url": "live/england-vs-sri-lanka-1310",
+      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1792578023540x302.jpg",
+      "match_id": "1310",
+      "server_urls": [
+        "https://live.talkoraai.com/match/hls?t=SSDm4upTFkI3bR08I3YMiqeH1HGhG1hU6bHKcgeTNpQ9HTCuh_IPFi2Lib20xMSuHLnnEsmtZQ-0ukhhKERqlyH1EFqH_psjWD0pBL394KFFV7EesEDK7DHHRLrCUM6bBYszScsSKi7MivsgY_JEvI_Ti0Mu0X4BxMOqEPIAc5smNB8kqZhlXifCHoprbCHUVXjPZaMZf_naEuNHdilLL4paddZvXlVvILhqF0HQgdfId-s-bRoVcxM95T1bBuPXEZWNj7RIUWbb0UEn",
+        "https://live.talkoraai.com/match/seg?t=xLczt89o9HRut-3CyWhLkQaav8fkmKg_uYgvBrfp7RszjkMfp0CsxmgPkNEgBM1spxG4icMDfOnSaFJljuX8yorQz0wY6_etKUrv-2JF5Rv6LnepHMFI-__259fGPqRv0A20fEOmLr5ogrFZjaGa6xhtxRiYvjjKKDn6m2mPJFXcANRfiu-S_DaEk7yB7aDps9Q_OszgIhnl76qCG_YcLYe1m9UOpQFS9-Z_CMc4X5bUSQP620M_vpT9SaQPQyZMjNI4c9ygC-_ciGe10KGV5PYYteI"
+      ],
+      "last_updated": "2026-10-29T08:40:11.031685"
     },
     {
       "title": "New Zealand A vs India A 1st Unofficial Test",
@@ -57,7 +99,7 @@
       "sport": "cricket",
       "status": "live",
       "runtime": "00h 00m 00s",
-      "viewers": "629",
+      "viewers": "713",
       "viewers_type": "Watching",
       "servers": null,
       "date": null,
@@ -66,9 +108,27 @@
       "thumbnail": "https://origin-staticv2.sonyliv.com/videoasset_images/manage_file/1000027143/179275469748881_NZ_vs_IND_A_1st_test_day2_live_landscape_thumb.jpg",
       "match_id": "1304",
       "server_urls": [
-        "https://alixbd.com/playlistconfig/channel/36.m3u8"
+        "https://alixbd.com/playlistconfig/channel/38.m3u8"
       ],
-      "last_updated": "2026-10-29T02:22:45.348228"
+      "last_updated": "2026-10-29T08:40:11.435192"
+    },
+    {
+      "title": "Melbourne Stars vs Hobart Hurricanes",
+      "teams": "Melbourne Stars vs Hobart Hurricanes",
+      "league": "Sports Tournament",
+      "sport": "cricket",
+      "status": "upcoming",
+      "runtime": "00h 00m 00s",
+      "viewers": "2",
+      "viewers_type": "Waiting",
+      "servers": null,
+      "date": null,
+      "time": null,
+      "match_url": "live/melbourne-stars-vs-hobart-hurricanes-1309",
+      "thumbnail": "https://d34080pnh6e62j.cloudfront.net/images/channels/ChannelFeaturedAppthumb/1793007405540x302.jpg",
+      "match_id": "1309",
+      "server_urls": [],
+      "last_updated": "2026-10-29T08:40:11.834081"
     }
   ]
 }
